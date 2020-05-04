@@ -22,7 +22,7 @@ API Doctor validates an HTTP example against the related resources and checks fo
 
 2. On the details page, select **View more details on Azure Pipelines**.
 
-    ![Azure Pipelines](graph-api-doctor-pipelines.png)
+    ![Azure Pipelines](graph-api-doctor-pipeline.png)
 
 2. On the API Doctor Logs page, click the text that says **PowerShell exited with code \'1\'**.
 
