@@ -28,7 +28,7 @@ The user signs in to the app and configures the look and feel of the app.  These
 whatever device they sign in to the app from.  Here we'll see how to add the roaming profile information to a user resource.
 
 ##### Request
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/extensions
 Content-type: application/json
 {
@@ -59,7 +59,7 @@ Content-length: 420
 When the user signs in to the app from another device, the app can retrieve the user's profile details as well as their roaming settings. This can be done by getting the user's resource and expanding the extension navigation property.
 
 ##### Request
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me?$select=id,displayName,mail,mobilePhone&$expand=extensions
 ```
 ##### Response
@@ -91,7 +91,7 @@ Content-length: 420
 The user may choose to change their roaming profile information.  This update can be done with a ```PATCH``` on the open extension value. 
 
 ##### Request
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/me/extensions/com.contoso.roamingSettings
 Content-type: application/json
 {
@@ -110,7 +110,7 @@ HTTP/1.1 204 No content
 The user decides that they don't want a roaming profile anymore, so they delete it. This can be done with a ```DELETE``` request on the open extension value.
 
 ##### Request
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/me/extensions/com.contoso.roamingSettings
 ```
 
