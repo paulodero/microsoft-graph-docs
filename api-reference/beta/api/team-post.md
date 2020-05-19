@@ -56,7 +56,7 @@ The following is an example of a minimal request. By omitting other properties, 
 
 #### Request
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams
 Content-Type: application/json
 {
@@ -83,7 +83,7 @@ The following is an example of a minimal request using application permissions. 
 
 #### Request
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams
 Content-Type: application/json
 {
@@ -113,7 +113,7 @@ The following is a request with a full payload. The client can override values i
 
 #### Request
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams
 Content-Type: application/json
 {
@@ -221,7 +221,7 @@ A few thing to note about this call:
 
 #### Request
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams
 Content-Type: application/json
 {
@@ -249,7 +249,7 @@ To learn more about supported base template types and supported properties, see 
 
 #### Request
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams
 Content-Type: application/json
 {
@@ -304,7 +304,7 @@ To learn more about supported base template types, see [Get started with Teams t
 
 #### Request
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams
 Content-Type: application/json
 {
@@ -333,7 +333,7 @@ To learn more about supported base template types and supported properties, see 
 
 #### Request
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams
 Content-Type: application/json
 {

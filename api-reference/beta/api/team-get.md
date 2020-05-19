@@ -53,7 +53,7 @@ The following is an example of the request.
   "blockType": "ignored",
   "name": "get_team"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/teams/{id}
 ```
 #### Response
