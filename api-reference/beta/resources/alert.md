@@ -102,7 +102,7 @@ The following is a JSON representation of the resource.
   "historyStates": [{"@odata.type": "microsoft.graph.alertHistoryState"}],
   "hostStates": [{"@odata.type": "microsoft.graph.hostSecurityState"}],
   "id": "String (identifier)",
-  "detectionIds": ["String"],
+  "incidentIds": ["String"],
   "lastModifiedDateTime": "String (timestamp)",
   "malwareStates": [{"@odata.type": "microsoft.graph.malwareState"}],
   "networkConnections": [{"@odata.type": "microsoft.graph.networkConnection"}],
