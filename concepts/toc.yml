@@ -186,6 +186,10 @@ items:
             href: azuread-identity-access-management-concept-overview.md
           - name: Authentication methods
             href: authenticationmethods-get-started.md
+          - name: Application
+            items:
+              - name: Overview 
+                href: application-concept-overview.md
       - name: Mail
         displayName: Outlook, Outlook mail
         items:

@@ -72,6 +72,9 @@ conceptualContent:
         - url: /graph/azuread-identity-access-management-concept-overview
           itemType: overview
           text: Identity and access
+        - url: /graph/application-concept-overview
+          itemType: overview
+          text: Application
     - title: Develop
       links:
         - url: /graph/auth/auth-concepts
