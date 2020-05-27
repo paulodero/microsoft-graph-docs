@@ -80,6 +80,12 @@ items:
         href: azuread-users-concept-overview.md
       - name: Groups
         href: office365-groups-concept-overview.md
+      - name: Application
+        items:
+        - name: Overview 
+          href: application-concept-overview.md
+        - name: How provisioning works
+          href: https://docs.microsoft.com/azure/active-directory/app-provisioning/how-provisioning-works?toc=/graph/toc.json&bc=/graph/breadcrumb/toc.json
       - name: Calendar
         displayName: Outlook
         items:
@@ -186,10 +192,6 @@ items:
             href: azuread-identity-access-management-concept-overview.md
           - name: Authentication methods
             href: authenticationmethods-get-started.md
-          - name: Application
-            items:
-              - name: Overview 
-                href: application-concept-overview.md
       - name: Mail
         displayName: Outlook, Outlook mail
         items:
