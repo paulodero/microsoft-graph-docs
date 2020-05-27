@@ -9,6 +9,10 @@
     - name: Terms of use
       tocHref: /legal/microsoft-apis/terms-of-use
       topicHref: /legal/microsoft-apis/terms-of-use
-  - name: Application
-    tocHref: /azure/active-directory/app-provisioning/
-    topicHref: /graph/index
+  - name: Learn
+    tocHref: /graph
+    topicHref: /graph
+    items:
+    - name: Application
+      tocHref: /azure/active-directory/app-provisioning/
+      topicHref: /graph/application-concept-overview
