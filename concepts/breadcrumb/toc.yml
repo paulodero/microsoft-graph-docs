@@ -14,5 +14,5 @@
     topicHref: /graph/azuread-users-concept-overview
     items:
     - name: Application
-      tocHref: /active-directory/app-provisioning/
+      tocHref: https://docs.microsoft.com/en-us/azure/active-directory/app-provisioning/how-provisioning-works
       topicHref: /graph/application-concept-overview
