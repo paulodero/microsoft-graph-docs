@@ -9,3 +9,6 @@
     - name: Terms of use
       tocHref: /legal/microsoft-apis/terms-of-use
       topicHref: /legal/microsoft-apis/terms-of-use
+  - name: Application
+    tocHref: /azure/sql-database/
+    topicHref: /graph/index
