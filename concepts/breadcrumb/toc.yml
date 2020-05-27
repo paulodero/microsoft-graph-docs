@@ -9,10 +9,3 @@
     - name: Terms of use
       tocHref: /legal/microsoft-apis/terms-of-use
       topicHref: /legal/microsoft-apis/terms-of-use
-- name: Microsoft Graph
-  tocHref: /azure/
-  topicHref: /graph/index
-  items: 
-  - name: Application
-    tocHref: /azure/active-directory/app-provisioning/
-    topicHref: /graph/index
