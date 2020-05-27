@@ -10,5 +10,5 @@
       tocHref: /legal/microsoft-apis/terms-of-use
       topicHref: /legal/microsoft-apis/terms-of-use
   - name: Application
-    tocHref: /azure/sql-database/
+    tocHref: /azure/active-directory/app-provisioning/
     topicHref: /graph/index
