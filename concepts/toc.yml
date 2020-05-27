@@ -85,7 +85,7 @@ items:
         - name: Overview 
           href: application-concept-overview.md
         - name: How provisioning works
-          href: https://docs.microsoft.com/azure/active-directory/app-provisioning/how-provisioning-works?toc=/graph/toc.json&bc=/graph/breadcrumb/toc.json
+          href: https://docs.microsoft.com/azure/active-directory/app-provisioning/how-provisioning-works?context=graph/context
       - name: Calendar
         displayName: Outlook
         items:
