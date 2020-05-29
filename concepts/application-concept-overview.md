@@ -1,6 +1,6 @@
 ---
 title: "Overview of applications in Microsoft Graph"
-description: "Microsoft Graph data connect brings Office 365 data to Microsoft Azure, which gives you access to the best development and hosting tools to work with this data."
+description: "Learn about applications in Microsoft Graph."
 author: "davidmu1"
 localization_priority: Priority
 ms.prod: "microsoft-identity-platform"
@@ -10,6 +10,27 @@ ms.custom: scenarios:getting-started
 # Overview of applications in Microsoft Graph
 
 An application that has been integrated with Azure AD has implications that go beyond the software aspect. "Application" is frequently used as a conceptual term, referring to not only the application software, but also its Azure AD registration and role in authentication/authorization "conversations" at runtime.
+
+## Terms and concepts
+
+- application registration
+- single-page apps
+- web apps
+- web APIs
+- mobile and native apps
+- daemons and server-side apps
+- single-tenant application
+- multi-tenant application
+- authentication
+- acquire tokens
+- application objects
+- single identity system
+- delegated permissions
+- admin consent process
+- service principal object
+- manage identity synchronization
+- app provisioning
+- automatic provisioning
 
 ## Application APIs in Microsoft Graph
 
