@@ -55,6 +55,6 @@ Manage directory related objects and settings.
 - [Assign scoped roles to an administrative unit](https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-assign-roles)
 - [What is a device identity?](https://docs.microsoft.com/azure/active-directory/devices/overview)
 - [Administrator role permissions in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
-- [What is Azure Active Directory Domain Services?](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b)
+- [What is Azure Active Directory Domain Services?](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)
 - [What is guest user access in Azure Active Directory B2B?](https://docs.microsoft.com/graph/api/resources/onpremisespublishingprofile-root?view=graph-rest-beta)
 - [Azure Active Directory B2B collaboration API and customization](https://docs.microsoft.com/azure/active-directory/b2b/customize-invitation-api)

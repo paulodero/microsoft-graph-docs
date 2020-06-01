@@ -83,7 +83,7 @@ items:
       - name: Application
         items:
           - name: Overview 
-            href: application-concept-overview.md
+            href: application-concepts-overview.md
           - name: Provisioning
             href: https://docs.microsoft.com/azure/active-directory/app-provisioning/how-provisioning-works?context=/graph/context
           - name: Configure provisioning using Microsoft Graph APIs
@@ -199,7 +199,7 @@ items:
           - name: Directory management
             items:
               - name: Overview
-                href: directory-management-concept-overview.md
+                href: directory-management-concepts-overview.md
               - name: Administrative units
                 href: https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-administrative-units?context=/graph/context
               - name: Manage administrative units
@@ -217,7 +217,7 @@ items:
           - name: Governance
             items:
               - name: Overview
-                href: governance-concept-overview.md
+                href: governance-concepts-overview.md
               - name: Identity governance
                 href: https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview?context=/graph/context
               - name: Access reviews
@@ -237,7 +237,7 @@ items:
           - name: Identity and sign-in
             items:
               - name: Overview
-                href: identity-signin-concept-overview.md
+                href: identity-signin-concepts-overview.md
               - name: Conditional access
                 href: https://docs.microsoft.com/azure/active-directory/conditional-access/overview?context=/graph/context
               - name: Developer guidance
