@@ -80,6 +80,16 @@ items:
         href: azuread-users-concept-overview.md
       - name: Groups
         href: office365-groups-concept-overview.md
+      - name: Application
+        items:
+          - name: Overview 
+            href: application-concept-overview.md
+          - name: Provisioning
+            href: https://docs.microsoft.com/azure/active-directory/app-provisioning/how-provisioning-works?context=/graph/context
+          - name: Configure provisioning using Microsoft Graph APIs
+            href: https://docs.microsoft.com/azure/active-directory/app-provisioning/application-provisioning-configure-api?context=/graph/context
+          - name: Provision users using SCIM and Microsoft Graph
+            href: https://docs.microsoft.com/azure/active-directory/app-provisioning/scim-graph-scenarios?context=/graph/context
       - name: Calendar
         displayName: Outlook
         items:
@@ -186,6 +196,57 @@ items:
             href: azuread-identity-access-management-concept-overview.md
           - name: Authentication methods
             href: authenticationmethods-get-started.md
+          - name: Directory management
+            items:
+              - name: Overview
+                href: directory-management-concept-overview.md
+              - name: Administrative units
+                href: https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-administrative-units?context=/graph/context
+              - name: Manage administrative units
+                href: https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-manage?context=/graph/context
+              - name: Manage users
+                href: https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-add-manage-users?context=/graph/context
+              - name: Manage groups
+                href: https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-add-manage-groups?context=/graph/context
+              - name: Assign scoped roles
+                href: https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-assign-roles?context=/graph/context
+              - name: Invitations
+                href: https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b?context=/graph/context
+              - name: Customize invitations
+                href: https://docs.microsoft.com/azure/active-directory/b2b/customize-invitation-api?context=/graph/context
+          - name: Governance
+            items:
+              - name: Overview
+                href: governance-concept-overview.md
+              - name: Identity governance
+                href: https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview?context=/graph/context
+              - name: Access reviews
+                href: https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview?context=/graph/context
+              - name: Manage access reviews
+                href: https://docs.microsoft.com/graph/api/resources/accessreviews-root?view=graph-rest-beta?context=/graph/context
+              - name: Audit logs
+                href: https://docs.microsoft.com/graph/api/resources/azure-ad-auditlog-overview?view=graph-rest-beta
+              - name: Access Azure AD B2C audit logs
+                href: https://docs.microsoft.com/azure/active-directory-b2c/view-audit-logs#get-audit-logs-with-the-azure-ad-reporting-api?context=/graph/context
+              - name: Manage reporting
+                href: https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-reporting-api?context=/graph/context
+              - name: Entitlement management
+                href: https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview?context=/graph/context
+              - name: Entitlement management APIs
+                href: https://docs.microsoft.com/graph/api/resources/entitlementmanagement-root?view=graph-rest-beta
+          - name: Identity and sign-in
+            items:
+              - name: Overview
+                href: identity-signin-concept-overview.md
+              - name: Conditional access
+                href: https://docs.microsoft.com/azure/active-directory/conditional-access/overview?context=/graph/context
+              - name: Developer guidance
+                href: https://docs.microsoft.com/azure/active-directory/develop/v2-conditional-access-dev-guide?context=/graph/context
+              - name: Identity protection
+                href: https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection?context=/graph/context
+              - name: Configure identity protection
+                href: https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-graph-api?context=/graph/context
+         
       - name: Mail
         displayName: Outlook, Outlook mail
         items:
