@@ -80,6 +80,8 @@ items:
         href: azuread-users-concept-overview.md
       - name: Groups
         href: office365-groups-concept-overview.md
+      - name: Application
+        href: application-concepts-overview.md
       - name: Calendar
         displayName: Outlook
         items:
@@ -186,6 +188,12 @@ items:
             href: azuread-identity-access-management-concept-overview.md
           - name: Authentication methods
             href: authenticationmethods-get-started.md
+          - name: Directory management
+            href: directory-management-concepts-overview.md
+          - name: Governance
+            href: governance-concepts-overview.md
+          - name: Identity and sign-in
+            href: identity-signin-concepts-overview.md
       - name: Mail
         displayName: Outlook, Outlook mail
         items:
