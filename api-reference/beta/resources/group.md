@@ -126,6 +126,7 @@ This resource supports:
 |hideFromOutlookClients |Boolean |True if the group is not displayed in Outlook clients, such as Outlook for Windows and Outlook on the web, false otherwise. Default value is **false**. <br><br>Returned only on $select.|
 |id|String|The unique identifier for the group. <br><br>Returned by default. Inherited from [directoryObject](directoryobject.md). Key. Not nullable. Read-only.|
 |isSubscribedByMail|Boolean|Indicates whether the signed-in user is subscribed to receive email conversations. Default value is **true**. <br><br>Returned only on $select. |
+|infoCatalogs|String collection|Identifies the info segments assigned to the group. Returned by default.|
 |licenseProcessingState|String|Indicates status of the group license assignment to all members of the group. Possible values: `QueuedForProcessing`, `ProcessingInProgress`, and `ProcessingComplete`. <br><br>Returned only on $select. Read-only. |
 |mail|String|The SMTP address for the group, for example, "serviceadmins@contoso.onmicrosoft.com". <br><br>Returned by default. Read-only. Supports $filter.|
 |mailEnabled|Boolean|Specifies whether the group is mail-enabled. <br><br>Returned by default.|

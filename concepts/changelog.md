@@ -33,9 +33,11 @@ For a summary of the value of these API changes, as well as recent tools, compon
 | Change | beta | Changed in the [onPremisesAgent](/graph/api/resources/onpremisesagent?view=graph-rest-beta),  [onPremisesAgentGroup](/graph/api/resources/onpremisesagentgroup?view=graph-rest-beta), and [publishedResource](/graph/api/resources/publishedresource?view=graph-rest-beta) entity the publishingType value from **appProxy** to **applicationProxy**. |
 | Addition | beta | Added the **isEnabled** property to the [onPremisesPublishingProfile](/graph/api/resources/onpremisespublishingprofile?view=graph-rest-beta) entity. |
 | Addition | beta | Added [connector](/graph/api/resources/connector?view=graph-rest-beta) and [connectorGroup](/graph/api/resources/connectorgroup?view=graph-rest-beta) as navigation property to the OnPremisesPublishingProfile entity. |
-| Addition | beta | Added the **onPremisesPublishing** property to [application](/graph/api/resources/application?view=graph-rest-beta entity. |
+| Addition | beta | Added the **onPremisesPublishing** property to [application](/graph/api/resources/application?view=graph-rest-beta) entity. |
 | Addition | beta | Added the **OnPremisesPublishing** property to [Update Application](/graph/api/application-update?view=graph-rest-beta). |
 | Addition | beta | Added new resources [authenticationFlowsPolicy](/graph/api/resources/authenticationflowspolicy?view=graph-rest-beta) and [selfServiceSignUpAuthenticationFlowConfiguration](/graph/api/resources/selfservicesignupauthenticationflowconfiguration?view=graph-rest-beta) and [get](/graph/api/authenticationflowspolicy-get?view=graph-rest-beta) and [update](/graph/api/authenticationflowspolicy-update?view=graph-rest-beta) operations.|
+| Addition | v1.0 | Added the **assignedLabels**, **expirationDateTime**, **membershipRule**, **membershipRuleProcessingState**, **preferredLanguage**, and **theme** properties to the [group](/graph/api/resources/group?view=graph-rest-v1.0) entity. |
+| Addition | beta | Added the **infoCatalogs** property to the [group](/graph/api/resources/group?view=graph-rest-v1.0) entity and the [user](/graph/api/resources/user?view=graph-rest-beta) entity. |
 
 ### Security
 
