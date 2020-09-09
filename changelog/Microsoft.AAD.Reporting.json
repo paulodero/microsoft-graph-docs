@@ -65,7 +65,7 @@
         {
           "Id": "8d2923b0-a7ff-4172-ae33-20a70e1d2f05",
           "ApiChange": "Property",
-          "ChangedApiName": "Meeting Created,Meeting Interacted",
+          "ChangedApiName": "Meeting Created, Meeting Interacted",
           "ChangeType": "Addition",
           "Description": "Added the **Meeting Created** and **Meeting Interacted** properties to the [getEmailActivityUserCounts](https://docs.microsoft.com/en-us/graph/api/reportroot-getemailactivityusercounts?view=graph-rest-beta) API CSV entity.",
           "Target": "getEmailActivityUserCounts"
