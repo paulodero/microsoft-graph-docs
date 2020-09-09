@@ -389,7 +389,7 @@
           "ApiChange": "Resource",
           "ChangedApiName": "",
           "ChangeType": "Addition",
-          "Description": "Added delegated access support.",
+          "Description": "Added delegated access support",
           "Target": ""
         }
       ],
