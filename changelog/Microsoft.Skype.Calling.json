@@ -13,7 +13,7 @@
         {
           "Id": "12f99ae8-420d-409b-843b-10571e8c087c",
           "ApiChange": "Resource",
-          "ChangedApiName": "presence,change notifications",
+          "ChangedApiName": "presence, change notifications",
           "ChangeType": "Addition",
           "Description": "The [presence](https://docs.microsoft.com/en-us/graph/api/resources/presence) resource now supports [change notifications](https://docs.microsoft.com/en-us/graph/webhooks).",
           "Target": "presence,change notifications"
