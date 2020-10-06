@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "aba38104-297d-4fdf-9192-5206d1198975",
+          "Id": "a421d41e-37f9-46b6-bb23-7154ce9a31d8",
           "ApiChange": "ComplexType",
           "ChangedApiName": "authenticationMethodsPolicyEvaluation",
           "ChangeType": "Addition",
@@ -11,15 +11,7 @@
           "Target": "authenticationMethodsPolicyEvaluation"
         },
         {
-          "Id": "aba38104-297d-4fdf-9192-5206d1198975",
-          "ApiChange": "Property",
-          "ChangedApiName": "policy",
-          "ChangeType": "Addition",
-          "Description": "Added the **policy** property to [authentication](/?view=graph-rest-beta) resource",
-          "Target": "authentication"
-        },
-        {
-          "Id": "aba38104-297d-4fdf-9192-5206d1198975",
+          "Id": "a421d41e-37f9-46b6-bb23-7154ce9a31d8",
           "ApiChange": "Property",
           "ChangedApiName": "deviceName",
           "ChangeType": "Deletion",
@@ -27,7 +19,15 @@
           "Target": "microsoftAuthenticatorAuthenticationMethod"
         },
         {
-          "Id": "aba38104-297d-4fdf-9192-5206d1198975",
+          "Id": "a421d41e-37f9-46b6-bb23-7154ce9a31d8",
+          "ApiChange": "Property",
+          "ChangedApiName": "creationDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **creationDateTime** property to [microsoftAuthenticatorAuthenticationMethod](/?view=graph-rest-beta) resource",
+          "Target": "microsoftAuthenticatorAuthenticationMethod"
+        },
+        {
+          "Id": "a421d41e-37f9-46b6-bb23-7154ce9a31d8",
           "ApiChange": "Property",
           "ChangedApiName": "displayName",
           "ChangeType": "Addition",
@@ -35,7 +35,7 @@
           "Target": "microsoftAuthenticatorAuthenticationMethod"
         },
         {
-          "Id": "aba38104-297d-4fdf-9192-5206d1198975",
+          "Id": "a421d41e-37f9-46b6-bb23-7154ce9a31d8",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "device",
           "ChangeType": "Addition",
@@ -43,10 +43,10 @@
           "Target": "microsoftAuthenticatorAuthenticationMethod"
         }
       ],
-      "Id": "aba38104-297d-4fdf-9192-5206d1198975",
+      "Id": "a421d41e-37f9-46b6-bb23-7154ce9a31d8",
       "Cloud": "PPE",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.3262632Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.1348298Z",
       "WorkloadArea": "Microsoft.StrongAuthenticationAPI",
       "SubArea": "Identity and sign-in"
     }

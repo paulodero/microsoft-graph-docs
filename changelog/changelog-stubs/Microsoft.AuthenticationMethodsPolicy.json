@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
           "ApiChange": "ComplexType",
           "ChangedApiName": "mfaSettings",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "mfaSettings"
         },
         {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
           "ApiChange": "ComplexType",
           "ChangedApiName": "passwordProtectionSettings",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "passwordProtectionSettings"
         },
         {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
           "ApiChange": "ComplexType",
           "ChangedApiName": "phoneGreeting",
           "ChangeType": "Addition",
@@ -27,111 +27,7 @@
           "Target": "phoneGreeting"
         },
         {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "rememberMfa",
-          "ChangeType": "Addition",
-          "Description": "Added the [rememberMfa](/graph/api/resources/rememberMfa?view=graph-rest-beta) resource type",
-          "Target": "rememberMfa"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "securityQuestion",
-          "ChangeType": "Addition",
-          "Description": "Added the [securityQuestion](/graph/api/resources/securityQuestion?view=graph-rest-beta) resource type",
-          "Target": "securityQuestion"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "securityQuestionsConfiguration",
-          "ChangeType": "Addition",
-          "Description": "Added the [securityQuestionsConfiguration](/graph/api/resources/securityQuestionsConfiguration?view=graph-rest-beta) resource type",
-          "Target": "securityQuestionsConfiguration"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "ssprSettings",
-          "ChangeType": "Addition",
-          "Description": "Added the [ssprSettings](/graph/api/resources/ssprSettings?view=graph-rest-beta) resource type",
-          "Target": "ssprSettings"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "voiceCallSettings",
-          "ChangeType": "Addition",
-          "Description": "Added the [voiceCallSettings](/graph/api/resources/voiceCallSettings?view=graph-rest-beta) resource type",
-          "Target": "voiceCallSettings"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "authenticationMethodConfigurations",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **authenticationMethodConfigurations** relationship from [authenticationMethodsPolicy](/?view=graph-rest-beta) resource",
-          "Target": "authenticationMethodsPolicy"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "mfaSsprPasswordPolicy",
-          "ChangeType": "Addition",
-          "Description": "Added the [mfaSsprPasswordPolicy](/graph/api/resources/mfaSsprPasswordPolicy?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "mfaSsprPasswordPolicy"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "authenticationMethodsPolicy",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **authenticationMethodsPolicy** relationship from [policyRoot](/?view=graph-rest-beta) resource",
-          "Target": "policyRoot"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "mfaSsprPasswordPolicy",
-          "ChangeType": "Addition",
-          "Description": "Added the **mfaSsprPasswordPolicy** relationship to [policyRoot](/?view=graph-rest-beta) resource",
-          "Target": "policyRoot"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "Singleton",
-          "ChangedApiName": "mfaSsprPasswordPolicy",
-          "ChangeType": "Addition",
-          "Description": "Added the [mfaSsprPasswordPolicy](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "mfaSsprPasswordPolicy"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "fraudReporting",
-          "ChangeType": "Addition",
-          "Description": "Added the [fraudReporting](/graph/api/resources/fraudReporting?view=graph-rest-beta) resource type",
-          "Target": "fraudReporting"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "identityProtectionMfaRegistrationPolicy",
-          "ChangeType": "Addition",
-          "Description": "Added the [identityProtectionMfaRegistrationPolicy](/graph/api/resources/identityProtectionMfaRegistrationPolicy?view=graph-rest-beta) resource type",
-          "Target": "identityProtectionMfaRegistrationPolicy"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "mfaBlockedUser",
-          "ChangeType": "Addition",
-          "Description": "Added the [mfaBlockedUser](/graph/api/resources/mfaBlockedUser?view=graph-rest-beta) resource type",
-          "Target": "mfaBlockedUser"
-        },
-        {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
           "ApiChange": "EnumType",
           "ChangedApiName": "mfaEnabledAuthenticationMethods",
           "ChangeType": "Addition",
@@ -139,7 +35,7 @@
           "Target": "mfaEnabledAuthenticationMethods"
         },
         {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
           "ApiChange": "EnumType",
           "ChangedApiName": "mfaGreetingType",
           "ChangeType": "Addition",
@@ -147,25 +43,129 @@
           "Target": "mfaGreetingType"
         },
         {
-          "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
           "ApiChange": "EnumType",
           "ChangedApiName": "ssprAuthenticationMethodType",
           "ChangeType": "Addition",
           "Description": "Added the [ssprAuthenticationMethodType](/?view=graph-rest-beta) resource *@\u0026*",
           "Target": "ssprAuthenticationMethodType"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "securityQuestionsConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [securityQuestionsConfiguration](/graph/api/resources/securityQuestionsConfiguration?view=graph-rest-beta) resource type",
+          "Target": "securityQuestionsConfiguration"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "ssprSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [ssprSettings](/graph/api/resources/ssprSettings?view=graph-rest-beta) resource type",
+          "Target": "ssprSettings"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "mfaSsprPasswordPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the **mfaSsprPasswordPolicy** relationship to [policyRoot](/?view=graph-rest-beta) resource",
+          "Target": "policyRoot"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "mfaSsprPasswordPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [mfaSsprPasswordPolicy](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mfaSsprPasswordPolicy"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "fraudReporting",
+          "ChangeType": "Addition",
+          "Description": "Added the [fraudReporting](/graph/api/resources/fraudReporting?view=graph-rest-beta) resource type",
+          "Target": "fraudReporting"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identityProtectionMfaRegistrationPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityProtectionMfaRegistrationPolicy](/graph/api/resources/identityProtectionMfaRegistrationPolicy?view=graph-rest-beta) resource type",
+          "Target": "identityProtectionMfaRegistrationPolicy"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "mfaBlockedUser",
+          "ChangeType": "Addition",
+          "Description": "Added the [mfaBlockedUser](/graph/api/resources/mfaBlockedUser?view=graph-rest-beta) resource type",
+          "Target": "mfaBlockedUser"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "rememberMfa",
+          "ChangeType": "Addition",
+          "Description": "Added the [rememberMfa](/graph/api/resources/rememberMfa?view=graph-rest-beta) resource type",
+          "Target": "rememberMfa"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "securityQuestion",
+          "ChangeType": "Addition",
+          "Description": "Added the [securityQuestion](/graph/api/resources/securityQuestion?view=graph-rest-beta) resource type",
+          "Target": "securityQuestion"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "voiceCallSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [voiceCallSettings](/graph/api/resources/voiceCallSettings?view=graph-rest-beta) resource type",
+          "Target": "voiceCallSettings"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "authenticationMethodConfigurations",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodConfigurations** relationship from [authenticationMethodsPolicy](/?view=graph-rest-beta) resource",
+          "Target": "authenticationMethodsPolicy"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "mfaSsprPasswordPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [mfaSsprPasswordPolicy](/graph/api/resources/mfaSsprPasswordPolicy?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mfaSsprPasswordPolicy"
+        },
+        {
+          "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "authenticationMethodsPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodsPolicy** relationship from [policyRoot](/?view=graph-rest-beta) resource",
+          "Target": "policyRoot"
         }
       ],
-      "Id": "790bd481-cafe-4785-8b5f-506e3ac28c8e",
+      "Id": "9c7a39a4-1b44-401b-af34-a64b2e9ccac5",
       "Cloud": "Fairfax",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.2475394Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.0635365Z",
       "WorkloadArea": "Microsoft.AuthenticationMethodsPolicy",
       "SubArea": "Identity and sign-in"
     },
     {
       "ChangeList": [
         {
-          "Id": "cdf5a5f9-18fe-45dc-89d1-1483ff6e6db6",
+          "Id": "5c6878df-35d9-4c36-b3ee-a904d687ca2e",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "includeTargets",
           "ChangeType": "Addition",
@@ -173,10 +173,10 @@
           "Target": "qrAuthenticationMethodConfiguration"
         }
       ],
-      "Id": "cdf5a5f9-18fe-45dc-89d1-1483ff6e6db6",
+      "Id": "5c6878df-35d9-4c36-b3ee-a904d687ca2e",
       "Cloud": "PPE",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.3242086Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.1333876Z",
       "WorkloadArea": "Microsoft.AuthenticationMethodsPolicy",
       "SubArea": "Identity and sign-in"
     }

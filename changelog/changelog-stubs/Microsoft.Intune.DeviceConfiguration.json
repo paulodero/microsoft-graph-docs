@@ -3,15 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "requiredPasswordComplexity",
-          "ChangeType": "Addition",
-          "Description": "Added the **requiredPasswordComplexity** property to [androidCompliancePolicy](/?view=graph-rest-beta) resource",
-          "Target": "androidCompliancePolicy"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "EnumType",
           "ChangedApiName": "androidRequiredPasswordComplexity",
           "ChangeType": "Addition",
@@ -19,165 +11,7 @@
           "Target": "androidRequiredPasswordComplexity"
         },
         {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumSymbolCharacters",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumSymbolCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "personalProfileAppsAllowInstallFromUnknownSources",
-          "ChangeType": "Addition",
-          "Description": "Added the **personalProfileAppsAllowInstallFromUnknownSources** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "personalProfileCameraBlocked",
-          "ChangeType": "Addition",
-          "Description": "Added the **personalProfileCameraBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        null,
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "EnumType",
-          "ChangedApiName": "settingSourceType",
-          "ChangeType": "Addition",
-          "Description": "Added the [settingSourceType](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "settingSourceType"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "personalProfileScreenCaptureBlocked",
-          "ChangeType": "Addition",
-          "Description": "Added the **personalProfileScreenCaptureBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "microsoftTunnelSiteId",
-          "ChangeType": "Addition",
-          "Description": "Added the **microsoftTunnelSiteId** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerVpnConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "targetedMobileApps",
-          "ChangeType": "Addition",
-          "Description": "Added the **targetedMobileApps** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerVpnConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "requiredPasswordComplexity",
-          "ChangeType": "Addition",
-          "Description": "Added the **requiredPasswordComplexity** property to [androidGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumLowerCaseCharacters",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumLowerCaseCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "targetedMobileApps",
-          "ChangeType": "Addition",
-          "Description": "Added the **targetedMobileApps** property to [androidWorkProfileVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidWorkProfileVpnConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "excludedDomains",
-          "ChangeType": "Addition",
-          "Description": "Added the **excludedDomains** property to [appleVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "appleVpnConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "firewallIPSecExemptionsNone",
-          "ChangeType": "Addition",
-          "Description": "Added the **firewallIPSecExemptionsNone** property to [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "windows10EndpointProtectionConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "disableOnDemandUserOverride",
-          "ChangeType": "Addition",
-          "Description": "Added the **disableOnDemandUserOverride** property to [appleVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "appleVpnConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "firewallMergeKeyingModuleSettings",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **firewallMergeKeyingModuleSettings** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "windows10EndpointProtectionConfiguration"
-        },
-        null,
-        null,
-        null,
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "Property",
-          "ChangedApiName": "mtuSizeInBytes",
-          "ChangeType": "Addition",
-          "Description": "Added the **mtuSizeInBytes** property to [iosikEv2VpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "iosikEv2VpnConfiguration"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200720",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
-          "Target": "edm_50200720"
-        },
-        {
-          "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200821",
-          "ChangeType": "Addition",
-          "Description": "Added the [edm_50200821](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "edm_50200821"
-        }
-      ],
-      "Id": "852c0266-bfb7-4c2f-981b-b0bc0cc5402e",
-      "Cloud": "Fairfax",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.325721Z",
-      "WorkloadArea": "Microsoft.Intune.DeviceConfiguration",
-      "SubArea": "Corporate management"
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "EnumType",
-          "ChangedApiName": "androidRequiredPasswordComplexity",
-          "ChangeType": "Addition",
-          "Description": "Added the [androidRequiredPasswordComplexity](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "androidRequiredPasswordComplexity"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "EnumType",
           "ChangedApiName": "macOSSoftwareUpdateDelayPolicy",
           "ChangeType": "Addition",
@@ -185,7 +19,7 @@
           "Target": "macOSSoftwareUpdateDelayPolicy"
         },
         {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "EnumType",
           "ChangedApiName": "settingSourceType",
           "ChangeType": "Addition",
@@ -193,273 +27,7 @@
           "Target": "settingSourceType"
         },
         {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumLength",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumLength** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumLetterCharacters",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumLetterCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "sourceType",
-          "ChangeType": "Addition",
-          "Description": "Added the **sourceType** property to [settingSource](/?view=graph-rest-beta) resource",
-          "Target": "settingSource"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "personalProfileCameraBlocked",
-          "ChangeType": "Addition",
-          "Description": "Added the **personalProfileCameraBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "personalProfileScreenCaptureBlocked",
-          "ChangeType": "Addition",
-          "Description": "Added the **personalProfileScreenCaptureBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordExpirationDays",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordExpirationDays** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumLowerCaseCharacters",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumLowerCaseCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "excludedDomains",
-          "ChangeType": "Addition",
-          "Description": "Added the **excludedDomains** property to [appleVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "appleVpnConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumSymbolCharacters",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumSymbolCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "perAppVPNProfileId",
-          "ChangeType": "Addition",
-          "Description": "Added the **perAppVPNProfileId** property to [iosEasEmailProfileConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "iosEasEmailProfileConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumUpperCaseCharacters",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumUpperCaseCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "targetedMobileApps",
-          "ChangeType": "Addition",
-          "Description": "Added the **targetedMobileApps** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerVpnConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "appClipsBlocked",
-          "ChangeType": "Addition",
-          "Description": "Added the **appClipsBlocked** property to [iosGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "iosGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "passcodeSignInFailureCountBeforeWipe",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **passcodeSignInFailureCountBeforeWipe** property in the [iosGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "iosGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "microsoftTunnelSiteId",
-          "ChangeType": "Addition",
-          "Description": "Added the **microsoftTunnelSiteId** property to [androidWorkProfileVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidWorkProfileVpnConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "targetedMobileApps",
-          "ChangeType": "Addition",
-          "Description": "Added the **targetedMobileApps** property to [androidWorkProfileVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidWorkProfileVpnConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordSignInFailureCountBeforeFactoryReset",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordSignInFailureCountBeforeFactoryReset** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "firewallIPSecExemptionsNone",
-          "ChangeType": "Addition",
-          "Description": "Added the **firewallIPSecExemptionsNone** property to [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "windows10EndpointProtectionConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "microsoftTunnelSiteId",
-          "ChangeType": "Addition",
-          "Description": "Added the **microsoftTunnelSiteId** property to [iosVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "iosVpnConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "firewallMergeKeyingModuleSettings",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **firewallMergeKeyingModuleSettings** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "windows10EndpointProtectionConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "disableMacAddressRandomization",
-          "ChangeType": "Addition",
-          "Description": "Added the **disableMacAddressRandomization** property to [iosWiFiConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "iosWiFiConfiguration"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200720",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
-          "Target": "edm_50200720"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200821",
-          "ChangeType": "Addition",
-          "Description": "Added the [edm_50200821](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "edm_50200821"
-        },
-        {
-          "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-          "ApiChange": "Property",
-          "ChangedApiName": "firewallBlockStatefulFTP",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **firewallBlockStatefulFTP** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "windows10EndpointProtectionConfiguration"
-        }
-      ],
-      "Id": "be095d3c-aa2a-4013-9f35-8a9599edde7f",
-      "Cloud": "Mooncake",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.325738Z",
-      "WorkloadArea": "Microsoft.Intune.DeviceConfiguration",
-      "SubArea": "Corporate management"
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "microsoftTunnelSiteId",
-          "ChangeType": "Addition",
-          "Description": "Added the **microsoftTunnelSiteId** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerVpnConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "requiredPasswordComplexity",
-          "ChangeType": "Addition",
-          "Description": "Added the **requiredPasswordComplexity** property to [androidCompliancePolicy](/?view=graph-rest-beta) resource",
-          "Target": "androidCompliancePolicy"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "targetedMobileApps",
-          "ChangeType": "Addition",
-          "Description": "Added the **targetedMobileApps** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerVpnConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "EnumType",
-          "ChangedApiName": "androidRequiredPasswordComplexity",
-          "ChangeType": "Addition",
-          "Description": "Added the [androidRequiredPasswordComplexity](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "androidRequiredPasswordComplexity"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "personalProfileCameraBlocked",
-          "ChangeType": "Addition",
-          "Description": "Added the **personalProfileCameraBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "EnumType",
-          "ChangedApiName": "macOSSoftwareUpdateDelayPolicy",
-          "ChangeType": "Addition",
-          "Description": "Added the [macOSSoftwareUpdateDelayPolicy](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "macOSSoftwareUpdateDelayPolicy"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "EnumType",
-          "ChangedApiName": "settingSourceType",
-          "ChangeType": "Addition",
-          "Description": "Added the [settingSourceType](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "settingSourceType"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "targetedMobileApps",
-          "ChangeType": "Addition",
-          "Description": "Added the **targetedMobileApps** property to [androidWorkProfileVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidWorkProfileVpnConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
           "ChangedApiName": "appId",
           "ChangeType": "Change",
@@ -467,15 +35,7 @@
           "Target": "appListItem"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumLength",
-          "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumLength** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
           "ChangedApiName": "sourceType",
           "ChangeType": "Addition",
@@ -483,7 +43,7 @@
           "Target": "settingSource"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
           "ChangedApiName": "workProfilePasswordMinimumSymbolCharacters",
           "ChangeType": "Addition",
@@ -491,7 +51,7 @@
           "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
           "ChangedApiName": "workProfilePasswordMinimumUpperCaseCharacters",
           "ChangeType": "Addition",
@@ -499,7 +59,7 @@
           "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
           "ChangedApiName": "workProfilePasswordPreviousPasswordCountToBlock",
           "ChangeType": "Addition",
@@ -507,15 +67,15 @@
           "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumLetterCharacters",
+          "ChangedApiName": "requiredPasswordComplexity",
           "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumLetterCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+          "Description": "Added the **requiredPasswordComplexity** property to [androidCompliancePolicy](/?view=graph-rest-beta) resource",
+          "Target": "androidCompliancePolicy"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
           "ChangedApiName": "workProfilePasswordRequiredType",
           "ChangeType": "Addition",
@@ -523,87 +83,31 @@
           "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordSignInFailureCountBeforeFactoryReset",
+          "ChangedApiName": "personalProfileAppsAllowInstallFromUnknownSources",
           "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordSignInFailureCountBeforeFactoryReset** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Description": "Added the **personalProfileAppsAllowInstallFromUnknownSources** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
           "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
-          "ChangedApiName": "workProfilePasswordMinimumNonLetterCharacters",
+          "ChangedApiName": "workProfilePasswordMinimumLetterCharacters",
           "ChangeType": "Addition",
-          "Description": "Added the **workProfilePasswordMinimumNonLetterCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Description": "Added the **workProfilePasswordMinimumLetterCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
           "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
-          "ChangedApiName": "disableMacAddressRandomization",
+          "ChangedApiName": "personalProfileCameraBlocked",
           "ChangeType": "Addition",
-          "Description": "Added the **disableMacAddressRandomization** property to [iosWiFiConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "iosWiFiConfiguration"
+          "Description": "Added the **personalProfileCameraBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "updateDelayPolicy",
-          "ChangeType": "Addition",
-          "Description": "Added the **updateDelayPolicy** property to [macOSGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "macOSGeneralDeviceConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "firewallIPSecExemptionsNone",
-          "ChangeType": "Addition",
-          "Description": "Added the **firewallIPSecExemptionsNone** property to [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "windows10EndpointProtectionConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "firewallBlockStatefulFTP",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **firewallBlockStatefulFTP** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "windows10EndpointProtectionConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "firewallMergeKeyingModuleSettings",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **firewallMergeKeyingModuleSettings** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "windows10EndpointProtectionConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200720",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
-          "Target": "edm_50200720"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "Property",
-          "ChangedApiName": "disableOnDemandUserOverride",
-          "ChangeType": "Addition",
-          "Description": "Added the **disableOnDemandUserOverride** property to [appleVpnConfiguration](/?view=graph-rest-beta) resource",
-          "Target": "appleVpnConfiguration"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200821",
-          "ChangeType": "Addition",
-          "Description": "Added the [edm_50200821](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "edm_50200821"
-        },
-        {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
           "ApiChange": "Property",
           "ChangedApiName": "excludedDomains",
           "ChangeType": "Addition",
@@ -611,7 +115,321 @@
           "Target": "appleVpnConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "personalProfileScreenCaptureBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **personalProfileScreenCaptureBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumNonLetterCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumNonLetterCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordExpirationDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordExpirationDays** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallIPSecExemptionsNone",
+          "ChangeType": "Addition",
+          "Description": "Added the **firewallIPSecExemptionsNone** property to [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "passcodeSignInFailureCountBeforeWipe",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **passcodeSignInFailureCountBeforeWipe** property in the [iosGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "mtuSizeInBytes",
+          "ChangeType": "Addition",
+          "Description": "Added the **mtuSizeInBytes** property to [iosikEv2VpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosikEv2VpnConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallMergeKeyingModuleSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **firewallMergeKeyingModuleSettings** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "disableMacAddressRandomization",
+          "ChangeType": "Addition",
+          "Description": "Added the **disableMacAddressRandomization** property to [iosWiFiConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosWiFiConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200821](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200821"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallBlockStatefulFTP",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **firewallBlockStatefulFTP** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "microsoftTunnelSiteId",
+          "ChangeType": "Addition",
+          "Description": "Added the **microsoftTunnelSiteId** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "targetedMobileApps",
+          "ChangeType": "Addition",
+          "Description": "Added the **targetedMobileApps** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredPasswordComplexity",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredPasswordComplexity** property to [androidGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "targetedMobileApps",
+          "ChangeType": "Addition",
+          "Description": "Added the **targetedMobileApps** property to [androidWorkProfileVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidWorkProfileVpnConfiguration"
+        },
+        {
+          "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "disableOnDemandUserOverride",
+          "ChangeType": "Addition",
+          "Description": "Added the **disableOnDemandUserOverride** property to [appleVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "appleVpnConfiguration"
+        }
+      ],
+      "Id": "503acf9d-0e68-47f2-bbb0-c8200bb31a2c",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-06T16:10:09.1343232Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceConfiguration",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "androidRequiredPasswordComplexity",
+          "ChangeType": "Addition",
+          "Description": "Added the [androidRequiredPasswordComplexity](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "androidRequiredPasswordComplexity"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredPasswordComplexity",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredPasswordComplexity** property to [androidCompliancePolicy](/?view=graph-rest-beta) resource",
+          "Target": "androidCompliancePolicy"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "personalProfileAppsAllowInstallFromUnknownSources",
+          "ChangeType": "Addition",
+          "Description": "Added the **personalProfileAppsAllowInstallFromUnknownSources** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "personalProfileCameraBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **personalProfileCameraBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "personalProfileScreenCaptureBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **personalProfileScreenCaptureBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordExpirationDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordExpirationDays** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumLength",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumLength** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumLetterCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumLetterCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumLowerCaseCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumLowerCaseCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumNonLetterCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumNonLetterCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumNumericCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumNumericCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumSymbolCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumSymbolCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumUpperCaseCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumUpperCaseCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordPreviousPasswordCountToBlock",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordPreviousPasswordCountToBlock** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordRequiredType",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordRequiredType** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordSignInFailureCountBeforeFactoryReset",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordSignInFailureCountBeforeFactoryReset** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "microsoftTunnelSiteId",
+          "ChangeType": "Addition",
+          "Description": "Added the **microsoftTunnelSiteId** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "targetedMobileApps",
+          "ChangeType": "Addition",
+          "Description": "Added the **targetedMobileApps** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredPasswordComplexity",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredPasswordComplexity** property to [androidGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "microsoftTunnelSiteId",
+          "ChangeType": "Addition",
+          "Description": "Added the **microsoftTunnelSiteId** property to [androidWorkProfileVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidWorkProfileVpnConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "targetedMobileApps",
+          "ChangeType": "Addition",
+          "Description": "Added the **targetedMobileApps** property to [androidWorkProfileVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidWorkProfileVpnConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "disableOnDemandUserOverride",
+          "ChangeType": "Addition",
+          "Description": "Added the **disableOnDemandUserOverride** property to [appleVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "appleVpnConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "excludedDomains",
+          "ChangeType": "Addition",
+          "Description": "Added the **excludedDomains** property to [appleVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "appleVpnConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
           "ApiChange": "Property",
           "ChangedApiName": "perAppVPNProfileId",
           "ChangeType": "Addition",
@@ -619,7 +437,7 @@
           "Target": "iosEasEmailProfileConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
           "ApiChange": "Property",
           "ChangedApiName": "appClipsBlocked",
           "ChangeType": "Addition",
@@ -627,7 +445,369 @@
           "Target": "iosGeneralDeviceConfiguration"
         },
         {
-          "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "passcodeSignInFailureCountBeforeWipe",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **passcodeSignInFailureCountBeforeWipe** property in the [iosGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "mtuSizeInBytes",
+          "ChangeType": "Addition",
+          "Description": "Added the **mtuSizeInBytes** property to [iosikEv2VpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosikEv2VpnConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "microsoftTunnelSiteId",
+          "ChangeType": "Addition",
+          "Description": "Added the **microsoftTunnelSiteId** property to [iosVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosVpnConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "disableMacAddressRandomization",
+          "ChangeType": "Addition",
+          "Description": "Added the **disableMacAddressRandomization** property to [iosWiFiConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosWiFiConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "updateDelayPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the **updateDelayPolicy** property to [macOSGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "macOSGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallBlockStatefulFTP",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **firewallBlockStatefulFTP** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallIPSecExemptionsNone",
+          "ChangeType": "Addition",
+          "Description": "Added the **firewallIPSecExemptionsNone** property to [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallMergeKeyingModuleSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **firewallMergeKeyingModuleSettings** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200720",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
+          "Target": "edm_50200720"
+        },
+        {
+          "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200821](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200821"
+        }
+      ],
+      "Id": "a1307ccf-b82f-4b01-89a1-62a921a6968e",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-06T16:10:09.1343406Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceConfiguration",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "androidRequiredPasswordComplexity",
+          "ChangeType": "Addition",
+          "Description": "Added the [androidRequiredPasswordComplexity](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "androidRequiredPasswordComplexity"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredPasswordComplexity",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredPasswordComplexity** property to [androidCompliancePolicy](/?view=graph-rest-beta) resource",
+          "Target": "androidCompliancePolicy"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "personalProfileAppsAllowInstallFromUnknownSources",
+          "ChangeType": "Addition",
+          "Description": "Added the **personalProfileAppsAllowInstallFromUnknownSources** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateDelayPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateDelayPolicy](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateDelayPolicy"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "settingSourceType",
+          "ChangeType": "Addition",
+          "Description": "Added the [settingSourceType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "settingSourceType"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "personalProfileScreenCaptureBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **personalProfileScreenCaptureBlocked** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "appId",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **appId** property in the [appListItem](/?view=graph-rest-beta) resource",
+          "Target": "appListItem"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordExpirationDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordExpirationDays** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "sourceType",
+          "ChangeType": "Addition",
+          "Description": "Added the **sourceType** property to [settingSource](/?view=graph-rest-beta) resource",
+          "Target": "settingSource"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumSymbolCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumSymbolCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumUpperCaseCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumUpperCaseCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordPreviousPasswordCountToBlock",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordPreviousPasswordCountToBlock** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordRequiredType",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordRequiredType** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumLength",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumLength** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordSignInFailureCountBeforeFactoryReset",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordSignInFailureCountBeforeFactoryReset** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumLetterCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumLetterCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumLowerCaseCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumLowerCaseCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumNonLetterCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumNonLetterCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "workProfilePasswordMinimumNumericCharacters",
+          "ChangeType": "Addition",
+          "Description": "Added the **workProfilePasswordMinimumNumericCharacters** property to [androidDeviceOwnerGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallIPSecExemptionsNone",
+          "ChangeType": "Addition",
+          "Description": "Added the **firewallIPSecExemptionsNone** property to [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallMergeKeyingModuleSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **firewallMergeKeyingModuleSettings** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200720",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
+          "Target": "edm_50200720"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200821](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200821"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "targetedMobileApps",
+          "ChangeType": "Addition",
+          "Description": "Added the **targetedMobileApps** property to [androidDeviceOwnerVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredPasswordComplexity",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredPasswordComplexity** property to [androidGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "microsoftTunnelSiteId",
+          "ChangeType": "Addition",
+          "Description": "Added the **microsoftTunnelSiteId** property to [iosVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosVpnConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "disableMacAddressRandomization",
+          "ChangeType": "Addition",
+          "Description": "Added the **disableMacAddressRandomization** property to [iosWiFiConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosWiFiConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "updateDelayPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the **updateDelayPolicy** property to [macOSGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "macOSGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallBlockStatefulFTP",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **firewallBlockStatefulFTP** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "targetedMobileApps",
+          "ChangeType": "Addition",
+          "Description": "Added the **targetedMobileApps** property to [androidWorkProfileVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "androidWorkProfileVpnConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "disableOnDemandUserOverride",
+          "ChangeType": "Addition",
+          "Description": "Added the **disableOnDemandUserOverride** property to [appleVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "appleVpnConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "excludedDomains",
+          "ChangeType": "Addition",
+          "Description": "Added the **excludedDomains** property to [appleVpnConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "appleVpnConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "perAppVPNProfileId",
+          "ChangeType": "Addition",
+          "Description": "Added the **perAppVPNProfileId** property to [iosEasEmailProfileConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosEasEmailProfileConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
+          "ApiChange": "Property",
+          "ChangedApiName": "appClipsBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **appClipsBlocked** property to [iosGeneralDeviceConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "iosGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
           "ApiChange": "Property",
           "ChangedApiName": "passcodeSignInFailureCountBeforeWipe",
           "ChangeType": "Change",
@@ -635,25 +815,17 @@
           "Target": "iosGeneralDeviceConfiguration"
         }
       ],
-      "Id": "a647a9b3-24fd-4bda-a349-c36216607e53",
+      "Id": "e6e13305-7da7-46df-a0b6-225fffe03239",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.3257543Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.1343586Z",
       "WorkloadArea": "Microsoft.Intune.DeviceConfiguration",
       "SubArea": "Corporate management"
     },
     {
       "ChangeList": [
         {
-          "Id": "a3236020-141b-4f60-b64b-f14af6f05853",
-          "ApiChange": "Property",
-          "ChangedApiName": "appId",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **appId** property in the [appListItem](/?view=graph-rest-1.0) resource",
-          "Target": "appListItem"
-        },
-        {
-          "Id": "a3236020-141b-4f60-b64b-f14af6f05853",
+          "Id": "8641d53b-28c0-43e4-914c-5bb84303bc78",
           "ApiChange": "Property",
           "ChangedApiName": "passcodeSignInFailureCountBeforeWipe",
           "ChangeType": "Change",
@@ -661,26 +833,34 @@
           "Target": "iosGeneralDeviceConfiguration"
         },
         {
-          "Id": "a3236020-141b-4f60-b64b-f14af6f05853",
-          "ApiChange": "Property",
-          "ChangedApiName": "firewallMergeKeyingModuleSettings",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **firewallMergeKeyingModuleSettings** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-1.0) resource",
-          "Target": "windows10EndpointProtectionConfiguration"
-        },
-        {
-          "Id": "a3236020-141b-4f60-b64b-f14af6f05853",
+          "Id": "8641d53b-28c0-43e4-914c-5bb84303bc78",
           "ApiChange": "Property",
           "ChangedApiName": "firewallBlockStatefulFTP",
           "ChangeType": "Deletion",
           "Description": "Removed the **firewallBlockStatefulFTP** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-1.0) resource",
           "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "8641d53b-28c0-43e4-914c-5bb84303bc78",
+          "ApiChange": "Property",
+          "ChangedApiName": "appId",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **appId** property in the [appListItem](/?view=graph-rest-1.0) resource",
+          "Target": "appListItem"
+        },
+        {
+          "Id": "8641d53b-28c0-43e4-914c-5bb84303bc78",
+          "ApiChange": "Property",
+          "ChangedApiName": "firewallMergeKeyingModuleSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **firewallMergeKeyingModuleSettings** property from [windows10EndpointProtectionConfiguration](/?view=graph-rest-1.0) resource",
+          "Target": "windows10EndpointProtectionConfiguration"
         }
       ],
-      "Id": "a3236020-141b-4f60-b64b-f14af6f05853",
+      "Id": "8641d53b-28c0-43e4-914c-5bb84303bc78",
       "Cloud": "Prod",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-06T16:01:16.3257697Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.1343818Z",
       "WorkloadArea": "Microsoft.Intune.DeviceConfiguration",
       "SubArea": "Corporate management"
     }

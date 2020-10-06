@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "8fc18031-c572-4396-9841-838c64e35ac4",
+          "Id": "4d10c738-2afa-438b-bfa9-74b44e8ce46d",
           "ApiChange": "EnumType",
           "ChangedApiName": "connectionState",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "connectionState"
         },
         {
-          "Id": "8fc18031-c572-4396-9841-838c64e35ac4",
+          "Id": "4d10c738-2afa-438b-bfa9-74b44e8ce46d",
           "ApiChange": "Property",
           "ChangedApiName": "state",
           "ChangeType": "Addition",
@@ -19,10 +19,10 @@
           "Target": "externalConnection"
         }
       ],
-      "Id": "8fc18031-c572-4396-9841-838c64e35ac4",
+      "Id": "4d10c738-2afa-438b-bfa9-74b44e8ce46d",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.3262953Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.1348622Z",
       "WorkloadArea": "Microsoft.SubstrateConnectors",
       "SubArea": ""
     }

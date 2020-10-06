@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "ffa5bc19-ce9a-41b5-8f1d-ed8af5570f76",
+          "Id": "66f8caa4-a7c2-4421-adcc-19c402918103",
           "ApiChange": "Property",
           "ChangedApiName": "disableClientTelemetry",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "intuneBrandingProfile"
         },
         {
-          "Id": "ffa5bc19-ce9a-41b5-8f1d-ed8af5570f76",
+          "Id": "66f8caa4-a7c2-4421-adcc-19c402918103",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200702",
           "ChangeType": "Deletion",
@@ -19,7 +19,7 @@
           "Target": "edm_50200702"
         },
         {
-          "Id": "ffa5bc19-ce9a-41b5-8f1d-ed8af5570f76",
+          "Id": "66f8caa4-a7c2-4421-adcc-19c402918103",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200810",
           "ChangeType": "Addition",
@@ -27,17 +27,17 @@
           "Target": "edm_50200810"
         }
       ],
-      "Id": "ffa5bc19-ce9a-41b5-8f1d-ed8af5570f76",
+      "Id": "66f8caa4-a7c2-4421-adcc-19c402918103",
       "Cloud": "Fairfax",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.3261381Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.1347054Z",
       "WorkloadArea": "Microsoft.Intune.Wip",
       "SubArea": "Corporate management"
     },
     {
       "ChangeList": [
         {
-          "Id": "cc85ae7c-d6da-476e-9a14-4c38794ee079",
+          "Id": "da4f7092-6fb5-402d-843a-9dadbe4ac215",
           "ApiChange": "Property",
           "ChangedApiName": "disableClientTelemetry",
           "ChangeType": "Addition",
@@ -45,33 +45,33 @@
           "Target": "intuneBrandingProfile"
         },
         {
-          "Id": "cc85ae7c-d6da-476e-9a14-4c38794ee079",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200702",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **edm_50200702** resource type *@\u0026*",
-          "Target": "edm_50200702"
-        },
-        {
-          "Id": "cc85ae7c-d6da-476e-9a14-4c38794ee079",
+          "Id": "da4f7092-6fb5-402d-843a-9dadbe4ac215",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200810",
           "ChangeType": "Addition",
           "Description": "Added the [edm_50200810](/?view=graph-rest-beta) resource *@\u0026*",
           "Target": "edm_50200810"
+        },
+        {
+          "Id": "da4f7092-6fb5-402d-843a-9dadbe4ac215",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200702",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200702** resource type *@\u0026*",
+          "Target": "edm_50200702"
         }
       ],
-      "Id": "cc85ae7c-d6da-476e-9a14-4c38794ee079",
+      "Id": "da4f7092-6fb5-402d-843a-9dadbe4ac215",
       "Cloud": "Mooncake",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.3261529Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.1347189Z",
       "WorkloadArea": "Microsoft.Intune.Wip",
       "SubArea": "Corporate management"
     },
     {
       "ChangeList": [
         {
-          "Id": "d958bacf-d84a-4f0b-a8c7-f6619e2e1b24",
+          "Id": "d8851023-e666-4c26-aa76-06746ecb7ba2",
           "ApiChange": "Property",
           "ChangedApiName": "disableClientTelemetry",
           "ChangeType": "Addition",
@@ -79,7 +79,7 @@
           "Target": "intuneBrandingProfile"
         },
         {
-          "Id": "d958bacf-d84a-4f0b-a8c7-f6619e2e1b24",
+          "Id": "d8851023-e666-4c26-aa76-06746ecb7ba2",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200702",
           "ChangeType": "Deletion",
@@ -87,7 +87,7 @@
           "Target": "edm_50200702"
         },
         {
-          "Id": "d958bacf-d84a-4f0b-a8c7-f6619e2e1b24",
+          "Id": "d8851023-e666-4c26-aa76-06746ecb7ba2",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200810",
           "ChangeType": "Addition",
@@ -95,10 +95,10 @@
           "Target": "edm_50200810"
         }
       ],
-      "Id": "d958bacf-d84a-4f0b-a8c7-f6619e2e1b24",
+      "Id": "d8851023-e666-4c26-aa76-06746ecb7ba2",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:01:16.3261726Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.134731Z",
       "WorkloadArea": "Microsoft.Intune.Wip",
       "SubArea": "Corporate management"
     }

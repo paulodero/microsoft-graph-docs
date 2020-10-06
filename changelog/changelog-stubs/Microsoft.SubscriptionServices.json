@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
           "ApiChange": "EnumType",
           "ChangedApiName": "lifecycleEventType",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "lifecycleEventType"
         },
         {
-          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
           "ApiChange": "Property",
           "ChangedApiName": "encryptedContent",
           "ChangeType": "Addition",
@@ -19,15 +19,23 @@
           "Target": "changeNotification"
         },
         {
-          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "changeNotificationEncryptedContent",
+          "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
+          "ApiChange": "Property",
+          "ChangedApiName": "lifecycleEvent",
           "ChangeType": "Addition",
-          "Description": "Added the [changeNotificationEncryptedContent](/graph/api/resources/changeNotificationEncryptedContent?view=graph-rest-1.0) resource type",
-          "Target": "changeNotificationEncryptedContent"
+          "Description": "Added the **lifecycleEvent** property to [changeNotification](/?view=graph-rest-1.0) resource",
+          "Target": "changeNotification"
         },
         {
-          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
+          "ApiChange": "Property",
+          "ChangedApiName": "validationTokens",
+          "ChangeType": "Addition",
+          "Description": "Added the **validationTokens** property to [changeNotificationCollection](/?view=graph-rest-1.0) resource",
+          "Target": "changeNotificationCollection"
+        },
+        {
+          "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
           "ApiChange": "Property",
           "ChangedApiName": "encryptionCertificate",
           "ChangeType": "Addition",
@@ -35,7 +43,15 @@
           "Target": "subscription"
         },
         {
-          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "changeNotificationEncryptedContent",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeNotificationEncryptedContent](/graph/api/resources/changeNotificationEncryptedContent?view=graph-rest-1.0) resource type",
+          "Target": "changeNotificationEncryptedContent"
+        },
+        {
+          "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
           "ApiChange": "Property",
           "ChangedApiName": "encryptionCertificateId",
           "ChangeType": "Addition",
@@ -43,7 +59,15 @@
           "Target": "subscription"
         },
         {
-          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
+          "ApiChange": "Property",
+          "ChangedApiName": "includeResourceData",
+          "ChangeType": "Addition",
+          "Description": "Added the **includeResourceData** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
           "ApiChange": "Property",
           "ChangedApiName": "lifecycleNotificationUrl",
           "ChangeType": "Addition",
@@ -51,10 +75,10 @@
           "Target": "subscription"
         }
       ],
-      "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+      "Id": "7894685a-369e-4dc3-94fb-a3444a5e4b0a",
       "Cloud": "Prod",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-06T16:01:16.3262781Z",
+      "CreatedDateTime": "2020-10-06T16:10:09.1348453Z",
       "WorkloadArea": "Microsoft.SubscriptionServices",
       "SubArea": ""
     }
