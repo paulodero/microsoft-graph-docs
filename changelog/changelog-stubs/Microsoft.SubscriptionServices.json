@@ -1,0 +1,62 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "lifecycleEventType",
+          "ChangeType": "Addition",
+          "Description": "Added the [lifecycleEventType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "lifecycleEventType"
+        },
+        {
+          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptedContent",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptedContent** property to [changeNotification](/?view=graph-rest-1.0) resource",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "changeNotificationEncryptedContent",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeNotificationEncryptedContent](/graph/api/resources/changeNotificationEncryptedContent?view=graph-rest-1.0) resource type",
+          "Target": "changeNotificationEncryptedContent"
+        },
+        {
+          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificate",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificate** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificateId",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificateId** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+          "ApiChange": "Property",
+          "ChangedApiName": "lifecycleNotificationUrl",
+          "ChangeType": "Addition",
+          "Description": "Added the **lifecycleNotificationUrl** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Target": "subscription"
+        }
+      ],
+      "Id": "9db0e390-9b42-484d-95a9-3b939184c9fc",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-06T16:01:16.3262781Z",
+      "WorkloadArea": "Microsoft.SubscriptionServices",
+      "SubArea": ""
+    }
+  ]
+}

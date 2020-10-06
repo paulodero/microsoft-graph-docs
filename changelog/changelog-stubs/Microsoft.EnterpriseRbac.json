@@ -1,0 +1,80 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "410b3e24-2f62-472b-ae5c-ba56a14bf350",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceActions",
+          "ChangeType": "Change",
+          "Description": "Removed the **resourceActions** relationship from [unifiedRbacResourceNamespace](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRbacResourceNamespace"
+        }
+      ],
+      "Id": "410b3e24-2f62-472b-ae5c-ba56a14bf350",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-06T16:01:16.3253272Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "a1ab7121-99f8-4ca0-8cf6-28c17a8a0010",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceNamespaces",
+          "ChangeType": "Addition",
+          "Description": "Added the **resourceNamespaces** relationship to [rbacApplication](/?view=graph-rest-beta) resource",
+          "Target": "rbacApplication"
+        },
+        {
+          "Id": "a1ab7121-99f8-4ca0-8cf6-28c17a8a0010",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceNamespaces",
+          "ChangeType": "Addition",
+          "Description": "Added the **resourceNamespaces** relationship to [rbacApplicationMultiple](/?view=graph-rest-beta) resource",
+          "Target": "rbacApplicationMultiple"
+        },
+        {
+          "Id": "a1ab7121-99f8-4ca0-8cf6-28c17a8a0010",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "unifiedRbacResourceAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [unifiedRbacResourceAction](/graph/api/resources/unifiedRbacResourceAction?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "unifiedRbacResourceAction"
+        },
+        {
+          "Id": "a1ab7121-99f8-4ca0-8cf6-28c17a8a0010",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "unifiedRbacResourceScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [unifiedRbacResourceScope](/graph/api/resources/unifiedRbacResourceScope?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "unifiedRbacResourceScope"
+        },
+        {
+          "Id": "a1ab7121-99f8-4ca0-8cf6-28c17a8a0010",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "unifiedRbacResourceNamespace",
+          "ChangeType": "Addition",
+          "Description": "Added the [unifiedRbacResourceNamespace](/graph/api/resources/unifiedRbacResourceNamespace?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "unifiedRbacResourceNamespace"
+        },
+        {
+          "Id": "a1ab7121-99f8-4ca0-8cf6-28c17a8a0010",
+          "ApiChange": "Action",
+          "ChangedApiName": "importResourceActions",
+          "ChangeType": "Addition",
+          "Description": "Added the [importResourceActions](/graph/api/importResourceActions-importResourceActions?view=graph-rest-beta) method to the [importResourceActions](/graph/api/importResourceActions-importResourceActions?view=graph-rest-beta) resource",
+          "Target": "importResourceActions"
+        }
+      ],
+      "Id": "a1ab7121-99f8-4ca0-8cf6-28c17a8a0010",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-06T16:01:16.3253425Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    }
+  ]
+}
