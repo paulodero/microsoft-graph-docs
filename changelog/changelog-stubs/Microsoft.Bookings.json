@@ -3,15 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "c917b910-b215-4394-9938-99083d258755",
-          "ApiChange": "Property",
-          "ChangedApiName": "onlineMeetingUrl",
-          "ChangeType": "Addition",
-          "Description": "Added the **onlineMeetingUrl** property to [bookingAppointment](/?view=graph-rest-beta) resource",
-          "Target": "bookingAppointment"
-        },
-        {
-          "Id": "c917b910-b215-4394-9938-99083d258755",
+          "Id": "212c2acf-2d26-4d61-9fd3-aeaa0c39fa67",
           "ApiChange": "Property",
           "ChangedApiName": "additionalInformation",
           "ChangeType": "Addition",
@@ -19,7 +11,31 @@
           "Target": "bookingAppointment"
         },
         {
-          "Id": "c917b910-b215-4394-9938-99083d258755",
+          "Id": "212c2acf-2d26-4d61-9fd3-aeaa0c39fa67",
+          "ApiChange": "Property",
+          "ChangedApiName": "additionalInformation",
+          "ChangeType": "Addition",
+          "Description": "Added the **additionalInformation** property to [bookingService](/?view=graph-rest-beta) resource",
+          "Target": "bookingService"
+        },
+        {
+          "Id": "212c2acf-2d26-4d61-9fd3-aeaa0c39fa67",
+          "ApiChange": "Property",
+          "ChangedApiName": "onlineMeetingUrl",
+          "ChangeType": "Addition",
+          "Description": "Added the **onlineMeetingUrl** property to [bookingAppointment](/?view=graph-rest-beta) resource",
+          "Target": "bookingAppointment"
+        },
+        {
+          "Id": "212c2acf-2d26-4d61-9fd3-aeaa0c39fa67",
+          "ApiChange": "Property",
+          "ChangedApiName": "isLocationOnline",
+          "ChangeType": "Addition",
+          "Description": "Added the **isLocationOnline** property to [bookingAppointment](/?view=graph-rest-beta) resource",
+          "Target": "bookingAppointment"
+        },
+        {
+          "Id": "212c2acf-2d26-4d61-9fd3-aeaa0c39fa67",
           "ApiChange": "Property",
           "ChangedApiName": "isLocationOnline",
           "ChangeType": "Addition",
@@ -27,10 +43,10 @@
           "Target": "bookingService"
         }
       ],
-      "Id": "c917b910-b215-4394-9938-99083d258755",
+      "Id": "212c2acf-2d26-4d61-9fd3-aeaa0c39fa67",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-07T05:08:31.500807Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3376386Z",
       "WorkloadArea": "Microsoft.Bookings",
       "SubArea": ""
     }

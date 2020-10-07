@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
+          "Id": "cf44197e-680d-4ad0-a823-3605440e56e2",
           "ApiChange": "Property",
           "ChangedApiName": "matches",
           "ChangeType": "Deletion",
@@ -11,15 +11,15 @@
           "Target": "detectedSensitiveContentBase"
         },
         {
-          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
-          "ApiChange": "Property",
-          "ChangedApiName": "matches",
+          "Id": "cf44197e-680d-4ad0-a823-3605440e56e2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "exactMatchSensitiveContentLocation",
           "ChangeType": "Addition",
-          "Description": "Added the **matches** property to [exactMatchDetectedSensitiveContent](/?view=graph-rest-beta) resource",
-          "Target": "exactMatchDetectedSensitiveContent"
+          "Description": "Added the [exactMatchSensitiveContentLocation](/graph/api/resources/exactMatchSensitiveContentLocation?view=graph-rest-beta) resource type",
+          "Target": "exactMatchSensitiveContentLocation"
         },
         {
-          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
+          "Id": "cf44197e-680d-4ad0-a823-3605440e56e2",
           "ApiChange": "ComplexType",
           "ChangedApiName": "exactDataMatchStoreColumn",
           "ChangeType": "Addition",
@@ -27,7 +27,15 @@
           "Target": "exactDataMatchStoreColumn"
         },
         {
-          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
+          "Id": "cf44197e-680d-4ad0-a823-3605440e56e2",
+          "ApiChange": "Property",
+          "ChangedApiName": "matches",
+          "ChangeType": "Addition",
+          "Description": "Added the **matches** property to [exactMatchDetectedSensitiveContent](/?view=graph-rest-beta) resource",
+          "Target": "exactMatchDetectedSensitiveContent"
+        },
+        {
+          "Id": "cf44197e-680d-4ad0-a823-3605440e56e2",
           "ApiChange": "ComplexType",
           "ChangedApiName": "sensitiveContentLocation",
           "ChangeType": "Deletion",
@@ -35,7 +43,15 @@
           "Target": "sensitiveContentLocation"
         },
         {
-          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
+          "Id": "cf44197e-680d-4ad0-a823-3605440e56e2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "sensitiveContentLocationBase",
+          "ChangeType": "Addition",
+          "Description": "Added the [sensitiveContentLocationBase](/graph/api/resources/sensitiveContentLocationBase?view=graph-rest-beta) resource type",
+          "Target": "sensitiveContentLocationBase"
+        },
+        {
+          "Id": "cf44197e-680d-4ad0-a823-3605440e56e2",
           "ApiChange": "Property",
           "ChangedApiName": "columns",
           "ChangeType": "Addition",
@@ -43,10 +59,10 @@
           "Target": "exactMatchDataStore"
         }
       ],
-      "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
+      "Id": "cf44197e-680d-4ad0-a823-3605440e56e2",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-07T05:08:31.5028875Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3393708Z",
       "WorkloadArea": "Microsoft.ExactDataMatchService",
       "SubArea": "Information protection"
     }

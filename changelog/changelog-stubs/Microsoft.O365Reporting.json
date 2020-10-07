@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "ComplexType",
           "ChangedApiName": "report",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "report"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
           "ChangedApiName": "deletedItemCount",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "mailboxUsageDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
           "ChangedApiName": "deletedItemSizeInBytes",
           "ChangeType": "Addition",
@@ -27,7 +27,7 @@
           "Target": "mailboxUsageDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
           "ChangedApiName": "groupId",
           "ChangeType": "Addition",
@@ -35,55 +35,15 @@
           "Target": "office365GroupsActivityDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
-          "ChangedApiName": "chromeOS",
+          "ChangedApiName": "isLicensed",
           "ChangeType": "Addition",
-          "Description": "Added the **chromeOS** property to [teamsDeviceUsageDistributionUserCounts](/?view=graph-rest-beta) resource",
-          "Target": "teamsDeviceUsageDistributionUserCounts"
+          "Description": "Added the **isLicensed** property to [teamsDeviceUsageUserDetail](/?view=graph-rest-beta) resource",
+          "Target": "teamsDeviceUsageUserDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
-          "ApiChange": "Property",
-          "ChangedApiName": "linux",
-          "ChangeType": "Addition",
-          "Description": "Added the **linux** property to [teamsDeviceUsageDistributionUserCounts](/?view=graph-rest-beta) resource",
-          "Target": "teamsDeviceUsageDistributionUserCounts"
-        },
-        {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
-          "ApiChange": "Property",
-          "ChangedApiName": "chromeOS",
-          "ChangeType": "Addition",
-          "Description": "Added the **chromeOS** property to [teamsDeviceUsageUserCounts](/?view=graph-rest-beta) resource",
-          "Target": "teamsDeviceUsageUserCounts"
-        },
-        {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
-          "ApiChange": "Property",
-          "ChangedApiName": "linux",
-          "ChangeType": "Addition",
-          "Description": "Added the **linux** property to [teamsDeviceUsageUserCounts](/?view=graph-rest-beta) resource",
-          "Target": "teamsDeviceUsageUserCounts"
-        },
-        {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
-          "ApiChange": "Property",
-          "ChangedApiName": "adHocMeetingsOrganizedCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **adHocMeetingsOrganizedCount** property to [teamsUserActivityUserDetail](/?view=graph-rest-beta) resource",
-          "Target": "teamsUserActivityUserDetail"
-        },
-        {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
-          "ApiChange": "Property",
-          "ChangedApiName": "audioDuration",
-          "ChangeType": "Addition",
-          "Description": "Added the **audioDuration** property to [teamsUserActivityUserDetail](/?view=graph-rest-beta) resource",
-          "Target": "teamsUserActivityUserDetail"
-        },
-        {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
           "ChangedApiName": "usedChromeOS",
           "ChangeType": "Addition",
@@ -91,15 +51,7 @@
           "Target": "teamsDeviceUsageUserDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
-          "ApiChange": "Property",
-          "ChangedApiName": "isLicensed",
-          "ChangeType": "Addition",
-          "Description": "Added the **isLicensed** property to [teamsUserActivityUserDetail](/?view=graph-rest-beta) resource",
-          "Target": "teamsUserActivityUserDetail"
-        },
-        {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
           "ChangedApiName": "usedLinux",
           "ChangeType": "Addition",
@@ -107,15 +59,7 @@
           "Target": "teamsDeviceUsageUserDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
-          "ApiChange": "Property",
-          "ChangedApiName": "meetingsAttendedCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **meetingsAttendedCount** property to [teamsUserActivityUserDetail](/?view=graph-rest-beta) resource",
-          "Target": "teamsUserActivityUserDetail"
-        },
-        {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
           "ChangedApiName": "adHocMeetingsAttendedCount",
           "ChangeType": "Addition",
@@ -123,31 +67,79 @@
           "Target": "teamsUserActivityUserDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
-          "ChangedApiName": "networkDisplayName",
+          "ChangedApiName": "chromeOS",
           "ChangeType": "Addition",
-          "Description": "Added the **networkDisplayName** property to [yammerGroupsActivityDetail](/?view=graph-rest-beta) resource",
-          "Target": "yammerGroupsActivityDetail"
+          "Description": "Added the **chromeOS** property to [teamsDeviceUsageDistributionUserCounts](/?view=graph-rest-beta) resource",
+          "Target": "teamsDeviceUsageDistributionUserCounts"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
-          "ApiChange": "Function",
-          "ChangedApiName": "getM365AppPlatformUserCounts",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Property",
+          "ChangedApiName": "linux",
           "ChangeType": "Addition",
-          "Description": "Added the [getM365AppPlatformUserCounts](/graph/api/getM365AppPlatformUserCounts-getM365AppPlatformUserCounts?view=graph-rest-beta) method to the [getM365AppPlatformUserCounts](/graph/api/getM365AppPlatformUserCounts-getM365AppPlatformUserCounts?view=graph-rest-beta) resource",
-          "Target": "getM365AppPlatformUserCounts"
+          "Description": "Added the **linux** property to [teamsDeviceUsageDistributionUserCounts](/?view=graph-rest-beta) resource",
+          "Target": "teamsDeviceUsageDistributionUserCounts"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
-          "ApiChange": "Function",
-          "ChangedApiName": "getM365AppUserCounts",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Property",
+          "ChangedApiName": "chromeOS",
           "ChangeType": "Addition",
-          "Description": "Added the [getM365AppUserCounts](/graph/api/getM365AppUserCounts-getM365AppUserCounts?view=graph-rest-beta) method to the [getM365AppUserCounts](/graph/api/getM365AppUserCounts-getM365AppUserCounts?view=graph-rest-beta) resource",
-          "Target": "getM365AppUserCounts"
+          "Description": "Added the **chromeOS** property to [teamsDeviceUsageUserCounts](/?view=graph-rest-beta) resource",
+          "Target": "teamsDeviceUsageUserCounts"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Property",
+          "ChangedApiName": "linux",
+          "ChangeType": "Addition",
+          "Description": "Added the **linux** property to [teamsDeviceUsageUserCounts](/?view=graph-rest-beta) resource",
+          "Target": "teamsDeviceUsageUserCounts"
+        },
+        {
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Property",
+          "ChangedApiName": "adHocMeetingsOrganizedCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **adHocMeetingsOrganizedCount** property to [teamsUserActivityUserDetail](/?view=graph-rest-beta) resource",
+          "Target": "teamsUserActivityUserDetail"
+        },
+        {
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Property",
+          "ChangedApiName": "audioDuration",
+          "ChangeType": "Addition",
+          "Description": "Added the **audioDuration** property to [teamsUserActivityUserDetail](/?view=graph-rest-beta) resource",
+          "Target": "teamsUserActivityUserDetail"
+        },
+        {
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Property",
+          "ChangedApiName": "isLicensed",
+          "ChangeType": "Addition",
+          "Description": "Added the **isLicensed** property to [teamsUserActivityUserDetail](/?view=graph-rest-beta) resource",
+          "Target": "teamsUserActivityUserDetail"
+        },
+        {
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Property",
+          "ChangedApiName": "meetingsAttendedCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **meetingsAttendedCount** property to [teamsUserActivityUserDetail](/?view=graph-rest-beta) resource",
+          "Target": "teamsUserActivityUserDetail"
+        },
+        {
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Property",
+          "ChangedApiName": "meetingsOrganizedCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **meetingsOrganizedCount** property to [teamsUserActivityUserDetail](/?view=graph-rest-beta) resource",
+          "Target": "teamsUserActivityUserDetail"
+        },
+        {
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
           "ChangedApiName": "scheduledMeetingsOrganizedCount",
           "ChangeType": "Addition",
@@ -155,7 +147,7 @@
           "Target": "teamsUserActivityUserDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
           "ChangedApiName": "screenShareDuration",
           "ChangeType": "Addition",
@@ -163,7 +155,7 @@
           "Target": "teamsUserActivityUserDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Property",
           "ChangedApiName": "videoDuration",
           "ChangeType": "Addition",
@@ -171,7 +163,7 @@
           "Target": "teamsUserActivityUserDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Function",
           "ChangedApiName": "getM365AppUserDetail",
           "ChangeType": "Addition",
@@ -179,7 +171,7 @@
           "Target": "getM365AppUserDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Function",
           "ChangedApiName": "getM365AppUserDetail",
           "ChangeType": "Addition",
@@ -187,7 +179,15 @@
           "Target": "getM365AppUserDetail"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Property",
+          "ChangedApiName": "networkDisplayName",
+          "ChangeType": "Addition",
+          "Description": "Added the **networkDisplayName** property to [yammerGroupsActivityDetail](/?view=graph-rest-beta) resource",
+          "Target": "yammerGroupsActivityDetail"
+        },
+        {
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Function",
           "ChangedApiName": "getTeamsDeviceUsageDistributionTotalUserCounts",
           "ChangeType": "Addition",
@@ -195,7 +195,23 @@
           "Target": "getTeamsDeviceUsageDistributionTotalUserCounts"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Function",
+          "ChangedApiName": "getM365AppPlatformUserCounts",
+          "ChangeType": "Addition",
+          "Description": "Added the [getM365AppPlatformUserCounts](/graph/api/getM365AppPlatformUserCounts-getM365AppPlatformUserCounts?view=graph-rest-beta) method to the [getM365AppPlatformUserCounts](/graph/api/getM365AppPlatformUserCounts-getM365AppPlatformUserCounts?view=graph-rest-beta) resource",
+          "Target": "getM365AppPlatformUserCounts"
+        },
+        {
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
+          "ApiChange": "Function",
+          "ChangedApiName": "getM365AppUserCounts",
+          "ChangeType": "Addition",
+          "Description": "Added the [getM365AppUserCounts](/graph/api/getM365AppUserCounts-getM365AppUserCounts?view=graph-rest-beta) method to the [getM365AppUserCounts](/graph/api/getM365AppUserCounts-getM365AppUserCounts?view=graph-rest-beta) resource",
+          "Target": "getM365AppUserCounts"
+        },
+        {
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Function",
           "ChangedApiName": "getTeamsDeviceUsageTotalUserCounts",
           "ChangeType": "Addition",
@@ -203,7 +219,7 @@
           "Target": "getTeamsDeviceUsageTotalUserCounts"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Function",
           "ChangedApiName": "getTeamsUserActivityTotalCounts",
           "ChangeType": "Addition",
@@ -211,7 +227,7 @@
           "Target": "getTeamsUserActivityTotalCounts"
         },
         {
-          "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+          "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
           "ApiChange": "Function",
           "ChangedApiName": "getTeamsUserActivityTotalUserCounts",
           "ChangeType": "Addition",
@@ -219,17 +235,17 @@
           "Target": "getTeamsUserActivityTotalUserCounts"
         }
       ],
-      "Id": "8eb1225a-e63a-40f8-b6aa-dd558e8695d2",
+      "Id": "de479e0c-2c1b-4c12-aa92-62405ccd81b1",
       "Cloud": "PPE",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-07T05:08:31.5065247Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3423486Z",
       "WorkloadArea": "Microsoft.O365Reporting",
       "SubArea": "Microsoft 365 usage reports"
     },
     {
       "ChangeList": [
         {
-          "Id": "b1a42550-1b94-4606-824a-5ff6a4870f08",
+          "Id": "3e99961c-23ec-495c-a902-b7c00d0df3b5",
           "ApiChange": "Property",
           "ChangedApiName": "outlook2019",
           "ChangeType": "Addition",
@@ -237,7 +253,7 @@
           "Target": "emailAppUsageVersionsUserCounts"
         },
         {
-          "Id": "b1a42550-1b94-4606-824a-5ff6a4870f08",
+          "Id": "3e99961c-23ec-495c-a902-b7c00d0df3b5",
           "ApiChange": "Property",
           "ChangedApiName": "outlookM365",
           "ChangeType": "Addition",
@@ -245,10 +261,10 @@
           "Target": "emailAppUsageVersionsUserCounts"
         }
       ],
-      "Id": "b1a42550-1b94-4606-824a-5ff6a4870f08",
+      "Id": "3e99961c-23ec-495c-a902-b7c00d0df3b5",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-07T05:08:31.506602Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3424088Z",
       "WorkloadArea": "Microsoft.O365Reporting",
       "SubArea": "Microsoft 365 usage reports"
     }

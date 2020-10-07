@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
           "ApiChange": "ComplexType",
           "ChangedApiName": "aadUserConversationMemberResult",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "aadUserConversationMemberResult"
         },
         {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
           "ApiChange": "ComplexType",
           "ChangedApiName": "aadUserNotificationAudience",
           "ChangeType": "Deletion",
@@ -19,39 +19,7 @@
           "Target": "aadUserNotificationAudience"
         },
         {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "actionResultPart",
-          "ChangeType": "Addition",
-          "Description": "Added the [actionResultPart](/graph/api/resources/actionResultPart?view=graph-rest-beta) resource type",
-          "Target": "actionResultPart"
-        },
-        {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "publicError",
-          "ChangeType": "Addition",
-          "Description": "Added the [publicError](/graph/api/resources/publicError?view=graph-rest-beta) resource type",
-          "Target": "publicError"
-        },
-        {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "teamworkNotificationAudience",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **teamworkNotificationAudience** resource type",
-          "Target": "teamworkNotificationAudience"
-        },
-        {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
-          "ApiChange": "Property",
-          "ChangedApiName": "lastEditedDateTime",
-          "ChangeType": "Addition",
-          "Description": "Added the **lastEditedDateTime** property to [chatMessage](/?view=graph-rest-beta) resource",
-          "Target": "chatMessage"
-        },
-        {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
           "ApiChange": "ComplexType",
           "ChangedApiName": "publicErrorDetail",
           "ChangeType": "Addition",
@@ -59,7 +27,7 @@
           "Target": "publicErrorDetail"
         },
         {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
           "ApiChange": "ComplexType",
           "ChangedApiName": "publicInnerError",
           "ChangeType": "Addition",
@@ -67,7 +35,31 @@
           "Target": "publicInnerError"
         },
         {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "actionResultPart",
+          "ChangeType": "Addition",
+          "Description": "Added the [actionResultPart](/graph/api/resources/actionResultPart?view=graph-rest-beta) resource type",
+          "Target": "actionResultPart"
+        },
+        {
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "publicError",
+          "ChangeType": "Addition",
+          "Description": "Added the [publicError](/graph/api/resources/publicError?view=graph-rest-beta) resource type",
+          "Target": "publicError"
+        },
+        {
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
+          "ApiChange": "Action",
+          "ChangedApiName": "add",
+          "ChangeType": "Addition",
+          "Description": "Added the [add](/graph/api/add-add?view=graph-rest-beta) method to the [add](/graph/api/add-add?view=graph-rest-beta) resource",
+          "Target": "add"
+        },
+        {
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
           "ApiChange": "Action",
           "ChangedApiName": "generateActivityNotification",
           "ChangeType": "Deletion",
@@ -75,7 +67,23 @@
           "Target": "generateActivityNotification"
         },
         {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "teamworkNotificationAudience",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **teamworkNotificationAudience** resource type",
+          "Target": "teamworkNotificationAudience"
+        },
+        {
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
+          "ApiChange": "Property",
+          "ChangedApiName": "lastEditedDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **lastEditedDateTime** property to [chatMessage](/?view=graph-rest-beta) resource",
+          "Target": "chatMessage"
+        },
+        {
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
           "ApiChange": "Function",
           "ChangedApiName": "getAllMessages",
           "ChangeType": "Addition",
@@ -83,7 +91,7 @@
           "Target": "getAllMessages"
         },
         {
-          "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
+          "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
           "ApiChange": "Function",
           "ChangedApiName": "getAllMessages",
           "ChangeType": "Addition",
@@ -91,17 +99,17 @@
           "Target": "getAllMessages"
         }
       ],
-      "Id": "87c85e05-5355-4010-8185-9b2e8aa7faf8",
+      "Id": "d501b781-8971-4576-a0d0-d9dae6d3a1e9",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-07T05:08:31.5070619Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3427426Z",
       "WorkloadArea": "Microsoft.Teams.GraphSvc",
       "SubArea": ""
     },
     {
       "ChangeList": [
         {
-          "Id": "59900cb2-6284-4bcc-943f-0f2453358b21",
+          "Id": "28d6eac6-e9ed-431c-82b2-0272b0b2795b",
           "ApiChange": "EntityType",
           "ChangedApiName": "chat",
           "ChangeType": "Addition",
@@ -109,7 +117,7 @@
           "Target": "chat"
         },
         {
-          "Id": "59900cb2-6284-4bcc-943f-0f2453358b21",
+          "Id": "28d6eac6-e9ed-431c-82b2-0272b0b2795b",
           "ApiChange": "Property",
           "ChangedApiName": "lastEditedDateTime",
           "ChangeType": "Addition",
@@ -117,7 +125,7 @@
           "Target": "chatMessage"
         },
         {
-          "Id": "59900cb2-6284-4bcc-943f-0f2453358b21",
+          "Id": "28d6eac6-e9ed-431c-82b2-0272b0b2795b",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "teamwork",
           "ChangeType": "Addition",
@@ -125,15 +133,7 @@
           "Target": "user"
         },
         {
-          "Id": "59900cb2-6284-4bcc-943f-0f2453358b21",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userTeamwork",
-          "ChangeType": "Addition",
-          "Description": "Added the [userTeamwork](/graph/api/resources/userTeamwork?view=graph-rest-1.0) resource *@\u0026*",
-          "Target": "userTeamwork"
-        },
-        {
-          "Id": "59900cb2-6284-4bcc-943f-0f2453358b21",
+          "Id": "28d6eac6-e9ed-431c-82b2-0272b0b2795b",
           "ApiChange": "EntityType",
           "ChangedApiName": "userScopeTeamsAppInstallation",
           "ChangeType": "Addition",
@@ -141,7 +141,15 @@
           "Target": "userScopeTeamsAppInstallation"
         },
         {
-          "Id": "59900cb2-6284-4bcc-943f-0f2453358b21",
+          "Id": "28d6eac6-e9ed-431c-82b2-0272b0b2795b",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userTeamwork",
+          "ChangeType": "Addition",
+          "Description": "Added the [userTeamwork](/graph/api/resources/userTeamwork?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "userTeamwork"
+        },
+        {
+          "Id": "28d6eac6-e9ed-431c-82b2-0272b0b2795b",
           "ApiChange": "Function",
           "ChangedApiName": "getAllMessages",
           "ChangeType": "Addition",
@@ -149,7 +157,7 @@
           "Target": "getAllMessages"
         },
         {
-          "Id": "59900cb2-6284-4bcc-943f-0f2453358b21",
+          "Id": "28d6eac6-e9ed-431c-82b2-0272b0b2795b",
           "ApiChange": "Function",
           "ChangedApiName": "getAllMessages",
           "ChangeType": "Addition",
@@ -157,7 +165,7 @@
           "Target": "getAllMessages"
         },
         {
-          "Id": "59900cb2-6284-4bcc-943f-0f2453358b21",
+          "Id": "28d6eac6-e9ed-431c-82b2-0272b0b2795b",
           "ApiChange": "EntitySet",
           "ChangedApiName": "chats",
           "ChangeType": "Addition",
@@ -165,10 +173,10 @@
           "Target": "chats"
         }
       ],
-      "Id": "59900cb2-6284-4bcc-943f-0f2453358b21",
+      "Id": "28d6eac6-e9ed-431c-82b2-0272b0b2795b",
       "Cloud": "Prod",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-07T05:08:31.5071361Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3427992Z",
       "WorkloadArea": "Microsoft.Teams.GraphSvc",
       "SubArea": ""
     }

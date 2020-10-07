@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "ddff1579-8587-48c0-bee0-9ddd17edf9e9",
+          "Id": "c2714601-92e9-437d-adca-017aa14829d0",
           "ApiChange": "Property",
           "ChangedApiName": "conditionalAccessProtectionLevelId",
           "ChangeType": "Addition",
@@ -11,17 +11,17 @@
           "Target": "protectSite"
         }
       ],
-      "Id": "ddff1579-8587-48c0-bee0-9ddd17edf9e9",
+      "Id": "c2714601-92e9-437d-adca-017aa14829d0",
       "Cloud": "Fairfax",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-07T05:08:31.5010646Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3377834Z",
       "WorkloadArea": "Microsoft.DataClassificationService",
       "SubArea": "Information protection"
     },
     {
       "ChangeList": [
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
           "ApiChange": "ComplexType",
           "ChangedApiName": "classificationAttribute",
           "ChangeType": "Addition",
@@ -29,7 +29,7 @@
           "Target": "classificationAttribute"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
           "ApiChange": "Property",
           "ChangedApiName": "classificationAttributes",
           "ChangeType": "Addition",
@@ -37,15 +37,23 @@
           "Target": "detectedSensitiveContent"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "sensitiveContentLocationBase",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
+          "ApiChange": "Property",
+          "ChangedApiName": "sensitiveTypeSource",
           "ChangeType": "Addition",
-          "Description": "Added the [sensitiveContentLocationBase](/graph/api/resources/sensitiveContentLocationBase?view=graph-rest-beta) resource type",
-          "Target": "sensitiveContentLocationBase"
+          "Description": "Added the **sensitiveTypeSource** property to [detectedSensitiveContent](/?view=graph-rest-beta) resource",
+          "Target": "detectedSensitiveContent"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
+          "ApiChange": "Property",
+          "ChangedApiName": "matches",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **matches** property from [detectedSensitiveContentBase](/?view=graph-rest-beta) resource",
+          "Target": "detectedSensitiveContentBase"
+        },
+        {
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
           "ApiChange": "Property",
           "ChangedApiName": "classificationMethod",
           "ChangeType": "Addition",
@@ -53,7 +61,7 @@
           "Target": "detectedSensitiveContent"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
           "ApiChange": "Property",
           "ChangedApiName": "matches",
           "ChangeType": "Addition",
@@ -61,23 +69,15 @@
           "Target": "detectedSensitiveContent"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
-          "ApiChange": "Property",
-          "ChangedApiName": "classificationAttributes",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "sensitiveContentLocationBase",
           "ChangeType": "Addition",
-          "Description": "Added the **classificationAttributes** property to [discoveredSensitiveType](/?view=graph-rest-beta) resource",
-          "Target": "discoveredSensitiveType"
+          "Description": "Added the [sensitiveContentLocationBase](/graph/api/resources/sensitiveContentLocationBase?view=graph-rest-beta) resource type",
+          "Target": "sensitiveContentLocationBase"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
-          "ApiChange": "Property",
-          "ChangedApiName": "conditionalAccessProtectionLevelId",
-          "ChangeType": "Addition",
-          "Description": "Added the **conditionalAccessProtectionLevelId** property to [protectSite](/?view=graph-rest-beta) resource",
-          "Target": "protectSite"
-        },
-        {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
           "ApiChange": "Property",
           "ChangedApiName": "confidence",
           "ChangeType": "Addition",
@@ -85,7 +85,7 @@
           "Target": "sensitiveContentLocation"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
           "ApiChange": "Property",
           "ChangedApiName": "evidences",
           "ChangeType": "Deletion",
@@ -93,7 +93,23 @@
           "Target": "sensitiveContentLocation"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
+          "ApiChange": "Property",
+          "ChangedApiName": "classificationAttributes",
+          "ChangeType": "Addition",
+          "Description": "Added the **classificationAttributes** property to [discoveredSensitiveType](/?view=graph-rest-beta) resource",
+          "Target": "discoveredSensitiveType"
+        },
+        {
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
+          "ApiChange": "Property",
+          "ChangedApiName": "conditionalAccessProtectionLevelId",
+          "ChangeType": "Addition",
+          "Description": "Added the **conditionalAccessProtectionLevelId** property to [protectSite](/?view=graph-rest-beta) resource",
+          "Target": "protectSite"
+        },
+        {
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
           "ApiChange": "Property",
           "ChangedApiName": "idMatch",
           "ChangeType": "Deletion",
@@ -101,7 +117,7 @@
           "Target": "sensitiveContentLocation"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
           "ApiChange": "Property",
           "ChangedApiName": "length",
           "ChangeType": "Deletion",
@@ -109,7 +125,7 @@
           "Target": "sensitiveContentLocation"
         },
         {
-          "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+          "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
           "ApiChange": "Property",
           "ChangedApiName": "offset",
           "ChangeType": "Deletion",
@@ -117,17 +133,17 @@
           "Target": "sensitiveContentLocation"
         }
       ],
-      "Id": "d75fc069-7abb-41e6-b821-55f3d63867a1",
+      "Id": "ccccca9d-367b-4398-afd5-0bb8bd4d8b51",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-07T05:08:31.5013151Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3378612Z",
       "WorkloadArea": "Microsoft.DataClassificationService",
       "SubArea": "Information protection"
     },
     {
       "ChangeList": [
         {
-          "Id": "1ffd7b5f-5220-47b7-926b-df92cd60ac94",
+          "Id": "6bd61bc4-03ce-4fed-9bcb-e92a7f89f66a",
           "ApiChange": "Property",
           "ChangedApiName": "conditionalAccessProtectionLevelId",
           "ChangeType": "Addition",
@@ -135,17 +151,17 @@
           "Target": "protectSite"
         }
       ],
-      "Id": "1ffd7b5f-5220-47b7-926b-df92cd60ac94",
+      "Id": "6bd61bc4-03ce-4fed-9bcb-e92a7f89f66a",
       "Cloud": "USNat",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-07T05:08:31.5014392Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3379288Z",
       "WorkloadArea": "Microsoft.DataClassificationService",
       "SubArea": "Information protection"
     },
     {
       "ChangeList": [
         {
-          "Id": "9ec41376-91ec-466d-968c-ee0a63a4c76c",
+          "Id": "a43dcd72-1ac2-42d8-87db-5dadbc3c0145",
           "ApiChange": "Property",
           "ChangedApiName": "conditionalAccessProtectionLevelId",
           "ChangeType": "Addition",
@@ -153,10 +169,10 @@
           "Target": "protectSite"
         }
       ],
-      "Id": "9ec41376-91ec-466d-968c-ee0a63a4c76c",
+      "Id": "a43dcd72-1ac2-42d8-87db-5dadbc3c0145",
       "Cloud": "USSec",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-07T05:08:31.5015348Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3379937Z",
       "WorkloadArea": "Microsoft.DataClassificationService",
       "SubArea": "Information protection"
     }

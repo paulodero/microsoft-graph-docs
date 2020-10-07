@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "fcb123db-2b44-4ca2-8615-f176b895807a",
+          "Id": "28758baa-14cb-4194-881b-3a2afa3a9428",
           "ApiChange": "EntityType",
           "ChangedApiName": "administrativeUnit",
           "ChangeType": "Addition",
@@ -11,10 +11,10 @@
           "Target": "administrativeUnit"
         }
       ],
-      "Id": "fcb123db-2b44-4ca2-8615-f176b895807a",
+      "Id": "28758baa-14cb-4194-881b-3a2afa3a9428",
       "Cloud": "Prod",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-07T05:08:31.5030894Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3395409Z",
       "WorkloadArea": "Microsoft.Graph.Extensibility",
       "SubArea": ""
     }

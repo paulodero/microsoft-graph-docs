@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "0239aeb7-92b0-4883-9bdf-0fe060d17d82",
+          "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
           "ApiChange": "EnumType",
           "ChangedApiName": "lifecycleEventType",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "lifecycleEventType"
         },
         {
-          "Id": "0239aeb7-92b0-4883-9bdf-0fe060d17d82",
+          "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
           "ApiChange": "Property",
           "ChangedApiName": "encryptedContent",
           "ChangeType": "Addition",
@@ -19,7 +19,15 @@
           "Target": "changeNotification"
         },
         {
-          "Id": "0239aeb7-92b0-4883-9bdf-0fe060d17d82",
+          "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
+          "ApiChange": "Property",
+          "ChangedApiName": "validationTokens",
+          "ChangeType": "Addition",
+          "Description": "Added the **validationTokens** property to [changeNotificationCollection](/?view=graph-rest-1.0) resource",
+          "Target": "changeNotificationCollection"
+        },
+        {
+          "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
           "ApiChange": "Property",
           "ChangedApiName": "lifecycleEvent",
           "ChangeType": "Addition",
@@ -27,15 +35,7 @@
           "Target": "changeNotification"
         },
         {
-          "Id": "0239aeb7-92b0-4883-9bdf-0fe060d17d82",
-          "ApiChange": "Property",
-          "ChangedApiName": "encryptionCertificate",
-          "ChangeType": "Addition",
-          "Description": "Added the **encryptionCertificate** property to [subscription](/?view=graph-rest-1.0) resource",
-          "Target": "subscription"
-        },
-        {
-          "Id": "0239aeb7-92b0-4883-9bdf-0fe060d17d82",
+          "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
           "ApiChange": "ComplexType",
           "ChangedApiName": "changeNotificationEncryptedContent",
           "ChangeType": "Addition",
@@ -43,15 +43,15 @@
           "Target": "changeNotificationEncryptedContent"
         },
         {
-          "Id": "0239aeb7-92b0-4883-9bdf-0fe060d17d82",
+          "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
           "ApiChange": "Property",
-          "ChangedApiName": "encryptionCertificateId",
+          "ChangedApiName": "encryptionCertificate",
           "ChangeType": "Addition",
-          "Description": "Added the **encryptionCertificateId** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Description": "Added the **encryptionCertificate** property to [subscription](/?view=graph-rest-1.0) resource",
           "Target": "subscription"
         },
         {
-          "Id": "0239aeb7-92b0-4883-9bdf-0fe060d17d82",
+          "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
           "ApiChange": "Property",
           "ChangedApiName": "lifecycleNotificationUrl",
           "ChangeType": "Addition",
@@ -59,7 +59,15 @@
           "Target": "subscription"
         },
         {
-          "Id": "0239aeb7-92b0-4883-9bdf-0fe060d17d82",
+          "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificateId",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificateId** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
           "ApiChange": "Property",
           "ChangedApiName": "includeResourceData",
           "ChangeType": "Addition",
@@ -67,10 +75,10 @@
           "Target": "subscription"
         }
       ],
-      "Id": "0239aeb7-92b0-4883-9bdf-0fe060d17d82",
+      "Id": "c72741b5-01dd-43c0-89e0-6553797d6586",
       "Cloud": "Prod",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-07T05:08:31.5069119Z",
+      "CreatedDateTime": "2020-10-07T05:19:03.3426345Z",
       "WorkloadArea": "Microsoft.SubscriptionServices",
       "SubArea": ""
     }
