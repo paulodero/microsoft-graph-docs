@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "EnumType",
           "ChangedApiName": "bodyType",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "bodyType"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "EnumType",
           "ChangedApiName": "confirmedBy",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "confirmedBy"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "EnumType",
           "ChangedApiName": "timeCardState",
           "ChangeType": "Addition",
@@ -27,7 +27,7 @@
           "Target": "timeCardState"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "ComplexType",
           "ChangedApiName": "geoCoordinates",
           "ChangeType": "Addition",
@@ -35,7 +35,7 @@
           "Target": "geoCoordinates"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "ComplexType",
           "ChangedApiName": "itemBody",
           "ChangeType": "Addition",
@@ -43,7 +43,7 @@
           "Target": "itemBody"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "ComplexType",
           "ChangedApiName": "timeCardEntry",
           "ChangeType": "Addition",
@@ -51,31 +51,7 @@
           "Target": "timeCardEntry"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "timeCardEvent",
-          "ChangeType": "Addition",
-          "Description": "Added the [timeCardEvent](/graph/api/resources/timeCardEvent?view=graph-rest-beta) resource type",
-          "Target": "timeCardEvent"
-        },
-        {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "timeClockSettings",
-          "ChangeType": "Addition",
-          "Description": "Added the [timeClockSettings](/graph/api/resources/timeClockSettings?view=graph-rest-beta) resource type",
-          "Target": "timeClockSettings"
-        },
-        {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
-          "ApiChange": "Property",
-          "ChangedApiName": "createdBy",
-          "ChangeType": "Addition",
-          "Description": "Added the **createdBy** property to [changeTrackedEntity](/?view=graph-rest-beta) resource",
-          "Target": "changeTrackedEntity"
-        },
-        {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "Property",
           "ChangedApiName": "timeClockSettings",
           "ChangeType": "Addition",
@@ -83,7 +59,7 @@
           "Target": "schedule"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "timeCards",
           "ChangeType": "Addition",
@@ -91,7 +67,23 @@
           "Target": "schedule"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "timeClockSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [timeClockSettings](/graph/api/resources/timeClockSettings?view=graph-rest-beta) resource type",
+          "Target": "timeClockSettings"
+        },
+        {
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdBy",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdBy** property to [changeTrackedEntity](/?view=graph-rest-beta) resource",
+          "Target": "changeTrackedEntity"
+        },
+        {
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "EntityType",
           "ChangedApiName": "timeCard",
           "ChangeType": "Addition",
@@ -99,7 +91,7 @@
           "Target": "timeCard"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "Action",
           "ChangedApiName": "clockIn",
           "ChangeType": "Addition",
@@ -107,7 +99,7 @@
           "Target": "clockIn"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "Action",
           "ChangedApiName": "clockOut",
           "ChangeType": "Addition",
@@ -115,7 +107,7 @@
           "Target": "clockOut"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "Action",
           "ChangedApiName": "confirm",
           "ChangeType": "Addition",
@@ -123,7 +115,7 @@
           "Target": "confirm"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "Action",
           "ChangedApiName": "endBreak",
           "ChangeType": "Addition",
@@ -131,7 +123,7 @@
           "Target": "endBreak"
         },
         {
-          "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+          "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
           "ApiChange": "Action",
           "ChangedApiName": "startBreak",
           "ChangeType": "Addition",
@@ -139,10 +131,10 @@
           "Target": "startBreak"
         }
       ],
-      "Id": "efe022dd-6539-4666-832a-95bf86b7d81c",
+      "Id": "2be3266e-bee6-4434-a3b1-aab564f8f072",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.1349088Z",
+      "CreatedDateTime": "2020-10-07T05:08:31.5072158Z",
       "WorkloadArea": "Microsoft.Teams.Shifts",
       "SubArea": "Shifts"
     }

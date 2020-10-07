@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "accessPackageAnswer",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "accessPackageAnswer"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "accessPackageAnswerChoice",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "accessPackageAnswerChoice"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "accessPackageAnswerString",
           "ChangeType": "Addition",
@@ -27,7 +27,7 @@
           "Target": "accessPackageAnswerString"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "accessPackageLocalizedContent",
           "ChangeType": "Addition",
@@ -35,7 +35,7 @@
           "Target": "accessPackageLocalizedContent"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "accessPackageLocalizedText",
           "ChangeType": "Addition",
@@ -43,63 +43,7 @@
           "Target": "accessPackageLocalizedText"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "accessPackageMultipleChoiceQuestion",
-          "ChangeType": "Addition",
-          "Description": "Added the [accessPackageMultipleChoiceQuestion](/graph/api/resources/accessPackageMultipleChoiceQuestion?view=graph-rest-beta) resource type",
-          "Target": "accessPackageMultipleChoiceQuestion"
-        },
-        {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "accessPackageQuestion",
-          "ChangeType": "Addition",
-          "Description": "Added the [accessPackageQuestion](/graph/api/resources/accessPackageQuestion?view=graph-rest-beta) resource type",
-          "Target": "accessPackageQuestion"
-        },
-        {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "accessPackageResourceAttribute",
-          "ChangeType": "Addition",
-          "Description": "Added the [accessPackageResourceAttribute](/graph/api/resources/accessPackageResourceAttribute?view=graph-rest-beta) resource type",
-          "Target": "accessPackageResourceAttribute"
-        },
-        {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "accessPackageUserDirectoryAttributeStore",
-          "ChangeType": "Addition",
-          "Description": "Added the [accessPackageUserDirectoryAttributeStore](/graph/api/resources/accessPackageUserDirectoryAttributeStore?view=graph-rest-beta) resource type",
-          "Target": "accessPackageUserDirectoryAttributeStore"
-        },
-        {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "answer",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **answer** resource type",
-          "Target": "answer"
-        },
-        {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "answerChoice",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **answerChoice** resource type",
-          "Target": "answerChoice"
-        },
-        {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "answerString",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **answerString** resource type",
-          "Target": "answerString"
-        },
-        {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "accessPackageResourceAttributeDestination",
           "ChangeType": "Addition",
@@ -107,7 +51,15 @@
           "Target": "accessPackageResourceAttributeDestination"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageMultipleChoiceQuestion",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageMultipleChoiceQuestion](/graph/api/resources/accessPackageMultipleChoiceQuestion?view=graph-rest-beta) resource type",
+          "Target": "accessPackageMultipleChoiceQuestion"
+        },
+        {
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "accessPackageResourceAttributeQuestion",
           "ChangeType": "Addition",
@@ -115,7 +67,7 @@
           "Target": "accessPackageResourceAttributeQuestion"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "accessPackageResourceAttributeSource",
           "ChangeType": "Addition",
@@ -123,7 +75,7 @@
           "Target": "accessPackageResourceAttributeSource"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "accessPackageTextInputQuestion",
           "ChangeType": "Addition",
@@ -131,7 +83,7 @@
           "Target": "accessPackageTextInputQuestion"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "entitlementManagementLocalizedContent",
           "ChangeType": "Deletion",
@@ -139,7 +91,7 @@
           "Target": "entitlementManagementLocalizedContent"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "localizedText",
           "ChangeType": "Deletion",
@@ -147,7 +99,7 @@
           "Target": "localizedText"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "multipleChoiceQuestion",
           "ChangeType": "Deletion",
@@ -155,7 +107,7 @@
           "Target": "multipleChoiceQuestion"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "question",
           "ChangeType": "Deletion",
@@ -163,7 +115,39 @@
           "Target": "question"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageUserDirectoryAttributeStore",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageUserDirectoryAttributeStore](/graph/api/resources/accessPackageUserDirectoryAttributeStore?view=graph-rest-beta) resource type",
+          "Target": "accessPackageUserDirectoryAttributeStore"
+        },
+        {
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "answer",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **answer** resource type",
+          "Target": "answer"
+        },
+        {
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "answerChoice",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **answerChoice** resource type",
+          "Target": "answerChoice"
+        },
+        {
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "answerString",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **answerString** resource type",
+          "Target": "answerString"
+        },
+        {
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "resourceAttribute",
           "ChangeType": "Deletion",
@@ -171,7 +155,7 @@
           "Target": "resourceAttribute"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "resourceAttributeDestination",
           "ChangeType": "Deletion",
@@ -179,7 +163,7 @@
           "Target": "resourceAttributeDestination"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "resourceAttributeQuestion",
           "ChangeType": "Deletion",
@@ -187,7 +171,7 @@
           "Target": "resourceAttributeQuestion"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "resourceAttributeSource",
           "ChangeType": "Deletion",
@@ -195,7 +179,7 @@
           "Target": "resourceAttributeSource"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "textInputQuestion",
           "ChangeType": "Deletion",
@@ -203,7 +187,7 @@
           "Target": "textInputQuestion"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "ComplexType",
           "ChangedApiName": "userDirectoryAttributeStore",
           "ChangeType": "Deletion",
@@ -211,15 +195,7 @@
           "Target": "userDirectoryAttributeStore"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
-          "ApiChange": "Property",
-          "ChangedApiName": "attributes",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **attributes** property in the [accessPackageResource](/?view=graph-rest-beta) resource",
-          "Target": "accessPackageResource"
-        },
-        {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "Property",
           "ChangedApiName": "questions",
           "ChangeType": "Change",
@@ -227,7 +203,7 @@
           "Target": "accessPackageAssignmentPolicy"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "Property",
           "ChangedApiName": "answers",
           "ChangeType": "Change",
@@ -235,7 +211,23 @@
           "Target": "accessPackageAssignmentRequest"
         },
         {
-          "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
+          "ApiChange": "Property",
+          "ChangedApiName": "attributes",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **attributes** property in the [accessPackageResource](/?view=graph-rest-beta) resource",
+          "Target": "accessPackageResource"
+        },
+        {
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "connectedOrganizationState",
+          "ChangeType": "Addition",
+          "Description": "Added the [connectedOrganizationState](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "connectedOrganizationState"
+        },
+        {
+          "Id": "5bf32654-7809-491c-b342-9da448f07a02",
           "ApiChange": "Property",
           "ChangedApiName": "state",
           "ChangeType": "Addition",
@@ -243,10 +235,10 @@
           "Target": "connectedOrganization"
         }
       ],
-      "Id": "a2f60b23-d1d2-40df-97c4-dbec827ae85e",
+      "Id": "5bf32654-7809-491c-b342-9da448f07a02",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.1342493Z",
+      "CreatedDateTime": "2020-10-07T05:08:31.5040347Z",
       "WorkloadArea": "Microsoft.IGAELM",
       "SubArea": "Identity governance"
     }

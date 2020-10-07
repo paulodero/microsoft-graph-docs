@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "EnumType",
           "ChangedApiName": "managedDeviceManagementFeatures",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "managedDeviceManagementFeatures"
         },
         {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "aospUserlessCount",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "deviceOperatingSystemSummary"
         },
         {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "activeMalwareDetectionCount",
           "ChangeType": "Addition",
@@ -27,494 +27,7 @@
           "Target": "windowsMalwareCategoryCount"
         },
         {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the **userExperienceAnalyticsAppHealthDeviceModelPerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
-          "Target": "deviceManagement"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the **userExperienceAnalyticsAppHealthDevicePerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
-          "Target": "deviceManagement"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "managementFeatures",
-          "ChangeType": "Addition",
-          "Description": "Added the **managementFeatures** property to [managedDevice](/?view=graph-rest-beta) resource",
-          "Target": "managedDevice"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformanceDetails",
-          "ChangeType": "Addition",
-          "Description": "Added the **userExperienceAnalyticsAppHealthDevicePerformanceDetails** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
-          "Target": "deviceManagement"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthOSVersionPerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the **userExperienceAnalyticsAppHealthOSVersionPerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
-          "Target": "deviceManagement"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "activeDeviceCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **activeDeviceCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "activeDevices",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **activeDevices** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "appHangCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **appHangCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "appUsageDuration",
-          "ChangeType": "Addition",
-          "Description": "Added the **appUsageDuration** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "meanTimeToFailure",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **meanTimeToFailure** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "tenantId",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **tenantId** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "meanTimeToFailureInMinutes",
-          "ChangeType": "Addition",
-          "Description": "Added the **meanTimeToFailureInMinutes** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "totalAppCrashes",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **totalAppCrashes** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "allOrgsHealthScore",
-          "ChangeType": "Addition",
-          "Description": "Added the **allOrgsHealthScore** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        null,
-        null,
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthDeviceModelPerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDeviceModelPerformance?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthDeviceModelPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "allOrgsMeanTimeToFailure",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **allOrgsMeanTimeToFailure** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthDevicePerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDevicePerformance?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthDevicePerformance"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthAppPerformanceByAppVersion",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthAppPerformanceByAppVersion](/graph/api/resources/intune-userExperienceAnalyticsAppHealthAppPerformanceByAppVersion?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthAppPerformanceByAppVersion"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "rebootAnalyticsMetrics",
-          "ChangeType": "Addition",
-          "Description": "Added the **rebootAnalyticsMetrics** relationship to [userExperienceAnalyticsBaseline](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsBaseline"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "restartFaultBucket",
-          "ChangeType": "Addition",
-          "Description": "Added the **restartFaultBucket** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsDeviceStartupHistory"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "Property",
-          "ChangedApiName": "restartStopCode",
-          "ChangeType": "Addition",
-          "Description": "Added the **restartStopCode** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsDeviceStartupHistory"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200720",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
-          "Target": "edm_50200720"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformanceDetails",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthDevicePerformanceDetails](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDevicePerformanceDetails?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthDevicePerformanceDetails"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200824",
-          "ChangeType": "Addition",
-          "Description": "Added the [edm_50200824](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "edm_50200824"
-        },
-        {
-          "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthOSVersionPerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthOSVersionPerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthOSVersionPerformance?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthOSVersionPerformance"
-        }
-      ],
-      "Id": "d6a647f1-d06f-4d62-bf4e-59e51e72a1bf",
-      "Cloud": "Fairfax",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.1345023Z",
-      "WorkloadArea": "Microsoft.Intune.Devices",
-      "SubArea": "Corporate management"
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "EnumType",
-          "ChangedApiName": "managedDeviceManagementFeatures",
-          "ChangeType": "Addition",
-          "Description": "Added the [managedDeviceManagementFeatures](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "managedDeviceManagementFeatures"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "aospUserlessCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **aospUserlessCount** property to [deviceOperatingSystemSummary](/?view=graph-rest-beta) resource",
-          "Target": "deviceOperatingSystemSummary"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "activeMalwareDetectionCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **activeMalwareDetectionCount** property to [windowsMalwareCategoryCount](/?view=graph-rest-beta) resource",
-          "Target": "windowsMalwareCategoryCount"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthApplicationPerformanceByOSVersion",
-          "ChangeType": "Addition",
-          "Description": "Added the **userExperienceAnalyticsAppHealthApplicationPerformanceByOSVersion** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
-          "Target": "deviceManagement"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the **userExperienceAnalyticsAppHealthDeviceModelPerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
-          "Target": "deviceManagement"
-        },
-        null,
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the **userExperienceAnalyticsAppHealthDevicePerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
-          "Target": "deviceManagement"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "skuNumber",
-          "ChangeType": "Addition",
-          "Description": "Added the **skuNumber** property to [managedDevice](/?view=graph-rest-beta) resource",
-          "Target": "managedDevice"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "activeDeviceCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **activeDeviceCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "appUsageDuration",
-          "ChangeType": "Addition",
-          "Description": "Added the **appUsageDuration** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "meanTimeToFailure",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **meanTimeToFailure** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "meanTimeToFailureInMinutes",
-          "ChangeType": "Addition",
-          "Description": "Added the **meanTimeToFailureInMinutes** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "allOrgsHealthScore",
-          "ChangeType": "Addition",
-          "Description": "Added the **allOrgsHealthScore** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "memaTimeGenerated",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **memaTimeGenerated** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "allOrgsMeanTimeToFailure",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **allOrgsMeanTimeToFailure** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "appCrashCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **appCrashCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "appDisplayName",
-          "ChangeType": "Addition",
-          "Description": "Added the **appDisplayName** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "appFriendlyName",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **appFriendlyName** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "tenantId",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **tenantId** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "totalAppCrashes",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **totalAppCrashes** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "totalAppHangs",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **totalAppHangs** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "totalAppUsageDuration",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **totalAppUsageDuration** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthAppPerformanceByAppVersion",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthAppPerformanceByAppVersion](/graph/api/resources/intune-userExperienceAnalyticsAppHealthAppPerformanceByAppVersion?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthAppPerformanceByAppVersion"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthAppPerformanceByOSVersion",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthAppPerformanceByOSVersion](/graph/api/resources/intune-userExperienceAnalyticsAppHealthAppPerformanceByOSVersion?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthAppPerformanceByOSVersion"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthDeviceModelPerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDeviceModelPerformance?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthDeviceModelPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthDevicePerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDevicePerformance?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthDevicePerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "restartFaultBucket",
-          "ChangeType": "Addition",
-          "Description": "Added the **restartFaultBucket** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsDeviceStartupHistory"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "Property",
-          "ChangedApiName": "restartStopCode",
-          "ChangeType": "Addition",
-          "Description": "Added the **restartStopCode** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
-          "Target": "userExperienceAnalyticsDeviceStartupHistory"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "userExperienceAnalyticsAppHealthOSVersionPerformance",
-          "ChangeType": "Addition",
-          "Description": "Added the [userExperienceAnalyticsAppHealthOSVersionPerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthOSVersionPerformance?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "userExperienceAnalyticsAppHealthOSVersionPerformance"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200720",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
-          "Target": "edm_50200720"
-        },
-        {
-          "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-          "ApiChange": "EntityContainer",
-          "ChangedApiName": "edm_50200824",
-          "ChangeType": "Addition",
-          "Description": "Added the [edm_50200824](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "edm_50200824"
-        }
-      ],
-      "Id": "21c0a06f-6ef7-4bfa-a18e-bf2babaf55ca",
-      "Cloud": "Mooncake",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.1345191Z",
-      "WorkloadArea": "Microsoft.Intune.Devices",
-      "SubArea": "Corporate management"
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
-          "ApiChange": "EnumType",
-          "ChangedApiName": "managedDeviceManagementFeatures",
-          "ChangeType": "Addition",
-          "Description": "Added the [managedDeviceManagementFeatures](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "managedDeviceManagementFeatures"
-        },
-        {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
-          "ApiChange": "Property",
-          "ChangedApiName": "aospUserlessCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **aospUserlessCount** property to [deviceOperatingSystemSummary](/?view=graph-rest-beta) resource",
-          "Target": "deviceOperatingSystemSummary"
-        },
-        {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
-          "ApiChange": "Property",
-          "ChangedApiName": "activeMalwareDetectionCount",
-          "ChangeType": "Addition",
-          "Description": "Added the **activeMalwareDetectionCount** property to [windowsMalwareCategoryCount](/?view=graph-rest-beta) resource",
-          "Target": "windowsMalwareCategoryCount"
-        },
-        {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "distinctActiveMalwareCount",
           "ChangeType": "Addition",
@@ -522,7 +35,7 @@
           "Target": "windowsMalwareCategoryCount"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersion",
           "ChangeType": "Addition",
@@ -530,7 +43,7 @@
           "Target": "deviceManagement"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "userExperienceAnalyticsAppHealthApplicationPerformanceByOSVersion",
           "ChangeType": "Addition",
@@ -538,7 +51,7 @@
           "Target": "deviceManagement"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
           "ChangeType": "Addition",
@@ -546,15 +59,15 @@
           "Target": "deviceManagement"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
-          "ApiChange": "Property",
-          "ChangedApiName": "managementFeatures",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
           "ChangeType": "Addition",
-          "Description": "Added the **managementFeatures** property to [managedDevice](/?view=graph-rest-beta) resource",
-          "Target": "managedDevice"
+          "Description": "Added the **userExperienceAnalyticsAppHealthDevicePerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformanceDetails",
           "ChangeType": "Addition",
@@ -562,7 +75,7 @@
           "Target": "deviceManagement"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "userExperienceAnalyticsAppHealthOSVersionPerformance",
           "ChangeType": "Addition",
@@ -570,15 +83,39 @@
           "Target": "deviceManagement"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
-          "ApiChange": "Property",
-          "ChangedApiName": "appHangCount",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthOverview",
           "ChangeType": "Addition",
-          "Description": "Added the **appHangCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Description": "Added the **userExperienceAnalyticsAppHealthOverview** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "managementFeatures",
+          "ChangeType": "Addition",
+          "Description": "Added the **managementFeatures** property to [managedDevice](/?view=graph-rest-beta) resource",
+          "Target": "managedDevice"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "skuNumber",
+          "ChangeType": "Addition",
+          "Description": "Added the **skuNumber** property to [managedDevice](/?view=graph-rest-beta) resource",
+          "Target": "managedDevice"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "activeDeviceCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **activeDeviceCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "activeDevices",
           "ChangeType": "Deletion",
@@ -586,23 +123,31 @@
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
-          "ChangedApiName": "allOrgsHealthScore",
+          "ChangedApiName": "appHangCount",
           "ChangeType": "Addition",
-          "Description": "Added the **allOrgsHealthScore** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Description": "Added the **appHangCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
-          "ChangedApiName": "allOrgsMeanTimeToFailure",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **allOrgsMeanTimeToFailure** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "ChangedApiName": "appUsageDuration",
+          "ChangeType": "Addition",
+          "Description": "Added the **appUsageDuration** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "meanTimeToFailure",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **meanTimeToFailure** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "meanTimeToFailureInMinutes",
           "ChangeType": "Addition",
@@ -610,7 +155,39 @@
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "memaTimeGenerated",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **memaTimeGenerated** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "allOrgsHealthScore",
+          "ChangeType": "Addition",
+          "Description": "Added the **allOrgsHealthScore** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "allOrgsMeanTimeToFailure",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **allOrgsMeanTimeToFailure** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "appCrashCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **appCrashCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "appDisplayName",
           "ChangeType": "Addition",
@@ -618,7 +195,7 @@
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "appFriendlyName",
           "ChangeType": "Deletion",
@@ -626,7 +203,7 @@
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "tenantId",
           "ChangeType": "Deletion",
@@ -634,7 +211,7 @@
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "totalAppCrashes",
           "ChangeType": "Deletion",
@@ -642,7 +219,7 @@
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "totalAppHangs",
           "ChangeType": "Deletion",
@@ -650,7 +227,7 @@
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "Property",
           "ChangedApiName": "totalAppUsageDuration",
           "ChangeType": "Deletion",
@@ -658,7 +235,7 @@
           "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "EntityType",
           "ChangedApiName": "userExperienceAnalyticsAppHealthAppPerformanceByAppVersion",
           "ChangeType": "Addition",
@@ -666,7 +243,7 @@
           "Target": "userExperienceAnalyticsAppHealthAppPerformanceByAppVersion"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "EntityType",
           "ChangedApiName": "userExperienceAnalyticsAppHealthAppPerformanceByOSVersion",
           "ChangeType": "Addition",
@@ -674,7 +251,7 @@
           "Target": "userExperienceAnalyticsAppHealthAppPerformanceByOSVersion"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "EntityType",
           "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
           "ChangeType": "Addition",
@@ -682,7 +259,7 @@
           "Target": "userExperienceAnalyticsAppHealthDeviceModelPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "EntityType",
           "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
           "ChangeType": "Addition",
@@ -690,7 +267,7 @@
           "Target": "userExperienceAnalyticsAppHealthDevicePerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "EntityType",
           "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformanceDetails",
           "ChangeType": "Addition",
@@ -698,7 +275,7 @@
           "Target": "userExperienceAnalyticsAppHealthDevicePerformanceDetails"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "EntityType",
           "ChangedApiName": "userExperienceAnalyticsAppHealthOSVersionPerformance",
           "ChangeType": "Addition",
@@ -706,7 +283,39 @@
           "Target": "userExperienceAnalyticsAppHealthOSVersionPerformance"
         },
         {
-          "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "rebootAnalyticsMetrics",
+          "ChangeType": "Addition",
+          "Description": "Added the **rebootAnalyticsMetrics** relationship to [userExperienceAnalyticsBaseline](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsBaseline"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "restartFaultBucket",
+          "ChangeType": "Addition",
+          "Description": "Added the **restartFaultBucket** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsDeviceStartupHistory"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "Property",
+          "ChangedApiName": "restartStopCode",
+          "ChangeType": "Addition",
+          "Description": "Added the **restartStopCode** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsDeviceStartupHistory"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200720",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
+          "Target": "edm_50200720"
+        },
+        {
+          "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200824",
           "ChangeType": "Addition",
@@ -714,10 +323,622 @@
           "Target": "edm_50200824"
         }
       ],
-      "Id": "54aee583-2ee1-494f-b51a-5eb23c09dfe8",
+      "Id": "b6454e2a-f2bb-47f1-8962-09b6798d4e77",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-07T05:08:31.5051694Z",
+      "WorkloadArea": "Microsoft.Intune.Devices",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "managedDeviceManagementFeatures",
+          "ChangeType": "Addition",
+          "Description": "Added the [managedDeviceManagementFeatures](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "managedDeviceManagementFeatures"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "aospUserlessCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **aospUserlessCount** property to [deviceOperatingSystemSummary](/?view=graph-rest-beta) resource",
+          "Target": "deviceOperatingSystemSummary"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "activeMalwareDetectionCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **activeMalwareDetectionCount** property to [windowsMalwareCategoryCount](/?view=graph-rest-beta) resource",
+          "Target": "windowsMalwareCategoryCount"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "distinctActiveMalwareCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **distinctActiveMalwareCount** property to [windowsMalwareCategoryCount](/?view=graph-rest-beta) resource",
+          "Target": "windowsMalwareCategoryCount"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersion** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthApplicationPerformanceByOSVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthApplicationPerformanceByOSVersion** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthDeviceModelPerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthDevicePerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformanceDetails",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthDevicePerformanceDetails** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthOSVersionPerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthOSVersionPerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "appHangCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **appHangCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "appUsageDuration",
+          "ChangeType": "Addition",
+          "Description": "Added the **appUsageDuration** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthOverview",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthOverview** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "meanTimeToFailureInMinutes",
+          "ChangeType": "Addition",
+          "Description": "Added the **meanTimeToFailureInMinutes** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "memaTimeGenerated",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **memaTimeGenerated** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "skuNumber",
+          "ChangeType": "Addition",
+          "Description": "Added the **skuNumber** property to [managedDevice](/?view=graph-rest-beta) resource",
+          "Target": "managedDevice"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "activeDeviceCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **activeDeviceCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "activeDevices",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **activeDevices** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "allOrgsHealthScore",
+          "ChangeType": "Addition",
+          "Description": "Added the **allOrgsHealthScore** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "allOrgsMeanTimeToFailure",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **allOrgsMeanTimeToFailure** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "appCrashCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **appCrashCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "appDisplayName",
+          "ChangeType": "Addition",
+          "Description": "Added the **appDisplayName** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "appFriendlyName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **appFriendlyName** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "tenantId",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **tenantId** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "totalAppCrashes",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **totalAppCrashes** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "totalAppHangs",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **totalAppHangs** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "totalAppUsageDuration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **totalAppUsageDuration** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthAppPerformanceByAppVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthAppPerformanceByAppVersion](/graph/api/resources/intune-userExperienceAnalyticsAppHealthAppPerformanceByAppVersion?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthAppPerformanceByAppVersion"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthAppPerformanceByOSVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthAppPerformanceByOSVersion](/graph/api/resources/intune-userExperienceAnalyticsAppHealthAppPerformanceByOSVersion?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthAppPerformanceByOSVersion"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthDeviceModelPerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDeviceModelPerformance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthDeviceModelPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthDevicePerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDevicePerformance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthDevicePerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformanceDetails",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthDevicePerformanceDetails](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDevicePerformanceDetails?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthDevicePerformanceDetails"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthOSVersionPerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthOSVersionPerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthOSVersionPerformance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthOSVersionPerformance"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "rebootAnalyticsMetrics",
+          "ChangeType": "Addition",
+          "Description": "Added the **rebootAnalyticsMetrics** relationship to [userExperienceAnalyticsBaseline](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsBaseline"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "restartFaultBucket",
+          "ChangeType": "Addition",
+          "Description": "Added the **restartFaultBucket** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsDeviceStartupHistory"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "Property",
+          "ChangedApiName": "restartStopCode",
+          "ChangeType": "Addition",
+          "Description": "Added the **restartStopCode** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsDeviceStartupHistory"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200720",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
+          "Target": "edm_50200720"
+        },
+        {
+          "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200824",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200824](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200824"
+        }
+      ],
+      "Id": "fe17b2c7-1c71-40d3-8422-6f5352fc3ee8",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-07T05:08:31.5052445Z",
+      "WorkloadArea": "Microsoft.Intune.Devices",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "managedDeviceManagementFeatures",
+          "ChangeType": "Addition",
+          "Description": "Added the [managedDeviceManagementFeatures](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "managedDeviceManagementFeatures"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "aospUserlessCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **aospUserlessCount** property to [deviceOperatingSystemSummary](/?view=graph-rest-beta) resource",
+          "Target": "deviceOperatingSystemSummary"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "activeMalwareDetectionCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **activeMalwareDetectionCount** property to [windowsMalwareCategoryCount](/?view=graph-rest-beta) resource",
+          "Target": "windowsMalwareCategoryCount"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "distinctActiveMalwareCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **distinctActiveMalwareCount** property to [windowsMalwareCategoryCount](/?view=graph-rest-beta) resource",
+          "Target": "windowsMalwareCategoryCount"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersion** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthOverview",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthOverview** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "managementFeatures",
+          "ChangeType": "Addition",
+          "Description": "Added the **managementFeatures** property to [managedDevice](/?view=graph-rest-beta) resource",
+          "Target": "managedDevice"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "skuNumber",
+          "ChangeType": "Addition",
+          "Description": "Added the **skuNumber** property to [managedDevice](/?view=graph-rest-beta) resource",
+          "Target": "managedDevice"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "activeDeviceCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **activeDeviceCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "activeDevices",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **activeDevices** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "appDisplayName",
+          "ChangeType": "Addition",
+          "Description": "Added the **appDisplayName** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "appFriendlyName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **appFriendlyName** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthApplicationPerformanceByOSVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthApplicationPerformanceByOSVersion** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthDeviceModelPerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthDevicePerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformanceDetails",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthDevicePerformanceDetails** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthOSVersionPerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the **userExperienceAnalyticsAppHealthOSVersionPerformance** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "tenantId",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **tenantId** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "totalAppCrashes",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **totalAppCrashes** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "totalAppHangs",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **totalAppHangs** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "appHangCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **appHangCount** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "totalAppUsageDuration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **totalAppUsageDuration** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "appUsageDuration",
+          "ChangeType": "Addition",
+          "Description": "Added the **appUsageDuration** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "meanTimeToFailure",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **meanTimeToFailure** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "meanTimeToFailureInMinutes",
+          "ChangeType": "Addition",
+          "Description": "Added the **meanTimeToFailureInMinutes** property to [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "memaTimeGenerated",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **memaTimeGenerated** property from [userExperienceAnalyticsAppHealthApplicationPerformance](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsAppHealthApplicationPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthAppPerformanceByOSVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthAppPerformanceByOSVersion](/graph/api/resources/intune-userExperienceAnalyticsAppHealthAppPerformanceByOSVersion?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthAppPerformanceByOSVersion"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDeviceModelPerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthDeviceModelPerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDeviceModelPerformance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthDeviceModelPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthDevicePerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDevicePerformance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthDevicePerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthDevicePerformanceDetails",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthDevicePerformanceDetails](/graph/api/resources/intune-userExperienceAnalyticsAppHealthDevicePerformanceDetails?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthDevicePerformanceDetails"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "rebootAnalyticsMetrics",
+          "ChangeType": "Addition",
+          "Description": "Added the **rebootAnalyticsMetrics** relationship to [userExperienceAnalyticsBaseline](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsBaseline"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userExperienceAnalyticsAppHealthOSVersionPerformance",
+          "ChangeType": "Addition",
+          "Description": "Added the [userExperienceAnalyticsAppHealthOSVersionPerformance](/graph/api/resources/intune-userExperienceAnalyticsAppHealthOSVersionPerformance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userExperienceAnalyticsAppHealthOSVersionPerformance"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "restartFaultBucket",
+          "ChangeType": "Addition",
+          "Description": "Added the **restartFaultBucket** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsDeviceStartupHistory"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "Property",
+          "ChangedApiName": "restartStopCode",
+          "ChangeType": "Addition",
+          "Description": "Added the **restartStopCode** property to [userExperienceAnalyticsDeviceStartupHistory](/?view=graph-rest-beta) resource",
+          "Target": "userExperienceAnalyticsDeviceStartupHistory"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200720",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200720** resource type *@\u0026*",
+          "Target": "edm_50200720"
+        },
+        {
+          "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200824",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200824](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200824"
+        }
+      ],
+      "Id": "e2d7e014-55d6-4a98-8ff6-3f36f67d0c19",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.1345352Z",
+      "CreatedDateTime": "2020-10-07T05:08:31.5053204Z",
       "WorkloadArea": "Microsoft.Intune.Devices",
       "SubArea": "Corporate management"
     }

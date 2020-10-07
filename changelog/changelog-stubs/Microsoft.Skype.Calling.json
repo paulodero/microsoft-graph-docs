@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "efaa0422-b4b8-47e1-a24e-c74d588cdbd8",
+          "Id": "81f1b158-2b33-454a-bb8c-0eb55025ebfc",
           "ApiChange": "EnumType",
           "ChangedApiName": "onlineMeetingPresenters",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "onlineMeetingPresenters"
         },
         {
-          "Id": "efaa0422-b4b8-47e1-a24e-c74d588cdbd8",
+          "Id": "81f1b158-2b33-454a-bb8c-0eb55025ebfc",
           "ApiChange": "EnumType",
           "ChangedApiName": "onlineMeetingRole",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "onlineMeetingRole"
         },
         {
-          "Id": "efaa0422-b4b8-47e1-a24e-c74d588cdbd8",
+          "Id": "81f1b158-2b33-454a-bb8c-0eb55025ebfc",
           "ApiChange": "Property",
           "ChangedApiName": "role",
           "ChangeType": "Addition",
@@ -27,7 +27,7 @@
           "Target": "meetingParticipantInfo"
         },
         {
-          "Id": "efaa0422-b4b8-47e1-a24e-c74d588cdbd8",
+          "Id": "81f1b158-2b33-454a-bb8c-0eb55025ebfc",
           "ApiChange": "Property",
           "ChangedApiName": "allowedPresenters",
           "ChangeType": "Addition",
@@ -35,10 +35,10 @@
           "Target": "onlineMeeting"
         }
       ],
-      "Id": "efaa0422-b4b8-47e1-a24e-c74d588cdbd8",
+      "Id": "81f1b158-2b33-454a-bb8c-0eb55025ebfc",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.1348115Z",
+      "CreatedDateTime": "2020-10-07T05:08:31.5067515Z",
       "WorkloadArea": "Microsoft.Skype.Calling",
       "SubArea": ""
     }

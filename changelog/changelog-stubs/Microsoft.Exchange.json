@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "0ebe01ed-150d-4300-ad2e-67e6cdf36b6c",
+          "Id": "671b681d-94a6-456d-ac7d-336decb6928f",
           "ApiChange": "Property",
           "ChangedApiName": "hexColor",
           "ChangeType": "Addition",
@@ -11,34 +11,26 @@
           "Target": "calendar"
         },
         {
-          "Id": "0ebe01ed-150d-4300-ad2e-67e6cdf36b6c",
-          "ApiChange": "Property",
-          "ChangedApiName": "isDraft",
-          "ChangeType": "Addition",
-          "Description": "Added the **isDraft** property to [event](/?view=graph-rest-1.0) resource",
-          "Target": "event"
-        },
-        {
-          "Id": "0ebe01ed-150d-4300-ad2e-67e6cdf36b6c",
-          "ApiChange": "Action",
-          "ChangedApiName": "cancel",
-          "ChangeType": "Addition",
-          "Description": "Added the [cancel](/graph/api/cancel-cancel?view=graph-rest-1.0) method to the [cancel](/graph/api/cancel-cancel?view=graph-rest-1.0) resource",
-          "Target": "cancel"
-        },
-        {
-          "Id": "0ebe01ed-150d-4300-ad2e-67e6cdf36b6c",
+          "Id": "671b681d-94a6-456d-ac7d-336decb6928f",
           "ApiChange": "Action",
           "ChangedApiName": "forward",
           "ChangeType": "Addition",
           "Description": "Added the [forward](/graph/api/forward-forward?view=graph-rest-1.0) method to the [forward](/graph/api/forward-forward?view=graph-rest-1.0) resource",
           "Target": "forward"
+        },
+        {
+          "Id": "671b681d-94a6-456d-ac7d-336decb6928f",
+          "ApiChange": "Property",
+          "ChangedApiName": "isDraft",
+          "ChangeType": "Addition",
+          "Description": "Added the **isDraft** property to [event](/?view=graph-rest-1.0) resource",
+          "Target": "event"
         }
       ],
-      "Id": "0ebe01ed-150d-4300-ad2e-67e6cdf36b6c",
+      "Id": "671b681d-94a6-456d-ac7d-336decb6928f",
       "Cloud": "Prod",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-06T16:10:09.1339917Z",
+      "CreatedDateTime": "2020-10-07T05:08:31.5029547Z",
       "WorkloadArea": "Microsoft.Exchange",
       "SubArea": ""
     }

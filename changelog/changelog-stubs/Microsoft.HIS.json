@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "2db59f97-4b71-441f-8796-c651cbd24ff7",
+          "Id": "32541861-c63f-47f7-ab3e-b4b8d2c3d2c2",
           "ApiChange": "Property",
           "ChangedApiName": "kerberosServicePrincipalName",
           "ChangeType": "Change",
@@ -11,15 +11,7 @@
           "Target": "kerberosSignOnSettings"
         },
         {
-          "Id": "2db59f97-4b71-441f-8796-c651cbd24ff7",
-          "ApiChange": "Property",
-          "ChangedApiName": "kerberosSignOnSettings",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **kerberosSignOnSettings** property in the [onPremisesPublishingSingleSignOn](/?view=graph-rest-beta) resource",
-          "Target": "onPremisesPublishingSingleSignOn"
-        },
-        {
-          "Id": "2db59f97-4b71-441f-8796-c651cbd24ff7",
+          "Id": "32541861-c63f-47f7-ab3e-b4b8d2c3d2c2",
           "ApiChange": "Property",
           "ChangedApiName": "kerberosSignOnMappingAttributeType",
           "ChangeType": "Change",
@@ -27,131 +19,7 @@
           "Target": "kerberosSignOnSettings"
         },
         {
-          "Id": "2db59f97-4b71-441f-8796-c651cbd24ff7",
-          "ApiChange": "EntitySet",
-          "ChangedApiName": "applications",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **applications** resource type *@\u0026*",
-          "Target": "applications"
-        },
-        {
-          "Id": "2db59f97-4b71-441f-8796-c651cbd24ff7",
-          "ApiChange": "EntitySet",
-          "ChangedApiName": "connectorGroups",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **connectorGroups** resource type *@\u0026*",
-          "Target": "connectorGroups"
-        },
-        {
-          "Id": "2db59f97-4b71-441f-8796-c651cbd24ff7",
-          "ApiChange": "EntitySet",
-          "ChangedApiName": "connectors",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **connectors** resource type *@\u0026*",
-          "Target": "connectors"
-        }
-      ],
-      "Id": "2db59f97-4b71-441f-8796-c651cbd24ff7",
-      "Cloud": "Fairfax",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.1340623Z",
-      "WorkloadArea": "Microsoft.HIS",
-      "SubArea": ""
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "fb515bd3-ce89-4d5d-a6c9-5ae0bcc1c386",
-          "ApiChange": "Property",
-          "ChangedApiName": "KerberosServicePrincipalName",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **KerberosServicePrincipalName** property in the [kerberosSignOnSettings](/?view=graph-rest-beta) resource",
-          "Target": "kerberosSignOnSettings"
-        },
-        {
-          "Id": "fb515bd3-ce89-4d5d-a6c9-5ae0bcc1c386",
-          "ApiChange": "Property",
-          "ChangedApiName": "KerberosSignOnSettings",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **KerberosSignOnSettings** property in the [onPremisesPublishingSingleSignOn](/?view=graph-rest-beta) resource",
-          "Target": "onPremisesPublishingSingleSignOn"
-        },
-        {
-          "Id": "fb515bd3-ce89-4d5d-a6c9-5ae0bcc1c386",
-          "ApiChange": "Property",
-          "ChangedApiName": "KerberosSignOnMappingAttributeType",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **KerberosSignOnMappingAttributeType** property in the [kerberosSignOnSettings](/?view=graph-rest-beta) resource",
-          "Target": "kerberosSignOnSettings"
-        },
-        {
-          "Id": "fb515bd3-ce89-4d5d-a6c9-5ae0bcc1c386",
-          "ApiChange": "Property",
-          "ChangedApiName": "SingleSignOnMode",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **SingleSignOnMode** property in the [onPremisesPublishingSingleSignOn](/?view=graph-rest-beta) resource",
-          "Target": "onPremisesPublishingSingleSignOn"
-        },
-        {
-          "Id": "fb515bd3-ce89-4d5d-a6c9-5ae0bcc1c386",
-          "ApiChange": "EntitySet",
-          "ChangedApiName": "applications",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **applications** resource type *@\u0026*",
-          "Target": "applications"
-        },
-        {
-          "Id": "fb515bd3-ce89-4d5d-a6c9-5ae0bcc1c386",
-          "ApiChange": "EntitySet",
-          "ChangedApiName": "connectorGroups",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **connectorGroups** resource type *@\u0026*",
-          "Target": "connectorGroups"
-        },
-        {
-          "Id": "fb515bd3-ce89-4d5d-a6c9-5ae0bcc1c386",
-          "ApiChange": "EntitySet",
-          "ChangedApiName": "connectors",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **connectors** resource type *@\u0026*",
-          "Target": "connectors"
-        }
-      ],
-      "Id": "fb515bd3-ce89-4d5d-a6c9-5ae0bcc1c386",
-      "Cloud": "PPE",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.134078Z",
-      "WorkloadArea": "Microsoft.HIS",
-      "SubArea": ""
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "f817e93f-9ca0-40df-a4a8-6d5a8c70a290",
-          "ApiChange": "Property",
-          "ChangedApiName": "kerberosServicePrincipalName",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **kerberosServicePrincipalName** property in the [kerberosSignOnSettings](/?view=graph-rest-beta) resource",
-          "Target": "kerberosSignOnSettings"
-        },
-        {
-          "Id": "f817e93f-9ca0-40df-a4a8-6d5a8c70a290",
-          "ApiChange": "Property",
-          "ChangedApiName": "kerberosSignOnMappingAttributeType",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **kerberosSignOnMappingAttributeType** property in the [kerberosSignOnSettings](/?view=graph-rest-beta) resource",
-          "Target": "kerberosSignOnSettings"
-        },
-        {
-          "Id": "f817e93f-9ca0-40df-a4a8-6d5a8c70a290",
-          "ApiChange": "Property",
-          "ChangedApiName": "kerberosSignOnSettings",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **kerberosSignOnSettings** property in the [onPremisesPublishingSingleSignOn](/?view=graph-rest-beta) resource",
-          "Target": "onPremisesPublishingSingleSignOn"
-        },
-        {
-          "Id": "f817e93f-9ca0-40df-a4a8-6d5a8c70a290",
+          "Id": "32541861-c63f-47f7-ab3e-b4b8d2c3d2c2",
           "ApiChange": "Property",
           "ChangedApiName": "singleSignOnMode",
           "ChangeType": "Change",
@@ -159,15 +27,7 @@
           "Target": "onPremisesPublishingSingleSignOn"
         },
         {
-          "Id": "f817e93f-9ca0-40df-a4a8-6d5a8c70a290",
-          "ApiChange": "EntitySet",
-          "ChangedApiName": "applications",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **applications** resource type *@\u0026*",
-          "Target": "applications"
-        },
-        {
-          "Id": "f817e93f-9ca0-40df-a4a8-6d5a8c70a290",
+          "Id": "32541861-c63f-47f7-ab3e-b4b8d2c3d2c2",
           "ApiChange": "EntitySet",
           "ChangedApiName": "connectorGroups",
           "ChangeType": "Deletion",
@@ -175,7 +35,23 @@
           "Target": "connectorGroups"
         },
         {
-          "Id": "f817e93f-9ca0-40df-a4a8-6d5a8c70a290",
+          "Id": "32541861-c63f-47f7-ab3e-b4b8d2c3d2c2",
+          "ApiChange": "Property",
+          "ChangedApiName": "kerberosSignOnSettings",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **kerberosSignOnSettings** property in the [onPremisesPublishingSingleSignOn](/?view=graph-rest-beta) resource",
+          "Target": "onPremisesPublishingSingleSignOn"
+        },
+        {
+          "Id": "32541861-c63f-47f7-ab3e-b4b8d2c3d2c2",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "applications",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **applications** resource type *@\u0026*",
+          "Target": "applications"
+        },
+        {
+          "Id": "32541861-c63f-47f7-ab3e-b4b8d2c3d2c2",
           "ApiChange": "EntitySet",
           "ChangedApiName": "connectors",
           "ChangeType": "Deletion",
@@ -183,10 +59,126 @@
           "Target": "connectors"
         }
       ],
-      "Id": "f817e93f-9ca0-40df-a4a8-6d5a8c70a290",
+      "Id": "32541861-c63f-47f7-ab3e-b4b8d2c3d2c2",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-07T05:08:31.5031526Z",
+      "WorkloadArea": "Microsoft.HIS",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "584bb8a6-2f1a-4bc3-afb9-96072c0fb753",
+          "ApiChange": "Property",
+          "ChangedApiName": "KerberosServicePrincipalName",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **KerberosServicePrincipalName** property in the [kerberosSignOnSettings](/?view=graph-rest-beta) resource",
+          "Target": "kerberosSignOnSettings"
+        },
+        {
+          "Id": "584bb8a6-2f1a-4bc3-afb9-96072c0fb753",
+          "ApiChange": "Property",
+          "ChangedApiName": "KerberosSignOnSettings",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **KerberosSignOnSettings** property in the [onPremisesPublishingSingleSignOn](/?view=graph-rest-beta) resource",
+          "Target": "onPremisesPublishingSingleSignOn"
+        },
+        {
+          "Id": "584bb8a6-2f1a-4bc3-afb9-96072c0fb753",
+          "ApiChange": "Property",
+          "ChangedApiName": "KerberosSignOnMappingAttributeType",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **KerberosSignOnMappingAttributeType** property in the [kerberosSignOnSettings](/?view=graph-rest-beta) resource",
+          "Target": "kerberosSignOnSettings"
+        },
+        {
+          "Id": "584bb8a6-2f1a-4bc3-afb9-96072c0fb753",
+          "ApiChange": "Property",
+          "ChangedApiName": "SingleSignOnMode",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **SingleSignOnMode** property in the [onPremisesPublishingSingleSignOn](/?view=graph-rest-beta) resource",
+          "Target": "onPremisesPublishingSingleSignOn"
+        },
+        {
+          "Id": "584bb8a6-2f1a-4bc3-afb9-96072c0fb753",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "applications",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **applications** resource type *@\u0026*",
+          "Target": "applications"
+        },
+        {
+          "Id": "584bb8a6-2f1a-4bc3-afb9-96072c0fb753",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "connectors",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **connectors** resource type *@\u0026*",
+          "Target": "connectors"
+        }
+      ],
+      "Id": "584bb8a6-2f1a-4bc3-afb9-96072c0fb753",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-07T05:08:31.5032179Z",
+      "WorkloadArea": "Microsoft.HIS",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "d8bcf193-6bba-4c31-a8d9-a5ca98191d84",
+          "ApiChange": "Property",
+          "ChangedApiName": "kerberosServicePrincipalName",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **kerberosServicePrincipalName** property in the [kerberosSignOnSettings](/?view=graph-rest-beta) resource",
+          "Target": "kerberosSignOnSettings"
+        },
+        {
+          "Id": "d8bcf193-6bba-4c31-a8d9-a5ca98191d84",
+          "ApiChange": "Property",
+          "ChangedApiName": "kerberosSignOnSettings",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **kerberosSignOnSettings** property in the [onPremisesPublishingSingleSignOn](/?view=graph-rest-beta) resource",
+          "Target": "onPremisesPublishingSingleSignOn"
+        },
+        {
+          "Id": "d8bcf193-6bba-4c31-a8d9-a5ca98191d84",
+          "ApiChange": "Property",
+          "ChangedApiName": "singleSignOnMode",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **singleSignOnMode** property in the [onPremisesPublishingSingleSignOn](/?view=graph-rest-beta) resource",
+          "Target": "onPremisesPublishingSingleSignOn"
+        },
+        {
+          "Id": "d8bcf193-6bba-4c31-a8d9-a5ca98191d84",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "applications",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **applications** resource type *@\u0026*",
+          "Target": "applications"
+        },
+        {
+          "Id": "d8bcf193-6bba-4c31-a8d9-a5ca98191d84",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "connectorGroups",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **connectorGroups** resource type *@\u0026*",
+          "Target": "connectorGroups"
+        },
+        {
+          "Id": "d8bcf193-6bba-4c31-a8d9-a5ca98191d84",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "connectors",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **connectors** resource type *@\u0026*",
+          "Target": "connectors"
+        }
+      ],
+      "Id": "d8bcf193-6bba-4c31-a8d9-a5ca98191d84",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.1340941Z",
+      "CreatedDateTime": "2020-10-07T05:08:31.5032866Z",
       "WorkloadArea": "Microsoft.HIS",
       "SubArea": ""
     }

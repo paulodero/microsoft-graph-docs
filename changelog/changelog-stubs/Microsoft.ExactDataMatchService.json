@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "a58e4f52-e3a6-4da9-83f2-b51fde3f6040",
+          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
           "ApiChange": "Property",
           "ChangedApiName": "matches",
           "ChangeType": "Deletion",
@@ -11,7 +11,7 @@
           "Target": "detectedSensitiveContentBase"
         },
         {
-          "Id": "a58e4f52-e3a6-4da9-83f2-b51fde3f6040",
+          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
           "ApiChange": "Property",
           "ChangedApiName": "matches",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "exactMatchDetectedSensitiveContent"
         },
         {
-          "Id": "a58e4f52-e3a6-4da9-83f2-b51fde3f6040",
+          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
           "ApiChange": "ComplexType",
           "ChangedApiName": "exactDataMatchStoreColumn",
           "ChangeType": "Addition",
@@ -27,15 +27,7 @@
           "Target": "exactDataMatchStoreColumn"
         },
         {
-          "Id": "a58e4f52-e3a6-4da9-83f2-b51fde3f6040",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "exactMatchSensitiveContentLocation",
-          "ChangeType": "Addition",
-          "Description": "Added the [exactMatchSensitiveContentLocation](/graph/api/resources/exactMatchSensitiveContentLocation?view=graph-rest-beta) resource type",
-          "Target": "exactMatchSensitiveContentLocation"
-        },
-        {
-          "Id": "a58e4f52-e3a6-4da9-83f2-b51fde3f6040",
+          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
           "ApiChange": "ComplexType",
           "ChangedApiName": "sensitiveContentLocation",
           "ChangeType": "Deletion",
@@ -43,15 +35,7 @@
           "Target": "sensitiveContentLocation"
         },
         {
-          "Id": "a58e4f52-e3a6-4da9-83f2-b51fde3f6040",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "sensitiveContentLocationBase",
-          "ChangeType": "Addition",
-          "Description": "Added the [sensitiveContentLocationBase](/graph/api/resources/sensitiveContentLocationBase?view=graph-rest-beta) resource type",
-          "Target": "sensitiveContentLocationBase"
-        },
-        {
-          "Id": "a58e4f52-e3a6-4da9-83f2-b51fde3f6040",
+          "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
           "ApiChange": "Property",
           "ChangedApiName": "columns",
           "ChangeType": "Addition",
@@ -59,10 +43,10 @@
           "Target": "exactMatchDataStore"
         }
       ],
-      "Id": "a58e4f52-e3a6-4da9-83f2-b51fde3f6040",
+      "Id": "ba4dd919-367e-4a80-b3ee-adb6cb6e5ec9",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-06T16:10:09.1339755Z",
+      "CreatedDateTime": "2020-10-07T05:08:31.5028875Z",
       "WorkloadArea": "Microsoft.ExactDataMatchService",
       "SubArea": "Information protection"
     }
