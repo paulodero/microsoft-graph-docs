@@ -1,0 +1,178 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "b861c3bb-f36f-4798-8be3-1e3c83432bcc",
+          "ApiChange": "Property",
+          "ChangedApiName": "customCanSeePrivacyMessage",
+          "ChangeType": "Addition",
+          "Description": "Added the **customCanSeePrivacyMessage** property to [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "b861c3bb-f36f-4798-8be3-1e3c83432bcc",
+          "ApiChange": "Property",
+          "ChangedApiName": "customCantSeePrivacyMessage",
+          "ChangeType": "Addition",
+          "Description": "Added the **customCantSeePrivacyMessage** property to [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "b861c3bb-f36f-4798-8be3-1e3c83432bcc",
+          "ApiChange": "Property",
+          "ChangedApiName": "customPrivacyMessage",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **customPrivacyMessage** property in the [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "b861c3bb-f36f-4798-8be3-1e3c83432bcc",
+          "ApiChange": "Property",
+          "ChangedApiName": "disableClientTelemetry",
+          "ChangeType": "Addition",
+          "Description": "Added the **disableClientTelemetry** property to [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "b861c3bb-f36f-4798-8be3-1e3c83432bcc",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200123",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200123** resource type *@\u0026*",
+          "Target": "edm_50200123"
+        },
+        {
+          "Id": "b861c3bb-f36f-4798-8be3-1e3c83432bcc",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200810",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200810](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200810"
+        }
+      ],
+      "Id": "b861c3bb-f36f-4798-8be3-1e3c83432bcc",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581127Z",
+      "WorkloadArea": "Microsoft.Intune.Wip",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "69d0e791-dd44-450b-935e-16aee1ee1438",
+          "ApiChange": "Property",
+          "ChangedApiName": "customCanSeePrivacyMessage",
+          "ChangeType": "Addition",
+          "Description": "Added the **customCanSeePrivacyMessage** property to [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "69d0e791-dd44-450b-935e-16aee1ee1438",
+          "ApiChange": "Property",
+          "ChangedApiName": "customCantSeePrivacyMessage",
+          "ChangeType": "Addition",
+          "Description": "Added the **customCantSeePrivacyMessage** property to [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "69d0e791-dd44-450b-935e-16aee1ee1438",
+          "ApiChange": "Property",
+          "ChangedApiName": "customPrivacyMessage",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **customPrivacyMessage** property in the [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "69d0e791-dd44-450b-935e-16aee1ee1438",
+          "ApiChange": "Property",
+          "ChangedApiName": "disableClientTelemetry",
+          "ChangeType": "Addition",
+          "Description": "Added the **disableClientTelemetry** property to [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "69d0e791-dd44-450b-935e-16aee1ee1438",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200123",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200123** resource type *@\u0026*",
+          "Target": "edm_50200123"
+        },
+        {
+          "Id": "69d0e791-dd44-450b-935e-16aee1ee1438",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200810",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200810](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200810"
+        }
+      ],
+      "Id": "69d0e791-dd44-450b-935e-16aee1ee1438",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581142Z",
+      "WorkloadArea": "Microsoft.Intune.Wip",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "84bfa3b8-efba-474a-aaed-4c35039d4644",
+          "ApiChange": "Property",
+          "ChangedApiName": "customCanSeePrivacyMessage",
+          "ChangeType": "Addition",
+          "Description": "Added the **customCanSeePrivacyMessage** property to [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "84bfa3b8-efba-474a-aaed-4c35039d4644",
+          "ApiChange": "Property",
+          "ChangedApiName": "customCantSeePrivacyMessage",
+          "ChangeType": "Addition",
+          "Description": "Added the **customCantSeePrivacyMessage** property to [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "84bfa3b8-efba-474a-aaed-4c35039d4644",
+          "ApiChange": "Property",
+          "ChangedApiName": "customPrivacyMessage",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **customPrivacyMessage** property in the [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "84bfa3b8-efba-474a-aaed-4c35039d4644",
+          "ApiChange": "Property",
+          "ChangedApiName": "disableClientTelemetry",
+          "ChangeType": "Addition",
+          "Description": "Added the **disableClientTelemetry** property to [intuneBrandingProfile](/?view=graph-rest-beta) resource",
+          "Target": "intuneBrandingProfile"
+        },
+        {
+          "Id": "84bfa3b8-efba-474a-aaed-4c35039d4644",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200123",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200123** resource type *@\u0026*",
+          "Target": "edm_50200123"
+        },
+        {
+          "Id": "84bfa3b8-efba-474a-aaed-4c35039d4644",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200810",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200810](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200810"
+        }
+      ],
+      "Id": "84bfa3b8-efba-474a-aaed-4c35039d4644",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581154Z",
+      "WorkloadArea": "Microsoft.Intune.Wip",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "36cb96d0-8d92-41ae-95e0-062968b4bdc4",
+          "ApiChange": "Property",
+          "ChangedApiName": "infoCatalogs",
+          "ChangeType": "Addition",
+          "Description": "Added the **infoCatalogs** property to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "36cb96d0-8d92-41ae-95e0-062968b4bdc4",
+      "Cloud": "Blackforest",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0577706Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e04d0e0c-efbe-4ba8-b9ac-4cff9be0de73",
+          "ApiChange": "Property",
+          "ChangedApiName": "infoCatalogs",
+          "ChangeType": "Addition",
+          "Description": "Added the **infoCatalogs** property to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "e04d0e0c-efbe-4ba8-b9ac-4cff9be0de73",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0578169Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "17011c3a-807a-4696-b03e-d01278a5c932",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdByAppId",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdByAppId** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "17011c3a-807a-4696-b03e-d01278a5c932",
+          "ApiChange": "Property",
+          "ChangedApiName": "expirationDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **expirationDateTime** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "17011c3a-807a-4696-b03e-d01278a5c932",
+          "ApiChange": "Property",
+          "ChangedApiName": "infoCatalogs",
+          "ChangeType": "Addition",
+          "Description": "Added the **infoCatalogs** property to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "17011c3a-807a-4696-b03e-d01278a5c932",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0578523Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "889b52e7-a095-4470-b241-34b63c5a527c",
+          "ApiChange": "Property",
+          "ChangedApiName": "infoCatalogs",
+          "ChangeType": "Addition",
+          "Description": "Added the **infoCatalogs** property to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "889b52e7-a095-4470-b241-34b63c5a527c",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0578829Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "assignedLabel",
+          "ChangeType": "Addition",
+          "Description": "Added the [assignedLabel]() resource type",
+          "Target": "assignedLabel"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "assignedLabels",
+          "ChangeType": "Addition",
+          "Description": "Added the **assignedLabels** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "classification",
+          "ChangeType": "Addition",
+          "Description": "Added the **classification** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdDateTime** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Addition",
+          "Description": "Added the **displayName** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "expirationDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **expirationDateTime** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "membershipRule",
+          "ChangeType": "Addition",
+          "Description": "Added the **membershipRule** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "membershipRuleProcessingState",
+          "ChangeType": "Addition",
+          "Description": "Added the **membershipRuleProcessingState** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesDomainName",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesDomainName** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesNetBiosName",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesNetBiosName** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesProvisioningErrors",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesProvisioningErrors** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesSamAccountName",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesSamAccountName** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "preferredDataLocation",
+          "ChangeType": "Addition",
+          "Description": "Added the **preferredDataLocation** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "preferredLanguage",
+          "ChangeType": "Addition",
+          "Description": "Added the **preferredLanguage** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "renewedDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **renewedDateTime** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "securityIdentifier",
+          "ChangeType": "Addition",
+          "Description": "Added the **securityIdentifier** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "Property",
+          "ChangedApiName": "theme",
+          "ChangeType": "Addition",
+          "Description": "Added the **theme** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "settings",
+          "ChangeType": "Addition",
+          "Description": "Added the **settings** relationship to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "f451152e-79da-4577-bba8-7ae054803e3c",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.057893Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "446809ff-8d4e-4a22-b4ea-a3f0ab3acc00",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdByAppId",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdByAppId** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "446809ff-8d4e-4a22-b4ea-a3f0ab3acc00",
+          "ApiChange": "Property",
+          "ChangedApiName": "expirationDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **expirationDateTime** property to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "446809ff-8d4e-4a22-b4ea-a3f0ab3acc00",
+      "Cloud": "USNat",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579202Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "51323138-3bd1-4849-a97f-a3805b092be4",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "assignedLabel",
+          "ChangeType": "Addition",
+          "Description": "Added the [assignedLabel]() resource type",
+          "Target": "assignedLabel"
+        },
+        {
+          "Id": "51323138-3bd1-4849-a97f-a3805b092be4",
+          "ApiChange": "Property",
+          "ChangedApiName": "assignedLabels",
+          "ChangeType": "Addition",
+          "Description": "Added the **assignedLabels** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "51323138-3bd1-4849-a97f-a3805b092be4",
+          "ApiChange": "Property",
+          "ChangedApiName": "expirationDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **expirationDateTime** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "51323138-3bd1-4849-a97f-a3805b092be4",
+          "ApiChange": "Property",
+          "ChangedApiName": "membershipRule",
+          "ChangeType": "Addition",
+          "Description": "Added the **membershipRule** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "51323138-3bd1-4849-a97f-a3805b092be4",
+          "ApiChange": "Property",
+          "ChangedApiName": "membershipRuleProcessingState",
+          "ChangeType": "Addition",
+          "Description": "Added the **membershipRuleProcessingState** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "51323138-3bd1-4849-a97f-a3805b092be4",
+          "ApiChange": "Property",
+          "ChangedApiName": "preferredLanguage",
+          "ChangeType": "Addition",
+          "Description": "Added the **preferredLanguage** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "51323138-3bd1-4849-a97f-a3805b092be4",
+          "ApiChange": "Property",
+          "ChangedApiName": "theme",
+          "ChangeType": "Addition",
+          "Description": "Added the **theme** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "51323138-3bd1-4849-a97f-a3805b092be4",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "appRoleAssignments",
+          "ChangeType": "Addition",
+          "Description": "Added the **appRoleAssignments** relationship to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "51323138-3bd1-4849-a97f-a3805b092be4",
+      "Cloud": "USNat",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579266Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "90eebb68-a8f0-4986-8fae-6c3c78f51aef",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdByAppId",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdByAppId** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "90eebb68-a8f0-4986-8fae-6c3c78f51aef",
+          "ApiChange": "Property",
+          "ChangedApiName": "expirationDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **expirationDateTime** property to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "90eebb68-a8f0-4986-8fae-6c3c78f51aef",
+      "Cloud": "USSec",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579353Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "8d28a4fc-81ad-461a-b896-71b59b71465a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "assignedLabel",
+          "ChangeType": "Addition",
+          "Description": "Added the [assignedLabel]() resource type",
+          "Target": "assignedLabel"
+        },
+        {
+          "Id": "8d28a4fc-81ad-461a-b896-71b59b71465a",
+          "ApiChange": "Property",
+          "ChangedApiName": "assignedLabels",
+          "ChangeType": "Addition",
+          "Description": "Added the **assignedLabels** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "8d28a4fc-81ad-461a-b896-71b59b71465a",
+          "ApiChange": "Property",
+          "ChangedApiName": "expirationDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **expirationDateTime** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "8d28a4fc-81ad-461a-b896-71b59b71465a",
+          "ApiChange": "Property",
+          "ChangedApiName": "membershipRule",
+          "ChangeType": "Addition",
+          "Description": "Added the **membershipRule** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "8d28a4fc-81ad-461a-b896-71b59b71465a",
+          "ApiChange": "Property",
+          "ChangedApiName": "membershipRuleProcessingState",
+          "ChangeType": "Addition",
+          "Description": "Added the **membershipRuleProcessingState** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "8d28a4fc-81ad-461a-b896-71b59b71465a",
+          "ApiChange": "Property",
+          "ChangedApiName": "preferredLanguage",
+          "ChangeType": "Addition",
+          "Description": "Added the **preferredLanguage** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "8d28a4fc-81ad-461a-b896-71b59b71465a",
+          "ApiChange": "Property",
+          "ChangedApiName": "theme",
+          "ChangeType": "Addition",
+          "Description": "Added the **theme** property to [group]() resource",
+          "Target": "group"
+        },
+        {
+          "Id": "8d28a4fc-81ad-461a-b896-71b59b71465a",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "appRoleAssignments",
+          "ChangeType": "Addition",
+          "Description": "Added the **appRoleAssignments** relationship to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "8d28a4fc-81ad-461a-b896-71b59b71465a",
+      "Cloud": "USSec",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579361Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "1235fe9d-0a1a-41bb-95c8-25e61f53e396",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "group",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **group** resource type",
+          "Target": "group"
+        }
+      ],
+      "Id": "1235fe9d-0a1a-41bb-95c8-25e61f53e396",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581292Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    }
+  ]
+}

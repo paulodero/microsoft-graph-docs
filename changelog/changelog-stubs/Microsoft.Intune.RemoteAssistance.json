@@ -1,0 +1,106 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "38cb121b-3d7a-4930-95ac-26ef4ea8408a",
+          "ApiChange": "Property",
+          "ChangedApiName": "onboardingRequestExpiryDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **onboardingRequestExpiryDateTime** property to [remoteAssistancePartner](/?view=graph-rest-beta) resource",
+          "Target": "remoteAssistancePartner"
+        },
+        {
+          "Id": "38cb121b-3d7a-4930-95ac-26ef4ea8408a",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50170829",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50170829** resource type *@\u0026*",
+          "Target": "edm_50170829"
+        },
+        {
+          "Id": "38cb121b-3d7a-4930-95ac-26ef4ea8408a",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200716",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200716](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200716"
+        }
+      ],
+      "Id": "38cb121b-3d7a-4930-95ac-26ef4ea8408a",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581097Z",
+      "WorkloadArea": "Microsoft.Intune.RemoteAssistance",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "f0adda6a-8c5a-4420-a7c0-e07c3aa62593",
+          "ApiChange": "Property",
+          "ChangedApiName": "onboardingRequestExpiryDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **onboardingRequestExpiryDateTime** property to [remoteAssistancePartner](/?view=graph-rest-beta) resource",
+          "Target": "remoteAssistancePartner"
+        },
+        {
+          "Id": "f0adda6a-8c5a-4420-a7c0-e07c3aa62593",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50170829",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50170829** resource type *@\u0026*",
+          "Target": "edm_50170829"
+        },
+        {
+          "Id": "f0adda6a-8c5a-4420-a7c0-e07c3aa62593",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200716",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200716](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200716"
+        }
+      ],
+      "Id": "f0adda6a-8c5a-4420-a7c0-e07c3aa62593",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581109Z",
+      "WorkloadArea": "Microsoft.Intune.RemoteAssistance",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "1e53e61e-491c-4f61-b1c8-5a6aecf37107",
+          "ApiChange": "Property",
+          "ChangedApiName": "onboardingRequestExpiryDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **onboardingRequestExpiryDateTime** property to [remoteAssistancePartner](/?view=graph-rest-beta) resource",
+          "Target": "remoteAssistancePartner"
+        },
+        {
+          "Id": "1e53e61e-491c-4f61-b1c8-5a6aecf37107",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50170829",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50170829** resource type *@\u0026*",
+          "Target": "edm_50170829"
+        },
+        {
+          "Id": "1e53e61e-491c-4f61-b1c8-5a6aecf37107",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200716",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200716](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200716"
+        }
+      ],
+      "Id": "1e53e61e-491c-4f61-b1c8-5a6aecf37107",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581117Z",
+      "WorkloadArea": "Microsoft.Intune.RemoteAssistance",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

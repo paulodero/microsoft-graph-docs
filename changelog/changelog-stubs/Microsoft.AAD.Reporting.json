@@ -1,0 +1,72 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "9c121f03-58b9-4a98-9af8-956633dac0a0",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identity",
+          "ChangeType": "Addition",
+          "Description": "Added the [identity](/graph/api/resources/identity?view=graph-rest-beta) resource type",
+          "Target": "identity"
+        },
+        {
+          "Id": "9c121f03-58b9-4a98-9af8-956633dac0a0",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **displayName** property from [userIdentity](/?view=graph-rest-beta) resource",
+          "Target": "userIdentity"
+        },
+        {
+          "Id": "9c121f03-58b9-4a98-9af8-956633dac0a0",
+          "ApiChange": "Property",
+          "ChangedApiName": "id",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **id** property from [userIdentity](/?view=graph-rest-beta) resource",
+          "Target": "userIdentity"
+        }
+      ],
+      "Id": "9c121f03-58b9-4a98-9af8-956633dac0a0",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:07.2037385Z",
+      "WorkloadArea": "Microsoft.AAD.Reporting",
+      "SubArea": "Identity and access reports"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e3cdc332-de90-45fd-b450-f130f8957127",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identity",
+          "ChangeType": "Addition",
+          "Description": "Added the [identity](/graph/api/resources/identity?view=graph-rest-beta) resource type",
+          "Target": "identity"
+        },
+        {
+          "Id": "e3cdc332-de90-45fd-b450-f130f8957127",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **displayName** property from [userIdentity](/?view=graph-rest-beta) resource",
+          "Target": "userIdentity"
+        },
+        {
+          "Id": "e3cdc332-de90-45fd-b450-f130f8957127",
+          "ApiChange": "Property",
+          "ChangedApiName": "id",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **id** property from [userIdentity](/?view=graph-rest-beta) resource",
+          "Target": "userIdentity"
+        }
+      ],
+      "Id": "e3cdc332-de90-45fd-b450-f130f8957127",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:12.0633061Z",
+      "WorkloadArea": "Microsoft.AAD.Reporting",
+      "SubArea": "Identity and access reports"
+    }
+  ]
+}

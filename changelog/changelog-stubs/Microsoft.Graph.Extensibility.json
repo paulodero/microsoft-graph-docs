@@ -1,0 +1,22 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "6ad4a141-3b88-4c6a-ac86-429283aa5cdd",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "administrativeUnit",
+          "ChangeType": "Addition",
+          "Description": "Added the [administrativeUnit](/graph/api/resources/administrativeUnit?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "administrativeUnit"
+        }
+      ],
+      "Id": "6ad4a141-3b88-4c6a-ac86-429283aa5cdd",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579614Z",
+      "WorkloadArea": "Microsoft.Graph.Extensibility",
+      "SubArea": "Open extensions"
+    }
+  ]
+}

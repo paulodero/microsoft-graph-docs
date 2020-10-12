@@ -1,0 +1,1008 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "50a68627-375d-4686-adb8-faf17631a25c",
+          "ApiChange": "Property",
+          "ChangedApiName": "spa",
+          "ChangeType": "Addition",
+          "Description": "Added the **spa** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "50a68627-375d-4686-adb8-faf17631a25c",
+          "ApiChange": "Property",
+          "ChangedApiName": "uniqueName",
+          "ChangeType": "Addition",
+          "Description": "Added the **uniqueName** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "50a68627-375d-4686-adb8-faf17631a25c",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "claimsMappingPolicies",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **claimsMappingPolicies** relationship from [application]() resource",
+          "Target": "application"
+        }
+      ],
+      "Id": "50a68627-375d-4686-adb8-faf17631a25c",
+      "Cloud": "Blackforest",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0577646Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "Property",
+          "ChangedApiName": "appDescription",
+          "ChangeType": "Addition",
+          "Description": "Added the **appDescription** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "Property",
+          "ChangedApiName": "hasPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **hasPermissionClassifications** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "claimsMappingPolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **claimsMappingPolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "delegatedPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **delegatedPermissionClassifications** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "homeRealmDiscoveryPolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **homeRealmDiscoveryPolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenIssuancePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenIssuancePolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenLifetimePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenLifetimePolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "9a601e05-a929-4660-8cb8-df0b4684a05b",
+      "Cloud": "Blackforest",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0577903Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "b6c67ad4-d1a0-4ae0-aedc-9d2fee08f26a",
+          "ApiChange": "Property",
+          "ChangedApiName": "spa",
+          "ChangeType": "Addition",
+          "Description": "Added the **spa** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b6c67ad4-d1a0-4ae0-aedc-9d2fee08f26a",
+          "ApiChange": "Property",
+          "ChangedApiName": "uniqueName",
+          "ChangeType": "Addition",
+          "Description": "Added the **uniqueName** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b6c67ad4-d1a0-4ae0-aedc-9d2fee08f26a",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "claimsMappingPolicies",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **claimsMappingPolicies** relationship from [application]() resource",
+          "Target": "application"
+        }
+      ],
+      "Id": "b6c67ad4-d1a0-4ae0-aedc-9d2fee08f26a",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0578106Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "Property",
+          "ChangedApiName": "appDescription",
+          "ChangeType": "Addition",
+          "Description": "Added the **appDescription** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "Property",
+          "ChangedApiName": "hasPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **hasPermissionClassifications** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "claimsMappingPolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **claimsMappingPolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "delegatedPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **delegatedPermissionClassifications** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "homeRealmDiscoveryPolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **homeRealmDiscoveryPolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenIssuancePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenIssuancePolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenLifetimePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenLifetimePolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "7193fc28-0cd0-45e9-944c-5af89c56bf89",
+      "Cloud": "Fairfax",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0578336Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "126e5367-1c1d-4992-a411-2b713b609c32",
+          "ApiChange": "Property",
+          "ChangedApiName": "spa",
+          "ChangeType": "Addition",
+          "Description": "Added the **spa** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "126e5367-1c1d-4992-a411-2b713b609c32",
+          "ApiChange": "Property",
+          "ChangedApiName": "uniqueName",
+          "ChangeType": "Addition",
+          "Description": "Added the **uniqueName** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "126e5367-1c1d-4992-a411-2b713b609c32",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "claimsMappingPolicies",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **claimsMappingPolicies** relationship from [application]() resource",
+          "Target": "application"
+        }
+      ],
+      "Id": "126e5367-1c1d-4992-a411-2b713b609c32",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0578479Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "homeRealmDiscoveryPolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **homeRealmDiscoveryPolicies** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "Property",
+          "ChangedApiName": "appDescription",
+          "ChangeType": "Addition",
+          "Description": "Added the **appDescription** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "Property",
+          "ChangedApiName": "hasPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **hasPermissionClassifications** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "claimsMappingPolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **claimsMappingPolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "delegatedPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **delegatedPermissionClassifications** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "homeRealmDiscoveryPolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **homeRealmDiscoveryPolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenIssuancePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenIssuancePolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenLifetimePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenLifetimePolicies** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "97661286-0b1f-4d21-82d5-d1016dc7a260",
+      "Cloud": "Mooncake",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.057876Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "expectsForwardableAccessTokens",
+          "ChangeType": "Addition",
+          "Description": "Added the **expectsForwardableAccessTokens** property to [apiApplication]() resource",
+          "Target": "apiApplication"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "resourceSpecificApplicationPermissions",
+          "ChangeType": "Addition",
+          "Description": "Added the **resourceSpecificApplicationPermissions** property to [apiApplication]() resource",
+          "Target": "apiApplication"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "appRoleIds",
+          "ChangeType": "Addition",
+          "Description": "Added the **appRoleIds** property to [preAuthorizedApplication]() resource",
+          "Target": "preAuthorizedApplication"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "permissionIds",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **permissionIds** property from [preAuthorizedApplication]() resource",
+          "Target": "preAuthorizedApplication"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "expectsForwardableIdTokens",
+          "ChangeType": "Addition",
+          "Description": "Added the **expectsForwardableIdTokens** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "legacyAllowPassthroughUsers",
+          "ChangeType": "Addition",
+          "Description": "Added the **legacyAllowPassthroughUsers** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "microsoftPolicyGroup",
+          "ChangeType": "Addition",
+          "Description": "Added the **microsoftPolicyGroup** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "oauth2RequirePostResponse",
+          "ChangeType": "Addition",
+          "Description": "Added the **oauth2RequirePostResponse** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "servicePrincipalLifecyclePolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the **servicePrincipalLifecyclePolicy** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "spa",
+          "ChangeType": "Addition",
+          "Description": "Added the **spa** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "trustedSubjectNameAndIssuers",
+          "ChangeType": "Addition",
+          "Description": "Added the **trustedSubjectNameAndIssuers** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "uniqueName",
+          "ChangeType": "Addition",
+          "Description": "Added the **uniqueName** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdDateTime** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "b3c802f8-cc94-453b-8d4c-e10629b26941",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0578783Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "claimsMappingPolicies",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **claimsMappingPolicies** relationship from [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "appDescription",
+          "ChangeType": "Addition",
+          "Description": "Added the **appDescription** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "applicationTemplateId",
+          "ChangeType": "Addition",
+          "Description": "Added the **applicationTemplateId** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "hasPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **hasPermissionClassifications** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "loginUrl",
+          "ChangeType": "Addition",
+          "Description": "Added the **loginUrl** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "notificationEmailAddresses",
+          "ChangeType": "Addition",
+          "Description": "Added the **notificationEmailAddresses** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "preferredSingleSignOnMode",
+          "ChangeType": "Addition",
+          "Description": "Added the **preferredSingleSignOnMode** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "preferredTokenSigningKeyThumbprint",
+          "ChangeType": "Addition",
+          "Description": "Added the **preferredTokenSigningKeyThumbprint** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "samlSingleSignOnSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the **samlSingleSignOnSettings** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "Property",
+          "ChangedApiName": "signInAudience",
+          "ChangeType": "Addition",
+          "Description": "Added the **signInAudience** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "delegatedPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **delegatedPermissionClassifications** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "8c8d09f4-5952-4ced-89f0-182e474f03fb",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0578986Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "7d15c362-9d99-4d0b-89e0-2d43bf854206",
+          "ApiChange": "Property",
+          "ChangedApiName": "spa",
+          "ChangeType": "Addition",
+          "Description": "Added the **spa** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "7d15c362-9d99-4d0b-89e0-2d43bf854206",
+          "ApiChange": "Property",
+          "ChangedApiName": "uniqueName",
+          "ChangeType": "Addition",
+          "Description": "Added the **uniqueName** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "7d15c362-9d99-4d0b-89e0-2d43bf854206",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "createdOnBehalfOf",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdOnBehalfOf** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "7d15c362-9d99-4d0b-89e0-2d43bf854206",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "homeRealmDiscoveryPolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **homeRealmDiscoveryPolicies** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "7d15c362-9d99-4d0b-89e0-2d43bf854206",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "owners",
+          "ChangeType": "Addition",
+          "Description": "Added the **owners** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "7d15c362-9d99-4d0b-89e0-2d43bf854206",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "policies",
+          "ChangeType": "Addition",
+          "Description": "Added the **policies** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "7d15c362-9d99-4d0b-89e0-2d43bf854206",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenIssuancePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenIssuancePolicies** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "7d15c362-9d99-4d0b-89e0-2d43bf854206",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenLifetimePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenLifetimePolicies** relationship to [application]() resource",
+          "Target": "application"
+        }
+      ],
+      "Id": "7d15c362-9d99-4d0b-89e0-2d43bf854206",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579043Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "8d2a0bff-af80-495d-bbd8-4c2ff9afa98e",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "8d2a0bff-af80-495d-bbd8-4c2ff9afa98e",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "8d2a0bff-af80-495d-bbd8-4c2ff9afa98e",
+          "ApiChange": "Property",
+          "ChangedApiName": "appDescription",
+          "ChangeType": "Addition",
+          "Description": "Added the **appDescription** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8d2a0bff-af80-495d-bbd8-4c2ff9afa98e",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8d2a0bff-af80-495d-bbd8-4c2ff9afa98e",
+          "ApiChange": "Property",
+          "ChangedApiName": "hasPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **hasPermissionClassifications** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8d2a0bff-af80-495d-bbd8-4c2ff9afa98e",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "8d2a0bff-af80-495d-bbd8-4c2ff9afa98e",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "delegatedPermissionClassifications",
+          "ChangeType": "Addition",
+          "Description": "Added the **delegatedPermissionClassifications** relationship to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "8d2a0bff-af80-495d-bbd8-4c2ff9afa98e",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579115Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "4a97e1b6-dfb7-429f-81cd-63715850d9a0",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "4a97e1b6-dfb7-429f-81cd-63715850d9a0",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "4a97e1b6-dfb7-429f-81cd-63715850d9a0",
+          "ApiChange": "Property",
+          "ChangedApiName": "appDescription",
+          "ChangeType": "Addition",
+          "Description": "Added the **appDescription** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "4a97e1b6-dfb7-429f-81cd-63715850d9a0",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "4a97e1b6-dfb7-429f-81cd-63715850d9a0",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "4a97e1b6-dfb7-429f-81cd-63715850d9a0",
+      "Cloud": "USNat",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579191Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "d5b73f2f-7861-4359-903a-668b08593342",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "d5b73f2f-7861-4359-903a-668b08593342",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "d5b73f2f-7861-4359-903a-668b08593342",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenIssuancePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenIssuancePolicies** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "d5b73f2f-7861-4359-903a-668b08593342",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenLifetimePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenLifetimePolicies** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "d5b73f2f-7861-4359-903a-668b08593342",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "appRoleAssignment",
+          "ChangeType": "Addition",
+          "Description": "Added the [appRoleAssignment]() resource *@\u0026*",
+          "Target": "appRoleAssignment"
+        },
+        {
+          "Id": "d5b73f2f-7861-4359-903a-668b08593342",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "oAuth2PermissionGrant",
+          "ChangeType": "Addition",
+          "Description": "Added the [oAuth2PermissionGrant]() resource *@\u0026*",
+          "Target": "oAuth2PermissionGrant"
+        },
+        {
+          "Id": "d5b73f2f-7861-4359-903a-668b08593342",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "servicePrincipal",
+          "ChangeType": "Addition",
+          "Description": "Added the [servicePrincipal]() resource *@\u0026*",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "d5b73f2f-7861-4359-903a-668b08593342",
+      "Cloud": "USNat",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579278Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "dc99d98e-8e10-43ee-a192-fec81873d5df",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "dc99d98e-8e10-43ee-a192-fec81873d5df",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "dc99d98e-8e10-43ee-a192-fec81873d5df",
+          "ApiChange": "Property",
+          "ChangedApiName": "appDescription",
+          "ChangeType": "Addition",
+          "Description": "Added the **appDescription** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "dc99d98e-8e10-43ee-a192-fec81873d5df",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        },
+        {
+          "Id": "dc99d98e-8e10-43ee-a192-fec81873d5df",
+          "ApiChange": "Property",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** property to [servicePrincipal]() resource",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "dc99d98e-8e10-43ee-a192-fec81873d5df",
+      "Cloud": "USSec",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579343Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "c23691ff-5314-4efb-b1e8-773889ffdead",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenIssuancePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenIssuancePolicies** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "c23691ff-5314-4efb-b1e8-773889ffdead",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tokenLifetimePolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **tokenLifetimePolicies** relationship to [application]() resource",
+          "Target": "application"
+        },
+        {
+          "Id": "c23691ff-5314-4efb-b1e8-773889ffdead",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "appRoleAssignment",
+          "ChangeType": "Addition",
+          "Description": "Added the [appRoleAssignment]() resource *@\u0026*",
+          "Target": "appRoleAssignment"
+        },
+        {
+          "Id": "c23691ff-5314-4efb-b1e8-773889ffdead",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "oAuth2PermissionGrant",
+          "ChangeType": "Addition",
+          "Description": "Added the [oAuth2PermissionGrant]() resource *@\u0026*",
+          "Target": "oAuth2PermissionGrant"
+        },
+        {
+          "Id": "c23691ff-5314-4efb-b1e8-773889ffdead",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "servicePrincipal",
+          "ChangeType": "Addition",
+          "Description": "Added the [servicePrincipal]() resource *@\u0026*",
+          "Target": "servicePrincipal"
+        }
+      ],
+      "Id": "c23691ff-5314-4efb-b1e8-773889ffdead",
+      "Cloud": "USSec",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579425Z",
+      "WorkloadArea": "Applications",
+      "SubArea": ""
+    }
+  ]
+}

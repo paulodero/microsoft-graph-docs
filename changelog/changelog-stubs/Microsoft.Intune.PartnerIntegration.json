@@ -1,0 +1,226 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "692cd758-3ac1-4889-8f73-75c28b8cc89d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "endpointSecurityConfigurationApplicablePlatform",
+          "ChangeType": "Addition",
+          "Description": "Added the [endpointSecurityConfigurationApplicablePlatform](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "endpointSecurityConfigurationApplicablePlatform"
+        },
+        {
+          "Id": "692cd758-3ac1-4889-8f73-75c28b8cc89d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "endpointSecurityConfigurationProfileType",
+          "ChangeType": "Addition",
+          "Description": "Added the [endpointSecurityConfigurationProfileType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "endpointSecurityConfigurationProfileType"
+        },
+        {
+          "Id": "692cd758-3ac1-4889-8f73-75c28b8cc89d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "endpointSecurityConfigurationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [endpointSecurityConfigurationType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "endpointSecurityConfigurationType"
+        },
+        {
+          "Id": "692cd758-3ac1-4889-8f73-75c28b8cc89d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "keyValuePair",
+          "ChangeType": "Addition",
+          "Description": "Added the [keyValuePair](/graph/api/resources/intune-keyValuePair?view=graph-rest-beta) resource type",
+          "Target": "keyValuePair"
+        },
+        {
+          "Id": "692cd758-3ac1-4889-8f73-75c28b8cc89d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "securityConfigurationTask",
+          "ChangeType": "Addition",
+          "Description": "Added the [securityConfigurationTask](/graph/api/resources/intune-securityConfigurationTask?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "securityConfigurationTask"
+        },
+        {
+          "Id": "692cd758-3ac1-4889-8f73-75c28b8cc89d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "vulnerableManagedDevice",
+          "ChangeType": "Addition",
+          "Description": "Added the [vulnerableManagedDevice](/graph/api/resources/intune-vulnerableManagedDevice?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "vulnerableManagedDevice"
+        },
+        {
+          "Id": "692cd758-3ac1-4889-8f73-75c28b8cc89d",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200116",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200116** resource type *@\u0026*",
+          "Target": "edm_50200116"
+        },
+        {
+          "Id": "692cd758-3ac1-4889-8f73-75c28b8cc89d",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200715",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200715](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200715"
+        }
+      ],
+      "Id": "692cd758-3ac1-4889-8f73-75c28b8cc89d",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581023Z",
+      "WorkloadArea": "Microsoft.Intune.PartnerIntegration",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "ff4c6c08-338e-4aa7-ad77-65e6f0972106",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "endpointSecurityConfigurationApplicablePlatform",
+          "ChangeType": "Addition",
+          "Description": "Added the [endpointSecurityConfigurationApplicablePlatform](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "endpointSecurityConfigurationApplicablePlatform"
+        },
+        {
+          "Id": "ff4c6c08-338e-4aa7-ad77-65e6f0972106",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "endpointSecurityConfigurationProfileType",
+          "ChangeType": "Addition",
+          "Description": "Added the [endpointSecurityConfigurationProfileType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "endpointSecurityConfigurationProfileType"
+        },
+        {
+          "Id": "ff4c6c08-338e-4aa7-ad77-65e6f0972106",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "endpointSecurityConfigurationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [endpointSecurityConfigurationType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "endpointSecurityConfigurationType"
+        },
+        {
+          "Id": "ff4c6c08-338e-4aa7-ad77-65e6f0972106",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "keyValuePair",
+          "ChangeType": "Addition",
+          "Description": "Added the [keyValuePair](/graph/api/resources/intune-keyValuePair?view=graph-rest-beta) resource type",
+          "Target": "keyValuePair"
+        },
+        {
+          "Id": "ff4c6c08-338e-4aa7-ad77-65e6f0972106",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "securityConfigurationTask",
+          "ChangeType": "Addition",
+          "Description": "Added the [securityConfigurationTask](/graph/api/resources/intune-securityConfigurationTask?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "securityConfigurationTask"
+        },
+        {
+          "Id": "ff4c6c08-338e-4aa7-ad77-65e6f0972106",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "vulnerableManagedDevice",
+          "ChangeType": "Addition",
+          "Description": "Added the [vulnerableManagedDevice](/graph/api/resources/intune-vulnerableManagedDevice?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "vulnerableManagedDevice"
+        },
+        {
+          "Id": "ff4c6c08-338e-4aa7-ad77-65e6f0972106",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200116",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200116** resource type *@\u0026*",
+          "Target": "edm_50200116"
+        },
+        {
+          "Id": "ff4c6c08-338e-4aa7-ad77-65e6f0972106",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200715",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200715](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200715"
+        }
+      ],
+      "Id": "ff4c6c08-338e-4aa7-ad77-65e6f0972106",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.058104Z",
+      "WorkloadArea": "Microsoft.Intune.PartnerIntegration",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e67e2f93-08ca-43e1-93c1-c8274658dd02",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "endpointSecurityConfigurationApplicablePlatform",
+          "ChangeType": "Addition",
+          "Description": "Added the [endpointSecurityConfigurationApplicablePlatform](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "endpointSecurityConfigurationApplicablePlatform"
+        },
+        {
+          "Id": "e67e2f93-08ca-43e1-93c1-c8274658dd02",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "endpointSecurityConfigurationProfileType",
+          "ChangeType": "Addition",
+          "Description": "Added the [endpointSecurityConfigurationProfileType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "endpointSecurityConfigurationProfileType"
+        },
+        {
+          "Id": "e67e2f93-08ca-43e1-93c1-c8274658dd02",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "endpointSecurityConfigurationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [endpointSecurityConfigurationType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "endpointSecurityConfigurationType"
+        },
+        {
+          "Id": "e67e2f93-08ca-43e1-93c1-c8274658dd02",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "keyValuePair",
+          "ChangeType": "Addition",
+          "Description": "Added the [keyValuePair](/graph/api/resources/intune-keyValuePair?view=graph-rest-beta) resource type",
+          "Target": "keyValuePair"
+        },
+        {
+          "Id": "e67e2f93-08ca-43e1-93c1-c8274658dd02",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "securityConfigurationTask",
+          "ChangeType": "Addition",
+          "Description": "Added the [securityConfigurationTask](/graph/api/resources/intune-securityConfigurationTask?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "securityConfigurationTask"
+        },
+        {
+          "Id": "e67e2f93-08ca-43e1-93c1-c8274658dd02",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "vulnerableManagedDevice",
+          "ChangeType": "Addition",
+          "Description": "Added the [vulnerableManagedDevice](/graph/api/resources/intune-vulnerableManagedDevice?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "vulnerableManagedDevice"
+        },
+        {
+          "Id": "e67e2f93-08ca-43e1-93c1-c8274658dd02",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200116",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200116** resource type *@\u0026*",
+          "Target": "edm_50200116"
+        },
+        {
+          "Id": "e67e2f93-08ca-43e1-93c1-c8274658dd02",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200715",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200715](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200715"
+        }
+      ],
+      "Id": "e67e2f93-08ca-43e1-93c1-c8274658dd02",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581051Z",
+      "WorkloadArea": "Microsoft.Intune.PartnerIntegration",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

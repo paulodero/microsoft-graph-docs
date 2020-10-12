@@ -1,0 +1,78 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "7457396a-a624-4674-b860-4e5971dbd249",
+          "ApiChange": "Property",
+          "ChangedApiName": "flowNullValues",
+          "ChangeType": "Addition",
+          "Description": "Added the **flowNullValues** property to [attributeDefinition](/?view=graph-rest-beta) resource",
+          "Target": "attributeDefinition"
+        },
+        {
+          "Id": "7457396a-a624-4674-b860-4e5971dbd249",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "synchronizationJobApplicationParameters",
+          "ChangeType": "Addition",
+          "Description": "Added the [synchronizationJobApplicationParameters](/graph/api/resources/synchronizationJobApplicationParameters?view=graph-rest-beta) resource type",
+          "Target": "synchronizationJobApplicationParameters"
+        },
+        {
+          "Id": "7457396a-a624-4674-b860-4e5971dbd249",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "synchronizationJobSubject",
+          "ChangeType": "Addition",
+          "Description": "Added the [synchronizationJobSubject](/graph/api/resources/synchronizationJobSubject?view=graph-rest-beta) resource type",
+          "Target": "synchronizationJobSubject"
+        },
+        {
+          "Id": "7457396a-a624-4674-b860-4e5971dbd249",
+          "ApiChange": "Property",
+          "ChangedApiName": "provisioningTaskIdentifier",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **provisioningTaskIdentifier** property from [synchronizationSchema](/?view=graph-rest-beta) resource",
+          "Target": "synchronizationSchema"
+        },
+        {
+          "Id": "7457396a-a624-4674-b860-4e5971dbd249",
+          "ApiChange": "Action",
+          "ChangedApiName": "acquireAccessToken",
+          "ChangeType": "Addition",
+          "Description": "Added the [acquireAccessToken](/graph/api/acquireAccessToken-acquireAccessToken?view=graph-rest-beta) method to the [acquireAccessToken](/graph/api/acquireAccessToken-acquireAccessToken?view=graph-rest-beta) resource",
+          "Target": "acquireAccessToken"
+        },
+        {
+          "Id": "7457396a-a624-4674-b860-4e5971dbd249",
+          "ApiChange": "Action",
+          "ChangedApiName": "apply",
+          "ChangeType": "Deletion",
+          "Description": "Changed the return type for [apply](/graph/api/apply-apply?view=graph-rest-beta) method",
+          "Target": "apply"
+        },
+        {
+          "Id": "7457396a-a624-4674-b860-4e5971dbd249",
+          "ApiChange": "Action",
+          "ChangedApiName": "provisionOnDemand",
+          "ChangeType": "Addition",
+          "Description": "Added the [provisionOnDemand](/graph/api/provisionOnDemand-provisionOnDemand?view=graph-rest-beta) method to the [provisionOnDemand](/graph/api/provisionOnDemand-provisionOnDemand?view=graph-rest-beta) resource",
+          "Target": "provisionOnDemand"
+        },
+        {
+          "Id": "7457396a-a624-4674-b860-4e5971dbd249",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "directories",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **directories** resource type *@\u0026*",
+          "Target": "directories"
+        }
+      ],
+      "Id": "7457396a-a624-4674-b860-4e5971dbd249",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0579699Z",
+      "WorkloadArea": "Microsoft.IAM",
+      "SubArea": "Directory management"
+    }
+  ]
+}

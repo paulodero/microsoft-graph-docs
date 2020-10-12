@@ -1,0 +1,86 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "authenticationMethodKeyStrength",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationMethodKeyStrength](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "authenticationMethodKeyStrength"
+        },
+        {
+          "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "authenticationMethodsPolicyEvaluation",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationMethodsPolicyEvaluation](/graph/api/resources/authenticationMethodsPolicyEvaluation?view=graph-rest-beta) resource type",
+          "Target": "authenticationMethodsPolicyEvaluation"
+        },
+        {
+          "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+          "ApiChange": "Property",
+          "ChangedApiName": "policy",
+          "ChangeType": "Addition",
+          "Description": "Added the **policy** property to [authentication](/?view=graph-rest-beta) resource",
+          "Target": "authentication"
+        },
+        {
+          "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "windowsHelloForBusinessAuthenticationMethods",
+          "ChangeType": "Addition",
+          "Description": "Added the **windowsHelloForBusinessAuthenticationMethods** relationship to [authentication](/?view=graph-rest-beta) resource",
+          "Target": "authentication"
+        },
+        {
+          "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+          "ApiChange": "Property",
+          "ChangedApiName": "creationDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **creationDateTime** property to [microsoftAuthenticatorAuthenticationMethod](/?view=graph-rest-beta) resource",
+          "Target": "microsoftAuthenticatorAuthenticationMethod"
+        },
+        {
+          "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+          "ApiChange": "Property",
+          "ChangedApiName": "deviceName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **deviceName** property from [microsoftAuthenticatorAuthenticationMethod](/?view=graph-rest-beta) resource",
+          "Target": "microsoftAuthenticatorAuthenticationMethod"
+        },
+        {
+          "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Addition",
+          "Description": "Added the **displayName** property to [microsoftAuthenticatorAuthenticationMethod](/?view=graph-rest-beta) resource",
+          "Target": "microsoftAuthenticatorAuthenticationMethod"
+        },
+        {
+          "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "device",
+          "ChangeType": "Addition",
+          "Description": "Added the **device** relationship to [microsoftAuthenticatorAuthenticationMethod](/?view=graph-rest-beta) resource",
+          "Target": "microsoftAuthenticatorAuthenticationMethod"
+        },
+        {
+          "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windowsHelloForBusinessAuthenticationMethod",
+          "ChangeType": "Addition",
+          "Description": "Added the [windowsHelloForBusinessAuthenticationMethod](/graph/api/resources/windowsHelloForBusinessAuthenticationMethod?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windowsHelloForBusinessAuthenticationMethod"
+        }
+      ],
+      "Id": "fa90653e-b23e-4fa6-8ff2-9e163ec039e5",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581429Z",
+      "WorkloadArea": "Microsoft.StrongAuthenticationAPI",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}

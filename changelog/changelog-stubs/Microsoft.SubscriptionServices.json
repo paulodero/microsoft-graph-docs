@@ -1,0 +1,212 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "47cab92d-7bbc-449d-b292-01b2761363de",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "changeType",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "changeType"
+        },
+        {
+          "Id": "47cab92d-7bbc-449d-b292-01b2761363de",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "changeNotification",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeNotification](/graph/api/resources/changeNotification?view=graph-rest-1.0) resource type",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "47cab92d-7bbc-449d-b292-01b2761363de",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "changeNotificationCollection",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeNotificationCollection](/graph/api/resources/changeNotificationCollection?view=graph-rest-1.0) resource type",
+          "Target": "changeNotificationCollection"
+        },
+        {
+          "Id": "47cab92d-7bbc-449d-b292-01b2761363de",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "resourceData",
+          "ChangeType": "Addition",
+          "Description": "Added the [resourceData](/graph/api/resources/resourceData?view=graph-rest-1.0) resource type",
+          "Target": "resourceData"
+        }
+      ],
+      "Id": "47cab92d-7bbc-449d-b292-01b2761363de",
+      "Cloud": "Fairfax",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581451Z",
+      "WorkloadArea": "Microsoft.SubscriptionServices",
+      "SubArea": "Subscription"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "663e0a17-47ab-4d2c-ab58-768efde9706b",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "changeType",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "changeType"
+        },
+        {
+          "Id": "663e0a17-47ab-4d2c-ab58-768efde9706b",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "changeNotification",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeNotification](/graph/api/resources/changeNotification?view=graph-rest-1.0) resource type",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "663e0a17-47ab-4d2c-ab58-768efde9706b",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "changeNotificationCollection",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeNotificationCollection](/graph/api/resources/changeNotificationCollection?view=graph-rest-1.0) resource type",
+          "Target": "changeNotificationCollection"
+        },
+        {
+          "Id": "663e0a17-47ab-4d2c-ab58-768efde9706b",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "resourceData",
+          "ChangeType": "Addition",
+          "Description": "Added the [resourceData](/graph/api/resources/resourceData?view=graph-rest-1.0) resource type",
+          "Target": "resourceData"
+        }
+      ],
+      "Id": "663e0a17-47ab-4d2c-ab58-768efde9706b",
+      "Cloud": "Mooncake",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581471Z",
+      "WorkloadArea": "Microsoft.SubscriptionServices",
+      "SubArea": "Subscription"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "0af0f31a-ca98-42e8-bf79-b7f1b0d8c8f2",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "changeType",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "changeType"
+        },
+        {
+          "Id": "0af0f31a-ca98-42e8-bf79-b7f1b0d8c8f2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "changeNotification",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeNotification](/graph/api/resources/changeNotification?view=graph-rest-1.0) resource type",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "0af0f31a-ca98-42e8-bf79-b7f1b0d8c8f2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "changeNotificationCollection",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeNotificationCollection](/graph/api/resources/changeNotificationCollection?view=graph-rest-1.0) resource type",
+          "Target": "changeNotificationCollection"
+        },
+        {
+          "Id": "0af0f31a-ca98-42e8-bf79-b7f1b0d8c8f2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "resourceData",
+          "ChangeType": "Addition",
+          "Description": "Added the [resourceData](/graph/api/resources/resourceData?view=graph-rest-1.0) resource type",
+          "Target": "resourceData"
+        }
+      ],
+      "Id": "0af0f31a-ca98-42e8-bf79-b7f1b0d8c8f2",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.058148Z",
+      "WorkloadArea": "Microsoft.SubscriptionServices",
+      "SubArea": "Subscription"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "lifecycleEventType",
+          "ChangeType": "Addition",
+          "Description": "Added the [lifecycleEventType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "lifecycleEventType"
+        },
+        {
+          "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptedContent",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptedContent** property to [changeNotification](/?view=graph-rest-1.0) resource",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+          "ApiChange": "Property",
+          "ChangedApiName": "lifecycleEvent",
+          "ChangeType": "Addition",
+          "Description": "Added the **lifecycleEvent** property to [changeNotification](/?view=graph-rest-1.0) resource",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+          "ApiChange": "Property",
+          "ChangedApiName": "validationTokens",
+          "ChangeType": "Addition",
+          "Description": "Added the **validationTokens** property to [changeNotificationCollection](/?view=graph-rest-1.0) resource",
+          "Target": "changeNotificationCollection"
+        },
+        {
+          "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "changeNotificationEncryptedContent",
+          "ChangeType": "Addition",
+          "Description": "Added the [changeNotificationEncryptedContent](/graph/api/resources/changeNotificationEncryptedContent?view=graph-rest-1.0) resource type",
+          "Target": "changeNotificationEncryptedContent"
+        },
+        {
+          "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificate",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificate** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificateId",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificateId** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+          "ApiChange": "Property",
+          "ChangedApiName": "includeResourceData",
+          "ChangeType": "Addition",
+          "Description": "Added the **includeResourceData** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+          "ApiChange": "Property",
+          "ChangedApiName": "lifecycleNotificationUrl",
+          "ChangeType": "Addition",
+          "Description": "Added the **lifecycleNotificationUrl** property to [subscription](/?view=graph-rest-1.0) resource",
+          "Target": "subscription"
+        }
+      ],
+      "Id": "921c1cfc-f0df-404c-8047-bd38984790e0",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0581492Z",
+      "WorkloadArea": "Microsoft.SubscriptionServices",
+      "SubArea": "Subscription"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "2698965d-9f00-4740-a659-49c15ba2846a",
+          "ApiChange": "Function",
+          "ChangedApiName": "getIdentityProviderAccessToken",
+          "ChangeType": "Deletion",
+          "Description": "Changed the return type for [getIdentityProviderAccessToken]() method",
+          "Target": "getIdentityProviderAccessToken"
+        }
+      ],
+      "Id": "2698965d-9f00-4740-a659-49c15ba2846a",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0580041Z",
+      "WorkloadArea": "Microsoft.IDPAccessTokens",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "cdadc786-40d7-4a61-86e8-8cab8f6cec26",
+          "ApiChange": "Function",
+          "ChangedApiName": "getIdentityProviderAccessToken",
+          "ChangeType": "Deletion",
+          "Description": "Changed the return type for [getIdentityProviderAccessToken]() method",
+          "Target": "getIdentityProviderAccessToken"
+        }
+      ],
+      "Id": "cdadc786-40d7-4a61-86e8-8cab8f6cec26",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-12T16:12:16.0580051Z",
+      "WorkloadArea": "Microsoft.IDPAccessTokens",
+      "SubArea": ""
+    }
+  ]
+}
