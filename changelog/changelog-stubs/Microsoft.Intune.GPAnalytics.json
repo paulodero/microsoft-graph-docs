@@ -1,0 +1,58 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "d4991b41-c71d-46aa-a1c1-3cd57aaffbec",
+          "ApiChange": "Property",
+          "ChangedApiName": "admxSettingDefinitionId",
+          "ChangeType": "Addition",
+          "Description": "Added the **admxSettingDefinitionId** property to [groupPolicySettingMapping](/?view=graph-rest-beta) resource",
+          "Target": "groupPolicySettingMapping"
+        }
+      ],
+      "Id": "d4991b41-c71d-46aa-a1c1-3cd57aaffbec",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9310473Z",
+      "WorkloadArea": "Microsoft.Intune.GPAnalytics",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "f4842913-7749-465e-bb6e-fc3dfd032dd2",
+          "ApiChange": "Property",
+          "ChangedApiName": "admxSettingDefinitionId",
+          "ChangeType": "Addition",
+          "Description": "Added the **admxSettingDefinitionId** property to [groupPolicySettingMapping](/?view=graph-rest-beta) resource",
+          "Target": "groupPolicySettingMapping"
+        }
+      ],
+      "Id": "f4842913-7749-465e-bb6e-fc3dfd032dd2",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9310488Z",
+      "WorkloadArea": "Microsoft.Intune.GPAnalytics",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "4833b55a-ffe8-4278-8616-38c404112dff",
+          "ApiChange": "Property",
+          "ChangedApiName": "admxSettingDefinitionId",
+          "ChangeType": "Addition",
+          "Description": "Added the **admxSettingDefinitionId** property to [groupPolicySettingMapping](/?view=graph-rest-beta) resource",
+          "Target": "groupPolicySettingMapping"
+        }
+      ],
+      "Id": "4833b55a-ffe8-4278-8616-38c404112dff",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9310498Z",
+      "WorkloadArea": "Microsoft.Intune.GPAnalytics",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

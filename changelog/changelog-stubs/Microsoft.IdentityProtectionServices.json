@@ -1,0 +1,768 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "e8133766-bdb0-4c70-a1a4-bd7c00281eeb",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "additionalRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [additionalRecipient](/graph/api/resources/additionalRecipient?view=graph-rest-beta) resource type",
+          "Target": "additionalRecipient"
+        },
+        {
+          "Id": "e8133766-bdb0-4c70-a1a4-bd7c00281eeb",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "directoryObjectsSelection",
+          "ChangeType": "Addition",
+          "Description": "Added the [directoryObjectsSelection](/graph/api/resources/directoryObjectsSelection?view=graph-rest-beta) resource type",
+          "Target": "directoryObjectsSelection"
+        },
+        {
+          "Id": "e8133766-bdb0-4c70-a1a4-bd7c00281eeb",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "notificationRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationRecipient](/graph/api/resources/notificationRecipient?view=graph-rest-beta) resource type",
+          "Target": "notificationRecipient"
+        },
+        {
+          "Id": "e8133766-bdb0-4c70-a1a4-bd7c00281eeb",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "advancedRiskReportingSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [advancedRiskReportingSettings](/graph/api/resources/advancedRiskReportingSettings?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "advancedRiskReportingSettings"
+        },
+        {
+          "Id": "e8133766-bdb0-4c70-a1a4-bd7c00281eeb",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "settings",
+          "ChangeType": "Addition",
+          "Description": "Added the **settings** relationship to [identityProtectionRoot](/?view=graph-rest-beta) resource",
+          "Target": "identityProtectionRoot"
+        },
+        {
+          "Id": "e8133766-bdb0-4c70-a1a4-bd7c00281eeb",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "notificationSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationSettings](/graph/api/resources/notificationSettings?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "notificationSettings"
+        },
+        {
+          "Id": "e8133766-bdb0-4c70-a1a4-bd7c00281eeb",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "settingsRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [settingsRoot](/graph/api/resources/settingsRoot?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "settingsRoot"
+        }
+      ],
+      "Id": "e8133766-bdb0-4c70-a1a4-bd7c00281eeb",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309466Z",
+      "WorkloadArea": "Microsoft.IdentityProtectionServices",
+      "SubArea": "Identity and sign-in"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "baselineProtectionPolicyState",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **baselineProtectionPolicyState** enumeration type",
+          "Target": "baselineProtectionPolicyState"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "continuousAccessEvaluationMode",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **continuousAccessEvaluationMode** enumeration type",
+          "Target": "continuousAccessEvaluationMode"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "countryLookupMethodType",
+          "ChangeType": "Addition",
+          "Description": "Added the [countryLookupMethodType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "countryLookupMethodType"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "filterMode",
+          "ChangeType": "Addition",
+          "Description": "Added the [filterMode](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "filterMode"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "additionalRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [additionalRecipient](/graph/api/resources/additionalRecipient?view=graph-rest-beta) resource type",
+          "Target": "additionalRecipient"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessClientApplications",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessClientApplications](/graph/api/resources/conditionalAccessClientApplications?view=graph-rest-beta) resource type",
+          "Target": "conditionalAccessClientApplications"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "Property",
+          "ChangedApiName": "clientApplications",
+          "ChangeType": "Addition",
+          "Description": "Added the **clientApplications** property to [conditionalAccessConditionSet](/?view=graph-rest-beta) resource",
+          "Target": "conditionalAccessConditionSet"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "Property",
+          "ChangedApiName": "users",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **users** property in the [conditionalAccessConditionSet](/?view=graph-rest-beta) resource",
+          "Target": "conditionalAccessConditionSet"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "Property",
+          "ChangedApiName": "deviceFilter",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceFilter** property to [conditionalAccessDevices](/?view=graph-rest-beta) resource",
+          "Target": "conditionalAccessDevices"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "Property",
+          "ChangedApiName": "excludeDeviceRule",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **excludeDeviceRule** property from [conditionalAccessDevices](/?view=graph-rest-beta) resource",
+          "Target": "conditionalAccessDevices"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "Property",
+          "ChangedApiName": "includeDeviceRule",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **includeDeviceRule** property from [conditionalAccessDevices](/?view=graph-rest-beta) resource",
+          "Target": "conditionalAccessDevices"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessFilter",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessFilter](/graph/api/resources/conditionalAccessFilter?view=graph-rest-beta) resource type",
+          "Target": "conditionalAccessFilter"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "notificationRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationRecipient](/graph/api/resources/notificationRecipient?view=graph-rest-beta) resource type",
+          "Target": "notificationRecipient"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "userAlertsSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **userAlertsSettings** resource type",
+          "Target": "userAlertsSettings"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "weeklyDigestSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **weeklyDigestSettings** resource type",
+          "Target": "weeklyDigestSettings"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "baselineProtectionPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **baselineProtectionPolicy** resource type",
+          "Target": "baselineProtectionPolicy"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "Property",
+          "ChangedApiName": "enforcementMode",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **enforcementMode** property from [continuousAccessEvaluationPolicy](/?view=graph-rest-beta) resource",
+          "Target": "continuousAccessEvaluationPolicy"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "Property",
+          "ChangedApiName": "countryLookupMethod",
+          "ChangeType": "Addition",
+          "Description": "Added the **countryLookupMethod** property to [countryNamedLocation](/?view=graph-rest-beta) resource",
+          "Target": "countryNamedLocation"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityProtectionNotificationPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **identityProtectionNotificationPolicy** resource type",
+          "Target": "identityProtectionNotificationPolicy"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "settings",
+          "ChangeType": "Addition",
+          "Description": "Added the **settings** relationship to [identityProtectionRoot](/?view=graph-rest-beta) resource",
+          "Target": "identityProtectionRoot"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "notificationSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationSettings](/graph/api/resources/notificationSettings?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "notificationSettings"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "identityProtectionNotificationPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **identityProtectionNotificationPolicy** relationship from [policyRoot](/?view=graph-rest-beta) resource",
+          "Target": "policyRoot"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "settingsRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [settingsRoot](/graph/api/resources/settingsRoot?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "settingsRoot"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "baselineProtectionPolicies",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **baselineProtectionPolicies** resource type *@\u0026*",
+          "Target": "baselineProtectionPolicies"
+        },
+        {
+          "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "identityProtectionNotificationPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **identityProtectionNotificationPolicy** resource type *@\u0026*",
+          "Target": "identityProtectionNotificationPolicy"
+        }
+      ],
+      "Id": "03390bb0-2308-4a34-8813-a09797697c1d",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309488Z",
+      "WorkloadArea": "Microsoft.IdentityProtectionServices",
+      "SubArea": "Identity and sign-in"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "cloudAppSecuritySessionControlType",
+          "ChangeType": "Addition",
+          "Description": "Added the [cloudAppSecuritySessionControlType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "cloudAppSecuritySessionControlType"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "conditionalAccessClientApp",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessClientApp](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "conditionalAccessClientApp"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "conditionalAccessDevicePlatform",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessDevicePlatform](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "conditionalAccessDevicePlatform"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "conditionalAccessGrantControl",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessGrantControl](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "conditionalAccessGrantControl"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "conditionalAccessPolicyState",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessPolicyState](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "conditionalAccessPolicyState"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "persistentBrowserSessionMode",
+          "ChangeType": "Addition",
+          "Description": "Added the [persistentBrowserSessionMode](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "persistentBrowserSessionMode"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "signinFrequencyType",
+          "ChangeType": "Addition",
+          "Description": "Added the [signinFrequencyType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "signinFrequencyType"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "applicationEnforcedRestrictionsSessionControl",
+          "ChangeType": "Addition",
+          "Description": "Added the [applicationEnforcedRestrictionsSessionControl](/graph/api/resources/applicationEnforcedRestrictionsSessionControl?view=graph-rest-1.0) resource type",
+          "Target": "applicationEnforcedRestrictionsSessionControl"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "cloudAppSecuritySessionControl",
+          "ChangeType": "Addition",
+          "Description": "Added the [cloudAppSecuritySessionControl](/graph/api/resources/cloudAppSecuritySessionControl?view=graph-rest-1.0) resource type",
+          "Target": "cloudAppSecuritySessionControl"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessApplications",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessApplications](/graph/api/resources/conditionalAccessApplications?view=graph-rest-1.0) resource type",
+          "Target": "conditionalAccessApplications"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessConditionSet",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessConditionSet](/graph/api/resources/conditionalAccessConditionSet?view=graph-rest-1.0) resource type",
+          "Target": "conditionalAccessConditionSet"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessGrantControls",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessGrantControls](/graph/api/resources/conditionalAccessGrantControls?view=graph-rest-1.0) resource type",
+          "Target": "conditionalAccessGrantControls"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessLocations",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessLocations](/graph/api/resources/conditionalAccessLocations?view=graph-rest-1.0) resource type",
+          "Target": "conditionalAccessLocations"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessPlatforms",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessPlatforms](/graph/api/resources/conditionalAccessPlatforms?view=graph-rest-1.0) resource type",
+          "Target": "conditionalAccessPlatforms"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessSessionControl",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessSessionControl](/graph/api/resources/conditionalAccessSessionControl?view=graph-rest-1.0) resource type",
+          "Target": "conditionalAccessSessionControl"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessSessionControls",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessSessionControls](/graph/api/resources/conditionalAccessSessionControls?view=graph-rest-1.0) resource type",
+          "Target": "conditionalAccessSessionControls"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessUsers",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessUsers](/graph/api/resources/conditionalAccessUsers?view=graph-rest-1.0) resource type",
+          "Target": "conditionalAccessUsers"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "ipRange",
+          "ChangeType": "Addition",
+          "Description": "Added the [ipRange](/graph/api/resources/ipRange?view=graph-rest-1.0) resource type",
+          "Target": "ipRange"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "iPv4CidrRange",
+          "ChangeType": "Addition",
+          "Description": "Added the [iPv4CidrRange](/graph/api/resources/iPv4CidrRange?view=graph-rest-1.0) resource type",
+          "Target": "iPv4CidrRange"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "iPv6CidrRange",
+          "ChangeType": "Addition",
+          "Description": "Added the [iPv6CidrRange](/graph/api/resources/iPv6CidrRange?view=graph-rest-1.0) resource type",
+          "Target": "iPv6CidrRange"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "persistentBrowserSessionControl",
+          "ChangeType": "Addition",
+          "Description": "Added the [persistentBrowserSessionControl](/graph/api/resources/persistentBrowserSessionControl?view=graph-rest-1.0) resource type",
+          "Target": "persistentBrowserSessionControl"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "signInFrequencySessionControl",
+          "ChangeType": "Addition",
+          "Description": "Added the [signInFrequencySessionControl](/graph/api/resources/signInFrequencySessionControl?view=graph-rest-1.0) resource type",
+          "Target": "signInFrequencySessionControl"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "conditionalAccessPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessPolicy](/graph/api/resources/conditionalAccessPolicy?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "conditionalAccessPolicy"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "conditionalAccessRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessRoot](/graph/api/resources/conditionalAccessRoot?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "conditionalAccessRoot"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "countryNamedLocation",
+          "ChangeType": "Addition",
+          "Description": "Added the [countryNamedLocation](/graph/api/resources/countryNamedLocation?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "countryNamedLocation"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityContainer",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityContainer](/graph/api/resources/identityContainer?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "identityContainer"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identitySecurityDefaultsEnforcementPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [identitySecurityDefaultsEnforcementPolicy](/graph/api/resources/identitySecurityDefaultsEnforcementPolicy?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "identitySecurityDefaultsEnforcementPolicy"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "ipNamedLocation",
+          "ChangeType": "Addition",
+          "Description": "Added the [ipNamedLocation](/graph/api/resources/ipNamedLocation?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "ipNamedLocation"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "namedLocation",
+          "ChangeType": "Addition",
+          "Description": "Added the [namedLocation](/graph/api/resources/namedLocation?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "namedLocation"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "policyBase",
+          "ChangeType": "Addition",
+          "Description": "Added the [policyBase](/graph/api/resources/policyBase?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "policyBase"
+        },
+        {
+          "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "policyRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [policyRoot](/graph/api/resources/policyRoot?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "policyRoot"
+        }
+      ],
+      "Id": "76a9ed68-5d50-4d77-847e-26d9276fa719",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309518Z",
+      "WorkloadArea": "Microsoft.IdentityProtectionServices",
+      "SubArea": "Identity and sign-in"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "additionalRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [additionalRecipient](/graph/api/resources/additionalRecipient?view=graph-rest-beta) resource type",
+          "Target": "additionalRecipient"
+        },
+        {
+          "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "directoryObjectsSelection",
+          "ChangeType": "Addition",
+          "Description": "Added the [directoryObjectsSelection](/graph/api/resources/directoryObjectsSelection?view=graph-rest-beta) resource type",
+          "Target": "directoryObjectsSelection"
+        },
+        {
+          "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "notificationRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationRecipient](/graph/api/resources/notificationRecipient?view=graph-rest-beta) resource type",
+          "Target": "notificationRecipient"
+        },
+        {
+          "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "advancedRiskReportingSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [advancedRiskReportingSettings](/graph/api/resources/advancedRiskReportingSettings?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "advancedRiskReportingSettings"
+        },
+        {
+          "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "continuousAccessEvaluationPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [continuousAccessEvaluationPolicy](/graph/api/resources/continuousAccessEvaluationPolicy?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "continuousAccessEvaluationPolicy"
+        },
+        {
+          "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "continuousAccessEvaluationPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the **continuousAccessEvaluationPolicy** relationship to [identityContainer](/?view=graph-rest-beta) resource",
+          "Target": "identityContainer"
+        },
+        {
+          "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "settings",
+          "ChangeType": "Addition",
+          "Description": "Added the **settings** relationship to [identityProtectionRoot](/?view=graph-rest-beta) resource",
+          "Target": "identityProtectionRoot"
+        },
+        {
+          "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "notificationSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationSettings](/graph/api/resources/notificationSettings?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "notificationSettings"
+        },
+        {
+          "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "settingsRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [settingsRoot](/graph/api/resources/settingsRoot?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "settingsRoot"
+        }
+      ],
+      "Id": "ab9d6cb9-4ac0-4876-a24e-5039577dddc9",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309551Z",
+      "WorkloadArea": "Microsoft.IdentityProtectionServices",
+      "SubArea": "Identity and sign-in"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "5dac9a9a-fc82-448c-a4fd-542dd6688cdf",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "additionalRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [additionalRecipient](/graph/api/resources/additionalRecipient?view=graph-rest-beta) resource type",
+          "Target": "additionalRecipient"
+        },
+        {
+          "Id": "5dac9a9a-fc82-448c-a4fd-542dd6688cdf",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "directoryObjectsSelection",
+          "ChangeType": "Addition",
+          "Description": "Added the [directoryObjectsSelection](/graph/api/resources/directoryObjectsSelection?view=graph-rest-beta) resource type",
+          "Target": "directoryObjectsSelection"
+        },
+        {
+          "Id": "5dac9a9a-fc82-448c-a4fd-542dd6688cdf",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "notificationRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationRecipient](/graph/api/resources/notificationRecipient?view=graph-rest-beta) resource type",
+          "Target": "notificationRecipient"
+        },
+        {
+          "Id": "5dac9a9a-fc82-448c-a4fd-542dd6688cdf",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "advancedRiskReportingSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [advancedRiskReportingSettings](/graph/api/resources/advancedRiskReportingSettings?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "advancedRiskReportingSettings"
+        },
+        {
+          "Id": "5dac9a9a-fc82-448c-a4fd-542dd6688cdf",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityProtectionRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityProtectionRoot](/graph/api/resources/identityProtectionRoot?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityProtectionRoot"
+        },
+        {
+          "Id": "5dac9a9a-fc82-448c-a4fd-542dd6688cdf",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "notificationSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationSettings](/graph/api/resources/notificationSettings?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "notificationSettings"
+        },
+        {
+          "Id": "5dac9a9a-fc82-448c-a4fd-542dd6688cdf",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "settingsRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [settingsRoot](/graph/api/resources/settingsRoot?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "settingsRoot"
+        },
+        {
+          "Id": "5dac9a9a-fc82-448c-a4fd-542dd6688cdf",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "identityProtection",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityProtection](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityProtection"
+        }
+      ],
+      "Id": "5dac9a9a-fc82-448c-a4fd-542dd6688cdf",
+      "Cloud": "USNat",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309568Z",
+      "WorkloadArea": "Microsoft.IdentityProtectionServices",
+      "SubArea": "Identity and sign-in"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "0d710915-6e88-4c09-b458-b3b61f15e895",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "additionalRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [additionalRecipient](/graph/api/resources/additionalRecipient?view=graph-rest-beta) resource type",
+          "Target": "additionalRecipient"
+        },
+        {
+          "Id": "0d710915-6e88-4c09-b458-b3b61f15e895",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "directoryObjectsSelection",
+          "ChangeType": "Addition",
+          "Description": "Added the [directoryObjectsSelection](/graph/api/resources/directoryObjectsSelection?view=graph-rest-beta) resource type",
+          "Target": "directoryObjectsSelection"
+        },
+        {
+          "Id": "0d710915-6e88-4c09-b458-b3b61f15e895",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "notificationRecipient",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationRecipient](/graph/api/resources/notificationRecipient?view=graph-rest-beta) resource type",
+          "Target": "notificationRecipient"
+        },
+        {
+          "Id": "0d710915-6e88-4c09-b458-b3b61f15e895",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "advancedRiskReportingSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [advancedRiskReportingSettings](/graph/api/resources/advancedRiskReportingSettings?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "advancedRiskReportingSettings"
+        },
+        {
+          "Id": "0d710915-6e88-4c09-b458-b3b61f15e895",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityProtectionRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityProtectionRoot](/graph/api/resources/identityProtectionRoot?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityProtectionRoot"
+        },
+        {
+          "Id": "0d710915-6e88-4c09-b458-b3b61f15e895",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "notificationSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [notificationSettings](/graph/api/resources/notificationSettings?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "notificationSettings"
+        },
+        {
+          "Id": "0d710915-6e88-4c09-b458-b3b61f15e895",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "settingsRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [settingsRoot](/graph/api/resources/settingsRoot?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "settingsRoot"
+        },
+        {
+          "Id": "0d710915-6e88-4c09-b458-b3b61f15e895",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "identityProtection",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityProtection](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityProtection"
+        }
+      ],
+      "Id": "0d710915-6e88-4c09-b458-b3b61f15e895",
+      "Cloud": "USSec",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309584Z",
+      "WorkloadArea": "Microsoft.IdentityProtectionServices",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}

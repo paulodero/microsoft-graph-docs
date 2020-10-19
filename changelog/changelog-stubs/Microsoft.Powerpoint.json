@@ -1,0 +1,70 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "dcaab1ad-f67c-4155-94ff-31526d7c0d23",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "documentComment",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **documentComment** resource type",
+          "Target": "documentComment"
+        },
+        {
+          "Id": "dcaab1ad-f67c-4155-94ff-31526d7c0d23",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "documentCommentReply",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **documentCommentReply** resource type",
+          "Target": "documentCommentReply"
+        },
+        {
+          "Id": "dcaab1ad-f67c-4155-94ff-31526d7c0d23",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "drive",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **drive** resource type",
+          "Target": "drive"
+        },
+        {
+          "Id": "dcaab1ad-f67c-4155-94ff-31526d7c0d23",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "driveItem",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **driveItem** resource type",
+          "Target": "driveItem"
+        },
+        {
+          "Id": "dcaab1ad-f67c-4155-94ff-31526d7c0d23",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "list",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **list** resource type",
+          "Target": "list"
+        },
+        {
+          "Id": "dcaab1ad-f67c-4155-94ff-31526d7c0d23",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "presentation",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **presentation** resource type",
+          "Target": "presentation"
+        },
+        {
+          "Id": "dcaab1ad-f67c-4155-94ff-31526d7c0d23",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "site",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **site** resource type",
+          "Target": "site"
+        }
+      ],
+      "Id": "dcaab1ad-f67c-4155-94ff-31526d7c0d23",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9310844Z",
+      "WorkloadArea": "Microsoft.Powerpoint",
+      "SubArea": ""
+    }
+  ]
+}

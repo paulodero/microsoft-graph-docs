@@ -1,0 +1,30 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "9a6da724-3b85-4582-a99e-39702d3e78e2",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "connectionState",
+          "ChangeType": "Addition",
+          "Description": "Added the [connectionState]() resource *@\u0026*",
+          "Target": "connectionState"
+        },
+        {
+          "Id": "9a6da724-3b85-4582-a99e-39702d3e78e2",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [externalConnection]() resource",
+          "Target": "externalConnection"
+        }
+      ],
+      "Id": "9a6da724-3b85-4582-a99e-39702d3e78e2",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9311082Z",
+      "WorkloadArea": "Microsoft.SubstrateConnectors",
+      "SubArea": ""
+    }
+  ]
+}

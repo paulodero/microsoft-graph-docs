@@ -1,0 +1,120 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "857552e4-b57d-44d6-badb-23e1695820a9",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "callTranscriptionState",
+          "ChangeType": "Addition",
+          "Description": "Added the [callTranscriptionState](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "callTranscriptionState"
+        },
+        {
+          "Id": "857552e4-b57d-44d6-badb-23e1695820a9",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "lobbyBypassScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [lobbyBypassScope](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "lobbyBypassScope"
+        },
+        {
+          "Id": "857552e4-b57d-44d6-badb-23e1695820a9",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "onlineMeetingPresenters",
+          "ChangeType": "Addition",
+          "Description": "Added the [onlineMeetingPresenters](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "onlineMeetingPresenters"
+        },
+        {
+          "Id": "857552e4-b57d-44d6-badb-23e1695820a9",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "onlineMeetingRole",
+          "ChangeType": "Addition",
+          "Description": "Added the [onlineMeetingRole](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "onlineMeetingRole"
+        },
+        {
+          "Id": "857552e4-b57d-44d6-badb-23e1695820a9",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "transcriptionState",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **transcriptionState** enumeration type",
+          "Target": "transcriptionState"
+        },
+        {
+          "Id": "857552e4-b57d-44d6-badb-23e1695820a9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "callTranscriptionInfo",
+          "ChangeType": "Addition",
+          "Description": "Added the [callTranscriptionInfo](/graph/api/resources/callTranscriptionInfo?view=graph-rest-beta) resource type",
+          "Target": "callTranscriptionInfo"
+        },
+        {
+          "Id": "857552e4-b57d-44d6-badb-23e1695820a9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "lobbyBypassSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [lobbyBypassSettings](/graph/api/resources/lobbyBypassSettings?view=graph-rest-beta) resource type",
+          "Target": "lobbyBypassSettings"
+        },
+        {
+          "Id": "857552e4-b57d-44d6-badb-23e1695820a9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "transcriptionInfo",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **transcriptionInfo** resource type",
+          "Target": "transcriptionInfo"
+        }
+      ],
+      "Id": "857552e4-b57d-44d6-badb-23e1695820a9",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9310941Z",
+      "WorkloadArea": "Microsoft.Skype.Calling",
+      "SubArea": "Call"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e81e73f6-35f0-467c-930e-fdb2f7f52e73",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "callTranscriptionState",
+          "ChangeType": "Addition",
+          "Description": "Added the [callTranscriptionState](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "callTranscriptionState"
+        },
+        {
+          "Id": "e81e73f6-35f0-467c-930e-fdb2f7f52e73",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "callTranscriptionInfo",
+          "ChangeType": "Addition",
+          "Description": "Added the [callTranscriptionInfo](/graph/api/resources/callTranscriptionInfo?view=graph-rest-1.0) resource type",
+          "Target": "callTranscriptionInfo"
+        },
+        {
+          "Id": "e81e73f6-35f0-467c-930e-fdb2f7f52e73",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "cancelMediaProcessingOperation",
+          "ChangeType": "Addition",
+          "Description": "Added the [cancelMediaProcessingOperation](/graph/api/resources/cancelMediaProcessingOperation?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "cancelMediaProcessingOperation"
+        },
+        {
+          "Id": "e81e73f6-35f0-467c-930e-fdb2f7f52e73",
+          "ApiChange": "Action",
+          "ChangedApiName": "cancelMediaProcessing",
+          "ChangeType": "Addition",
+          "Description": "Added the [cancelMediaProcessing](/graph/api/cancelMediaProcessing-cancelMediaProcessing?view=graph-rest-1.0) method to the [cancelMediaProcessing](/graph/api/cancelMediaProcessing-cancelMediaProcessing?view=graph-rest-1.0) resource",
+          "Target": "cancelMediaProcessing"
+        }
+      ],
+      "Id": "e81e73f6-35f0-467c-930e-fdb2f7f52e73",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9310977Z",
+      "WorkloadArea": "Microsoft.Skype.Calling",
+      "SubArea": "Call"
+    }
+  ]
+}

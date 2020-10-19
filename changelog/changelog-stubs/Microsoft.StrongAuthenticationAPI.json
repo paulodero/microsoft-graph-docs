@@ -1,0 +1,86 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "authenticationMethodKeyStrength",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationMethodKeyStrength](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "authenticationMethodKeyStrength"
+        },
+        {
+          "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "authenticationMethodsPolicyEvaluation",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationMethodsPolicyEvaluation](/graph/api/resources/authenticationMethodsPolicyEvaluation?view=graph-rest-beta) resource type",
+          "Target": "authenticationMethodsPolicyEvaluation"
+        },
+        {
+          "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+          "ApiChange": "Property",
+          "ChangedApiName": "policy",
+          "ChangeType": "Addition",
+          "Description": "Added the **policy** property to [authentication](/?view=graph-rest-beta) resource",
+          "Target": "authentication"
+        },
+        {
+          "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "windowsHelloForBusinessMethods",
+          "ChangeType": "Addition",
+          "Description": "Added the **windowsHelloForBusinessMethods** relationship to [authentication](/?view=graph-rest-beta) resource",
+          "Target": "authentication"
+        },
+        {
+          "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+          "ApiChange": "Property",
+          "ChangedApiName": "creationDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **creationDateTime** property to [microsoftAuthenticatorAuthenticationMethod](/?view=graph-rest-beta) resource",
+          "Target": "microsoftAuthenticatorAuthenticationMethod"
+        },
+        {
+          "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+          "ApiChange": "Property",
+          "ChangedApiName": "deviceName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **deviceName** property from [microsoftAuthenticatorAuthenticationMethod](/?view=graph-rest-beta) resource",
+          "Target": "microsoftAuthenticatorAuthenticationMethod"
+        },
+        {
+          "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Addition",
+          "Description": "Added the **displayName** property to [microsoftAuthenticatorAuthenticationMethod](/?view=graph-rest-beta) resource",
+          "Target": "microsoftAuthenticatorAuthenticationMethod"
+        },
+        {
+          "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "device",
+          "ChangeType": "Addition",
+          "Description": "Added the **device** relationship to [microsoftAuthenticatorAuthenticationMethod](/?view=graph-rest-beta) resource",
+          "Target": "microsoftAuthenticatorAuthenticationMethod"
+        },
+        {
+          "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windowsHelloForBusinessAuthenticationMethod",
+          "ChangeType": "Addition",
+          "Description": "Added the [windowsHelloForBusinessAuthenticationMethod](/graph/api/resources/windowsHelloForBusinessAuthenticationMethod?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windowsHelloForBusinessAuthenticationMethod"
+        }
+      ],
+      "Id": "f69a952f-838c-42d4-8da0-bdbc06b15ae6",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9311Z",
+      "WorkloadArea": "Microsoft.StrongAuthenticationAPI",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}

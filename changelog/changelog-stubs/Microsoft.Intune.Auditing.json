@@ -1,0 +1,130 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "1d0a60cb-8930-483e-8a33-2c2e1cf71ac6",
+          "ApiChange": "Property",
+          "ChangedApiName": "remoteTenantId",
+          "ChangeType": "Addition",
+          "Description": "Added the **remoteTenantId** property to [auditActor](/?view=graph-rest-beta) resource",
+          "Target": "auditActor"
+        },
+        {
+          "Id": "1d0a60cb-8930-483e-8a33-2c2e1cf71ac6",
+          "ApiChange": "Property",
+          "ChangedApiName": "remoteUserId",
+          "ChangeType": "Addition",
+          "Description": "Added the **remoteUserId** property to [auditActor](/?view=graph-rest-beta) resource",
+          "Target": "auditActor"
+        },
+        {
+          "Id": "1d0a60cb-8930-483e-8a33-2c2e1cf71ac6",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50191017",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50191017** resource type *@\u0026*",
+          "Target": "edm_50191017"
+        },
+        {
+          "Id": "1d0a60cb-8930-483e-8a33-2c2e1cf71ac6",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200624",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200624](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200624"
+        }
+      ],
+      "Id": "1d0a60cb-8930-483e-8a33-2c2e1cf71ac6",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.93098Z",
+      "WorkloadArea": "Microsoft.Intune.Auditing",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "aa4c38ff-2a81-443c-b8f2-fe5d06046754",
+          "ApiChange": "Property",
+          "ChangedApiName": "remoteTenantId",
+          "ChangeType": "Addition",
+          "Description": "Added the **remoteTenantId** property to [auditActor](/?view=graph-rest-beta) resource",
+          "Target": "auditActor"
+        },
+        {
+          "Id": "aa4c38ff-2a81-443c-b8f2-fe5d06046754",
+          "ApiChange": "Property",
+          "ChangedApiName": "remoteUserId",
+          "ChangeType": "Addition",
+          "Description": "Added the **remoteUserId** property to [auditActor](/?view=graph-rest-beta) resource",
+          "Target": "auditActor"
+        },
+        {
+          "Id": "aa4c38ff-2a81-443c-b8f2-fe5d06046754",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50191017",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50191017** resource type *@\u0026*",
+          "Target": "edm_50191017"
+        },
+        {
+          "Id": "aa4c38ff-2a81-443c-b8f2-fe5d06046754",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200624",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200624](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200624"
+        }
+      ],
+      "Id": "aa4c38ff-2a81-443c-b8f2-fe5d06046754",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309812Z",
+      "WorkloadArea": "Microsoft.Intune.Auditing",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "216ab12b-50c7-4eeb-8204-95452a9bfde2",
+          "ApiChange": "Property",
+          "ChangedApiName": "remoteTenantId",
+          "ChangeType": "Addition",
+          "Description": "Added the **remoteTenantId** property to [auditActor](/?view=graph-rest-beta) resource",
+          "Target": "auditActor"
+        },
+        {
+          "Id": "216ab12b-50c7-4eeb-8204-95452a9bfde2",
+          "ApiChange": "Property",
+          "ChangedApiName": "remoteUserId",
+          "ChangeType": "Addition",
+          "Description": "Added the **remoteUserId** property to [auditActor](/?view=graph-rest-beta) resource",
+          "Target": "auditActor"
+        },
+        {
+          "Id": "216ab12b-50c7-4eeb-8204-95452a9bfde2",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50191017",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50191017** resource type *@\u0026*",
+          "Target": "edm_50191017"
+        },
+        {
+          "Id": "216ab12b-50c7-4eeb-8204-95452a9bfde2",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200624",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200624](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200624"
+        }
+      ],
+      "Id": "216ab12b-50c7-4eeb-8204-95452a9bfde2",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309829Z",
+      "WorkloadArea": "Microsoft.Intune.Auditing",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

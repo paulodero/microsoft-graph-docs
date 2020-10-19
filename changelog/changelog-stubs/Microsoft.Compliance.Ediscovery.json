@@ -1,0 +1,70 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "daba05a3-4ee5-4ea9-915c-27083d750495",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identity",
+          "ChangeType": "Addition",
+          "Description": "Added the [identity]() resource type",
+          "Target": "identity"
+        },
+        {
+          "Id": "daba05a3-4ee5-4ea9-915c-27083d750495",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identitySet",
+          "ChangeType": "Addition",
+          "Description": "Added the [identitySet]() resource type",
+          "Target": "identitySet"
+        },
+        {
+          "Id": "daba05a3-4ee5-4ea9-915c-27083d750495",
+          "ApiChange": "Property",
+          "ChangedApiName": "closedBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **closedBy** property in the [ediscoveryCase]() resource",
+          "Target": "ediscoveryCase"
+        },
+        {
+          "Id": "daba05a3-4ee5-4ea9-915c-27083d750495",
+          "ApiChange": "Property",
+          "ChangedApiName": "lastModifiedBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **lastModifiedBy** property in the [ediscoveryCase]() resource",
+          "Target": "ediscoveryCase"
+        },
+        {
+          "Id": "daba05a3-4ee5-4ea9-915c-27083d750495",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **createdBy** property in the [reviewSet]() resource",
+          "Target": "reviewSet"
+        },
+        {
+          "Id": "daba05a3-4ee5-4ea9-915c-27083d750495",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **createdBy** property in the [reviewSetQuery]() resource",
+          "Target": "reviewSetQuery"
+        },
+        {
+          "Id": "daba05a3-4ee5-4ea9-915c-27083d750495",
+          "ApiChange": "Property",
+          "ChangedApiName": "lastModifiedBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **lastModifiedBy** property in the [reviewSetQuery]() resource",
+          "Target": "reviewSetQuery"
+        }
+      ],
+      "Id": "daba05a3-4ee5-4ea9-915c-27083d750495",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9307857Z",
+      "WorkloadArea": "Microsoft.Compliance.Ediscovery",
+      "SubArea": ""
+    }
+  ]
+}

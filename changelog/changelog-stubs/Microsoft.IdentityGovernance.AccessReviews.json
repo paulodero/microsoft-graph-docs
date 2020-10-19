@@ -1,0 +1,900 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "dayOfWeek",
+          "ChangeType": "Addition",
+          "Description": "Added the [dayOfWeek](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "dayOfWeek"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "recurrencePatternType",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrencePatternType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "recurrencePatternType"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "recurrenceRangeType",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrenceRangeType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "recurrenceRangeType"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "weekIndex",
+          "ChangeType": "Addition",
+          "Description": "Added the [weekIndex](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "weekIndex"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewApplyAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewApplyAction](/graph/api/resources/accessReviewApplyAction?view=graph-rest-beta) resource type",
+          "Target": "accessReviewApplyAction"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewInstanceDecisionItemServicePrincipalTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstanceDecisionItemServicePrincipalTarget](/graph/api/resources/accessReviewInstanceDecisionItemServicePrincipalTarget?view=graph-rest-beta) resource type",
+          "Target": "accessReviewInstanceDecisionItemServicePrincipalTarget"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewInstanceDecisionItemTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstanceDecisionItemTarget](/graph/api/resources/accessReviewInstanceDecisionItemTarget?view=graph-rest-beta) resource type",
+          "Target": "accessReviewInstanceDecisionItemTarget"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewInstanceDecisionItemUserTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstanceDecisionItemUserTarget](/graph/api/resources/accessReviewInstanceDecisionItemUserTarget?view=graph-rest-beta) resource type",
+          "Target": "accessReviewInstanceDecisionItemUserTarget"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewReviewerScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewReviewerScope](/graph/api/resources/accessReviewReviewerScope?view=graph-rest-beta) resource type",
+          "Target": "accessReviewReviewerScope"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewScheduleSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewScheduleSettings](/graph/api/resources/accessReviewScheduleSettings?view=graph-rest-beta) resource type",
+          "Target": "accessReviewScheduleSettings"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewScope](/graph/api/resources/accessReviewScope?view=graph-rest-beta) resource type",
+          "Target": "accessReviewScope"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "appConsentRequestScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [appConsentRequestScope](/graph/api/resources/appConsentRequestScope?view=graph-rest-beta) resource type",
+          "Target": "appConsentRequestScope"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "businessFlowSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [businessFlowSettings](/graph/api/resources/businessFlowSettings?view=graph-rest-beta) resource type",
+          "Target": "businessFlowSettings"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "disableAndDeleteUserApplyAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [disableAndDeleteUserApplyAction](/graph/api/resources/disableAndDeleteUserApplyAction?view=graph-rest-beta) resource type",
+          "Target": "disableAndDeleteUserApplyAction"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "governanceCriteria",
+          "ChangeType": "Addition",
+          "Description": "Added the [governanceCriteria](/graph/api/resources/governanceCriteria?view=graph-rest-beta) resource type",
+          "Target": "governanceCriteria"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "governanceNotificationPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [governanceNotificationPolicy](/graph/api/resources/governanceNotificationPolicy?view=graph-rest-beta) resource type",
+          "Target": "governanceNotificationPolicy"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "governanceNotificationTemplate",
+          "ChangeType": "Addition",
+          "Description": "Added the [governanceNotificationTemplate](/graph/api/resources/governanceNotificationTemplate?view=graph-rest-beta) resource type",
+          "Target": "governanceNotificationTemplate"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "governancePolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [governancePolicy](/graph/api/resources/governancePolicy?view=graph-rest-beta) resource type",
+          "Target": "governancePolicy"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "groupMembershipGovernanceCriteria",
+          "ChangeType": "Addition",
+          "Description": "Added the [groupMembershipGovernanceCriteria](/graph/api/resources/groupMembershipGovernanceCriteria?view=graph-rest-beta) resource type",
+          "Target": "groupMembershipGovernanceCriteria"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identitySet",
+          "ChangeType": "Addition",
+          "Description": "Added the [identitySet](/graph/api/resources/identitySet?view=graph-rest-beta) resource type",
+          "Target": "identitySet"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "recurrencePattern",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrencePattern](/graph/api/resources/recurrencePattern?view=graph-rest-beta) resource type",
+          "Target": "recurrencePattern"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "recurrenceRange",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrenceRange](/graph/api/resources/recurrenceRange?view=graph-rest-beta) resource type",
+          "Target": "recurrenceRange"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "removeAccessApplyAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [removeAccessApplyAction](/graph/api/resources/removeAccessApplyAction?view=graph-rest-beta) resource type",
+          "Target": "removeAccessApplyAction"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "roleMembershipGovernanceCriteria",
+          "ChangeType": "Addition",
+          "Description": "Added the [roleMembershipGovernanceCriteria](/graph/api/resources/roleMembershipGovernanceCriteria?view=graph-rest-beta) resource type",
+          "Target": "roleMembershipGovernanceCriteria"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "userGovernanceCriteria",
+          "ChangeType": "Addition",
+          "Description": "Added the [userGovernanceCriteria](/graph/api/resources/userGovernanceCriteria?view=graph-rest-beta) resource type",
+          "Target": "userGovernanceCriteria"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **displayName** property from [userIdentity](/?view=graph-rest-beta) resource",
+          "Target": "userIdentity"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Property",
+          "ChangedApiName": "id",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **id** property from [userIdentity](/?view=graph-rest-beta) resource",
+          "Target": "userIdentity"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "accessReviewInstance",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstance](/graph/api/resources/accessReviewInstance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "accessReviewInstance"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "accessReviewInstanceDecisionItem",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstanceDecisionItem](/graph/api/resources/accessReviewInstanceDecisionItem?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "accessReviewInstanceDecisionItem"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "accessReviewScheduleDefinition",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewScheduleDefinition](/graph/api/resources/accessReviewScheduleDefinition?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "accessReviewScheduleDefinition"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "accessReviewSet",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewSet](/graph/api/resources/accessReviewSet?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "accessReviewSet"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "adminConsentRequestPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [adminConsentRequestPolicy](/graph/api/resources/adminConsentRequestPolicy?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "adminConsentRequestPolicy"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "appConsentApprovalRoute",
+          "ChangeType": "Addition",
+          "Description": "Added the [appConsentApprovalRoute](/graph/api/resources/appConsentApprovalRoute?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "appConsentApprovalRoute"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "appConsentRequest",
+          "ChangeType": "Addition",
+          "Description": "Added the [appConsentRequest](/graph/api/resources/appConsentRequest?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "appConsentRequest"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "approval",
+          "ChangeType": "Addition",
+          "Description": "Added the [approval](/graph/api/resources/approval?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "approval"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "approvalStep",
+          "ChangeType": "Addition",
+          "Description": "Added the [approvalStep](/graph/api/resources/approvalStep?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "approvalStep"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "approvalWorkflowProvider",
+          "ChangeType": "Addition",
+          "Description": "Added the [approvalWorkflowProvider](/graph/api/resources/approvalWorkflowProvider?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "approvalWorkflowProvider"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "businessFlow",
+          "ChangeType": "Addition",
+          "Description": "Added the [businessFlow](/graph/api/resources/businessFlow?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "businessFlow"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "directoryRoleAccessReviewPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [directoryRoleAccessReviewPolicy](/graph/api/resources/directoryRoleAccessReviewPolicy?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "directoryRoleAccessReviewPolicy"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "governancePolicyTemplate",
+          "ChangeType": "Addition",
+          "Description": "Added the [governancePolicyTemplate](/graph/api/resources/governancePolicyTemplate?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "governancePolicyTemplate"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityGovernance",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityGovernance](/graph/api/resources/identityGovernance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityGovernance"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "policyRoot",
+          "ChangeType": "Addition",
+          "Description": "Added the [policyRoot](/graph/api/resources/policyRoot?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "policyRoot"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "request",
+          "ChangeType": "Addition",
+          "Description": "Added the [request](/graph/api/resources/request?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "request"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userConsentRequest",
+          "ChangeType": "Addition",
+          "Description": "Added the [userConsentRequest](/graph/api/resources/userConsentRequest?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userConsentRequest"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Action",
+          "ChangedApiName": "acceptRecommendations",
+          "ChangeType": "Addition",
+          "Description": "Added the [acceptRecommendations](/graph/api/acceptRecommendations-acceptRecommendations?view=graph-rest-beta) method to the [acceptRecommendations](/graph/api/acceptRecommendations-acceptRecommendations?view=graph-rest-beta) resource",
+          "Target": "acceptRecommendations"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Action",
+          "ChangedApiName": "applyDecisions",
+          "ChangeType": "Addition",
+          "Description": "Added the [applyDecisions](/graph/api/applyDecisions-applyDecisions?view=graph-rest-beta) method to the [applyDecisions](/graph/api/applyDecisions-applyDecisions?view=graph-rest-beta) resource",
+          "Target": "applyDecisions"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Action",
+          "ChangedApiName": "recordDecisions",
+          "ChangeType": "Addition",
+          "Description": "Added the [recordDecisions](/graph/api/recordDecisions-recordDecisions?view=graph-rest-beta) method to the [recordDecisions](/graph/api/recordDecisions-recordDecisions?view=graph-rest-beta) resource",
+          "Target": "recordDecisions"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Action",
+          "ChangedApiName": "recordDecisions",
+          "ChangeType": "Addition",
+          "Description": "Added the [recordDecisions](/graph/api/recordDecisions-recordDecisions?view=graph-rest-beta) method to the [recordDecisions](/graph/api/recordDecisions-recordDecisions?view=graph-rest-beta) resource",
+          "Target": "recordDecisions"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Action",
+          "ChangedApiName": "resetDecisions",
+          "ChangeType": "Addition",
+          "Description": "Added the [resetDecisions](/graph/api/resetDecisions-resetDecisions?view=graph-rest-beta) method to the [resetDecisions](/graph/api/resetDecisions-resetDecisions?view=graph-rest-beta) resource",
+          "Target": "resetDecisions"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Action",
+          "ChangedApiName": "sendReminder",
+          "ChangeType": "Addition",
+          "Description": "Added the [sendReminder](/graph/api/sendReminder-sendReminder?view=graph-rest-beta) method to the [sendReminder](/graph/api/sendReminder-sendReminder?view=graph-rest-beta) resource",
+          "Target": "sendReminder"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Action",
+          "ChangedApiName": "stop",
+          "ChangeType": "Addition",
+          "Description": "Added the [stop](/graph/api/stop-stop?view=graph-rest-beta) method to the [stop](/graph/api/stop-stop?view=graph-rest-beta) resource",
+          "Target": "stop"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Action",
+          "ChangedApiName": "stop",
+          "ChangeType": "Addition",
+          "Description": "Added the [stop](/graph/api/stop-stop?view=graph-rest-beta) method to the [stop](/graph/api/stop-stop?view=graph-rest-beta) resource",
+          "Target": "stop"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Action",
+          "ChangedApiName": "stop",
+          "ChangeType": "Addition",
+          "Description": "Added the [stop](/graph/api/stop-stop?view=graph-rest-beta) method to the [stop](/graph/api/stop-stop?view=graph-rest-beta) resource",
+          "Target": "stop"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "approvalWorkflowProviders",
+          "ChangeType": "Addition",
+          "Description": "Added the [approvalWorkflowProviders](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "approvalWorkflowProviders"
+        },
+        {
+          "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "identityGovernance",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityGovernance](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityGovernance"
+        }
+      ],
+      "Id": "2bf95387-2506-4b63-8814-857c3ce3f5a2",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309292Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewReviewerScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewReviewerScope](/graph/api/resources/accessReviewReviewerScope?view=graph-rest-beta) resource type",
+          "Target": "accessReviewReviewerScope"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identitySet",
+          "ChangeType": "Addition",
+          "Description": "Added the [identitySet](/graph/api/resources/identitySet?view=graph-rest-beta) resource type",
+          "Target": "identitySet"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "Property",
+          "ChangedApiName": "scope",
+          "ChangeType": "Addition",
+          "Description": "Added the **scope** property to [accessReviewInstance](/?view=graph-rest-beta) resource",
+          "Target": "accessReviewInstance"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "definition",
+          "ChangeType": "Addition",
+          "Description": "Added the **definition** relationship to [accessReviewInstance](/?view=graph-rest-beta) resource",
+          "Target": "accessReviewInstance"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "Property",
+          "ChangedApiName": "instanceEnumerationScope",
+          "ChangeType": "Addition",
+          "Description": "Added the **instanceEnumerationScope** property to [accessReviewScheduleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "Property",
+          "ChangedApiName": "reviewers",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **reviewers** property in the [accessReviewScheduleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "appConsentApprovalRoute",
+          "ChangeType": "Addition",
+          "Description": "Added the [appConsentApprovalRoute](/graph/api/resources/appConsentApprovalRoute?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "appConsentApprovalRoute"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "appConsent",
+          "ChangeType": "Addition",
+          "Description": "Added the **appConsent** relationship to [identityGovernance](/?view=graph-rest-beta) resource",
+          "Target": "identityGovernance"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **createdBy** property in the [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "Property",
+          "ChangedApiName": "status",
+          "ChangeType": "Addition",
+          "Description": "Added the **status** property to [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        },
+        {
+          "Id": "612c554e-8058-4577-a828-94f4880a6040",
+          "ApiChange": "Action",
+          "ChangedApiName": "acceptRecommendations",
+          "ChangeType": "Addition",
+          "Description": "Added the [acceptRecommendations](/graph/api/acceptRecommendations-acceptRecommendations?view=graph-rest-beta) method to the [acceptRecommendations](/graph/api/acceptRecommendations-acceptRecommendations?view=graph-rest-beta) resource",
+          "Target": "acceptRecommendations"
+        }
+      ],
+      "Id": "612c554e-8058-4577-a828-94f4880a6040",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309362Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewReviewerScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewReviewerScope](/graph/api/resources/accessReviewReviewerScope?view=graph-rest-beta) resource type",
+          "Target": "accessReviewReviewerScope"
+        },
+        {
+          "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identitySet",
+          "ChangeType": "Addition",
+          "Description": "Added the [identitySet](/graph/api/resources/identitySet?view=graph-rest-beta) resource type",
+          "Target": "identitySet"
+        },
+        {
+          "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+          "ApiChange": "Property",
+          "ChangedApiName": "scope",
+          "ChangeType": "Addition",
+          "Description": "Added the **scope** property to [accessReviewInstance](/?view=graph-rest-beta) resource",
+          "Target": "accessReviewInstance"
+        },
+        {
+          "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+          "ApiChange": "Property",
+          "ChangedApiName": "instanceEnumerationScope",
+          "ChangeType": "Addition",
+          "Description": "Added the **instanceEnumerationScope** property to [accessReviewScheduleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        },
+        {
+          "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+          "ApiChange": "Property",
+          "ChangedApiName": "reviewers",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **reviewers** property in the [accessReviewScheduleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        },
+        {
+          "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "appConsentApprovalRoute",
+          "ChangeType": "Addition",
+          "Description": "Added the [appConsentApprovalRoute](/graph/api/resources/appConsentApprovalRoute?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "appConsentApprovalRoute"
+        },
+        {
+          "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "appConsent",
+          "ChangeType": "Addition",
+          "Description": "Added the **appConsent** relationship to [identityGovernance](/?view=graph-rest-beta) resource",
+          "Target": "identityGovernance"
+        },
+        {
+          "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **createdBy** property in the [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        },
+        {
+          "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+          "ApiChange": "Property",
+          "ChangedApiName": "status",
+          "ChangeType": "Addition",
+          "Description": "Added the **status** property to [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        }
+      ],
+      "Id": "94108b51-cf06-48ea-a368-01a4650ff408",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.930938Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "dayOfWeek",
+          "ChangeType": "Addition",
+          "Description": "Added the [dayOfWeek](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "dayOfWeek"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "recurrencePatternType",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrencePatternType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "recurrencePatternType"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "recurrenceRangeType",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrenceRangeType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "recurrenceRangeType"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "weekIndex",
+          "ChangeType": "Addition",
+          "Description": "Added the [weekIndex](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "weekIndex"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewApplyAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewApplyAction](/graph/api/resources/accessReviewApplyAction?view=graph-rest-beta) resource type",
+          "Target": "accessReviewApplyAction"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewInstanceDecisionItemServicePrincipalTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstanceDecisionItemServicePrincipalTarget](/graph/api/resources/accessReviewInstanceDecisionItemServicePrincipalTarget?view=graph-rest-beta) resource type",
+          "Target": "accessReviewInstanceDecisionItemServicePrincipalTarget"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewInstanceDecisionItemTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstanceDecisionItemTarget](/graph/api/resources/accessReviewInstanceDecisionItemTarget?view=graph-rest-beta) resource type",
+          "Target": "accessReviewInstanceDecisionItemTarget"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewInstanceDecisionItemUserTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstanceDecisionItemUserTarget](/graph/api/resources/accessReviewInstanceDecisionItemUserTarget?view=graph-rest-beta) resource type",
+          "Target": "accessReviewInstanceDecisionItemUserTarget"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewReviewerScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewReviewerScope](/graph/api/resources/accessReviewReviewerScope?view=graph-rest-beta) resource type",
+          "Target": "accessReviewReviewerScope"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewScheduleSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewScheduleSettings](/graph/api/resources/accessReviewScheduleSettings?view=graph-rest-beta) resource type",
+          "Target": "accessReviewScheduleSettings"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "disableAndDeleteUserApplyAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [disableAndDeleteUserApplyAction](/graph/api/resources/disableAndDeleteUserApplyAction?view=graph-rest-beta) resource type",
+          "Target": "disableAndDeleteUserApplyAction"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identitySet",
+          "ChangeType": "Addition",
+          "Description": "Added the [identitySet](/graph/api/resources/identitySet?view=graph-rest-beta) resource type",
+          "Target": "identitySet"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "recurrencePattern",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrencePattern](/graph/api/resources/recurrencePattern?view=graph-rest-beta) resource type",
+          "Target": "recurrencePattern"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "recurrenceRange",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrenceRange](/graph/api/resources/recurrenceRange?view=graph-rest-beta) resource type",
+          "Target": "recurrenceRange"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "removeAccessApplyAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [removeAccessApplyAction](/graph/api/resources/removeAccessApplyAction?view=graph-rest-beta) resource type",
+          "Target": "removeAccessApplyAction"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "accessReviewInstance",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstance](/graph/api/resources/accessReviewInstance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "accessReviewInstance"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "accessReviewInstanceDecisionItem",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewInstanceDecisionItem](/graph/api/resources/accessReviewInstanceDecisionItem?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "accessReviewInstanceDecisionItem"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "accessReviewScheduleDefinition",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewScheduleDefinition](/graph/api/resources/accessReviewScheduleDefinition?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "accessReviewScheduleDefinition"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "accessReviewSet",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewSet](/graph/api/resources/accessReviewSet?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "accessReviewSet"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "appConsentApprovalRoute",
+          "ChangeType": "Addition",
+          "Description": "Added the [appConsentApprovalRoute](/graph/api/resources/appConsentApprovalRoute?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "appConsentApprovalRoute"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "directoryRoleAccessReviewPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [directoryRoleAccessReviewPolicy](/graph/api/resources/directoryRoleAccessReviewPolicy?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "directoryRoleAccessReviewPolicy"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityGovernance",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityGovernance](/graph/api/resources/identityGovernance?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityGovernance"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "directoryRoleAccessReviewPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the **directoryRoleAccessReviewPolicy** relationship to [policyRoot](/?view=graph-rest-beta) resource",
+          "Target": "policyRoot"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **createdBy** property in the [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "Property",
+          "ChangedApiName": "status",
+          "ChangeType": "Addition",
+          "Description": "Added the **status** property to [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "Action",
+          "ChangedApiName": "acceptRecommendations",
+          "ChangeType": "Addition",
+          "Description": "Added the [acceptRecommendations](/graph/api/acceptRecommendations-acceptRecommendations?view=graph-rest-beta) method to the [acceptRecommendations](/graph/api/acceptRecommendations-acceptRecommendations?view=graph-rest-beta) resource",
+          "Target": "acceptRecommendations"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "Action",
+          "ChangedApiName": "applyDecisions",
+          "ChangeType": "Addition",
+          "Description": "Added the [applyDecisions](/graph/api/applyDecisions-applyDecisions?view=graph-rest-beta) method to the [applyDecisions](/graph/api/applyDecisions-applyDecisions?view=graph-rest-beta) resource",
+          "Target": "applyDecisions"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "Action",
+          "ChangedApiName": "resetDecisions",
+          "ChangeType": "Addition",
+          "Description": "Added the [resetDecisions](/graph/api/resetDecisions-resetDecisions?view=graph-rest-beta) method to the [resetDecisions](/graph/api/resetDecisions-resetDecisions?view=graph-rest-beta) resource",
+          "Target": "resetDecisions"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "Action",
+          "ChangedApiName": "sendReminder",
+          "ChangeType": "Addition",
+          "Description": "Added the [sendReminder](/graph/api/sendReminder-sendReminder?view=graph-rest-beta) method to the [sendReminder](/graph/api/sendReminder-sendReminder?view=graph-rest-beta) resource",
+          "Target": "sendReminder"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "Action",
+          "ChangedApiName": "stop",
+          "ChangeType": "Addition",
+          "Description": "Added the [stop](/graph/api/stop-stop?view=graph-rest-beta) method to the [stop](/graph/api/stop-stop?view=graph-rest-beta) resource",
+          "Target": "stop"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "Action",
+          "ChangedApiName": "stop",
+          "ChangeType": "Addition",
+          "Description": "Added the [stop](/graph/api/stop-stop?view=graph-rest-beta) method to the [stop](/graph/api/stop-stop?view=graph-rest-beta) resource",
+          "Target": "stop"
+        },
+        {
+          "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+          "ApiChange": "Singleton",
+          "ChangedApiName": "identityGovernance",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityGovernance](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityGovernance"
+        }
+      ],
+      "Id": "df7cc910-ea98-4022-b586-991a45b564c7",
+      "Cloud": "USNat",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309398Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    }
+  ]
+}

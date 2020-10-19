@@ -1,0 +1,678 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "536203fa-0bb1-40fa-a8c8-3be44fd8f185",
+          "ApiChange": "Property",
+          "ChangedApiName": "infoCatalogs",
+          "ChangeType": "Addition",
+          "Description": "Added the **infoCatalogs** property to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "536203fa-0bb1-40fa-a8c8-3be44fd8f185",
+      "Cloud": "Blackforest",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308064Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "0b8ab421-3328-4903-b72f-0e3fe66366fc",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdDateTime** property to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "0b8ab421-3328-4903-b72f-0e3fe66366fc",
+      "Cloud": "Blackforest",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308113Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "13377f2f-902c-41e4-ab8b-5ee843c41410",
+          "ApiChange": "Property",
+          "ChangedApiName": "infoCatalogs",
+          "ChangeType": "Addition",
+          "Description": "Added the **infoCatalogs** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "13377f2f-902c-41e4-ab8b-5ee843c41410",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "user",
+          "ChangeType": "Addition",
+          "Description": "Added the [user]() resource *@\u0026*",
+          "Target": "user"
+        }
+      ],
+      "Id": "13377f2f-902c-41e4-ab8b-5ee843c41410",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308202Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "104fa94e-a999-486d-956a-40748695fa2c",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdDateTime** property to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "104fa94e-a999-486d-956a-40748695fa2c",
+      "Cloud": "Fairfax",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308263Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "01ac88d6-3776-4275-b168-602fd9d8d32e",
+          "ApiChange": "Property",
+          "ChangedApiName": "infoCatalogs",
+          "ChangeType": "Addition",
+          "Description": "Added the **infoCatalogs** property to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "01ac88d6-3776-4275-b168-602fd9d8d32e",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308332Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "ec46e5c0-b64a-4f05-9aec-1887550c43f6",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdDateTime** property to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "ec46e5c0-b64a-4f05-9aec-1887550c43f6",
+      "Cloud": "Mooncake",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308374Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "7fae89bf-17da-41b2-a891-b33d486cf9ca",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeHireDate",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeHireDate** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "7fae89bf-17da-41b2-a891-b33d486cf9ca",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeOrgData",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeOrgData** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "7fae89bf-17da-41b2-a891-b33d486cf9ca",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeType",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeType** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "7fae89bf-17da-41b2-a891-b33d486cf9ca",
+          "ApiChange": "Property",
+          "ChangedApiName": "infoCatalogs",
+          "ChangeType": "Addition",
+          "Description": "Added the **infoCatalogs** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "7fae89bf-17da-41b2-a891-b33d486cf9ca",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "transitiveReports",
+          "ChangeType": "Addition",
+          "Description": "Added the **transitiveReports** relationship to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "7fae89bf-17da-41b2-a891-b33d486cf9ca",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "pendingAccessReviewInstances",
+          "ChangeType": "Addition",
+          "Description": "Added the **pendingAccessReviewInstances** relationship to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "7fae89bf-17da-41b2-a891-b33d486cf9ca",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308441Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "objectIdentity",
+          "ChangeType": "Addition",
+          "Description": "Added the [objectIdentity]() resource type",
+          "Target": "objectIdentity"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "onPremisesExtensionAttributes",
+          "ChangeType": "Addition",
+          "Description": "Added the [onPremisesExtensionAttributes]() resource type",
+          "Target": "onPremisesExtensionAttributes"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "forceChangePasswordNextSignInWithMfa",
+          "ChangeType": "Addition",
+          "Description": "Added the **forceChangePasswordNextSignInWithMfa** property to [passwordProfile]() resource",
+          "Target": "passwordProfile"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "licenseDetails",
+          "ChangeType": "Addition",
+          "Description": "Added the [licenseDetails]() resource *@\u0026*",
+          "Target": "licenseDetails"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "ageGroup",
+          "ChangeType": "Addition",
+          "Description": "Added the **ageGroup** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "consentProvidedForMinor",
+          "ChangeType": "Addition",
+          "Description": "Added the **consentProvidedForMinor** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdDateTime** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "creationType",
+          "ChangeType": "Addition",
+          "Description": "Added the **creationType** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Addition",
+          "Description": "Added the **displayName** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeHireDate",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeHireDate** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeId",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeId** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeOrgData",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeOrgData** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeType",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeType** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "faxNumber",
+          "ChangeType": "Addition",
+          "Description": "Added the **faxNumber** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "identities",
+          "ChangeType": "Addition",
+          "Description": "Added the **identities** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "imAddresses",
+          "ChangeType": "Addition",
+          "Description": "Added the **imAddresses** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "isResourceAccount",
+          "ChangeType": "Addition",
+          "Description": "Added the **isResourceAccount** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "lastPasswordChangeDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **lastPasswordChangeDateTime** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "legalAgeGroupClassification",
+          "ChangeType": "Addition",
+          "Description": "Added the **legalAgeGroupClassification** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesDistinguishedName",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesDistinguishedName** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesDomainName",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesDomainName** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesExtensionAttributes",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesExtensionAttributes** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesProvisioningErrors",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesProvisioningErrors** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesSamAccountName",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesSamAccountName** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "onPremisesUserPrincipalName",
+          "ChangeType": "Addition",
+          "Description": "Added the **onPremisesUserPrincipalName** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "otherMails",
+          "ChangeType": "Addition",
+          "Description": "Added the **otherMails** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "showInAddressList",
+          "ChangeType": "Addition",
+          "Description": "Added the **showInAddressList** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "Property",
+          "ChangedApiName": "signInSessionsValidFromDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **signInSessionsValidFromDateTime** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "licenseDetails",
+          "ChangeType": "Addition",
+          "Description": "Added the **licenseDetails** relationship to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "scopedRoleMemberOf",
+          "ChangeType": "Addition",
+          "Description": "Added the **scopedRoleMemberOf** relationship to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "transitiveReports",
+          "ChangeType": "Addition",
+          "Description": "Added the **transitiveReports** relationship to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "user",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **user** resource type",
+          "Target": "user"
+        }
+      ],
+      "Id": "89a566a4-a442-48a8-8c41-5d10093887e6",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308567Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeHireDate",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeHireDate** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeOrgData",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeOrgData** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "Property",
+          "ChangedApiName": "employeeType",
+          "ChangeType": "Addition",
+          "Description": "Added the **employeeType** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "ownedObjects",
+          "ChangeType": "Addition",
+          "Description": "Added the **ownedObjects** relationship to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "notes",
+          "ChangeType": "Addition",
+          "Description": "Added the **notes** relationship to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "user",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **user** resource type",
+          "Target": "user"
+        },
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "Property",
+          "ChangedApiName": "id",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **id** property in the [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "chats",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **chats** relationship from [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "joinedTeams",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **joinedTeams** relationship from [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "user",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **user** resource type",
+          "Target": "user"
+        }
+      ],
+      "Id": "b9a87371-2482-403e-8299-70aa12adc6b6",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308672Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "a964124c-55f7-4b4a-8475-a3efed77ddfa",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdDateTime** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "a964124c-55f7-4b4a-8475-a3efed77ddfa",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "scopedRoleMemberOf",
+          "ChangeType": "Addition",
+          "Description": "Added the **scopedRoleMemberOf** relationship to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "a964124c-55f7-4b4a-8475-a3efed77ddfa",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "user",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **user** resource type",
+          "Target": "user"
+        },
+        {
+          "Id": "a964124c-55f7-4b4a-8475-a3efed77ddfa",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "teamwork",
+          "ChangeType": "Addition",
+          "Description": "Added the **teamwork** relationship to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "a964124c-55f7-4b4a-8475-a3efed77ddfa",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.930874Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "c3cf154a-f305-4c9a-a61a-cac6b5ccb0d1",
+          "ApiChange": "Property",
+          "ChangedApiName": "externalUserState",
+          "ChangeType": "Addition",
+          "Description": "Added the **externalUserState** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "c3cf154a-f305-4c9a-a61a-cac6b5ccb0d1",
+          "ApiChange": "Property",
+          "ChangedApiName": "externalUserStateChangeDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **externalUserStateChangeDateTime** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "c3cf154a-f305-4c9a-a61a-cac6b5ccb0d1",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "appRoleAssignments",
+          "ChangeType": "Addition",
+          "Description": "Added the **appRoleAssignments** relationship to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "c3cf154a-f305-4c9a-a61a-cac6b5ccb0d1",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "oauth2PermissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the **oauth2PermissionGrants** relationship to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "c3cf154a-f305-4c9a-a61a-cac6b5ccb0d1",
+      "Cloud": "USNat",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9308876Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "7485ee65-9175-4039-9c84-9d53eea8c80f",
+          "ApiChange": "Property",
+          "ChangedApiName": "externalUserState",
+          "ChangeType": "Addition",
+          "Description": "Added the **externalUserState** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "7485ee65-9175-4039-9c84-9d53eea8c80f",
+          "ApiChange": "Property",
+          "ChangedApiName": "externalUserStateChangeDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **externalUserStateChangeDateTime** property to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "7485ee65-9175-4039-9c84-9d53eea8c80f",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "appRoleAssignments",
+          "ChangeType": "Addition",
+          "Description": "Added the **appRoleAssignments** relationship to [user]() resource",
+          "Target": "user"
+        },
+        {
+          "Id": "7485ee65-9175-4039-9c84-9d53eea8c80f",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "oauth2PermissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the **oauth2PermissionGrants** relationship to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "7485ee65-9175-4039-9c84-9d53eea8c80f",
+      "Cloud": "USSec",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309011Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "986a5540-1117-49d9-b971-3870dcca9f53",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "pendingAccessReviewInstances",
+          "ChangeType": "Addition",
+          "Description": "Added the **pendingAccessReviewInstances** relationship to [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "986a5540-1117-49d9-b971-3870dcca9f53",
+      "Cloud": "USNat",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309439Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    }
+  ]
+}

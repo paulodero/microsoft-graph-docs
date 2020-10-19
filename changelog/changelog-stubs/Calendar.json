@@ -1,0 +1,132 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "297ff5d6-92d1-4999-8665-88c3c10f8ba2",
+          "ApiChange": "Property",
+          "ChangedApiName": "hideAttendees",
+          "ChangeType": "Addition",
+          "Description": "Added the **hideAttendees** property to [event]() resource",
+          "Target": "event"
+        },
+        {
+          "Id": "297ff5d6-92d1-4999-8665-88c3c10f8ba2",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "exceptionOccurrences",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **exceptionOccurrences** relationship from [event]() resource",
+          "Target": "event"
+        },
+        {
+          "Id": "297ff5d6-92d1-4999-8665-88c3c10f8ba2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "patternedRecurrence",
+          "ChangeType": "Addition",
+          "Description": "Added the [patternedRecurrence]() resource type",
+          "Target": "patternedRecurrence"
+        },
+        {
+          "Id": "297ff5d6-92d1-4999-8665-88c3c10f8ba2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "dateTimeTimeZone",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **dateTimeTimeZone** resource type",
+          "Target": "dateTimeTimeZone"
+        },
+        {
+          "Id": "297ff5d6-92d1-4999-8665-88c3c10f8ba2",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "patternedRecurrence",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **patternedRecurrence** resource type",
+          "Target": "patternedRecurrence"
+        }
+      ],
+      "Id": "297ff5d6-92d1-4999-8665-88c3c10f8ba2",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309119Z",
+      "WorkloadArea": "Calendar",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "dd5baf0f-d59b-44d8-9e93-311d825ff79e",
+          "ApiChange": "Property",
+          "ChangedApiName": "hexColor",
+          "ChangeType": "Addition",
+          "Description": "Added the **hexColor** property to [calendar]() resource",
+          "Target": "calendar"
+        },
+        {
+          "Id": "dd5baf0f-d59b-44d8-9e93-311d825ff79e",
+          "ApiChange": "Property",
+          "ChangedApiName": "isDefaultCalendar",
+          "ChangeType": "Addition",
+          "Description": "Added the **isDefaultCalendar** property to [calendar]() resource",
+          "Target": "calendar"
+        },
+        {
+          "Id": "dd5baf0f-d59b-44d8-9e93-311d825ff79e",
+          "ApiChange": "Property",
+          "ChangedApiName": "isDraft",
+          "ChangeType": "Addition",
+          "Description": "Added the **isDraft** property to [event]() resource",
+          "Target": "event"
+        },
+        {
+          "Id": "dd5baf0f-d59b-44d8-9e93-311d825ff79e",
+          "ApiChange": "Property",
+          "ChangedApiName": "transactionId",
+          "ChangeType": "Addition",
+          "Description": "Added the **transactionId** property to [event]() resource",
+          "Target": "event"
+        }
+      ],
+      "Id": "dd5baf0f-d59b-44d8-9e93-311d825ff79e",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309133Z",
+      "WorkloadArea": "Calendar",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "59ea274a-7514-4228-8ac5-f368abdc3a08",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "patternedRecurrence",
+          "ChangeType": "Addition",
+          "Description": "Added the [patternedRecurrence]() resource type",
+          "Target": "patternedRecurrence"
+        }
+      ],
+      "Id": "59ea274a-7514-4228-8ac5-f368abdc3a08",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.930935Z",
+      "WorkloadArea": "Calendar",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "156238e5-251b-4a93-8471-975d391c61ee",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "patternedRecurrence",
+          "ChangeType": "Addition",
+          "Description": "Added the [patternedRecurrence]() resource type",
+          "Target": "patternedRecurrence"
+        }
+      ],
+      "Id": "156238e5-251b-4a93-8471-975d391c61ee",
+      "Cloud": "USNat",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.930943Z",
+      "WorkloadArea": "Calendar",
+      "SubArea": ""
+    }
+  ]
+}

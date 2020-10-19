@@ -1,0 +1,270 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "dayOfWeek",
+          "ChangeType": "Addition",
+          "Description": "Added the [dayOfWeek](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "dayOfWeek"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "expirationPatternType",
+          "ChangeType": "Addition",
+          "Description": "Added the [expirationPatternType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "expirationPatternType"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "recurrencePatternType",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrencePatternType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "recurrencePatternType"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "recurrenceRangeType",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrenceRangeType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "recurrenceRangeType"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "weekIndex",
+          "ChangeType": "Addition",
+          "Description": "Added the [weekIndex](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "weekIndex"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageAnswer",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageAnswer](/graph/api/resources/accessPackageAnswer?view=graph-rest-beta) resource type",
+          "Target": "accessPackageAnswer"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageAnswerChoice",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageAnswerChoice](/graph/api/resources/accessPackageAnswerChoice?view=graph-rest-beta) resource type",
+          "Target": "accessPackageAnswerChoice"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageAnswerString",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageAnswerString](/graph/api/resources/accessPackageAnswerString?view=graph-rest-beta) resource type",
+          "Target": "accessPackageAnswerString"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageLocalizedContent",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageLocalizedContent](/graph/api/resources/accessPackageLocalizedContent?view=graph-rest-beta) resource type",
+          "Target": "accessPackageLocalizedContent"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageLocalizedText",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageLocalizedText](/graph/api/resources/accessPackageLocalizedText?view=graph-rest-beta) resource type",
+          "Target": "accessPackageLocalizedText"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageMultipleChoiceQuestion",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageMultipleChoiceQuestion](/graph/api/resources/accessPackageMultipleChoiceQuestion?view=graph-rest-beta) resource type",
+          "Target": "accessPackageMultipleChoiceQuestion"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageQuestion",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageQuestion](/graph/api/resources/accessPackageQuestion?view=graph-rest-beta) resource type",
+          "Target": "accessPackageQuestion"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageResourceAttribute",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageResourceAttribute](/graph/api/resources/accessPackageResourceAttribute?view=graph-rest-beta) resource type",
+          "Target": "accessPackageResourceAttribute"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageResourceAttributeDestination",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageResourceAttributeDestination](/graph/api/resources/accessPackageResourceAttributeDestination?view=graph-rest-beta) resource type",
+          "Target": "accessPackageResourceAttributeDestination"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageResourceAttributeQuestion",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageResourceAttributeQuestion](/graph/api/resources/accessPackageResourceAttributeQuestion?view=graph-rest-beta) resource type",
+          "Target": "accessPackageResourceAttributeQuestion"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageResourceAttributeSource",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageResourceAttributeSource](/graph/api/resources/accessPackageResourceAttributeSource?view=graph-rest-beta) resource type",
+          "Target": "accessPackageResourceAttributeSource"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageTextInputQuestion",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageTextInputQuestion](/graph/api/resources/accessPackageTextInputQuestion?view=graph-rest-beta) resource type",
+          "Target": "accessPackageTextInputQuestion"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessPackageUserDirectoryAttributeStore",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessPackageUserDirectoryAttributeStore](/graph/api/resources/accessPackageUserDirectoryAttributeStore?view=graph-rest-beta) resource type",
+          "Target": "accessPackageUserDirectoryAttributeStore"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "expirationPattern",
+          "ChangeType": "Addition",
+          "Description": "Added the [expirationPattern](/graph/api/resources/expirationPattern?view=graph-rest-beta) resource type",
+          "Target": "expirationPattern"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "recurrencePattern",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrencePattern](/graph/api/resources/recurrencePattern?view=graph-rest-beta) resource type",
+          "Target": "recurrencePattern"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "recurrenceRange",
+          "ChangeType": "Addition",
+          "Description": "Added the [recurrenceRange](/graph/api/resources/recurrenceRange?view=graph-rest-beta) resource type",
+          "Target": "recurrenceRange"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "requestSchedule",
+          "ChangeType": "Addition",
+          "Description": "Added the [requestSchedule](/graph/api/resources/requestSchedule?view=graph-rest-beta) resource type",
+          "Target": "requestSchedule"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "Property",
+          "ChangedApiName": "schedule",
+          "ChangeType": "Addition",
+          "Description": "Added the **schedule** property to [accessPackageAssignment](/?view=graph-rest-beta) resource",
+          "Target": "accessPackageAssignment"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "Property",
+          "ChangedApiName": "questions",
+          "ChangeType": "Addition",
+          "Description": "Added the **questions** property to [accessPackageAssignmentPolicy](/?view=graph-rest-beta) resource",
+          "Target": "accessPackageAssignmentPolicy"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "Property",
+          "ChangedApiName": "answers",
+          "ChangeType": "Addition",
+          "Description": "Added the **answers** property to [accessPackageAssignmentRequest](/?view=graph-rest-beta) resource",
+          "Target": "accessPackageAssignmentRequest"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "Property",
+          "ChangedApiName": "schedule",
+          "ChangeType": "Addition",
+          "Description": "Added the **schedule** property to [accessPackageAssignmentRequest](/?view=graph-rest-beta) resource",
+          "Target": "accessPackageAssignmentRequest"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "Property",
+          "ChangedApiName": "attributes",
+          "ChangeType": "Addition",
+          "Description": "Added the **attributes** property to [accessPackageResource](/?view=graph-rest-beta) resource",
+          "Target": "accessPackageResource"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "Property",
+          "ChangedApiName": "id",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **id** property from [identityGovernance](/?view=graph-rest-beta) resource",
+          "Target": "identityGovernance"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "entitlementManagement",
+          "ChangeType": "Addition",
+          "Description": "Added the **entitlementManagement** relationship to [identityGovernance](/?view=graph-rest-beta) resource",
+          "Target": "identityGovernance"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "entitlementManagement",
+          "ChangeType": "Addition",
+          "Description": "Added the **entitlementManagement** relationship to [identityGovernance](/?view=graph-rest-beta) resource",
+          "Target": "identityGovernance"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "connectedOrganizationState",
+          "ChangeType": "Addition",
+          "Description": "Added the [connectedOrganizationState](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "connectedOrganizationState"
+        },
+        {
+          "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [connectedOrganization](/?view=graph-rest-beta) resource",
+          "Target": "connectedOrganization"
+        }
+      ],
+      "Id": "43fdb8ad-7bfc-4a5d-b1bf-3360f1ea403e",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309627Z",
+      "WorkloadArea": "Microsoft.IGAELM",
+      "SubArea": "Identity governance"
+    }
+  ]
+}

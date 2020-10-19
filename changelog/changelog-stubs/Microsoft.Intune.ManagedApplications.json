@@ -1,0 +1,202 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "607f407d-d9af-4750-8745-0ab3ef18f9ce",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "androidManagedAppSafetyNetEvaluationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [androidManagedAppSafetyNetEvaluationType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "androidManagedAppSafetyNetEvaluationType"
+        },
+        {
+          "Id": "607f407d-d9af-4750-8745-0ab3ef18f9ce",
+          "ApiChange": "Property",
+          "ChangedApiName": "biometricAuthenticationBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **biometricAuthenticationBlocked** property to [androidManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "607f407d-d9af-4750-8745-0ab3ef18f9ce",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredAndroidSafetyNetEvaluationType",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredAndroidSafetyNetEvaluationType** property to [androidManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "607f407d-d9af-4750-8745-0ab3ef18f9ce",
+          "ApiChange": "Property",
+          "ChangedApiName": "biometricAuthenticationBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **biometricAuthenticationBlocked** property to [defaultManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "607f407d-d9af-4750-8745-0ab3ef18f9ce",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredAndroidSafetyNetEvaluationType",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredAndroidSafetyNetEvaluationType** property to [defaultManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "607f407d-d9af-4750-8745-0ab3ef18f9ce",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200513",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200513** resource type *@\u0026*",
+          "Target": "edm_50200513"
+        },
+        {
+          "Id": "607f407d-d9af-4750-8745-0ab3ef18f9ce",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200821](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200821"
+        }
+      ],
+      "Id": "607f407d-d9af-4750-8745-0ab3ef18f9ce",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9310509Z",
+      "WorkloadArea": "Microsoft.Intune.ManagedApplications",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "14fd457b-7212-43a2-9e25-f9499d920aed",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "androidManagedAppSafetyNetEvaluationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [androidManagedAppSafetyNetEvaluationType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "androidManagedAppSafetyNetEvaluationType"
+        },
+        {
+          "Id": "14fd457b-7212-43a2-9e25-f9499d920aed",
+          "ApiChange": "Property",
+          "ChangedApiName": "biometricAuthenticationBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **biometricAuthenticationBlocked** property to [androidManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "14fd457b-7212-43a2-9e25-f9499d920aed",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredAndroidSafetyNetEvaluationType",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredAndroidSafetyNetEvaluationType** property to [androidManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "14fd457b-7212-43a2-9e25-f9499d920aed",
+          "ApiChange": "Property",
+          "ChangedApiName": "biometricAuthenticationBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **biometricAuthenticationBlocked** property to [defaultManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "14fd457b-7212-43a2-9e25-f9499d920aed",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredAndroidSafetyNetEvaluationType",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredAndroidSafetyNetEvaluationType** property to [defaultManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "14fd457b-7212-43a2-9e25-f9499d920aed",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200513",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200513** resource type *@\u0026*",
+          "Target": "edm_50200513"
+        },
+        {
+          "Id": "14fd457b-7212-43a2-9e25-f9499d920aed",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200821](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200821"
+        }
+      ],
+      "Id": "14fd457b-7212-43a2-9e25-f9499d920aed",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9310526Z",
+      "WorkloadArea": "Microsoft.Intune.ManagedApplications",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "2876d06a-2db3-483e-97ae-592d193e2a1c",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "androidManagedAppSafetyNetEvaluationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [androidManagedAppSafetyNetEvaluationType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "androidManagedAppSafetyNetEvaluationType"
+        },
+        {
+          "Id": "2876d06a-2db3-483e-97ae-592d193e2a1c",
+          "ApiChange": "Property",
+          "ChangedApiName": "biometricAuthenticationBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **biometricAuthenticationBlocked** property to [androidManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "2876d06a-2db3-483e-97ae-592d193e2a1c",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredAndroidSafetyNetEvaluationType",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredAndroidSafetyNetEvaluationType** property to [androidManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "2876d06a-2db3-483e-97ae-592d193e2a1c",
+          "ApiChange": "Property",
+          "ChangedApiName": "biometricAuthenticationBlocked",
+          "ChangeType": "Addition",
+          "Description": "Added the **biometricAuthenticationBlocked** property to [defaultManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "2876d06a-2db3-483e-97ae-592d193e2a1c",
+          "ApiChange": "Property",
+          "ChangedApiName": "requiredAndroidSafetyNetEvaluationType",
+          "ChangeType": "Addition",
+          "Description": "Added the **requiredAndroidSafetyNetEvaluationType** property to [defaultManagedAppProtection](/?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "2876d06a-2db3-483e-97ae-592d193e2a1c",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200513",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200513** resource type *@\u0026*",
+          "Target": "edm_50200513"
+        },
+        {
+          "Id": "2876d06a-2db3-483e-97ae-592d193e2a1c",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200821](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200821"
+        }
+      ],
+      "Id": "2876d06a-2db3-483e-97ae-592d193e2a1c",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9310542Z",
+      "WorkloadArea": "Microsoft.Intune.ManagedApplications",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

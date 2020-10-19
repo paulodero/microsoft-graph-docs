@@ -1,0 +1,30 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "81bad126-5d3a-4504-8c4b-159eb3eda390",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "loadTestEntityType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **loadTestEntityType** resource type",
+          "Target": "loadTestEntityType"
+        },
+        {
+          "Id": "81bad126-5d3a-4504-8c4b-159eb3eda390",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "Container",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **Container** resource type *@\u0026*",
+          "Target": "Container"
+        }
+      ],
+      "Id": "81bad126-5d3a-4504-8c4b-159eb3eda390",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309204Z",
+      "WorkloadArea": "Microsoft.Graph.LoadTest",
+      "SubArea": ""
+    }
+  ]
+}

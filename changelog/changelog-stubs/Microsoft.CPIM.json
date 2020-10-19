@@ -1,0 +1,206 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "identityUserFlowAttributeDataType",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityUserFlowAttributeDataType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityUserFlowAttributeDataType"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "identityUserFlowAttributeType",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityUserFlowAttributeType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityUserFlowAttributeType"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "apiAuthenticationConfigurationBase",
+          "ChangeType": "Addition",
+          "Description": "Added the [apiAuthenticationConfigurationBase](/graph/api/resources/apiAuthenticationConfigurationBase?view=graph-rest-beta) resource type",
+          "Target": "apiAuthenticationConfigurationBase"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "authenticationSourceFilter",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationSourceFilter](/graph/api/resources/authenticationSourceFilter?view=graph-rest-beta) resource type",
+          "Target": "authenticationSourceFilter"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "basicAuthentication",
+          "ChangeType": "Addition",
+          "Description": "Added the [basicAuthentication](/graph/api/resources/basicAuthentication?view=graph-rest-beta) resource type",
+          "Target": "basicAuthentication"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "userFlowApiConnectorConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [userFlowApiConnectorConfiguration](/graph/api/resources/userFlowApiConnectorConfiguration?view=graph-rest-beta) resource type",
+          "Target": "userFlowApiConnectorConfiguration"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationAction](/graph/api/resources/authenticationAction?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "authenticationAction"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationEventsPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationEventsPolicy](/graph/api/resources/authenticationEventsPolicy?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "authenticationEventsPolicy"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "Property",
+          "ChangedApiName": "apiConnectorConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the **apiConnectorConfiguration** property to [b2cIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2cIdentityUserFlow"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "Property",
+          "ChangedApiName": "defaultLanguageTag",
+          "ChangeType": "Addition",
+          "Description": "Added the **defaultLanguageTag** property to [b2cIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2cIdentityUserFlow"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "Property",
+          "ChangedApiName": "isLanguageCustomizationEnabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **isLanguageCustomizationEnabled** property to [b2cIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2cIdentityUserFlow"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "languages",
+          "ChangeType": "Addition",
+          "Description": "Added the **languages** relationship to [b2cIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2cIdentityUserFlow"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "Property",
+          "ChangedApiName": "apiConnectorConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the **apiConnectorConfiguration** property to [b2xIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2xIdentityUserFlow"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityApiConnector",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityApiConnector](/graph/api/resources/identityApiConnector?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityApiConnector"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityBuiltInUserFlowAttribute",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityBuiltInUserFlowAttribute](/graph/api/resources/identityBuiltInUserFlowAttribute?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityBuiltInUserFlowAttribute"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "apiConnectors",
+          "ChangeType": "Addition",
+          "Description": "Added the **apiConnectors** relationship to [identityContainer](/?view=graph-rest-beta) resource",
+          "Target": "identityContainer"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "events",
+          "ChangeType": "Addition",
+          "Description": "Added the **events** relationship to [identityContainer](/?view=graph-rest-beta) resource",
+          "Target": "identityContainer"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userFlowAttributes",
+          "ChangeType": "Addition",
+          "Description": "Added the **userFlowAttributes** relationship to [identityContainer](/?view=graph-rest-beta) resource",
+          "Target": "identityContainer"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityCustomUserFlowAttribute",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityCustomUserFlowAttribute](/graph/api/resources/identityCustomUserFlowAttribute?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityCustomUserFlowAttribute"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityUserFlowAttribute",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityUserFlowAttribute](/graph/api/resources/identityUserFlowAttribute?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityUserFlowAttribute"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "invokeUserFlowAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [invokeUserFlowAction](/graph/api/resources/invokeUserFlowAction?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "invokeUserFlowAction"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "b2cAuthenticationMethodsPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **b2cAuthenticationMethodsPolicy** relationship from [policyRoot](/?view=graph-rest-beta) resource",
+          "Target": "policyRoot"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userFlowLanguageConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [userFlowLanguageConfiguration](/graph/api/resources/userFlowLanguageConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userFlowLanguageConfiguration"
+        },
+        {
+          "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userFlowLanguagePage",
+          "ChangeType": "Addition",
+          "Description": "Added the [userFlowLanguagePage](/graph/api/resources/userFlowLanguagePage?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userFlowLanguagePage"
+        }
+      ],
+      "Id": "85447655-478f-4fc0-a8f3-dffda3e6afb9",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9307894Z",
+      "WorkloadArea": "Microsoft.CPIM",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}

@@ -1,0 +1,682 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "authenticationMethodState",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodState** enumeration type",
+          "Target": "authenticationMethodState"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "authenticationMethodTargetType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodTargetType** enumeration type",
+          "Target": "authenticationMethodTargetType"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "fido2RestrictionEnforcementType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fido2RestrictionEnforcementType** enumeration type",
+          "Target": "fido2RestrictionEnforcementType"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "mfaEnabledAuthenticationMethods",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **mfaEnabledAuthenticationMethods** enumeration type",
+          "Target": "mfaEnabledAuthenticationMethods"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "mfaGreetingType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **mfaGreetingType** enumeration type",
+          "Target": "mfaGreetingType"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "securityQuestionType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **securityQuestionType** enumeration type",
+          "Target": "securityQuestionType"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "ssprAuthenticationMethodType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **ssprAuthenticationMethodType** enumeration type",
+          "Target": "ssprAuthenticationMethodType"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "fido2KeyRestrictions",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fido2KeyRestrictions** resource type",
+          "Target": "fido2KeyRestrictions"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "fraudReporting",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fraudReporting** resource type",
+          "Target": "fraudReporting"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identityProtectionMfaRegistrationPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **identityProtectionMfaRegistrationPolicy** resource type",
+          "Target": "identityProtectionMfaRegistrationPolicy"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "mfaBlockedUser",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **mfaBlockedUser** resource type",
+          "Target": "mfaBlockedUser"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "mfaSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **mfaSettings** resource type",
+          "Target": "mfaSettings"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "passwordProtectionSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passwordProtectionSettings** resource type",
+          "Target": "passwordProtectionSettings"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "phoneGreeting",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **phoneGreeting** resource type",
+          "Target": "phoneGreeting"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "registrationAndResetTarget",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **registrationAndResetTarget** resource type",
+          "Target": "registrationAndResetTarget"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "registrationEnforcement",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **registrationEnforcement** resource type",
+          "Target": "registrationEnforcement"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "rememberMfa",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **rememberMfa** resource type",
+          "Target": "rememberMfa"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "securityQuestion",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **securityQuestion** resource type",
+          "Target": "securityQuestion"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "securityQuestionsConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **securityQuestionsConfiguration** resource type",
+          "Target": "securityQuestionsConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "ssprSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **ssprSettings** resource type",
+          "Target": "ssprSettings"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "voiceCallSettings",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **voiceCallSettings** resource type",
+          "Target": "voiceCallSettings"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodConfiguration** resource type",
+          "Target": "authenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationMethodsPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodsPolicy** resource type",
+          "Target": "authenticationMethodsPolicy"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationMethodTarget",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodTarget** resource type",
+          "Target": "authenticationMethodTarget"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "emailAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **emailAuthenticationMethodConfiguration** resource type",
+          "Target": "emailAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "fido2AuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fido2AuthenticationMethodConfiguration** resource type",
+          "Target": "fido2AuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "hardwareOathAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **hardwareOathAuthenticationMethodConfiguration** resource type",
+          "Target": "hardwareOathAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "mfaSsprPasswordPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **mfaSsprPasswordPolicy** resource type",
+          "Target": "mfaSsprPasswordPolicy"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "microsoftAuthenticatorAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **microsoftAuthenticatorAuthenticationMethodConfiguration** resource type",
+          "Target": "microsoftAuthenticatorAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "passwordAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passwordAuthenticationMethodConfiguration** resource type",
+          "Target": "passwordAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "passwordlessMicrosoftAuthenticatorAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passwordlessMicrosoftAuthenticatorAuthenticationMethodConfiguration** resource type",
+          "Target": "passwordlessMicrosoftAuthenticatorAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "policyRoot",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **policyRoot** resource type",
+          "Target": "policyRoot"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "smsAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **smsAuthenticationMethodConfiguration** resource type",
+          "Target": "smsAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "softwareOathAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **softwareOathAuthenticationMethodConfiguration** resource type",
+          "Target": "softwareOathAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "temporaryAccessPassAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **temporaryAccessPassAuthenticationMethodConfiguration** resource type",
+          "Target": "temporaryAccessPassAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "voiceAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **voiceAuthenticationMethodConfiguration** resource type",
+          "Target": "voiceAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "authenticationMethodsPolicyContainer",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodsPolicyContainer** resource type *@\u0026*",
+          "Target": "authenticationMethodsPolicyContainer"
+        }
+      ],
+      "Id": "44c517b5-381d-4a1b-85b3-294690633e4a",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9307709Z",
+      "WorkloadArea": "Microsoft.AuthenticationMethodsPolicy",
+      "SubArea": "Identity and sign-in"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "authenticationMethodState",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodState** enumeration type",
+          "Target": "authenticationMethodState"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "authenticationMethodTargetType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodTargetType** enumeration type",
+          "Target": "authenticationMethodTargetType"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "fido2RestrictionEnforcementType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fido2RestrictionEnforcementType** enumeration type",
+          "Target": "fido2RestrictionEnforcementType"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "securityQuestionType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **securityQuestionType** enumeration type",
+          "Target": "securityQuestionType"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "fido2KeyRestrictions",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fido2KeyRestrictions** resource type",
+          "Target": "fido2KeyRestrictions"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "registrationAndResetTarget",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **registrationAndResetTarget** resource type",
+          "Target": "registrationAndResetTarget"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "registrationEnforcement",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **registrationEnforcement** resource type",
+          "Target": "registrationEnforcement"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodConfiguration** resource type",
+          "Target": "authenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationMethodsPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodsPolicy** resource type",
+          "Target": "authenticationMethodsPolicy"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationMethodTarget",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodTarget** resource type",
+          "Target": "authenticationMethodTarget"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "emailAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **emailAuthenticationMethodConfiguration** resource type",
+          "Target": "emailAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "fido2AuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fido2AuthenticationMethodConfiguration** resource type",
+          "Target": "fido2AuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "hardwareOathAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **hardwareOathAuthenticationMethodConfiguration** resource type",
+          "Target": "hardwareOathAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "microsoftAuthenticatorAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **microsoftAuthenticatorAuthenticationMethodConfiguration** resource type",
+          "Target": "microsoftAuthenticatorAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "passwordAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passwordAuthenticationMethodConfiguration** resource type",
+          "Target": "passwordAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "passwordlessMicrosoftAuthenticatorAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passwordlessMicrosoftAuthenticatorAuthenticationMethodConfiguration** resource type",
+          "Target": "passwordlessMicrosoftAuthenticatorAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "policy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **policy** resource type",
+          "Target": "policy"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "smsAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **smsAuthenticationMethodConfiguration** resource type",
+          "Target": "smsAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "softwareOathAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **softwareOathAuthenticationMethodConfiguration** resource type",
+          "Target": "softwareOathAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "temporaryAccessPassAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **temporaryAccessPassAuthenticationMethodConfiguration** resource type",
+          "Target": "temporaryAccessPassAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "voiceAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **voiceAuthenticationMethodConfiguration** resource type",
+          "Target": "voiceAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "authenticationMethodsPolicyContainer",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodsPolicyContainer** resource type *@\u0026*",
+          "Target": "authenticationMethodsPolicyContainer"
+        }
+      ],
+      "Id": "be7105d4-2d6d-4c96-866b-d0f048cdec08",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9307763Z",
+      "WorkloadArea": "Microsoft.AuthenticationMethodsPolicy",
+      "SubArea": "Identity and sign-in"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "authenticationMethodState",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodState** enumeration type",
+          "Target": "authenticationMethodState"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "authenticationMethodTargetType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodTargetType** enumeration type",
+          "Target": "authenticationMethodTargetType"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "fido2RestrictionEnforcementType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fido2RestrictionEnforcementType** enumeration type",
+          "Target": "fido2RestrictionEnforcementType"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "securityQuestionType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **securityQuestionType** enumeration type",
+          "Target": "securityQuestionType"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "fido2KeyRestrictions",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fido2KeyRestrictions** resource type",
+          "Target": "fido2KeyRestrictions"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "registrationAndResetTarget",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **registrationAndResetTarget** resource type",
+          "Target": "registrationAndResetTarget"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "registrationEnforcement",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **registrationEnforcement** resource type",
+          "Target": "registrationEnforcement"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodConfiguration** resource type",
+          "Target": "authenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationMethodsPolicy",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodsPolicy** resource type",
+          "Target": "authenticationMethodsPolicy"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "authenticationMethodTarget",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodTarget** resource type",
+          "Target": "authenticationMethodTarget"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "emailAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **emailAuthenticationMethodConfiguration** resource type",
+          "Target": "emailAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "fido2AuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **fido2AuthenticationMethodConfiguration** resource type",
+          "Target": "fido2AuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "hardwareOathAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **hardwareOathAuthenticationMethodConfiguration** resource type",
+          "Target": "hardwareOathAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "microsoftAuthenticatorAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **microsoftAuthenticatorAuthenticationMethodConfiguration** resource type",
+          "Target": "microsoftAuthenticatorAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "passwordAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passwordAuthenticationMethodConfiguration** resource type",
+          "Target": "passwordAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "passwordlessMicrosoftAuthenticatorAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passwordlessMicrosoftAuthenticatorAuthenticationMethodConfiguration** resource type",
+          "Target": "passwordlessMicrosoftAuthenticatorAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "policyRoot",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **policyRoot** resource type",
+          "Target": "policyRoot"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "smsAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **smsAuthenticationMethodConfiguration** resource type",
+          "Target": "smsAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "softwareOathAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **softwareOathAuthenticationMethodConfiguration** resource type",
+          "Target": "softwareOathAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "temporaryAccessPassAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **temporaryAccessPassAuthenticationMethodConfiguration** resource type",
+          "Target": "temporaryAccessPassAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "voiceAuthenticationMethodConfiguration",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **voiceAuthenticationMethodConfiguration** resource type",
+          "Target": "voiceAuthenticationMethodConfiguration"
+        },
+        {
+          "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "authenticationMethodsPolicyContainer",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **authenticationMethodsPolicyContainer** resource type *@\u0026*",
+          "Target": "authenticationMethodsPolicyContainer"
+        }
+      ],
+      "Id": "4b5dee8a-1e9e-42b6-81c7-0e3770e5e28d",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9307797Z",
+      "WorkloadArea": "Microsoft.AuthenticationMethodsPolicy",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "2a4aad97-10e5-43e7-9aa3-2a4442122e8b",
+          "ApiChange": "Property",
+          "ChangedApiName": "matches",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **matches** property from [detectedSensitiveContentBase](/?view=graph-rest-beta) resource",
+          "Target": "detectedSensitiveContentBase"
+        },
+        {
+          "Id": "2a4aad97-10e5-43e7-9aa3-2a4442122e8b",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "exactDataMatchStoreColumn",
+          "ChangeType": "Addition",
+          "Description": "Added the [exactDataMatchStoreColumn](/graph/api/resources/exactDataMatchStoreColumn?view=graph-rest-beta) resource type",
+          "Target": "exactDataMatchStoreColumn"
+        },
+        {
+          "Id": "2a4aad97-10e5-43e7-9aa3-2a4442122e8b",
+          "ApiChange": "Property",
+          "ChangedApiName": "matches",
+          "ChangeType": "Addition",
+          "Description": "Added the **matches** property to [exactMatchDetectedSensitiveContent](/?view=graph-rest-beta) resource",
+          "Target": "exactMatchDetectedSensitiveContent"
+        },
+        {
+          "Id": "2a4aad97-10e5-43e7-9aa3-2a4442122e8b",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "exactMatchSensitiveContentLocation",
+          "ChangeType": "Addition",
+          "Description": "Added the [exactMatchSensitiveContentLocation](/graph/api/resources/exactMatchSensitiveContentLocation?view=graph-rest-beta) resource type",
+          "Target": "exactMatchSensitiveContentLocation"
+        },
+        {
+          "Id": "2a4aad97-10e5-43e7-9aa3-2a4442122e8b",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "sensitiveContentLocation",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **sensitiveContentLocation** resource type",
+          "Target": "sensitiveContentLocation"
+        },
+        {
+          "Id": "2a4aad97-10e5-43e7-9aa3-2a4442122e8b",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "sensitiveContentLocationBase",
+          "ChangeType": "Addition",
+          "Description": "Added the [sensitiveContentLocationBase](/graph/api/resources/sensitiveContentLocationBase?view=graph-rest-beta) resource type",
+          "Target": "sensitiveContentLocationBase"
+        },
+        {
+          "Id": "2a4aad97-10e5-43e7-9aa3-2a4442122e8b",
+          "ApiChange": "Property",
+          "ChangedApiName": "columns",
+          "ChangeType": "Addition",
+          "Description": "Added the **columns** property to [exactMatchDataStore](/?view=graph-rest-beta) resource",
+          "Target": "exactMatchDataStore"
+        }
+      ],
+      "Id": "2a4aad97-10e5-43e7-9aa3-2a4442122e8b",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309086Z",
+      "WorkloadArea": "Microsoft.ExactDataMatchService",
+      "SubArea": "Information protection"
+    }
+  ]
+}

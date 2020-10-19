@@ -1,0 +1,86 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+          "ApiChange": "Property",
+          "ChangedApiName": "color",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **color** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **description** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+          "ApiChange": "Property",
+          "ChangedApiName": "id",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **id** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+          "ApiChange": "Property",
+          "ChangedApiName": "isActive",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **isActive** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+          "ApiChange": "Property",
+          "ChangedApiName": "name",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **name** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+          "ApiChange": "Property",
+          "ChangedApiName": "sensitivity",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **sensitivity** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+          "ApiChange": "Property",
+          "ChangedApiName": "tooltip",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **tooltip** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "parentLabelDetails",
+          "ChangeType": "Addition",
+          "Description": "Added the [parentLabelDetails](/graph/api/resources/parentLabelDetails?view=graph-rest-beta) resource type",
+          "Target": "parentLabelDetails"
+        },
+        {
+          "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+          "ApiChange": "Property",
+          "ChangedApiName": "parent",
+          "ChangeType": "Addition",
+          "Description": "Added the **parent** property to [informationProtectionLabel](/?view=graph-rest-beta) resource",
+          "Target": "informationProtectionLabel"
+        }
+      ],
+      "Id": "21db9e41-84b3-4b14-a937-d837368711dd",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309665Z",
+      "WorkloadArea": "Microsoft.InformationProtection",
+      "SubArea": ""
+    }
+  ]
+}

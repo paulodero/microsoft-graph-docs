@@ -1,0 +1,150 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "a280f650-2fd6-4b50-bffe-34c3156369e4",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "inheritsPermissionsFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **inheritsPermissionsFrom** relationship to [unifiedRoleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "a280f650-2fd6-4b50-bffe-34c3156369e4",
+      "Cloud": "Blackforest",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309023Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "c8c19bef-a7ad-4f14-b4bd-fbad284a49bb",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "inheritsPermissionsFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **inheritsPermissionsFrom** relationship to [unifiedRoleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "c8c19bef-a7ad-4f14-b4bd-fbad284a49bb",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309038Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "ca0746a3-4031-453d-aff3-c41c3d60d67a",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "inheritsPermissionsFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **inheritsPermissionsFrom** relationship to [unifiedRoleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "ca0746a3-4031-453d-aff3-c41c3d60d67a",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309047Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "4d1fd279-552c-47e1-830d-192261d1bd52",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceScope",
+          "ChangeType": "Change",
+          "Description": "Removed the **resourceScope** relationship from [unifiedRbacResourceAction](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRbacResourceAction"
+        },
+        {
+          "Id": "4d1fd279-552c-47e1-830d-192261d1bd52",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceActions",
+          "ChangeType": "Change",
+          "Description": "Removed the **resourceActions** relationship from [unifiedRbacResourceNamespace](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRbacResourceNamespace"
+        }
+      ],
+      "Id": "4d1fd279-552c-47e1-830d-192261d1bd52",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309059Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e87b5ae4-7151-487b-a8dd-8549802c013b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceNamespaces",
+          "ChangeType": "Addition",
+          "Description": "Added the **resourceNamespaces** relationship to [rbacApplication](/?view=graph-rest-beta) resource",
+          "Target": "rbacApplication"
+        },
+        {
+          "Id": "e87b5ae4-7151-487b-a8dd-8549802c013b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceNamespaces",
+          "ChangeType": "Addition",
+          "Description": "Added the **resourceNamespaces** relationship to [rbacApplicationMultiple](/?view=graph-rest-beta) resource",
+          "Target": "rbacApplicationMultiple"
+        },
+        {
+          "Id": "e87b5ae4-7151-487b-a8dd-8549802c013b",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "unifiedRbacResourceAction",
+          "ChangeType": "Addition",
+          "Description": "Added the [unifiedRbacResourceAction](/graph/api/resources/unifiedRbacResourceAction?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "unifiedRbacResourceAction"
+        },
+        {
+          "Id": "e87b5ae4-7151-487b-a8dd-8549802c013b",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "unifiedRbacResourceNamespace",
+          "ChangeType": "Addition",
+          "Description": "Added the [unifiedRbacResourceNamespace](/graph/api/resources/unifiedRbacResourceNamespace?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "unifiedRbacResourceNamespace"
+        },
+        {
+          "Id": "e87b5ae4-7151-487b-a8dd-8549802c013b",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "unifiedRbacResourceScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [unifiedRbacResourceScope](/graph/api/resources/unifiedRbacResourceScope?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "unifiedRbacResourceScope"
+        },
+        {
+          "Id": "e87b5ae4-7151-487b-a8dd-8549802c013b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "inheritsPermissionsFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **inheritsPermissionsFrom** relationship to [unifiedRoleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRoleDefinition"
+        },
+        {
+          "Id": "e87b5ae4-7151-487b-a8dd-8549802c013b",
+          "ApiChange": "Action",
+          "ChangedApiName": "importResourceActions",
+          "ChangeType": "Addition",
+          "Description": "Added the [importResourceActions](/graph/api/importResourceActions-importResourceActions?view=graph-rest-beta) method to the [importResourceActions](/graph/api/importResourceActions-importResourceActions?view=graph-rest-beta) resource",
+          "Target": "importResourceActions"
+        }
+      ],
+      "Id": "e87b5ae4-7151-487b-a8dd-8549802c013b",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309069Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    }
+  ]
+}

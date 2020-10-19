@@ -1,0 +1,628 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "mobileAppRelationshipType",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppRelationshipType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mobileAppRelationshipType"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "mobileAppSupersedenceType",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppSupersedenceType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mobileAppSupersedenceType"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagement",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagement](/graph/api/resources/intune-deviceManagement?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagementReports",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementReports](/graph/api/resources/intune-deviceManagementReports?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementReports"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "Property",
+          "ChangedApiName": "supersededAppCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **supersededAppCount** property to [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "Property",
+          "ChangedApiName": "supersedingAppCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **supersedingAppCount** property to [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "Property",
+          "ChangedApiName": "uploadState",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **uploadState** property in the [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "relationships",
+          "ChangeType": "Change",
+          "Description": "Removed the **relationships** relationship from [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "Property",
+          "ChangedApiName": "targetType",
+          "ChangeType": "Addition",
+          "Description": "Added the **targetType** property to [mobileAppRelationship](/?view=graph-rest-beta) resource",
+          "Target": "mobileAppRelationship"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "mobileAppSupersedence",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppSupersedence](/graph/api/resources/intune-mobileAppSupersedence?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mobileAppSupersedence"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "Property",
+          "ChangedApiName": "installLanguage",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **installLanguage** property from [win32LobApp](/?view=graph-rest-beta) resource",
+          "Target": "win32LobApp"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "Action",
+          "ChangedApiName": "getAppsInstallSummaryReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getAppsInstallSummaryReport](/graph/api/intune-getAppsInstallSummaryReport-getAppsInstallSummaryReport?view=graph-rest-beta) method to the [getAppsInstallSummaryReport](/graph/api/intune-getAppsInstallSummaryReport-getAppsInstallSummaryReport?view=graph-rest-beta) resource",
+          "Target": "getAppsInstallSummaryReport"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "Action",
+          "ChangedApiName": "getAppStatusOverviewReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getAppStatusOverviewReport](/graph/api/intune-getAppStatusOverviewReport-getAppStatusOverviewReport?view=graph-rest-beta) method to the [getAppStatusOverviewReport](/graph/api/intune-getAppStatusOverviewReport-getAppStatusOverviewReport?view=graph-rest-beta) resource",
+          "Target": "getAppStatusOverviewReport"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "Action",
+          "ChangedApiName": "getDeviceInstallStatusReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getDeviceInstallStatusReport](/graph/api/intune-getDeviceInstallStatusReport-getDeviceInstallStatusReport?view=graph-rest-beta) method to the [getDeviceInstallStatusReport](/graph/api/intune-getDeviceInstallStatusReport-getDeviceInstallStatusReport?view=graph-rest-beta) resource",
+          "Target": "getDeviceInstallStatusReport"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "Action",
+          "ChangedApiName": "getUserInstallStatusReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getUserInstallStatusReport](/graph/api/intune-getUserInstallStatusReport-getUserInstallStatusReport?view=graph-rest-beta) method to the [getUserInstallStatusReport](/graph/api/intune-getUserInstallStatusReport-getUserInstallStatusReport?view=graph-rest-beta) resource",
+          "Target": "getUserInstallStatusReport"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200622",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200622** resource type *@\u0026*",
+          "Target": "edm_50200622"
+        },
+        {
+          "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200902",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200902](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200902"
+        }
+      ],
+      "Id": "f9e3911e-4171-46c1-a961-84c7065a013f",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.930969Z",
+      "WorkloadArea": "Microsoft.Intune.Applications",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "mobileAppRelationshipType",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppRelationshipType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mobileAppRelationshipType"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "mobileAppSupersedenceType",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppSupersedenceType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mobileAppSupersedenceType"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagement",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagement](/graph/api/resources/intune-deviceManagement?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagementReports",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementReports](/graph/api/resources/intune-deviceManagementReports?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementReports"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "Property",
+          "ChangedApiName": "supersededAppCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **supersededAppCount** property to [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "Property",
+          "ChangedApiName": "supersedingAppCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **supersedingAppCount** property to [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "Property",
+          "ChangedApiName": "uploadState",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **uploadState** property in the [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "relationships",
+          "ChangeType": "Change",
+          "Description": "Removed the **relationships** relationship from [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "Property",
+          "ChangedApiName": "targetType",
+          "ChangeType": "Addition",
+          "Description": "Added the **targetType** property to [mobileAppRelationship](/?view=graph-rest-beta) resource",
+          "Target": "mobileAppRelationship"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "mobileAppSupersedence",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppSupersedence](/graph/api/resources/intune-mobileAppSupersedence?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mobileAppSupersedence"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "Property",
+          "ChangedApiName": "installLanguage",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **installLanguage** property from [win32LobApp](/?view=graph-rest-beta) resource",
+          "Target": "win32LobApp"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "Action",
+          "ChangedApiName": "getAppsInstallSummaryReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getAppsInstallSummaryReport](/graph/api/intune-getAppsInstallSummaryReport-getAppsInstallSummaryReport?view=graph-rest-beta) method to the [getAppsInstallSummaryReport](/graph/api/intune-getAppsInstallSummaryReport-getAppsInstallSummaryReport?view=graph-rest-beta) resource",
+          "Target": "getAppsInstallSummaryReport"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "Action",
+          "ChangedApiName": "getAppStatusOverviewReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getAppStatusOverviewReport](/graph/api/intune-getAppStatusOverviewReport-getAppStatusOverviewReport?view=graph-rest-beta) method to the [getAppStatusOverviewReport](/graph/api/intune-getAppStatusOverviewReport-getAppStatusOverviewReport?view=graph-rest-beta) resource",
+          "Target": "getAppStatusOverviewReport"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "Action",
+          "ChangedApiName": "getDeviceInstallStatusReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getDeviceInstallStatusReport](/graph/api/intune-getDeviceInstallStatusReport-getDeviceInstallStatusReport?view=graph-rest-beta) method to the [getDeviceInstallStatusReport](/graph/api/intune-getDeviceInstallStatusReport-getDeviceInstallStatusReport?view=graph-rest-beta) resource",
+          "Target": "getDeviceInstallStatusReport"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "Action",
+          "ChangedApiName": "getUserInstallStatusReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getUserInstallStatusReport](/graph/api/intune-getUserInstallStatusReport-getUserInstallStatusReport?view=graph-rest-beta) method to the [getUserInstallStatusReport](/graph/api/intune-getUserInstallStatusReport-getUserInstallStatusReport?view=graph-rest-beta) resource",
+          "Target": "getUserInstallStatusReport"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200622",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200622** resource type *@\u0026*",
+          "Target": "edm_50200622"
+        },
+        {
+          "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200902",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200902](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200902"
+        }
+      ],
+      "Id": "8c643dfc-bd9e-4e94-b7e6-e047c3eb7319",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309716Z",
+      "WorkloadArea": "Microsoft.Intune.Applications",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "mobileAppRelationshipType",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppRelationshipType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mobileAppRelationshipType"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "mobileAppSupersedenceType",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppSupersedenceType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mobileAppSupersedenceType"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagement",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagement](/graph/api/resources/intune-deviceManagement?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagementReports",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementReports](/graph/api/resources/intune-deviceManagementReports?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementReports"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "Property",
+          "ChangedApiName": "supersededAppCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **supersededAppCount** property to [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "Property",
+          "ChangedApiName": "supersedingAppCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **supersedingAppCount** property to [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "Property",
+          "ChangedApiName": "uploadState",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **uploadState** property in the [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "relationships",
+          "ChangeType": "Change",
+          "Description": "Removed the **relationships** relationship from [mobileApp](/?view=graph-rest-beta) resource",
+          "Target": "mobileApp"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "Property",
+          "ChangedApiName": "targetType",
+          "ChangeType": "Addition",
+          "Description": "Added the **targetType** property to [mobileAppRelationship](/?view=graph-rest-beta) resource",
+          "Target": "mobileAppRelationship"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "mobileAppSupersedence",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppSupersedence](/graph/api/resources/intune-mobileAppSupersedence?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mobileAppSupersedence"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "Property",
+          "ChangedApiName": "installLanguage",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **installLanguage** property from [win32LobApp](/?view=graph-rest-beta) resource",
+          "Target": "win32LobApp"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "Action",
+          "ChangedApiName": "getAppsInstallSummaryReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getAppsInstallSummaryReport](/graph/api/intune-getAppsInstallSummaryReport-getAppsInstallSummaryReport?view=graph-rest-beta) method to the [getAppsInstallSummaryReport](/graph/api/intune-getAppsInstallSummaryReport-getAppsInstallSummaryReport?view=graph-rest-beta) resource",
+          "Target": "getAppsInstallSummaryReport"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "Action",
+          "ChangedApiName": "getAppStatusOverviewReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getAppStatusOverviewReport](/graph/api/intune-getAppStatusOverviewReport-getAppStatusOverviewReport?view=graph-rest-beta) method to the [getAppStatusOverviewReport](/graph/api/intune-getAppStatusOverviewReport-getAppStatusOverviewReport?view=graph-rest-beta) resource",
+          "Target": "getAppStatusOverviewReport"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "Action",
+          "ChangedApiName": "getDeviceInstallStatusReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getDeviceInstallStatusReport](/graph/api/intune-getDeviceInstallStatusReport-getDeviceInstallStatusReport?view=graph-rest-beta) method to the [getDeviceInstallStatusReport](/graph/api/intune-getDeviceInstallStatusReport-getDeviceInstallStatusReport?view=graph-rest-beta) resource",
+          "Target": "getDeviceInstallStatusReport"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "Action",
+          "ChangedApiName": "getUserInstallStatusReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getUserInstallStatusReport](/graph/api/intune-getUserInstallStatusReport-getUserInstallStatusReport?view=graph-rest-beta) method to the [getUserInstallStatusReport](/graph/api/intune-getUserInstallStatusReport-getUserInstallStatusReport?view=graph-rest-beta) resource",
+          "Target": "getUserInstallStatusReport"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200622",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200622** resource type *@\u0026*",
+          "Target": "edm_50200622"
+        },
+        {
+          "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200902",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200902](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200902"
+        }
+      ],
+      "Id": "c15af643-40a9-4dc0-be91-03ea1c9c023f",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309745Z",
+      "WorkloadArea": "Microsoft.Intune.Applications",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "runAsAccountType",
+          "ChangeType": "Addition",
+          "Description": "Added the [runAsAccountType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "runAsAccountType"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "win32LobAppFileSystemOperationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppFileSystemOperationType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobAppFileSystemOperationType"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "win32LobAppMsiPackageType",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppMsiPackageType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobAppMsiPackageType"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "win32LobAppNotification",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppNotification](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobAppNotification"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "win32LobAppPowerShellScriptRuleOperationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppPowerShellScriptRuleOperationType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobAppPowerShellScriptRuleOperationType"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "win32LobAppRegistryRuleOperationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppRegistryRuleOperationType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobAppRegistryRuleOperationType"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "win32LobAppRestartBehavior",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppRestartBehavior](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobAppRestartBehavior"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "win32LobAppReturnCodeType",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppReturnCodeType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobAppReturnCodeType"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "win32LobAppRuleOperator",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppRuleOperator](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobAppRuleOperator"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "win32LobAppRuleType",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppRuleType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobAppRuleType"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "mobileAppInstallTimeSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [mobileAppInstallTimeSettings](/graph/api/resources/intune-mobileAppInstallTimeSettings?view=graph-rest-1.0) resource type",
+          "Target": "mobileAppInstallTimeSettings"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppAssignmentSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppAssignmentSettings](/graph/api/resources/intune-win32LobAppAssignmentSettings?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppAssignmentSettings"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppFileSystemRule",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppFileSystemRule](/graph/api/resources/intune-win32LobAppFileSystemRule?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppFileSystemRule"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppInstallExperience",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppInstallExperience](/graph/api/resources/intune-win32LobAppInstallExperience?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppInstallExperience"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppMsiInformation",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppMsiInformation](/graph/api/resources/intune-win32LobAppMsiInformation?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppMsiInformation"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppPowerShellScriptRule",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppPowerShellScriptRule](/graph/api/resources/intune-win32LobAppPowerShellScriptRule?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppPowerShellScriptRule"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppProductCodeRule",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppProductCodeRule](/graph/api/resources/intune-win32LobAppProductCodeRule?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppProductCodeRule"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppRegistryRule",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppRegistryRule](/graph/api/resources/intune-win32LobAppRegistryRule?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppRegistryRule"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppRestartSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppRestartSettings](/graph/api/resources/intune-win32LobAppRestartSettings?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppRestartSettings"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppReturnCode",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppReturnCode](/graph/api/resources/intune-win32LobAppReturnCode?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppReturnCode"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "win32LobAppRule",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobAppRule](/graph/api/resources/intune-win32LobAppRule?view=graph-rest-1.0) resource type",
+          "Target": "win32LobAppRule"
+        },
+        {
+          "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "win32LobApp",
+          "ChangeType": "Addition",
+          "Description": "Added the [win32LobApp](/graph/api/resources/intune-win32LobApp?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "win32LobApp"
+        }
+      ],
+      "Id": "38462b78-0016-452d-b190-d1986c72a7f6",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-19T08:54:59.9309772Z",
+      "WorkloadArea": "Microsoft.Intune.Applications",
+      "SubArea": "Corporate management"
+    }
+  ]
+}
