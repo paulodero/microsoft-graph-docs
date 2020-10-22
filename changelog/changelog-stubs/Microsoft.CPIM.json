@@ -1,0 +1,158 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "identityUserFlowAttributeInputType",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityUserFlowAttributeInputType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityUserFlowAttributeInputType"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "assignmentOrder",
+          "ChangeType": "Addition",
+          "Description": "Added the [assignmentOrder](/graph/api/resources/assignmentOrder?view=graph-rest-beta) resource type",
+          "Target": "assignmentOrder"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "userAttributeValuesItem",
+          "ChangeType": "Addition",
+          "Description": "Added the [userAttributeValuesItem](/graph/api/resources/userAttributeValuesItem?view=graph-rest-beta) resource type",
+          "Target": "userAttributeValuesItem"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "Property",
+          "ChangedApiName": "defaultLanguageTag",
+          "ChangeType": "Addition",
+          "Description": "Added the **defaultLanguageTag** property to [b2cIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2cIdentityUserFlow"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "Property",
+          "ChangedApiName": "isLanguageCustomizationEnabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **isLanguageCustomizationEnabled** property to [b2cIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2cIdentityUserFlow"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "languages",
+          "ChangeType": "Addition",
+          "Description": "Added the **languages** relationship to [b2cIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2cIdentityUserFlow"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userAttributeAssignments",
+          "ChangeType": "Addition",
+          "Description": "Added the **userAttributeAssignments** relationship to [b2cIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2cIdentityUserFlow"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userAttributeAssignments",
+          "ChangeType": "Addition",
+          "Description": "Added the **userAttributeAssignments** relationship to [b2xIdentityUserFlow](/?view=graph-rest-beta) resource",
+          "Target": "b2xIdentityUserFlow"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userFlowAttributes",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **userFlowAttributes** relationship from [identityContainer](/?view=graph-rest-beta) resource",
+          "Target": "identityContainer"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "Property",
+          "ChangedApiName": "dataType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **dataType** property from [identityUserFlowAttribute](/?view=graph-rest-beta) resource",
+          "Target": "identityUserFlowAttribute"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **description** property from [identityUserFlowAttribute](/?view=graph-rest-beta) resource",
+          "Target": "identityUserFlowAttribute"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **displayName** property from [identityUserFlowAttribute](/?view=graph-rest-beta) resource",
+          "Target": "identityUserFlowAttribute"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "Property",
+          "ChangedApiName": "userFlowAttributeType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **userFlowAttributeType** property from [identityUserFlowAttribute](/?view=graph-rest-beta) resource",
+          "Target": "identityUserFlowAttribute"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityUserFlowAttributeAssignment",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityUserFlowAttributeAssignment](/graph/api/resources/identityUserFlowAttributeAssignment?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityUserFlowAttributeAssignment"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userFlowLanguageConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [userFlowLanguageConfiguration](/graph/api/resources/userFlowLanguageConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userFlowLanguageConfiguration"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "userFlowLanguagePage",
+          "ChangeType": "Addition",
+          "Description": "Added the [userFlowLanguagePage](/graph/api/resources/userFlowLanguagePage?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "userFlowLanguagePage"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "Function",
+          "ChangedApiName": "getOrder",
+          "ChangeType": "Addition",
+          "Description": "Added the [getOrder](/graph/api/getOrder-getOrder?view=graph-rest-beta) method to the [getOrder](/graph/api/getOrder-getOrder?view=graph-rest-beta) resource",
+          "Target": "getOrder"
+        },
+        {
+          "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+          "ApiChange": "Function",
+          "ChangedApiName": "setOrder",
+          "ChangeType": "Addition",
+          "Description": "Added the [setOrder](/graph/api/setOrder-setOrder?view=graph-rest-beta) method to the [setOrder](/graph/api/setOrder-setOrder?view=graph-rest-beta) resource",
+          "Target": "setOrder"
+        }
+      ],
+      "Id": "21eddc34-a97a-4156-8624-38a861daa04e",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476127Z",
+      "WorkloadArea": "Microsoft.CPIM",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}

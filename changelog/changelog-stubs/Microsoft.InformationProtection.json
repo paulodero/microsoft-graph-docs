@@ -1,0 +1,86 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+          "ApiChange": "Property",
+          "ChangedApiName": "color",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **color** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **description** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+          "ApiChange": "Property",
+          "ChangedApiName": "id",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **id** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+          "ApiChange": "Property",
+          "ChangedApiName": "isActive",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **isActive** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+          "ApiChange": "Property",
+          "ChangedApiName": "name",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **name** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+          "ApiChange": "Property",
+          "ChangedApiName": "sensitivity",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **sensitivity** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+          "ApiChange": "Property",
+          "ChangedApiName": "tooltip",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **tooltip** property from [labelDetails](/?view=graph-rest-beta) resource",
+          "Target": "labelDetails"
+        },
+        {
+          "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "parentLabelDetails",
+          "ChangeType": "Addition",
+          "Description": "Added the [parentLabelDetails](/graph/api/resources/parentLabelDetails?view=graph-rest-beta) resource type",
+          "Target": "parentLabelDetails"
+        },
+        {
+          "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+          "ApiChange": "Property",
+          "ChangedApiName": "parent",
+          "ChangeType": "Addition",
+          "Description": "Added the **parent** property to [informationProtectionLabel](/?view=graph-rest-beta) resource",
+          "Target": "informationProtectionLabel"
+        }
+      ],
+      "Id": "dd426fd9-a1dc-4bdd-b1c1-6ff75d5c0834",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476719Z",
+      "WorkloadArea": "Microsoft.InformationProtection",
+      "SubArea": ""
+    }
+  ]
+}

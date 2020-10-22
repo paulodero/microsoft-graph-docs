@@ -1,0 +1,30 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "9f87119e-41ca-4dd6-9986-cc5ffce39680",
+          "ApiChange": "Action",
+          "ChangedApiName": "createLink",
+          "ChangeType": "Addition",
+          "Description": "Added the [createLink](/graph/api/createLink-createLink?view=graph-rest-beta) method to the [createLink](/graph/api/createLink-createLink?view=graph-rest-beta) resource",
+          "Target": "createLink"
+        },
+        {
+          "Id": "9f87119e-41ca-4dd6-9986-cc5ffce39680",
+          "ApiChange": "Action",
+          "ChangedApiName": "revokeGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the [revokeGrants](/graph/api/revokeGrants-revokeGrants?view=graph-rest-beta) method to the [revokeGrants](/graph/api/revokeGrants-revokeGrants?view=graph-rest-beta) resource",
+          "Target": "revokeGrants"
+        }
+      ],
+      "Id": "9f87119e-41ca-4dd6-9986-cc5ffce39680",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476579Z",
+      "WorkloadArea": "Microsoft.FileServices",
+      "SubArea": ""
+    }
+  ]
+}

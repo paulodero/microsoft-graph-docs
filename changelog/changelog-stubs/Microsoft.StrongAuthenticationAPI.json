@@ -1,0 +1,46 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "b74c1142-6a9c-493d-8c32-fd5ff72ffa36",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "authenticationMethodKeyStrength",
+          "ChangeType": "Addition",
+          "Description": "Added the [authenticationMethodKeyStrength](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "authenticationMethodKeyStrength"
+        },
+        {
+          "Id": "b74c1142-6a9c-493d-8c32-fd5ff72ffa36",
+          "ApiChange": "Property",
+          "ChangedApiName": "policy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **policy** property in the [authentication](/?view=graph-rest-beta) resource",
+          "Target": "authentication"
+        },
+        {
+          "Id": "b74c1142-6a9c-493d-8c32-fd5ff72ffa36",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "windowsHelloForBusinessMethods",
+          "ChangeType": "Addition",
+          "Description": "Added the **windowsHelloForBusinessMethods** relationship to [authentication](/?view=graph-rest-beta) resource",
+          "Target": "authentication"
+        },
+        {
+          "Id": "b74c1142-6a9c-493d-8c32-fd5ff72ffa36",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windowsHelloForBusinessAuthenticationMethod",
+          "ChangeType": "Addition",
+          "Description": "Added the [windowsHelloForBusinessAuthenticationMethod](/graph/api/resources/windowsHelloForBusinessAuthenticationMethod?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windowsHelloForBusinessAuthenticationMethod"
+        }
+      ],
+      "Id": "b74c1142-6a9c-493d-8c32-fd5ff72ffa36",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477517Z",
+      "WorkloadArea": "Microsoft.StrongAuthenticationAPI",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}

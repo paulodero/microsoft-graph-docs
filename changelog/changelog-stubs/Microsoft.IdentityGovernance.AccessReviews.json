@@ -1,0 +1,136 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "5108f230-99c1-4a9b-8712-e7c271c4ac24",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewReviewerScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewReviewerScope](/graph/api/resources/accessReviewReviewerScope?view=graph-rest-beta) resource type",
+          "Target": "accessReviewReviewerScope"
+        },
+        {
+          "Id": "5108f230-99c1-4a9b-8712-e7c271c4ac24",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identitySet",
+          "ChangeType": "Addition",
+          "Description": "Added the [identitySet](/graph/api/resources/identitySet?view=graph-rest-beta) resource type",
+          "Target": "identitySet"
+        },
+        {
+          "Id": "5108f230-99c1-4a9b-8712-e7c271c4ac24",
+          "ApiChange": "Property",
+          "ChangedApiName": "reviewers",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **reviewers** property in the [accessReviewScheduleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        },
+        {
+          "Id": "5108f230-99c1-4a9b-8712-e7c271c4ac24",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "appConsentApprovalRoute",
+          "ChangeType": "Addition",
+          "Description": "Added the [appConsentApprovalRoute](/graph/api/resources/appConsentApprovalRoute?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "appConsentApprovalRoute"
+        },
+        {
+          "Id": "5108f230-99c1-4a9b-8712-e7c271c4ac24",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "appConsent",
+          "ChangeType": "Addition",
+          "Description": "Added the **appConsent** relationship to [identityGovernance](/?view=graph-rest-beta) resource",
+          "Target": "identityGovernance"
+        },
+        {
+          "Id": "5108f230-99c1-4a9b-8712-e7c271c4ac24",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **createdBy** property in the [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        },
+        {
+          "Id": "5108f230-99c1-4a9b-8712-e7c271c4ac24",
+          "ApiChange": "Property",
+          "ChangedApiName": "status",
+          "ChangeType": "Addition",
+          "Description": "Added the **status** property to [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        }
+      ],
+      "Id": "5108f230-99c1-4a9b-8712-e7c271c4ac24",
+      "Cloud": "USNat",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476602Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "55d76d63-dcc5-47f1-9e54-64fa61a68f26",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "accessReviewReviewerScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [accessReviewReviewerScope](/graph/api/resources/accessReviewReviewerScope?view=graph-rest-beta) resource type",
+          "Target": "accessReviewReviewerScope"
+        },
+        {
+          "Id": "55d76d63-dcc5-47f1-9e54-64fa61a68f26",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "identitySet",
+          "ChangeType": "Addition",
+          "Description": "Added the [identitySet](/graph/api/resources/identitySet?view=graph-rest-beta) resource type",
+          "Target": "identitySet"
+        },
+        {
+          "Id": "55d76d63-dcc5-47f1-9e54-64fa61a68f26",
+          "ApiChange": "Property",
+          "ChangedApiName": "reviewers",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **reviewers** property in the [accessReviewScheduleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        },
+        {
+          "Id": "55d76d63-dcc5-47f1-9e54-64fa61a68f26",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "appConsentApprovalRoute",
+          "ChangeType": "Addition",
+          "Description": "Added the [appConsentApprovalRoute](/graph/api/resources/appConsentApprovalRoute?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "appConsentApprovalRoute"
+        },
+        {
+          "Id": "55d76d63-dcc5-47f1-9e54-64fa61a68f26",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "appConsent",
+          "ChangeType": "Addition",
+          "Description": "Added the **appConsent** relationship to [identityGovernance](/?view=graph-rest-beta) resource",
+          "Target": "identityGovernance"
+        },
+        {
+          "Id": "55d76d63-dcc5-47f1-9e54-64fa61a68f26",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdBy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **createdBy** property in the [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        },
+        {
+          "Id": "55d76d63-dcc5-47f1-9e54-64fa61a68f26",
+          "ApiChange": "Property",
+          "ChangedApiName": "status",
+          "ChangeType": "Addition",
+          "Description": "Added the **status** property to [userConsentRequest](/?view=graph-rest-beta) resource",
+          "Target": "userConsentRequest"
+        }
+      ],
+      "Id": "55d76d63-dcc5-47f1-9e54-64fa61a68f26",
+      "Cloud": "USSec",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.947662Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    }
+  ]
+}

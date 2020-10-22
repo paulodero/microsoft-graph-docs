@@ -1,0 +1,212 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "2bdad569-6c71-4567-a7f7-e7cdcb39e42e",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "groupProxies",
+          "ChangeType": "Addition",
+          "Description": "Added the **groupProxies** relationship to [directory](/?view=graph-rest-beta) resource",
+          "Target": "directory"
+        },
+        {
+          "Id": "2bdad569-6c71-4567-a7f7-e7cdcb39e42e",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "groupProxy",
+          "ChangeType": "Addition",
+          "Description": "Added the [groupProxy](/graph/api/resources/groupProxy?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "groupProxy"
+        },
+        {
+          "Id": "2bdad569-6c71-4567-a7f7-e7cdcb39e42e",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "unifiedRbacResourceNamespace",
+          "ChangeType": "Addition",
+          "Description": "Added the [unifiedRbacResourceNamespace](/graph/api/resources/unifiedRbacResourceNamespace?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "unifiedRbacResourceNamespace"
+        }
+      ],
+      "Id": "2bdad569-6c71-4567-a7f7-e7cdcb39e42e",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476344Z",
+      "WorkloadArea": "Microsoft.DirectoryServices",
+      "SubArea": "Directory management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "allowInvitesFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the [allowInvitesFrom](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "allowInvitesFrom"
+        },
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "Property",
+          "ChangedApiName": "permissionGrantPoliciesAssigned",
+          "ChangeType": "Addition",
+          "Description": "Added the **permissionGrantPoliciesAssigned** property to [defaultUserRolePermissions](/?view=graph-rest-1.0) resource",
+          "Target": "defaultUserRolePermissions"
+        },
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "instanceResourceAccess",
+          "ChangeType": "Addition",
+          "Description": "Added the [instanceResourceAccess](/graph/api/resources/instanceResourceAccess?view=graph-rest-1.0) resource type",
+          "Target": "instanceResourceAccess"
+        },
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "resourcePermission",
+          "ChangeType": "Addition",
+          "Description": "Added the [resourcePermission](/graph/api/resources/resourcePermission?view=graph-rest-1.0) resource type",
+          "Target": "resourcePermission"
+        },
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "Property",
+          "ChangedApiName": "allowInvitesFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **allowInvitesFrom** property to [authorizationPolicy](/?view=graph-rest-1.0) resource",
+          "Target": "authorizationPolicy"
+        },
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "authorizationPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the **authorizationPolicy** relationship to [policyRoot](/?view=graph-rest-1.0) resource",
+          "Target": "policyRoot"
+        },
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "Action",
+          "ChangedApiName": "checkGrantedPermissionsForApp",
+          "ChangeType": "Addition",
+          "Description": "Added the [checkGrantedPermissionsForApp](/graph/api/checkGrantedPermissionsForApp-checkGrantedPermissionsForApp?view=graph-rest-1.0) method to the [checkGrantedPermissionsForApp](/graph/api/checkGrantedPermissionsForApp-checkGrantedPermissionsForApp?view=graph-rest-1.0) resource",
+          "Target": "checkGrantedPermissionsForApp"
+        },
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "Action",
+          "ChangedApiName": "grantResourceSpecificConsent",
+          "ChangeType": "Addition",
+          "Description": "Added the [grantResourceSpecificConsent](/graph/api/grantResourceSpecificConsent-grantResourceSpecificConsent?view=graph-rest-1.0) method to the [grantResourceSpecificConsent](/graph/api/grantResourceSpecificConsent-grantResourceSpecificConsent?view=graph-rest-1.0) resource",
+          "Target": "grantResourceSpecificConsent"
+        },
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "Action",
+          "ChangedApiName": "revokeResourceSpecificConsent",
+          "ChangeType": "Addition",
+          "Description": "Added the [revokeResourceSpecificConsent](/graph/api/revokeResourceSpecificConsent-revokeResourceSpecificConsent?view=graph-rest-1.0) method to the [revokeResourceSpecificConsent](/graph/api/revokeResourceSpecificConsent-revokeResourceSpecificConsent?view=graph-rest-1.0) resource",
+          "Target": "revokeResourceSpecificConsent"
+        },
+        {
+          "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "permissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the [permissionGrants](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "permissionGrants"
+        }
+      ],
+      "Id": "7f212420-ab58-4f94-92e2-802ce5433b97",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476374Z",
+      "WorkloadArea": "Microsoft.DirectoryServices",
+      "SubArea": "Directory management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "04415969-4233-4e5d-a708-e0e02fb7ce86",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "groupProxies",
+          "ChangeType": "Addition",
+          "Description": "Added the **groupProxies** relationship to [directory](/?view=graph-rest-beta) resource",
+          "Target": "directory"
+        },
+        {
+          "Id": "04415969-4233-4e5d-a708-e0e02fb7ce86",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "groupProxy",
+          "ChangeType": "Addition",
+          "Description": "Added the [groupProxy](/graph/api/resources/groupProxy?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "groupProxy"
+        }
+      ],
+      "Id": "04415969-4233-4e5d-a708-e0e02fb7ce86",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476418Z",
+      "WorkloadArea": "Microsoft.DirectoryServices",
+      "SubArea": "Directory management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "4fde0335-51bb-4b6d-a80c-c69608a8d414",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "permissionClassificationType",
+          "ChangeType": "Addition",
+          "Description": "Added the [permissionClassificationType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "permissionClassificationType"
+        },
+        {
+          "Id": "4fde0335-51bb-4b6d-a80c-c69608a8d414",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "permissionType",
+          "ChangeType": "Addition",
+          "Description": "Added the [permissionType](/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "permissionType"
+        },
+        {
+          "Id": "4fde0335-51bb-4b6d-a80c-c69608a8d414",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "delegatedPermissionClassification",
+          "ChangeType": "Addition",
+          "Description": "Added the [delegatedPermissionClassification](/graph/api/resources/delegatedPermissionClassification?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "delegatedPermissionClassification"
+        },
+        {
+          "Id": "4fde0335-51bb-4b6d-a80c-c69608a8d414",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "permissionGrantConditionSet",
+          "ChangeType": "Addition",
+          "Description": "Added the [permissionGrantConditionSet](/graph/api/resources/permissionGrantConditionSet?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "permissionGrantConditionSet"
+        },
+        {
+          "Id": "4fde0335-51bb-4b6d-a80c-c69608a8d414",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "permissionGrantPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the [permissionGrantPolicy](/graph/api/resources/permissionGrantPolicy?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "permissionGrantPolicy"
+        },
+        {
+          "Id": "4fde0335-51bb-4b6d-a80c-c69608a8d414",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "permissionGrantPolicies",
+          "ChangeType": "Addition",
+          "Description": "Added the **permissionGrantPolicies** relationship to [policyRoot](/?view=graph-rest-1.0) resource",
+          "Target": "policyRoot"
+        }
+      ],
+      "Id": "4fde0335-51bb-4b6d-a80c-c69608a8d414",
+      "Cloud": "USNat",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476463Z",
+      "WorkloadArea": "Microsoft.DirectoryServices",
+      "SubArea": "Directory management"
+    }
+  ]
+}

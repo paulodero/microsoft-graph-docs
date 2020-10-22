@@ -1,0 +1,106 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "5b85e657-c883-4266-8fae-5eb0e8a32199",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerSubtitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerSubtitle** property to [deviceManagementSettingDefinition](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "5b85e657-c883-4266-8fae-5eb0e8a32199",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerTitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerTitle** property to [deviceManagementSettingDefinition](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "5b85e657-c883-4266-8fae-5eb0e8a32199",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [securityBaselineState](/?view=graph-rest-beta) resource",
+          "Target": "securityBaselineState"
+        }
+      ],
+      "Id": "5b85e657-c883-4266-8fae-5eb0e8a32199",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477055Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceIntent",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e98e6a71-7ce4-452a-b36f-406f118800ab",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerSubtitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerSubtitle** property to [deviceManagementSettingDefinition](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "e98e6a71-7ce4-452a-b36f-406f118800ab",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerTitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerTitle** property to [deviceManagementSettingDefinition](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "e98e6a71-7ce4-452a-b36f-406f118800ab",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [securityBaselineState](/?view=graph-rest-beta) resource",
+          "Target": "securityBaselineState"
+        }
+      ],
+      "Id": "e98e6a71-7ce4-452a-b36f-406f118800ab",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477074Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceIntent",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "56ec9b7e-3a17-4ab5-8921-4bf9a8f8de0e",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerSubtitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerSubtitle** property to [deviceManagementSettingDefinition](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "56ec9b7e-3a17-4ab5-8921-4bf9a8f8de0e",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerTitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerTitle** property to [deviceManagementSettingDefinition](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "56ec9b7e-3a17-4ab5-8921-4bf9a8f8de0e",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [securityBaselineState](/?view=graph-rest-beta) resource",
+          "Target": "securityBaselineState"
+        }
+      ],
+      "Id": "56ec9b7e-3a17-4ab5-8921-4bf9a8f8de0e",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477086Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceIntent",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

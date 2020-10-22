@@ -1,0 +1,298 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "Property",
+          "ChangedApiName": "passCodeDisabled",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passCodeDisabled** property from [depEnrollmentBaseProfile](/?view=graph-rest-beta) resource",
+          "Target": "depEnrollmentBaseProfile"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "Property",
+          "ChangedApiName": "zoomDisabled",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **zoomDisabled** property from [depEnrollmentBaseProfile](/?view=graph-rest-beta) resource",
+          "Target": "depEnrollmentBaseProfile"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "Property",
+          "ChangedApiName": "passCodeDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **passCodeDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "Property",
+          "ChangedApiName": "restoreCompletedScreenDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **restoreCompletedScreenDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "Property",
+          "ChangedApiName": "updateCompleteScreenDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **updateCompleteScreenDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "Property",
+          "ChangedApiName": "zoomDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **zoomDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "Property",
+          "ChangedApiName": "accessibilityScreenDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **accessibilityScreenDisabled** property to [depMacOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depMacOSEnrollmentProfile"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "Property",
+          "ChangedApiName": "passCodeDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **passCodeDisabled** property to [depMacOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depMacOSEnrollmentProfile"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "Property",
+          "ChangedApiName": "zoomDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **zoomDisabled** property to [depMacOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depMacOSEnrollmentProfile"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200610",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200610** resource type *@\u0026*",
+          "Target": "edm_50200610"
+        },
+        {
+          "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200914",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200914](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200914"
+        }
+      ],
+      "Id": "3aba17b8-9005-4420-9542-f8022bf775ea",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477317Z",
+      "WorkloadArea": "Microsoft.Intune.Enrollment",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "Property",
+          "ChangedApiName": "passCodeDisabled",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passCodeDisabled** property from [depEnrollmentBaseProfile](/?view=graph-rest-beta) resource",
+          "Target": "depEnrollmentBaseProfile"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "Property",
+          "ChangedApiName": "zoomDisabled",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **zoomDisabled** property from [depEnrollmentBaseProfile](/?view=graph-rest-beta) resource",
+          "Target": "depEnrollmentBaseProfile"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "Property",
+          "ChangedApiName": "passCodeDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **passCodeDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "Property",
+          "ChangedApiName": "restoreCompletedScreenDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **restoreCompletedScreenDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "Property",
+          "ChangedApiName": "updateCompleteScreenDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **updateCompleteScreenDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "Property",
+          "ChangedApiName": "zoomDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **zoomDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "Property",
+          "ChangedApiName": "accessibilityScreenDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **accessibilityScreenDisabled** property to [depMacOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depMacOSEnrollmentProfile"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "Property",
+          "ChangedApiName": "passCodeDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **passCodeDisabled** property to [depMacOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depMacOSEnrollmentProfile"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "Property",
+          "ChangedApiName": "zoomDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **zoomDisabled** property to [depMacOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depMacOSEnrollmentProfile"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200610",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200610** resource type *@\u0026*",
+          "Target": "edm_50200610"
+        },
+        {
+          "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200914",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200914](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200914"
+        }
+      ],
+      "Id": "7ffd2fde-c920-4f6d-8923-be9675d3f153",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477343Z",
+      "WorkloadArea": "Microsoft.Intune.Enrollment",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "Property",
+          "ChangedApiName": "passCodeDisabled",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **passCodeDisabled** property from [depEnrollmentBaseProfile](/?view=graph-rest-beta) resource",
+          "Target": "depEnrollmentBaseProfile"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "Property",
+          "ChangedApiName": "zoomDisabled",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **zoomDisabled** property from [depEnrollmentBaseProfile](/?view=graph-rest-beta) resource",
+          "Target": "depEnrollmentBaseProfile"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "Property",
+          "ChangedApiName": "passCodeDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **passCodeDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "Property",
+          "ChangedApiName": "restoreCompletedScreenDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **restoreCompletedScreenDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "Property",
+          "ChangedApiName": "updateCompleteScreenDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **updateCompleteScreenDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "Property",
+          "ChangedApiName": "zoomDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **zoomDisabled** property to [depIOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depIOSEnrollmentProfile"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "Property",
+          "ChangedApiName": "accessibilityScreenDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **accessibilityScreenDisabled** property to [depMacOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depMacOSEnrollmentProfile"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "Property",
+          "ChangedApiName": "passCodeDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **passCodeDisabled** property to [depMacOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depMacOSEnrollmentProfile"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "Property",
+          "ChangedApiName": "zoomDisabled",
+          "ChangeType": "Addition",
+          "Description": "Added the **zoomDisabled** property to [depMacOSEnrollmentProfile](/?view=graph-rest-beta) resource",
+          "Target": "depMacOSEnrollmentProfile"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200610",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200610** resource type *@\u0026*",
+          "Target": "edm_50200610"
+        },
+        {
+          "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200914",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200914](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200914"
+        }
+      ],
+      "Id": "56b9adca-c248-4ec5-9f65-4e0a2eb54573",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477362Z",
+      "WorkloadArea": "Microsoft.Intune.Enrollment",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

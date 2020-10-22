@@ -1,0 +1,46 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "7e4530a1-f2d7-4913-a414-ae13a7c67e36",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "versions",
+          "ChangeType": "Addition",
+          "Description": "Added the **versions** relationship to [agreementFileLocalization](/?view=graph-rest-beta) resource",
+          "Target": "agreementFileLocalization"
+        },
+        {
+          "Id": "7e4530a1-f2d7-4913-a414-ae13a7c67e36",
+          "ApiChange": "Property",
+          "ChangedApiName": "createdDateTime",
+          "ChangeType": "Addition",
+          "Description": "Added the **createdDateTime** property to [agreementFileProperties](/?view=graph-rest-beta) resource",
+          "Target": "agreementFileProperties"
+        },
+        {
+          "Id": "7e4530a1-f2d7-4913-a414-ae13a7c67e36",
+          "ApiChange": "Property",
+          "ChangedApiName": "isMajorVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the **isMajorVersion** property to [agreementFileProperties](/?view=graph-rest-beta) resource",
+          "Target": "agreementFileProperties"
+        },
+        {
+          "Id": "7e4530a1-f2d7-4913-a414-ae13a7c67e36",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "agreementFileVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the [agreementFileVersion](/graph/api/resources/agreementFileVersion?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "agreementFileVersion"
+        }
+      ],
+      "Id": "7e4530a1-f2d7-4913-a414-ae13a7c67e36",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476638Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.TermsOfUse",
+      "SubArea": "Identity governance"
+    }
+  ]
+}

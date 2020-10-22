@@ -1,0 +1,58 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "ac9ab3b5-2bfd-407a-be13-a5c50b03588e",
+          "ApiChange": "Property",
+          "ChangedApiName": "uninstallOnDeviceRemoval",
+          "ChangeType": "Addition",
+          "Description": "Added the **uninstallOnDeviceRemoval** property to [macOsVppAppAssignmentSettings](/?view=graph-rest-beta) resource",
+          "Target": "macOsVppAppAssignmentSettings"
+        }
+      ],
+      "Id": "ac9ab3b5-2bfd-407a-be13-a5c50b03588e",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476842Z",
+      "WorkloadArea": "Microsoft.Intune.Bundles",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "ea6519e6-d24c-4299-91f2-1b395387da63",
+          "ApiChange": "Property",
+          "ChangedApiName": "uninstallOnDeviceRemoval",
+          "ChangeType": "Addition",
+          "Description": "Added the **uninstallOnDeviceRemoval** property to [macOsVppAppAssignmentSettings](/?view=graph-rest-beta) resource",
+          "Target": "macOsVppAppAssignmentSettings"
+        }
+      ],
+      "Id": "ea6519e6-d24c-4299-91f2-1b395387da63",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476855Z",
+      "WorkloadArea": "Microsoft.Intune.Bundles",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "337d0358-d8c8-440c-bbbc-0aceb975d058",
+          "ApiChange": "Property",
+          "ChangedApiName": "uninstallOnDeviceRemoval",
+          "ChangeType": "Addition",
+          "Description": "Added the **uninstallOnDeviceRemoval** property to [macOsVppAppAssignmentSettings](/?view=graph-rest-beta) resource",
+          "Target": "macOsVppAppAssignmentSettings"
+        }
+      ],
+      "Id": "337d0358-d8c8-440c-bbbc-0aceb975d058",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476865Z",
+      "WorkloadArea": "Microsoft.Intune.Bundles",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

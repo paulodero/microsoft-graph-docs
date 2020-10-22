@@ -1,0 +1,238 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "printerFeedOrientation",
+          "ChangeType": "Addition",
+          "Description": "Added the [printerFeedOrientation](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "printerFeedOrientation"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "printerProcessingStateDetail",
+          "ChangeType": "Addition",
+          "Description": "Added the [printerProcessingStateDetail](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "printerProcessingStateDetail"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "printJobStateDetail",
+          "ChangeType": "Addition",
+          "Description": "Added the [printJobStateDetail](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "printJobStateDetail"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "printDocumentUploadProperties",
+          "ChangeType": "Addition",
+          "Description": "Added the [printDocumentUploadProperties](/graph/api/resources/intune-printDocumentUploadProperties?view=graph-rest-beta) resource type",
+          "Target": "printDocumentUploadProperties"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "feedOrientations",
+          "ChangeType": "Addition",
+          "Description": "Added the **feedOrientations** property to [printerCapabilities](/?view=graph-rest-beta) resource",
+          "Target": "printerCapabilities"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "feedOrientation",
+          "ChangeType": "Addition",
+          "Description": "Added the **feedOrientation** property to [printerDocumentConfiguration](/?view=graph-rest-beta) resource",
+          "Target": "printerDocumentConfiguration"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [printerStatus](/?view=graph-rest-beta) resource",
+          "Target": "printerStatus"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "details",
+          "ChangeType": "Addition",
+          "Description": "Added the **details** property to [printerStatus](/?view=graph-rest-beta) resource",
+          "Target": "printerStatus"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [printerStatus](/?view=graph-rest-beta) resource",
+          "Target": "printerStatus"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "printJobConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [printJobConfiguration](/graph/api/resources/intune-printJobConfiguration?view=graph-rest-beta) resource type",
+          "Target": "printJobConfiguration"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Addition",
+          "Description": "Added the **description** property to [printJobStatus](/?view=graph-rest-beta) resource",
+          "Target": "printJobStatus"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "details",
+          "ChangeType": "Addition",
+          "Description": "Added the **details** property to [printJobStatus](/?view=graph-rest-beta) resource",
+          "Target": "printJobStatus"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "isAcquiredByPrinter",
+          "ChangeType": "Addition",
+          "Description": "Added the **isAcquiredByPrinter** property to [printJobStatus](/?view=graph-rest-beta) resource",
+          "Target": "printJobStatus"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [printJobStatus](/?view=graph-rest-beta) resource",
+          "Target": "printJobStatus"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "uploadSession",
+          "ChangeType": "Addition",
+          "Description": "Added the [uploadSession](/graph/api/resources/intune-uploadSession?view=graph-rest-beta) resource type",
+          "Target": "uploadSession"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Addition",
+          "Description": "Added the **displayName** property to [printConnector](/?view=graph-rest-beta) resource",
+          "Target": "printConnector"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "contentType",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **contentType** property in the [printDocument](/?view=graph-rest-beta) resource",
+          "Target": "printDocument"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **displayName** property in the [printDocument](/?view=graph-rest-beta) resource",
+          "Target": "printDocument"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "shares",
+          "ChangeType": "Addition",
+          "Description": "Added the **shares** relationship to [printer](/?view=graph-rest-beta) resource",
+          "Target": "printer"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Addition",
+          "Description": "Added the **displayName** property to [printerBase](/?view=graph-rest-beta) resource",
+          "Target": "printerBase"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "configuration",
+          "ChangeType": "Addition",
+          "Description": "Added the **configuration** property to [printJob](/?view=graph-rest-beta) resource",
+          "Target": "printJob"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "isFetchable",
+          "ChangeType": "Addition",
+          "Description": "Added the **isFetchable** property to [printJob](/?view=graph-rest-beta) resource",
+          "Target": "printJob"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "redirectedFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **redirectedFrom** property to [printJob](/?view=graph-rest-beta) resource",
+          "Target": "printJob"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Property",
+          "ChangedApiName": "redirectedTo",
+          "ChangeType": "Addition",
+          "Description": "Added the **redirectedTo** property to [printJob](/?view=graph-rest-beta) resource",
+          "Target": "printJob"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Action",
+          "ChangedApiName": "cancel",
+          "ChangeType": "Addition",
+          "Description": "Added the [cancel](/graph/api/intune-cancel-cancel?view=graph-rest-beta) method to the [cancel](/graph/api/intune-cancel-cancel?view=graph-rest-beta) resource",
+          "Target": "cancel"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Action",
+          "ChangedApiName": "createUploadSession",
+          "ChangeType": "Addition",
+          "Description": "Added the [createUploadSession](/graph/api/intune-createUploadSession-createUploadSession?view=graph-rest-beta) method to the [createUploadSession](/graph/api/intune-createUploadSession-createUploadSession?view=graph-rest-beta) resource",
+          "Target": "createUploadSession"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Action",
+          "ChangedApiName": "restoreFactoryDefaults",
+          "ChangeType": "Addition",
+          "Description": "Added the [restoreFactoryDefaults](/graph/api/intune-restoreFactoryDefaults-restoreFactoryDefaults?view=graph-rest-beta) method to the [restoreFactoryDefaults](/graph/api/intune-restoreFactoryDefaults-restoreFactoryDefaults?view=graph-rest-beta) resource",
+          "Target": "restoreFactoryDefaults"
+        },
+        {
+          "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+          "ApiChange": "Action",
+          "ChangedApiName": "start",
+          "ChangeType": "Addition",
+          "Description": "Added the [start](/graph/api/intune-start-start?view=graph-rest-beta) method to the [start](/graph/api/intune-start-start?view=graph-rest-beta) resource",
+          "Target": "start"
+        }
+      ],
+      "Id": "9a912edb-36c2-4858-99f3-165fecdc9a3a",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477481Z",
+      "WorkloadArea": "Microsoft.PrintService",
+      "SubArea": "Cloud printing"
+    }
+  ]
+}

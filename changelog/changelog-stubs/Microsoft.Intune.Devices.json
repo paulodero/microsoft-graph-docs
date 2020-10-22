@@ -1,0 +1,250 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "deviceCustomAttributeValueType",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceCustomAttributeValueType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceCustomAttributeValueType"
+        },
+        {
+          "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+          "ApiChange": "Property",
+          "ChangedApiName": "ipAddressV4",
+          "ChangeType": "Addition",
+          "Description": "Added the **ipAddressV4** property to [hardwareInformation](/?view=graph-rest-beta) resource",
+          "Target": "hardwareInformation"
+        },
+        {
+          "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+          "ApiChange": "Property",
+          "ChangedApiName": "subnetAddress",
+          "ChangeType": "Addition",
+          "Description": "Added the **subnetAddress** property to [hardwareInformation](/?view=graph-rest-beta) resource",
+          "Target": "hardwareInformation"
+        },
+        {
+          "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceCustomAttributeShellScript",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceCustomAttributeShellScript](/graph/api/resources/intune-deviceCustomAttributeShellScript?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceCustomAttributeShellScript"
+        },
+        {
+          "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "deviceCustomAttributeShellScripts",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceCustomAttributeShellScripts** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+          "ApiChange": "Action",
+          "ChangedApiName": "assign",
+          "ChangeType": "Addition",
+          "Description": "Added the [assign](/graph/api/intune-assign-assign?view=graph-rest-beta) method to the [assign](/graph/api/intune-assign-assign?view=graph-rest-beta) resource",
+          "Target": "assign"
+        },
+        {
+          "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+          "ApiChange": "Action",
+          "ChangedApiName": "getActiveMalwareSummaryReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getActiveMalwareSummaryReport](/graph/api/intune-getActiveMalwareSummaryReport-getActiveMalwareSummaryReport?view=graph-rest-beta) method to the [getActiveMalwareSummaryReport](/graph/api/intune-getActiveMalwareSummaryReport-getActiveMalwareSummaryReport?view=graph-rest-beta) resource",
+          "Target": "getActiveMalwareSummaryReport"
+        },
+        {
+          "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200824",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200824** resource type *@\u0026*",
+          "Target": "edm_50200824"
+        },
+        {
+          "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200901",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200901](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200901"
+        }
+      ],
+      "Id": "cd5e4cc0-84bf-4347-b6e5-b3aaa2717f29",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477105Z",
+      "WorkloadArea": "Microsoft.Intune.Devices",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "deviceCustomAttributeValueType",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceCustomAttributeValueType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceCustomAttributeValueType"
+        },
+        {
+          "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+          "ApiChange": "Property",
+          "ChangedApiName": "ipAddressV4",
+          "ChangeType": "Addition",
+          "Description": "Added the **ipAddressV4** property to [hardwareInformation](/?view=graph-rest-beta) resource",
+          "Target": "hardwareInformation"
+        },
+        {
+          "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+          "ApiChange": "Property",
+          "ChangedApiName": "subnetAddress",
+          "ChangeType": "Addition",
+          "Description": "Added the **subnetAddress** property to [hardwareInformation](/?view=graph-rest-beta) resource",
+          "Target": "hardwareInformation"
+        },
+        {
+          "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceCustomAttributeShellScript",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceCustomAttributeShellScript](/graph/api/resources/intune-deviceCustomAttributeShellScript?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceCustomAttributeShellScript"
+        },
+        {
+          "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "deviceCustomAttributeShellScripts",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceCustomAttributeShellScripts** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+          "ApiChange": "Action",
+          "ChangedApiName": "assign",
+          "ChangeType": "Addition",
+          "Description": "Added the [assign](/graph/api/intune-assign-assign?view=graph-rest-beta) method to the [assign](/graph/api/intune-assign-assign?view=graph-rest-beta) resource",
+          "Target": "assign"
+        },
+        {
+          "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+          "ApiChange": "Action",
+          "ChangedApiName": "getActiveMalwareSummaryReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getActiveMalwareSummaryReport](/graph/api/intune-getActiveMalwareSummaryReport-getActiveMalwareSummaryReport?view=graph-rest-beta) method to the [getActiveMalwareSummaryReport](/graph/api/intune-getActiveMalwareSummaryReport-getActiveMalwareSummaryReport?view=graph-rest-beta) resource",
+          "Target": "getActiveMalwareSummaryReport"
+        },
+        {
+          "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200824",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200824** resource type *@\u0026*",
+          "Target": "edm_50200824"
+        },
+        {
+          "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200901",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200901](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200901"
+        }
+      ],
+      "Id": "de945adf-2330-4d0b-8bc5-a798814604e5",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.947713Z",
+      "WorkloadArea": "Microsoft.Intune.Devices",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "deviceCustomAttributeValueType",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceCustomAttributeValueType](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceCustomAttributeValueType"
+        },
+        {
+          "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+          "ApiChange": "Property",
+          "ChangedApiName": "ipAddressV4",
+          "ChangeType": "Addition",
+          "Description": "Added the **ipAddressV4** property to [hardwareInformation](/?view=graph-rest-beta) resource",
+          "Target": "hardwareInformation"
+        },
+        {
+          "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+          "ApiChange": "Property",
+          "ChangedApiName": "subnetAddress",
+          "ChangeType": "Addition",
+          "Description": "Added the **subnetAddress** property to [hardwareInformation](/?view=graph-rest-beta) resource",
+          "Target": "hardwareInformation"
+        },
+        {
+          "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceCustomAttributeShellScript",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceCustomAttributeShellScript](/graph/api/resources/intune-deviceCustomAttributeShellScript?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceCustomAttributeShellScript"
+        },
+        {
+          "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "deviceCustomAttributeShellScripts",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceCustomAttributeShellScripts** relationship to [deviceManagement](/?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+          "ApiChange": "Action",
+          "ChangedApiName": "assign",
+          "ChangeType": "Addition",
+          "Description": "Added the [assign](/graph/api/intune-assign-assign?view=graph-rest-beta) method to the [assign](/graph/api/intune-assign-assign?view=graph-rest-beta) resource",
+          "Target": "assign"
+        },
+        {
+          "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+          "ApiChange": "Action",
+          "ChangedApiName": "getActiveMalwareSummaryReport",
+          "ChangeType": "Addition",
+          "Description": "Added the [getActiveMalwareSummaryReport](/graph/api/intune-getActiveMalwareSummaryReport-getActiveMalwareSummaryReport?view=graph-rest-beta) method to the [getActiveMalwareSummaryReport](/graph/api/intune-getActiveMalwareSummaryReport-getActiveMalwareSummaryReport?view=graph-rest-beta) resource",
+          "Target": "getActiveMalwareSummaryReport"
+        },
+        {
+          "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200824",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200824** resource type *@\u0026*",
+          "Target": "edm_50200824"
+        },
+        {
+          "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200901",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200901](/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200901"
+        }
+      ],
+      "Id": "1f77ebba-115b-4cee-8b09-531965f41b88",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477163Z",
+      "WorkloadArea": "Microsoft.Intune.Devices",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

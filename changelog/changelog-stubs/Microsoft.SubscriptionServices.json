@@ -1,0 +1,152 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "a4651a4e-09f6-4836-93b0-849812f6bb98",
+          "ApiChange": "Property",
+          "ChangedApiName": "sequenceNumber",
+          "ChangeType": "Addition",
+          "Description": "Added the **sequenceNumber** property to [changeNotification](/?view=graph-rest-beta) resource",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "a4651a4e-09f6-4836-93b0-849812f6bb98",
+          "ApiChange": "Property",
+          "ChangedApiName": "applicationId",
+          "ChangeType": "Addition",
+          "Description": "Added the **applicationId** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "a4651a4e-09f6-4836-93b0-849812f6bb98",
+          "ApiChange": "Property",
+          "ChangedApiName": "creatorId",
+          "ChangeType": "Addition",
+          "Description": "Added the **creatorId** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "a4651a4e-09f6-4836-93b0-849812f6bb98",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificate",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificate** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "a4651a4e-09f6-4836-93b0-849812f6bb98",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificateId",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificateId** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "a4651a4e-09f6-4836-93b0-849812f6bb98",
+          "ApiChange": "Property",
+          "ChangedApiName": "includeResourceData",
+          "ChangeType": "Addition",
+          "Description": "Added the **includeResourceData** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "a4651a4e-09f6-4836-93b0-849812f6bb98",
+          "ApiChange": "Property",
+          "ChangedApiName": "latestSupportedTlsVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the **latestSupportedTlsVersion** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "a4651a4e-09f6-4836-93b0-849812f6bb98",
+          "ApiChange": "Property",
+          "ChangedApiName": "lifecycleNotificationUrl",
+          "ChangeType": "Addition",
+          "Description": "Added the **lifecycleNotificationUrl** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        }
+      ],
+      "Id": "a4651a4e-09f6-4836-93b0-849812f6bb98",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477541Z",
+      "WorkloadArea": "Microsoft.SubscriptionServices",
+      "SubArea": "Subscription"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "8bdec2dd-babc-49e8-b567-831277fc7188",
+          "ApiChange": "Property",
+          "ChangedApiName": "sequenceNumber",
+          "ChangeType": "Addition",
+          "Description": "Added the **sequenceNumber** property to [changeNotification](/?view=graph-rest-beta) resource",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "8bdec2dd-babc-49e8-b567-831277fc7188",
+          "ApiChange": "Property",
+          "ChangedApiName": "applicationId",
+          "ChangeType": "Addition",
+          "Description": "Added the **applicationId** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "8bdec2dd-babc-49e8-b567-831277fc7188",
+          "ApiChange": "Property",
+          "ChangedApiName": "creatorId",
+          "ChangeType": "Addition",
+          "Description": "Added the **creatorId** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "8bdec2dd-babc-49e8-b567-831277fc7188",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificate",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificate** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "8bdec2dd-babc-49e8-b567-831277fc7188",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificateId",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificateId** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "8bdec2dd-babc-49e8-b567-831277fc7188",
+          "ApiChange": "Property",
+          "ChangedApiName": "includeResourceData",
+          "ChangeType": "Addition",
+          "Description": "Added the **includeResourceData** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "8bdec2dd-babc-49e8-b567-831277fc7188",
+          "ApiChange": "Property",
+          "ChangedApiName": "latestSupportedTlsVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the **latestSupportedTlsVersion** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "8bdec2dd-babc-49e8-b567-831277fc7188",
+          "ApiChange": "Property",
+          "ChangedApiName": "lifecycleNotificationUrl",
+          "ChangeType": "Addition",
+          "Description": "Added the **lifecycleNotificationUrl** property to [subscription](/?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        }
+      ],
+      "Id": "8bdec2dd-babc-49e8-b567-831277fc7188",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9477559Z",
+      "WorkloadArea": "Microsoft.SubscriptionServices",
+      "SubArea": "Subscription"
+    }
+  ]
+}

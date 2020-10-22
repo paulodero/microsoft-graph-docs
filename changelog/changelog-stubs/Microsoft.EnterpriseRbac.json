@@ -1,0 +1,58 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "f696c3c7-b9c4-45ec-9afb-5021170e2b92",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "inheritsPermissionsFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **inheritsPermissionsFrom** relationship to [unifiedRoleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "f696c3c7-b9c4-45ec-9afb-5021170e2b92",
+      "Cloud": "Blackforest",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476497Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "2d813175-93b1-4ced-8f6a-8b92acb71079",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "inheritsPermissionsFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **inheritsPermissionsFrom** relationship to [unifiedRoleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "2d813175-93b1-4ced-8f6a-8b92acb71079",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476512Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "8a8acb6c-acea-492a-9d44-19735cb86a8b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "inheritsPermissionsFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **inheritsPermissionsFrom** relationship to [unifiedRoleDefinition](/?view=graph-rest-beta) resource",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "8a8acb6c-acea-492a-9d44-19735cb86a8b",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-22T13:54:11.9476524Z",
+      "WorkloadArea": "Microsoft.EnterpriseRbac",
+      "SubArea": ""
+    }
+  ]
+}
