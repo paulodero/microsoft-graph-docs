@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "appActionIfDeviceLockNotSet",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "deviceLockRequired",
           "ChangeType": "Addition",
@@ -27,7 +27,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -35,7 +35,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -43,7 +43,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "appActionIfDeviceLockNotSet",
           "ChangeType": "Addition",
@@ -51,7 +51,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -59,7 +59,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "deviceLockRequired",
           "ChangeType": "Addition",
@@ -67,7 +67,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -75,7 +75,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "Property",
           "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -83,7 +83,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200821",
           "ChangeType": "Deletion",
@@ -91,7 +91,7 @@
           "Target": "edm_50200821"
         },
         {
-          "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+          "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50201002",
           "ChangeType": "Addition",
@@ -99,17 +99,17 @@
           "Target": "edm_50201002"
         }
       ],
-      "Id": "90613a9e-b845-4254-90f5-144bae0d1e9e",
+      "Id": "d98bd9a8-d58b-4a77-9991-7b888f6d2bf5",
       "Cloud": "Fairfax",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.947739Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0839223Z",
       "WorkloadArea": "Microsoft.Intune.ManagedApplications",
       "SubArea": "Corporate management"
     },
     {
       "ChangeList": [
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "appActionIfDeviceLockNotSet",
           "ChangeType": "Addition",
@@ -117,7 +117,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -125,7 +125,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "deviceLockRequired",
           "ChangeType": "Addition",
@@ -133,7 +133,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -141,7 +141,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -149,7 +149,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "appActionIfDeviceLockNotSet",
           "ChangeType": "Addition",
@@ -157,7 +157,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -165,7 +165,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "deviceLockRequired",
           "ChangeType": "Addition",
@@ -173,7 +173,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -181,7 +181,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "Property",
           "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -189,7 +189,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200821",
           "ChangeType": "Deletion",
@@ -197,7 +197,7 @@
           "Target": "edm_50200821"
         },
         {
-          "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+          "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50201002",
           "ChangeType": "Addition",
@@ -205,17 +205,17 @@
           "Target": "edm_50201002"
         }
       ],
-      "Id": "db6a7819-c604-4602-bdd9-a48a6412b0cb",
+      "Id": "7fe87cf0-981c-45e2-ad81-c7c21beea3db",
       "Cloud": "Mooncake",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9477413Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0839244Z",
       "WorkloadArea": "Microsoft.Intune.ManagedApplications",
       "SubArea": "Corporate management"
     },
     {
       "ChangeList": [
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "appActionIfDeviceLockNotSet",
           "ChangeType": "Addition",
@@ -223,7 +223,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -231,7 +231,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "deviceLockRequired",
           "ChangeType": "Addition",
@@ -239,7 +239,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -247,7 +247,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -255,7 +255,7 @@
           "Target": "androidManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "appActionIfDeviceLockNotSet",
           "ChangeType": "Addition",
@@ -263,7 +263,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -271,7 +271,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "deviceLockRequired",
           "ChangeType": "Addition",
@@ -279,7 +279,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -287,7 +287,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "Property",
           "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
           "ChangeType": "Addition",
@@ -295,7 +295,7 @@
           "Target": "defaultManagedAppProtection"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200821",
           "ChangeType": "Deletion",
@@ -303,7 +303,7 @@
           "Target": "edm_50200821"
         },
         {
-          "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+          "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50201002",
           "ChangeType": "Addition",
@@ -311,10 +311,10 @@
           "Target": "edm_50201002"
         }
       ],
-      "Id": "dcda7dfb-4bfc-4e0a-840e-9c2bec53903e",
+      "Id": "de91e35e-5d39-4cb9-a215-08d586e66f51",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9477434Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0839263Z",
       "WorkloadArea": "Microsoft.Intune.ManagedApplications",
       "SubArea": "Corporate management"
     }

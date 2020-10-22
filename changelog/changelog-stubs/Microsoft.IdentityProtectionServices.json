@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "b10f1eb9-30e0-4b7f-b28f-42b733fc5d01",
+          "Id": "0c175a12-9c93-4e60-b092-50e27592895f",
           "ApiChange": "ComplexType",
           "ChangedApiName": "conditionalAccessClientApplications",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "conditionalAccessClientApplications"
         },
         {
-          "Id": "b10f1eb9-30e0-4b7f-b28f-42b733fc5d01",
+          "Id": "0c175a12-9c93-4e60-b092-50e27592895f",
           "ApiChange": "Property",
           "ChangedApiName": "clientApplications",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "conditionalAccessConditionSet"
         },
         {
-          "Id": "b10f1eb9-30e0-4b7f-b28f-42b733fc5d01",
+          "Id": "0c175a12-9c93-4e60-b092-50e27592895f",
           "ApiChange": "Property",
           "ChangedApiName": "users",
           "ChangeType": "Change",
@@ -27,192 +27,10 @@
           "Target": "conditionalAccessConditionSet"
         }
       ],
-      "Id": "b10f1eb9-30e0-4b7f-b28f-42b733fc5d01",
-      "Cloud": "PPE",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476652Z",
-      "WorkloadArea": "Microsoft.IdentityProtectionServices",
-      "SubArea": "Identity and sign-in"
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "e956400a-7d27-441e-9997-bef2f6a8a437",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "conditionalAccessClientApplications",
-          "ChangeType": "Addition",
-          "Description": "Added the [conditionalAccessClientApplications](/graph/api/resources/conditionalAccessClientApplications?view=graph-rest-beta) resource type",
-          "Target": "conditionalAccessClientApplications"
-        },
-        {
-          "Id": "e956400a-7d27-441e-9997-bef2f6a8a437",
-          "ApiChange": "Property",
-          "ChangedApiName": "clientApplications",
-          "ChangeType": "Addition",
-          "Description": "Added the **clientApplications** property to [conditionalAccessConditionSet](/?view=graph-rest-beta) resource",
-          "Target": "conditionalAccessConditionSet"
-        },
-        {
-          "Id": "e956400a-7d27-441e-9997-bef2f6a8a437",
-          "ApiChange": "Property",
-          "ChangedApiName": "users",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **users** property in the [conditionalAccessConditionSet](/?view=graph-rest-beta) resource",
-          "Target": "conditionalAccessConditionSet"
-        }
-      ],
-      "Id": "e956400a-7d27-441e-9997-bef2f6a8a437",
+      "Id": "0c175a12-9c93-4e60-b092-50e27592895f",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.947667Z",
-      "WorkloadArea": "Microsoft.IdentityProtectionServices",
-      "SubArea": "Identity and sign-in"
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "37387b3a-5786-43ed-81cb-1a72fbfbdbd8",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "additionalRecipient",
-          "ChangeType": "Addition",
-          "Description": "Added the [additionalRecipient](/graph/api/resources/additionalRecipient?view=graph-rest-beta) resource type",
-          "Target": "additionalRecipient"
-        },
-        {
-          "Id": "37387b3a-5786-43ed-81cb-1a72fbfbdbd8",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "directoryObjectsSelection",
-          "ChangeType": "Addition",
-          "Description": "Added the [directoryObjectsSelection](/graph/api/resources/directoryObjectsSelection?view=graph-rest-beta) resource type",
-          "Target": "directoryObjectsSelection"
-        },
-        {
-          "Id": "37387b3a-5786-43ed-81cb-1a72fbfbdbd8",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "notificationRecipient",
-          "ChangeType": "Addition",
-          "Description": "Added the [notificationRecipient](/graph/api/resources/notificationRecipient?view=graph-rest-beta) resource type",
-          "Target": "notificationRecipient"
-        },
-        {
-          "Id": "37387b3a-5786-43ed-81cb-1a72fbfbdbd8",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "advancedRiskReportingSettings",
-          "ChangeType": "Addition",
-          "Description": "Added the [advancedRiskReportingSettings](/graph/api/resources/advancedRiskReportingSettings?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "advancedRiskReportingSettings"
-        },
-        {
-          "Id": "37387b3a-5786-43ed-81cb-1a72fbfbdbd8",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "identityProtectionRoot",
-          "ChangeType": "Addition",
-          "Description": "Added the [identityProtectionRoot](/graph/api/resources/identityProtectionRoot?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "identityProtectionRoot"
-        },
-        {
-          "Id": "37387b3a-5786-43ed-81cb-1a72fbfbdbd8",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "notificationSettings",
-          "ChangeType": "Addition",
-          "Description": "Added the [notificationSettings](/graph/api/resources/notificationSettings?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "notificationSettings"
-        },
-        {
-          "Id": "37387b3a-5786-43ed-81cb-1a72fbfbdbd8",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "settingsRoot",
-          "ChangeType": "Addition",
-          "Description": "Added the [settingsRoot](/graph/api/resources/settingsRoot?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "settingsRoot"
-        },
-        {
-          "Id": "37387b3a-5786-43ed-81cb-1a72fbfbdbd8",
-          "ApiChange": "Singleton",
-          "ChangedApiName": "identityProtection",
-          "ChangeType": "Addition",
-          "Description": "Added the [identityProtection](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "identityProtection"
-        }
-      ],
-      "Id": "37387b3a-5786-43ed-81cb-1a72fbfbdbd8",
-      "Cloud": "USNat",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476683Z",
-      "WorkloadArea": "Microsoft.IdentityProtectionServices",
-      "SubArea": "Identity and sign-in"
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "8d1b11af-09cf-43df-8eca-a3f8a6a67916",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "additionalRecipient",
-          "ChangeType": "Addition",
-          "Description": "Added the [additionalRecipient](/graph/api/resources/additionalRecipient?view=graph-rest-beta) resource type",
-          "Target": "additionalRecipient"
-        },
-        {
-          "Id": "8d1b11af-09cf-43df-8eca-a3f8a6a67916",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "directoryObjectsSelection",
-          "ChangeType": "Addition",
-          "Description": "Added the [directoryObjectsSelection](/graph/api/resources/directoryObjectsSelection?view=graph-rest-beta) resource type",
-          "Target": "directoryObjectsSelection"
-        },
-        {
-          "Id": "8d1b11af-09cf-43df-8eca-a3f8a6a67916",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "notificationRecipient",
-          "ChangeType": "Addition",
-          "Description": "Added the [notificationRecipient](/graph/api/resources/notificationRecipient?view=graph-rest-beta) resource type",
-          "Target": "notificationRecipient"
-        },
-        {
-          "Id": "8d1b11af-09cf-43df-8eca-a3f8a6a67916",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "advancedRiskReportingSettings",
-          "ChangeType": "Addition",
-          "Description": "Added the [advancedRiskReportingSettings](/graph/api/resources/advancedRiskReportingSettings?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "advancedRiskReportingSettings"
-        },
-        {
-          "Id": "8d1b11af-09cf-43df-8eca-a3f8a6a67916",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "identityProtectionRoot",
-          "ChangeType": "Addition",
-          "Description": "Added the [identityProtectionRoot](/graph/api/resources/identityProtectionRoot?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "identityProtectionRoot"
-        },
-        {
-          "Id": "8d1b11af-09cf-43df-8eca-a3f8a6a67916",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "notificationSettings",
-          "ChangeType": "Addition",
-          "Description": "Added the [notificationSettings](/graph/api/resources/notificationSettings?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "notificationSettings"
-        },
-        {
-          "Id": "8d1b11af-09cf-43df-8eca-a3f8a6a67916",
-          "ApiChange": "EntityType",
-          "ChangedApiName": "settingsRoot",
-          "ChangeType": "Addition",
-          "Description": "Added the [settingsRoot](/graph/api/resources/settingsRoot?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "settingsRoot"
-        },
-        {
-          "Id": "8d1b11af-09cf-43df-8eca-a3f8a6a67916",
-          "ApiChange": "Singleton",
-          "ChangedApiName": "identityProtection",
-          "ChangeType": "Addition",
-          "Description": "Added the [identityProtection](/?view=graph-rest-beta) resource *@\u0026*",
-          "Target": "identityProtection"
-        }
-      ],
-      "Id": "8d1b11af-09cf-43df-8eca-a3f8a6a67916",
-      "Cloud": "USSec",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476702Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838615Z",
       "WorkloadArea": "Microsoft.IdentityProtectionServices",
       "SubArea": "Identity and sign-in"
     }

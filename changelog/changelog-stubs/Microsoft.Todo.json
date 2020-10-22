@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "8ddd70c9-9360-47dd-8859-9b62f9c023da",
+          "Id": "0863e228-b992-4c05-91e4-04267f03e508",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "lists",
           "ChangeType": "Deletion",
@@ -11,7 +11,7 @@
           "Target": "todo"
         },
         {
-          "Id": "8ddd70c9-9360-47dd-8859-9b62f9c023da",
+          "Id": "0863e228-b992-4c05-91e4-04267f03e508",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "linkedResources",
           "ChangeType": "Deletion",
@@ -19,7 +19,7 @@
           "Target": "todoTask"
         },
         {
-          "Id": "8ddd70c9-9360-47dd-8859-9b62f9c023da",
+          "Id": "0863e228-b992-4c05-91e4-04267f03e508",
           "ApiChange": "Property",
           "ChangedApiName": "wellknownListName",
           "ChangeType": "Deletion",
@@ -27,7 +27,7 @@
           "Target": "todoTaskList"
         },
         {
-          "Id": "8ddd70c9-9360-47dd-8859-9b62f9c023da",
+          "Id": "0863e228-b992-4c05-91e4-04267f03e508",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "tasks",
           "ChangeType": "Deletion",
@@ -35,10 +35,10 @@
           "Target": "todoTaskList"
         }
       ],
-      "Id": "8ddd70c9-9360-47dd-8859-9b62f9c023da",
+      "Id": "0863e228-b992-4c05-91e4-04267f03e508",
       "Cloud": "Prod",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-22T13:54:11.9477597Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0839375Z",
       "WorkloadArea": "Microsoft.Todo",
       "SubArea": ""
     }

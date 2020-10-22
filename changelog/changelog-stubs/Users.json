@@ -3,33 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "07dd20a7-e4dc-46a4-abf6-ee3d1b8c5408",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "ownedObjects",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **ownedObjects** relationship from [user]() resource",
-          "Target": "user"
-        },
-        {
-          "Id": "07dd20a7-e4dc-46a4-abf6-ee3d1b8c5408",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "ownedObjects",
-          "ChangeType": "Change",
-          "Description": "Removed the **ownedObjects** relationship from [user]() resource",
-          "Target": "user"
-        }
-      ],
-      "Id": "07dd20a7-e4dc-46a4-abf6-ee3d1b8c5408",
-      "Cloud": "Prod",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.947644Z",
-      "WorkloadArea": "Users",
-      "SubArea": ""
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "e6a11e5b-88e9-4fa7-80b0-5b700e25de15",
+          "Id": "4891b973-6ce3-400a-82c1-56fd97fea0ab",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "todo",
           "ChangeType": "Deletion",
@@ -37,10 +11,10 @@
           "Target": "user"
         }
       ],
-      "Id": "e6a11e5b-88e9-4fa7-80b0-5b700e25de15",
+      "Id": "4891b973-6ce3-400a-82c1-56fd97fea0ab",
       "Cloud": "Prod",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-22T13:54:11.9477615Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0839393Z",
       "WorkloadArea": "Users",
       "SubArea": ""
     }

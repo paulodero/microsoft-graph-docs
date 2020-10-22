@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "1776d963-41e4-42e8-bebe-24913139057a",
+          "Id": "36e8bab9-467e-4bdb-be1d-9112e149d536",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "tabs",
           "ChangeType": "Addition",
@@ -11,10 +11,10 @@
           "Target": "chat"
         }
       ],
-      "Id": "1776d963-41e4-42e8-bebe-24913139057a",
+      "Id": "36e8bab9-467e-4bdb-be1d-9112e149d536",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9477577Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0839355Z",
       "WorkloadArea": "Microsoft.Teams.GraphSvc",
       "SubArea": "Microsoft.Teams.Shifts"
     }

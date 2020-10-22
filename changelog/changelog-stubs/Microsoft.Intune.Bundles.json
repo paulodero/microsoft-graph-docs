@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "ac9ab3b5-2bfd-407a-be13-a5c50b03588e",
+          "Id": "6eefe665-a9a6-409c-915c-91b1dd6c8fc6",
           "ApiChange": "Property",
           "ChangedApiName": "uninstallOnDeviceRemoval",
           "ChangeType": "Addition",
@@ -11,17 +11,17 @@
           "Target": "macOsVppAppAssignmentSettings"
         }
       ],
-      "Id": "ac9ab3b5-2bfd-407a-be13-a5c50b03588e",
+      "Id": "6eefe665-a9a6-409c-915c-91b1dd6c8fc6",
       "Cloud": "Fairfax",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476842Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838741Z",
       "WorkloadArea": "Microsoft.Intune.Bundles",
       "SubArea": "Corporate management"
     },
     {
       "ChangeList": [
         {
-          "Id": "ea6519e6-d24c-4299-91f2-1b395387da63",
+          "Id": "b00cd7a0-c23e-494c-bcab-9ced14683009",
           "ApiChange": "Property",
           "ChangedApiName": "uninstallOnDeviceRemoval",
           "ChangeType": "Addition",
@@ -29,17 +29,17 @@
           "Target": "macOsVppAppAssignmentSettings"
         }
       ],
-      "Id": "ea6519e6-d24c-4299-91f2-1b395387da63",
+      "Id": "b00cd7a0-c23e-494c-bcab-9ced14683009",
       "Cloud": "Mooncake",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476855Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838757Z",
       "WorkloadArea": "Microsoft.Intune.Bundles",
       "SubArea": "Corporate management"
     },
     {
       "ChangeList": [
         {
-          "Id": "337d0358-d8c8-440c-bbbc-0aceb975d058",
+          "Id": "0747654b-1ce1-49f0-b356-338d996a8070",
           "ApiChange": "Property",
           "ChangedApiName": "uninstallOnDeviceRemoval",
           "ChangeType": "Addition",
@@ -47,10 +47,10 @@
           "Target": "macOsVppAppAssignmentSettings"
         }
       ],
-      "Id": "337d0358-d8c8-440c-bbbc-0aceb975d058",
+      "Id": "0747654b-1ce1-49f0-b356-338d996a8070",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476865Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838773Z",
       "WorkloadArea": "Microsoft.Intune.Bundles",
       "SubArea": "Corporate management"
     }

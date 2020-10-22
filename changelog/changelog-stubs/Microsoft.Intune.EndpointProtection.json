@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "certificateDestinationStore",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "certificateDestinationStore"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "certificateStore",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "certificateStore"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "certificateValidityPeriodScale",
           "ChangeType": "Addition",
@@ -27,7 +27,7 @@
           "Target": "certificateValidityPeriodScale"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "deviceAndAppManagementAssignmentFilterType",
           "ChangeType": "Addition",
@@ -35,7 +35,7 @@
           "Target": "deviceAndAppManagementAssignmentFilterType"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "deviceManagementResourceAccessProfileIntent",
           "ChangeType": "Addition",
@@ -43,7 +43,7 @@
           "Target": "deviceManagementResourceAccessProfileIntent"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "hashAlgorithms",
           "ChangeType": "Addition",
@@ -51,7 +51,7 @@
           "Target": "hashAlgorithms"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "keySize",
           "ChangeType": "Addition",
@@ -59,7 +59,7 @@
           "Target": "keySize"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "keyStorageProviderOption",
           "ChangeType": "Addition",
@@ -67,7 +67,7 @@
           "Target": "keyStorageProviderOption"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "keyUsages",
           "ChangeType": "Addition",
@@ -75,7 +75,7 @@
           "Target": "keyUsages"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EnumType",
           "ChangedApiName": "subjectAlternativeNameType",
           "ChangeType": "Addition",
@@ -83,7 +83,7 @@
           "Target": "subjectAlternativeNameType"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "ComplexType",
           "ChangedApiName": "allDevicesAssignmentTarget",
           "ChangeType": "Addition",
@@ -91,7 +91,7 @@
           "Target": "allDevicesAssignmentTarget"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "ComplexType",
           "ChangedApiName": "allLicensedUsersAssignmentTarget",
           "ChangeType": "Addition",
@@ -99,7 +99,7 @@
           "Target": "allLicensedUsersAssignmentTarget"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "ComplexType",
           "ChangedApiName": "deviceAndAppManagementAssignmentTarget",
           "ChangeType": "Addition",
@@ -107,7 +107,7 @@
           "Target": "deviceAndAppManagementAssignmentTarget"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "ComplexType",
           "ChangedApiName": "exclusionGroupAssignmentTarget",
           "ChangeType": "Addition",
@@ -115,7 +115,7 @@
           "Target": "exclusionGroupAssignmentTarget"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "ComplexType",
           "ChangedApiName": "extendedKeyUsage",
           "ChangeType": "Addition",
@@ -123,7 +123,7 @@
           "Target": "extendedKeyUsage"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "ComplexType",
           "ChangedApiName": "groupAssignmentTarget",
           "ChangeType": "Addition",
@@ -131,7 +131,7 @@
           "Target": "groupAssignmentTarget"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "ComplexType",
           "ChangedApiName": "windows10XCustomSubjectAlternativeName",
           "ChangeType": "Addition",
@@ -139,7 +139,7 @@
           "Target": "windows10XCustomSubjectAlternativeName"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "resourceAccessProfiles",
           "ChangeType": "Addition",
@@ -147,7 +147,7 @@
           "Target": "deviceManagement"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EntityType",
           "ChangedApiName": "deviceManagementResourceAccessProfileAssignment",
           "ChangeType": "Addition",
@@ -155,7 +155,7 @@
           "Target": "deviceManagementResourceAccessProfileAssignment"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EntityType",
           "ChangedApiName": "deviceManagementResourceAccessProfileBase",
           "ChangeType": "Addition",
@@ -163,7 +163,7 @@
           "Target": "deviceManagementResourceAccessProfileBase"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XCertificateProfile",
           "ChangeType": "Addition",
@@ -171,7 +171,7 @@
           "Target": "windows10XCertificateProfile"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XSCEPCertificateProfile",
           "ChangeType": "Addition",
@@ -179,7 +179,7 @@
           "Target": "windows10XSCEPCertificateProfile"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XTrustedRootCertificate",
           "ChangeType": "Addition",
@@ -187,7 +187,7 @@
           "Target": "windows10XTrustedRootCertificate"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XVpnConfiguration",
           "ChangeType": "Addition",
@@ -195,7 +195,7 @@
           "Target": "windows10XVpnConfiguration"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XWifiConfiguration",
           "ChangeType": "Addition",
@@ -203,7 +203,7 @@
           "Target": "windows10XWifiConfiguration"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "Action",
           "ChangedApiName": "assign",
           "ChangeType": "Addition",
@@ -211,7 +211,7 @@
           "Target": "assign"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50190220",
           "ChangeType": "Deletion",
@@ -219,7 +219,7 @@
           "Target": "edm_50190220"
         },
         {
-          "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+          "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200925",
           "ChangeType": "Addition",
@@ -227,17 +227,17 @@
           "Target": "edm_50200925"
         }
       ],
-      "Id": "d8a625ac-a173-4bb3-b4da-ca15d528bd77",
+      "Id": "09c67f07-5c13-43b2-bde3-f807e5d4ea9f",
       "Cloud": "Fairfax",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9477189Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.083905Z",
       "WorkloadArea": "Microsoft.Intune.EndpointProtection",
       "SubArea": "Corporate management"
     },
     {
       "ChangeList": [
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "certificateDestinationStore",
           "ChangeType": "Addition",
@@ -245,7 +245,7 @@
           "Target": "certificateDestinationStore"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "certificateStore",
           "ChangeType": "Addition",
@@ -253,7 +253,7 @@
           "Target": "certificateStore"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "certificateValidityPeriodScale",
           "ChangeType": "Addition",
@@ -261,7 +261,7 @@
           "Target": "certificateValidityPeriodScale"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "deviceAndAppManagementAssignmentFilterType",
           "ChangeType": "Addition",
@@ -269,7 +269,7 @@
           "Target": "deviceAndAppManagementAssignmentFilterType"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "deviceManagementResourceAccessProfileIntent",
           "ChangeType": "Addition",
@@ -277,7 +277,7 @@
           "Target": "deviceManagementResourceAccessProfileIntent"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "hashAlgorithms",
           "ChangeType": "Addition",
@@ -285,7 +285,7 @@
           "Target": "hashAlgorithms"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "keySize",
           "ChangeType": "Addition",
@@ -293,7 +293,7 @@
           "Target": "keySize"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "keyStorageProviderOption",
           "ChangeType": "Addition",
@@ -301,7 +301,7 @@
           "Target": "keyStorageProviderOption"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "keyUsages",
           "ChangeType": "Addition",
@@ -309,7 +309,7 @@
           "Target": "keyUsages"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EnumType",
           "ChangedApiName": "subjectAlternativeNameType",
           "ChangeType": "Addition",
@@ -317,7 +317,7 @@
           "Target": "subjectAlternativeNameType"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "ComplexType",
           "ChangedApiName": "allDevicesAssignmentTarget",
           "ChangeType": "Addition",
@@ -325,7 +325,7 @@
           "Target": "allDevicesAssignmentTarget"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "ComplexType",
           "ChangedApiName": "allLicensedUsersAssignmentTarget",
           "ChangeType": "Addition",
@@ -333,7 +333,7 @@
           "Target": "allLicensedUsersAssignmentTarget"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "ComplexType",
           "ChangedApiName": "deviceAndAppManagementAssignmentTarget",
           "ChangeType": "Addition",
@@ -341,7 +341,7 @@
           "Target": "deviceAndAppManagementAssignmentTarget"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "ComplexType",
           "ChangedApiName": "exclusionGroupAssignmentTarget",
           "ChangeType": "Addition",
@@ -349,7 +349,7 @@
           "Target": "exclusionGroupAssignmentTarget"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "ComplexType",
           "ChangedApiName": "extendedKeyUsage",
           "ChangeType": "Addition",
@@ -357,7 +357,7 @@
           "Target": "extendedKeyUsage"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "ComplexType",
           "ChangedApiName": "groupAssignmentTarget",
           "ChangeType": "Addition",
@@ -365,7 +365,7 @@
           "Target": "groupAssignmentTarget"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "ComplexType",
           "ChangedApiName": "windows10XCustomSubjectAlternativeName",
           "ChangeType": "Addition",
@@ -373,7 +373,7 @@
           "Target": "windows10XCustomSubjectAlternativeName"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "resourceAccessProfiles",
           "ChangeType": "Addition",
@@ -381,7 +381,7 @@
           "Target": "deviceManagement"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EntityType",
           "ChangedApiName": "deviceManagementResourceAccessProfileAssignment",
           "ChangeType": "Addition",
@@ -389,7 +389,7 @@
           "Target": "deviceManagementResourceAccessProfileAssignment"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EntityType",
           "ChangedApiName": "deviceManagementResourceAccessProfileBase",
           "ChangeType": "Addition",
@@ -397,7 +397,7 @@
           "Target": "deviceManagementResourceAccessProfileBase"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XCertificateProfile",
           "ChangeType": "Addition",
@@ -405,7 +405,7 @@
           "Target": "windows10XCertificateProfile"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XSCEPCertificateProfile",
           "ChangeType": "Addition",
@@ -413,7 +413,7 @@
           "Target": "windows10XSCEPCertificateProfile"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XTrustedRootCertificate",
           "ChangeType": "Addition",
@@ -421,7 +421,7 @@
           "Target": "windows10XTrustedRootCertificate"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XVpnConfiguration",
           "ChangeType": "Addition",
@@ -429,7 +429,7 @@
           "Target": "windows10XVpnConfiguration"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XWifiConfiguration",
           "ChangeType": "Addition",
@@ -437,7 +437,7 @@
           "Target": "windows10XWifiConfiguration"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "Action",
           "ChangedApiName": "assign",
           "ChangeType": "Addition",
@@ -445,7 +445,7 @@
           "Target": "assign"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50190220",
           "ChangeType": "Deletion",
@@ -453,7 +453,7 @@
           "Target": "edm_50190220"
         },
         {
-          "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+          "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200925",
           "ChangeType": "Addition",
@@ -461,17 +461,17 @@
           "Target": "edm_50200925"
         }
       ],
-      "Id": "5dab4ed6-9b3d-49ff-a357-86baa4e68eed",
+      "Id": "589515bf-11fb-4be4-8d9e-67426225a755",
       "Cloud": "Mooncake",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9477235Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.083909Z",
       "WorkloadArea": "Microsoft.Intune.EndpointProtection",
       "SubArea": "Corporate management"
     },
     {
       "ChangeList": [
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "certificateDestinationStore",
           "ChangeType": "Addition",
@@ -479,7 +479,7 @@
           "Target": "certificateDestinationStore"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "certificateStore",
           "ChangeType": "Addition",
@@ -487,7 +487,7 @@
           "Target": "certificateStore"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "certificateValidityPeriodScale",
           "ChangeType": "Addition",
@@ -495,7 +495,7 @@
           "Target": "certificateValidityPeriodScale"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "deviceAndAppManagementAssignmentFilterType",
           "ChangeType": "Addition",
@@ -503,7 +503,7 @@
           "Target": "deviceAndAppManagementAssignmentFilterType"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "deviceManagementResourceAccessProfileIntent",
           "ChangeType": "Addition",
@@ -511,7 +511,7 @@
           "Target": "deviceManagementResourceAccessProfileIntent"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "hashAlgorithms",
           "ChangeType": "Addition",
@@ -519,7 +519,7 @@
           "Target": "hashAlgorithms"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "keySize",
           "ChangeType": "Addition",
@@ -527,7 +527,7 @@
           "Target": "keySize"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "keyStorageProviderOption",
           "ChangeType": "Addition",
@@ -535,7 +535,7 @@
           "Target": "keyStorageProviderOption"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "keyUsages",
           "ChangeType": "Addition",
@@ -543,7 +543,7 @@
           "Target": "keyUsages"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EnumType",
           "ChangedApiName": "subjectAlternativeNameType",
           "ChangeType": "Addition",
@@ -551,7 +551,7 @@
           "Target": "subjectAlternativeNameType"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "ComplexType",
           "ChangedApiName": "allDevicesAssignmentTarget",
           "ChangeType": "Addition",
@@ -559,7 +559,7 @@
           "Target": "allDevicesAssignmentTarget"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "ComplexType",
           "ChangedApiName": "allLicensedUsersAssignmentTarget",
           "ChangeType": "Addition",
@@ -567,7 +567,7 @@
           "Target": "allLicensedUsersAssignmentTarget"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "ComplexType",
           "ChangedApiName": "deviceAndAppManagementAssignmentTarget",
           "ChangeType": "Addition",
@@ -575,7 +575,7 @@
           "Target": "deviceAndAppManagementAssignmentTarget"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "ComplexType",
           "ChangedApiName": "exclusionGroupAssignmentTarget",
           "ChangeType": "Addition",
@@ -583,7 +583,7 @@
           "Target": "exclusionGroupAssignmentTarget"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "ComplexType",
           "ChangedApiName": "extendedKeyUsage",
           "ChangeType": "Addition",
@@ -591,7 +591,7 @@
           "Target": "extendedKeyUsage"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "ComplexType",
           "ChangedApiName": "groupAssignmentTarget",
           "ChangeType": "Addition",
@@ -599,7 +599,7 @@
           "Target": "groupAssignmentTarget"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "ComplexType",
           "ChangedApiName": "windows10XCustomSubjectAlternativeName",
           "ChangeType": "Addition",
@@ -607,7 +607,7 @@
           "Target": "windows10XCustomSubjectAlternativeName"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "resourceAccessProfiles",
           "ChangeType": "Addition",
@@ -615,7 +615,7 @@
           "Target": "deviceManagement"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EntityType",
           "ChangedApiName": "deviceManagementResourceAccessProfileAssignment",
           "ChangeType": "Addition",
@@ -623,7 +623,7 @@
           "Target": "deviceManagementResourceAccessProfileAssignment"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EntityType",
           "ChangedApiName": "deviceManagementResourceAccessProfileBase",
           "ChangeType": "Addition",
@@ -631,7 +631,7 @@
           "Target": "deviceManagementResourceAccessProfileBase"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XCertificateProfile",
           "ChangeType": "Addition",
@@ -639,7 +639,7 @@
           "Target": "windows10XCertificateProfile"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XSCEPCertificateProfile",
           "ChangeType": "Addition",
@@ -647,7 +647,7 @@
           "Target": "windows10XSCEPCertificateProfile"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XTrustedRootCertificate",
           "ChangeType": "Addition",
@@ -655,7 +655,7 @@
           "Target": "windows10XTrustedRootCertificate"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XVpnConfiguration",
           "ChangeType": "Addition",
@@ -663,7 +663,7 @@
           "Target": "windows10XVpnConfiguration"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EntityType",
           "ChangedApiName": "windows10XWifiConfiguration",
           "ChangeType": "Addition",
@@ -671,7 +671,7 @@
           "Target": "windows10XWifiConfiguration"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "Action",
           "ChangedApiName": "assign",
           "ChangeType": "Addition",
@@ -679,7 +679,7 @@
           "Target": "assign"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50190220",
           "ChangeType": "Deletion",
@@ -687,7 +687,7 @@
           "Target": "edm_50190220"
         },
         {
-          "Id": "5ac46671-3784-484f-a43f-676774545142",
+          "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
           "ApiChange": "EntityContainer",
           "ChangedApiName": "edm_50200925",
           "ChangeType": "Addition",
@@ -695,10 +695,10 @@
           "Target": "edm_50200925"
         }
       ],
-      "Id": "5ac46671-3784-484f-a43f-676774545142",
+      "Id": "89e165bf-ac32-4abc-99cc-f271c7c27db4",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9477272Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0839118Z",
       "WorkloadArea": "Microsoft.Intune.EndpointProtection",
       "SubArea": "Corporate management"
     }

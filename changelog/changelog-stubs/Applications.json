@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "66512338-f2ba-4f98-a85f-6640f53e17a4",
+          "Id": "31596b57-1eed-4563-b487-b583e80f5cca",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "delegatedPermissionClassifications",
           "ChangeType": "Deletion",
@@ -11,17 +11,17 @@
           "Target": "servicePrincipal"
         }
       ],
-      "Id": "66512338-f2ba-4f98-a85f-6640f53e17a4",
+      "Id": "31596b57-1eed-4563-b487-b583e80f5cca",
       "Cloud": "Blackforest",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476256Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838421Z",
       "WorkloadArea": "Applications",
       "SubArea": ""
     },
     {
       "ChangeList": [
         {
-          "Id": "1f013de7-8543-4fea-aa05-7cf8f4f80f13",
+          "Id": "dd1cdf13-eb2e-4364-a7a1-0f1061e53e97",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "delegatedPermissionClassifications",
           "ChangeType": "Deletion",
@@ -29,17 +29,17 @@
           "Target": "servicePrincipal"
         }
       ],
-      "Id": "1f013de7-8543-4fea-aa05-7cf8f4f80f13",
+      "Id": "dd1cdf13-eb2e-4364-a7a1-0f1061e53e97",
       "Cloud": "Blackforest",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476273Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838446Z",
       "WorkloadArea": "Applications",
       "SubArea": ""
     },
     {
       "ChangeList": [
         {
-          "Id": "3f0479c2-4eea-4bae-9b05-847980416628",
+          "Id": "84b27c75-7700-418f-ade4-53dddaf88189",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "delegatedPermissionClassifications",
           "ChangeType": "Deletion",
@@ -47,17 +47,17 @@
           "Target": "servicePrincipal"
         }
       ],
-      "Id": "3f0479c2-4eea-4bae-9b05-847980416628",
+      "Id": "84b27c75-7700-418f-ade4-53dddaf88189",
       "Cloud": "Fairfax",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476282Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838478Z",
       "WorkloadArea": "Applications",
       "SubArea": ""
     },
     {
       "ChangeList": [
         {
-          "Id": "fbc8ebc9-0997-4377-b618-9cc53a4e2845",
+          "Id": "dd81609a-3f4f-4ba9-ae39-b7cd50350602",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "delegatedPermissionClassifications",
           "ChangeType": "Deletion",
@@ -65,17 +65,17 @@
           "Target": "servicePrincipal"
         }
       ],
-      "Id": "fbc8ebc9-0997-4377-b618-9cc53a4e2845",
+      "Id": "dd81609a-3f4f-4ba9-ae39-b7cd50350602",
       "Cloud": "Fairfax",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476308Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838502Z",
       "WorkloadArea": "Applications",
       "SubArea": ""
     },
     {
       "ChangeList": [
         {
-          "Id": "67e1faad-693b-4c81-a39b-63d6dd0560cc",
+          "Id": "8c024c2e-c4ed-42a6-8ad7-fe35e6a63cd1",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "delegatedPermissionClassifications",
           "ChangeType": "Deletion",
@@ -83,17 +83,17 @@
           "Target": "servicePrincipal"
         }
       ],
-      "Id": "67e1faad-693b-4c81-a39b-63d6dd0560cc",
+      "Id": "8c024c2e-c4ed-42a6-8ad7-fe35e6a63cd1",
       "Cloud": "Mooncake",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.947632Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838511Z",
       "WorkloadArea": "Applications",
       "SubArea": ""
     },
     {
       "ChangeList": [
         {
-          "Id": "e91ff4cd-f78b-4169-859c-95c5bcd0661d",
+          "Id": "040ea767-0195-45bd-9913-acf59f4aeeb2",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "delegatedPermissionClassifications",
           "ChangeType": "Deletion",
@@ -101,17 +101,17 @@
           "Target": "servicePrincipal"
         }
       ],
-      "Id": "e91ff4cd-f78b-4169-859c-95c5bcd0661d",
+      "Id": "040ea767-0195-45bd-9913-acf59f4aeeb2",
       "Cloud": "Mooncake",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476331Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838522Z",
       "WorkloadArea": "Applications",
       "SubArea": ""
     },
     {
       "ChangeList": [
         {
-          "Id": "d17bfd32-2ca6-4b2e-baff-9a1421cb8942",
+          "Id": "ecde62e9-9cf0-463d-90f0-9733988e0610",
           "ApiChange": "Property",
           "ChangedApiName": "resourceSpecificApplicationPermissions",
           "ChangeType": "Addition",
@@ -119,17 +119,17 @@
           "Target": "servicePrincipal"
         }
       ],
-      "Id": "d17bfd32-2ca6-4b2e-baff-9a1421cb8942",
+      "Id": "ecde62e9-9cf0-463d-90f0-9733988e0610",
       "Cloud": "PPE",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476359Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.083853Z",
       "WorkloadArea": "Applications",
       "SubArea": ""
     },
     {
       "ChangeList": [
         {
-          "Id": "473e9d96-d338-4cde-b12c-29f8eb2e9bdc",
+          "Id": "5c63c7ec-0749-4eb7-850c-807ea7e3444d",
           "ApiChange": "EntityType",
           "ChangedApiName": "resourceSpecificPermissionGrant",
           "ChangeType": "Addition",
@@ -137,7 +137,7 @@
           "Target": "resourceSpecificPermissionGrant"
         },
         {
-          "Id": "473e9d96-d338-4cde-b12c-29f8eb2e9bdc",
+          "Id": "5c63c7ec-0749-4eb7-850c-807ea7e3444d",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "delegatedPermissionClassifications",
           "ChangeType": "Deletion",
@@ -145,72 +145,10 @@
           "Target": "servicePrincipal"
         }
       ],
-      "Id": "473e9d96-d338-4cde-b12c-29f8eb2e9bdc",
+      "Id": "5c63c7ec-0749-4eb7-850c-807ea7e3444d",
       "Cloud": "PPE",
       "Version": "v1.0",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476405Z",
-      "WorkloadArea": "Applications",
-      "SubArea": ""
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "c234f19a-a42a-406a-b8d1-bfcfcea004b9",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "delegatedPermissionClassifications",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **delegatedPermissionClassifications** relationship from [servicePrincipal]() resource",
-          "Target": "servicePrincipal"
-        }
-      ],
-      "Id": "c234f19a-a42a-406a-b8d1-bfcfcea004b9",
-      "Cloud": "Prod",
-      "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476429Z",
-      "WorkloadArea": "Applications",
-      "SubArea": ""
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "879e19fd-3007-49d8-a6de-6e39176715cf",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "delegatedPermissionClassifications",
-          "ChangeType": "Deletion",
-          "Description": "Removed the **delegatedPermissionClassifications** relationship from [servicePrincipal]() resource",
-          "Target": "servicePrincipal"
-        }
-      ],
-      "Id": "879e19fd-3007-49d8-a6de-6e39176715cf",
-      "Cloud": "Prod",
-      "Version": "v1.0",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476453Z",
-      "WorkloadArea": "Applications",
-      "SubArea": ""
-    },
-    {
-      "ChangeList": [
-        {
-          "Id": "ec7e88b3-e550-4fc5-8528-3d2e5afa9956",
-          "ApiChange": "Property",
-          "ChangedApiName": "hasPermissionClassifications",
-          "ChangeType": "Addition",
-          "Description": "Added the **hasPermissionClassifications** property to [servicePrincipal]() resource",
-          "Target": "servicePrincipal"
-        },
-        {
-          "Id": "ec7e88b3-e550-4fc5-8528-3d2e5afa9956",
-          "ApiChange": "NavigationProperty",
-          "ChangedApiName": "delegatedPermissionClassifications",
-          "ChangeType": "Addition",
-          "Description": "Added the **delegatedPermissionClassifications** relationship to [servicePrincipal]() resource",
-          "Target": "servicePrincipal"
-        }
-      ],
-      "Id": "ec7e88b3-e550-4fc5-8528-3d2e5afa9956",
-      "Cloud": "USNat",
-      "Version": "v1.0",
-      "CreatedDateTime": "2020-10-22T13:54:11.9476483Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0838598Z",
       "WorkloadArea": "Applications",
       "SubArea": ""
     }

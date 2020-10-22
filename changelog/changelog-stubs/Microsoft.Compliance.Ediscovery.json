@@ -3,7 +3,7 @@
     {
       "ChangeList": [
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EnumType",
           "ChangedApiName": "caseAction",
           "ChangeType": "Addition",
@@ -11,7 +11,7 @@
           "Target": "caseAction"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EnumType",
           "ChangedApiName": "caseOperationStatus",
           "ChangeType": "Addition",
@@ -19,7 +19,7 @@
           "Target": "caseOperationStatus"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EnumType",
           "ChangedApiName": "custodianStatus",
           "ChangeType": "Addition",
@@ -27,7 +27,7 @@
           "Target": "custodianStatus"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EnumType",
           "ChangedApiName": "sourceType",
           "ChangeType": "Addition",
@@ -35,23 +35,7 @@
           "Target": "sourceType"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "identity",
-          "ChangeType": "Addition",
-          "Description": "Added the [identity]() resource type",
-          "Target": "identity"
-        },
-        {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
-          "ApiChange": "ComplexType",
-          "ChangedApiName": "identitySet",
-          "ChangeType": "Addition",
-          "Description": "Added the [identitySet]() resource type",
-          "Target": "identitySet"
-        },
-        {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EntityType",
           "ChangedApiName": "caseIndexOperation",
           "ChangeType": "Addition",
@@ -59,7 +43,7 @@
           "Target": "caseIndexOperation"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EntityType",
           "ChangedApiName": "custodian",
           "ChangeType": "Addition",
@@ -67,7 +51,7 @@
           "Target": "custodian"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EntityType",
           "ChangedApiName": "dataSource",
           "ChangeType": "Addition",
@@ -75,23 +59,7 @@
           "Target": "dataSource"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
-          "ApiChange": "Property",
-          "ChangedApiName": "closedBy",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **closedBy** property in the [ediscoveryCase]() resource",
-          "Target": "ediscoveryCase"
-        },
-        {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
-          "ApiChange": "Property",
-          "ChangedApiName": "lastModifiedBy",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **lastModifiedBy** property in the [ediscoveryCase]() resource",
-          "Target": "ediscoveryCase"
-        },
-        {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "NavigationProperty",
           "ChangedApiName": "custodians",
           "ChangeType": "Addition",
@@ -99,31 +67,7 @@
           "Target": "ediscoveryCase"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
-          "ApiChange": "Property",
-          "ChangedApiName": "createdBy",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **createdBy** property in the [reviewSet]() resource",
-          "Target": "reviewSet"
-        },
-        {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
-          "ApiChange": "Property",
-          "ChangedApiName": "createdBy",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **createdBy** property in the [reviewSetQuery]() resource",
-          "Target": "reviewSetQuery"
-        },
-        {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
-          "ApiChange": "Property",
-          "ChangedApiName": "lastModifiedBy",
-          "ChangeType": "Change",
-          "Description": "Changed the type of the **lastModifiedBy** property in the [reviewSetQuery]() resource",
-          "Target": "reviewSetQuery"
-        },
-        {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EntityType",
           "ChangedApiName": "siteSource",
           "ChangeType": "Addition",
@@ -131,7 +75,7 @@
           "Target": "siteSource"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EntityType",
           "ChangedApiName": "unifiedGroupSource",
           "ChangeType": "Addition",
@@ -139,7 +83,7 @@
           "Target": "unifiedGroupSource"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "EntityType",
           "ChangedApiName": "userSource",
           "ChangeType": "Addition",
@@ -147,7 +91,7 @@
           "Target": "userSource"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "Action",
           "ChangedApiName": "activate",
           "ChangeType": "Addition",
@@ -155,7 +99,7 @@
           "Target": "activate"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "Action",
           "ChangedApiName": "release",
           "ChangeType": "Addition",
@@ -163,7 +107,7 @@
           "Target": "release"
         },
         {
-          "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+          "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
           "ApiChange": "Action",
           "ChangedApiName": "updateIndex",
           "ChangeType": "Addition",
@@ -171,10 +115,10 @@
           "Target": "updateIndex"
         }
       ],
-      "Id": "a5e077e7-7061-45e5-a776-680af3236ab7",
+      "Id": "e9d8d874-d04b-4c8c-b77a-73c0e99b820d",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2020-10-22T13:54:11.9467298Z",
+      "CreatedDateTime": "2020-10-22T14:18:24.0830079Z",
       "WorkloadArea": "Microsoft.Compliance.Ediscovery",
       "SubArea": ""
     }
