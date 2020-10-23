@@ -1,0 +1,834 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateBehavior",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateBehavior](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateBehavior"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateCategory",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateCategory](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateCategory"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateScheduleType",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateScheduleType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateScheduleType"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateState",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateState](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateState"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "macOSAssociatedDomainsItem",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSAssociatedDomainsItem](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSAssociatedDomainsItem?view=graph-rest-beta) resource type",
+          "Target": "macOSAssociatedDomainsItem"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "macOSAssociatedDomainsKeyValuePair",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **macOSAssociatedDomainsKeyValuePair** resource type",
+          "Target": "macOSAssociatedDomainsKeyValuePair"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "customData",
+          "ChangeType": "Addition",
+          "Description": "Added the **customData** property to [androidDeviceOwnerVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidDeviceOwnerVpnConfiguration?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "customKeyValueData",
+          "ChangeType": "Addition",
+          "Description": "Added the **customKeyValueData** property to [androidDeviceOwnerVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidDeviceOwnerVpnConfiguration?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "microsoftTunnelSiteId",
+          "ChangeType": "Addition",
+          "Description": "Added the **microsoftTunnelSiteId** property to [androidWorkProfileVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidWorkProfileVpnConfiguration?view=graph-rest-beta) resource",
+          "Target": "androidWorkProfileVpnConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "macOSSoftwareUpdateAccountSummaries",
+          "ChangeType": "Addition",
+          "Description": "Added the **macOSSoftwareUpdateAccountSummaries** relationship to [deviceManagement](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagement?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "advancedThreatProtectionRequiredSecurityLevel",
+          "ChangeType": "Addition",
+          "Description": "Added the **advancedThreatProtectionRequiredSecurityLevel** property to [iosCompliancePolicy](https://docs.microsoft.com/en-us/graph/api/resources/intune-iosCompliancePolicy?view=graph-rest-beta) resource",
+          "Target": "iosCompliancePolicy"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "appAssociatedDomains",
+          "ChangeType": "Addition",
+          "Description": "Added the **appAssociatedDomains** property to [macOSDeviceFeaturesConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSDeviceFeaturesConfiguration?view=graph-rest-beta) resource",
+          "Target": "macOSDeviceFeaturesConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "associatedDomains",
+          "ChangeType": "Change",
+          "Description": "",
+          "Target": "macOSDeviceFeaturesConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "passwordMaximumAttemptCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **passwordMaximumAttemptCount** property to [macOSGeneralDeviceConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSGeneralDeviceConfiguration?view=graph-rest-beta) resource",
+          "Target": "macOSGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "passwordMinutesUntilFailedLoginReset",
+          "ChangeType": "Addition",
+          "Description": "Added the **passwordMinutesUntilFailedLoginReset** property to [macOSGeneralDeviceConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSGeneralDeviceConfiguration?view=graph-rest-beta) resource",
+          "Target": "macOSGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateAccountSummary",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateAccountSummary](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateAccountSummary?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateAccountSummary"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateCategorySummary",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateCategorySummary](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateCategorySummary?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateCategorySummary"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateStateSummary",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateStateSummary](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateStateSummary?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateStateSummary"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableAccountUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableAccountUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableAppBrowserUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableAppBrowserUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableClearTpmUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableClearTpmUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableFamilyUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableFamilyUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableHardwareUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableHardwareUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableHealthUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableHealthUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableNetworkUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableNetworkUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableNotificationAreaUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableNotificationAreaUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableRansomwareUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableRansomwareUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableSecureBootUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableSecureBootUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableTroubleshootingUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableTroubleshootingUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableVirusUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableVirusUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableVulnerableTpmFirmwareUpdateUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableVulnerableTpmFirmwareUpdateUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200821** resource type *@\u0026*",
+          "Target": "edm_50200821"
+        },
+        {
+          "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200925",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200925](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200925"
+        }
+      ],
+      "Id": "ad28c421-0662-45ec-ba16-30d857735fda",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265757Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceConfiguration",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateBehavior",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateBehavior](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateBehavior"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateCategory",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateCategory](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateCategory"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateScheduleType",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateScheduleType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateScheduleType"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateState",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateState](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateState"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "macOSAssociatedDomainsItem",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSAssociatedDomainsItem](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSAssociatedDomainsItem?view=graph-rest-beta) resource type",
+          "Target": "macOSAssociatedDomainsItem"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "macOSAssociatedDomainsKeyValuePair",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **macOSAssociatedDomainsKeyValuePair** resource type",
+          "Target": "macOSAssociatedDomainsKeyValuePair"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "customData",
+          "ChangeType": "Addition",
+          "Description": "Added the **customData** property to [androidDeviceOwnerVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidDeviceOwnerVpnConfiguration?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "customKeyValueData",
+          "ChangeType": "Addition",
+          "Description": "Added the **customKeyValueData** property to [androidDeviceOwnerVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidDeviceOwnerVpnConfiguration?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "macOSSoftwareUpdateAccountSummaries",
+          "ChangeType": "Addition",
+          "Description": "Added the **macOSSoftwareUpdateAccountSummaries** relationship to [deviceManagement](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagement?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "advancedThreatProtectionRequiredSecurityLevel",
+          "ChangeType": "Addition",
+          "Description": "Added the **advancedThreatProtectionRequiredSecurityLevel** property to [iosCompliancePolicy](https://docs.microsoft.com/en-us/graph/api/resources/intune-iosCompliancePolicy?view=graph-rest-beta) resource",
+          "Target": "iosCompliancePolicy"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "appAssociatedDomains",
+          "ChangeType": "Addition",
+          "Description": "Added the **appAssociatedDomains** property to [macOSDeviceFeaturesConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSDeviceFeaturesConfiguration?view=graph-rest-beta) resource",
+          "Target": "macOSDeviceFeaturesConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "associatedDomains",
+          "ChangeType": "Change",
+          "Description": "",
+          "Target": "macOSDeviceFeaturesConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "passwordMaximumAttemptCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **passwordMaximumAttemptCount** property to [macOSGeneralDeviceConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSGeneralDeviceConfiguration?view=graph-rest-beta) resource",
+          "Target": "macOSGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "passwordMinutesUntilFailedLoginReset",
+          "ChangeType": "Addition",
+          "Description": "Added the **passwordMinutesUntilFailedLoginReset** property to [macOSGeneralDeviceConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSGeneralDeviceConfiguration?view=graph-rest-beta) resource",
+          "Target": "macOSGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateAccountSummary",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateAccountSummary](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateAccountSummary?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateAccountSummary"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateCategorySummary",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateCategorySummary](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateCategorySummary?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateCategorySummary"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateStateSummary",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateStateSummary](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateStateSummary?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateStateSummary"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableAccountUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableAccountUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableAppBrowserUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableAppBrowserUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableClearTpmUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableClearTpmUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableFamilyUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableFamilyUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableHardwareUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableHardwareUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableHealthUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableHealthUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableNetworkUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableNetworkUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableNotificationAreaUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableNotificationAreaUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableRansomwareUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableRansomwareUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableSecureBootUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableSecureBootUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableTroubleshootingUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableTroubleshootingUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableVirusUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableVirusUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableVulnerableTpmFirmwareUpdateUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableVulnerableTpmFirmwareUpdateUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200821** resource type *@\u0026*",
+          "Target": "edm_50200821"
+        },
+        {
+          "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200925",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200925](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200925"
+        }
+      ],
+      "Id": "7b15fb91-bfeb-4091-9887-8b336c6b502b",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265839Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceConfiguration",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateBehavior",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateBehavior](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateBehavior"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateCategory",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateCategory](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateCategory"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateScheduleType",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateScheduleType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateScheduleType"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "macOSSoftwareUpdateState",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateState](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateState"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "macOSAssociatedDomainsItem",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSAssociatedDomainsItem](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSAssociatedDomainsItem?view=graph-rest-beta) resource type",
+          "Target": "macOSAssociatedDomainsItem"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "macOSAssociatedDomainsKeyValuePair",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **macOSAssociatedDomainsKeyValuePair** resource type",
+          "Target": "macOSAssociatedDomainsKeyValuePair"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "customData",
+          "ChangeType": "Addition",
+          "Description": "Added the **customData** property to [androidDeviceOwnerVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidDeviceOwnerVpnConfiguration?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "customKeyValueData",
+          "ChangeType": "Addition",
+          "Description": "Added the **customKeyValueData** property to [androidDeviceOwnerVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidDeviceOwnerVpnConfiguration?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerVpnConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "macOSSoftwareUpdateAccountSummaries",
+          "ChangeType": "Addition",
+          "Description": "Added the **macOSSoftwareUpdateAccountSummaries** relationship to [deviceManagement](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagement?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "advancedThreatProtectionRequiredSecurityLevel",
+          "ChangeType": "Addition",
+          "Description": "Added the **advancedThreatProtectionRequiredSecurityLevel** property to [iosCompliancePolicy](https://docs.microsoft.com/en-us/graph/api/resources/intune-iosCompliancePolicy?view=graph-rest-beta) resource",
+          "Target": "iosCompliancePolicy"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "appAssociatedDomains",
+          "ChangeType": "Addition",
+          "Description": "Added the **appAssociatedDomains** property to [macOSDeviceFeaturesConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSDeviceFeaturesConfiguration?view=graph-rest-beta) resource",
+          "Target": "macOSDeviceFeaturesConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "associatedDomains",
+          "ChangeType": "Change",
+          "Description": "",
+          "Target": "macOSDeviceFeaturesConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "passwordMaximumAttemptCount",
+          "ChangeType": "Addition",
+          "Description": "Added the **passwordMaximumAttemptCount** property to [macOSGeneralDeviceConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSGeneralDeviceConfiguration?view=graph-rest-beta) resource",
+          "Target": "macOSGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "passwordMinutesUntilFailedLoginReset",
+          "ChangeType": "Addition",
+          "Description": "Added the **passwordMinutesUntilFailedLoginReset** property to [macOSGeneralDeviceConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSGeneralDeviceConfiguration?view=graph-rest-beta) resource",
+          "Target": "macOSGeneralDeviceConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateAccountSummary",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateAccountSummary](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateAccountSummary?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateAccountSummary"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateCategorySummary",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateCategorySummary](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateCategorySummary?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateCategorySummary"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "macOSSoftwareUpdateStateSummary",
+          "ChangeType": "Addition",
+          "Description": "Added the [macOSSoftwareUpdateStateSummary](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSSoftwareUpdateStateSummary?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "macOSSoftwareUpdateStateSummary"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableAccountUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableAccountUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableAppBrowserUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableAppBrowserUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableClearTpmUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableClearTpmUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableFamilyUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableFamilyUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableHardwareUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableHardwareUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableHealthUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableHealthUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableNetworkUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableNetworkUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableNotificationAreaUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableNotificationAreaUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableRansomwareUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableRansomwareUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableSecureBootUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableSecureBootUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableTroubleshootingUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableTroubleshootingUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableVirusUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableVirusUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "Property",
+          "ChangedApiName": "defenderSecurityCenterDisableVulnerableTpmFirmwareUpdateUI",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **defenderSecurityCenterDisableVulnerableTpmFirmwareUpdateUI** property in the [windows10EndpointProtectionConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10EndpointProtectionConfiguration?view=graph-rest-beta) resource from optional to required",
+          "Target": "windows10EndpointProtectionConfiguration"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200821** resource type *@\u0026*",
+          "Target": "edm_50200821"
+        },
+        {
+          "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200925",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200925](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200925"
+        }
+      ],
+      "Id": "31ba18cf-cffe-48c1-9fa3-e3f6ddd12783",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265892Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceConfiguration",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

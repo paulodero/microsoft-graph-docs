@@ -1,0 +1,152 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "b9a148fb-7549-4fe2-9e8c-296782bafebe",
+          "ApiChange": "Property",
+          "ChangedApiName": "sequenceNumber",
+          "ChangeType": "Addition",
+          "Description": "Added the **sequenceNumber** property to [changeNotification](https://docs.microsoft.com/en-us/graph/api/resources/changeNotification?view=graph-rest-beta) resource",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "b9a148fb-7549-4fe2-9e8c-296782bafebe",
+          "ApiChange": "Property",
+          "ChangedApiName": "applicationId",
+          "ChangeType": "Addition",
+          "Description": "Added the **applicationId** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "b9a148fb-7549-4fe2-9e8c-296782bafebe",
+          "ApiChange": "Property",
+          "ChangedApiName": "creatorId",
+          "ChangeType": "Addition",
+          "Description": "Added the **creatorId** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "b9a148fb-7549-4fe2-9e8c-296782bafebe",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificate",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificate** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "b9a148fb-7549-4fe2-9e8c-296782bafebe",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificateId",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificateId** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "b9a148fb-7549-4fe2-9e8c-296782bafebe",
+          "ApiChange": "Property",
+          "ChangedApiName": "includeResourceData",
+          "ChangeType": "Addition",
+          "Description": "Added the **includeResourceData** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "b9a148fb-7549-4fe2-9e8c-296782bafebe",
+          "ApiChange": "Property",
+          "ChangedApiName": "latestSupportedTlsVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the **latestSupportedTlsVersion** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "b9a148fb-7549-4fe2-9e8c-296782bafebe",
+          "ApiChange": "Property",
+          "ChangedApiName": "lifecycleNotificationUrl",
+          "ChangeType": "Addition",
+          "Description": "Added the **lifecycleNotificationUrl** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        }
+      ],
+      "Id": "b9a148fb-7549-4fe2-9e8c-296782bafebe",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1266427Z",
+      "WorkloadArea": "Microsoft.SubscriptionServices",
+      "SubArea": "Subscription"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "f4c13349-6d33-4651-ba53-65389abe5aa5",
+          "ApiChange": "Property",
+          "ChangedApiName": "sequenceNumber",
+          "ChangeType": "Addition",
+          "Description": "Added the **sequenceNumber** property to [changeNotification](https://docs.microsoft.com/en-us/graph/api/resources/changeNotification?view=graph-rest-beta) resource",
+          "Target": "changeNotification"
+        },
+        {
+          "Id": "f4c13349-6d33-4651-ba53-65389abe5aa5",
+          "ApiChange": "Property",
+          "ChangedApiName": "applicationId",
+          "ChangeType": "Addition",
+          "Description": "Added the **applicationId** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "f4c13349-6d33-4651-ba53-65389abe5aa5",
+          "ApiChange": "Property",
+          "ChangedApiName": "creatorId",
+          "ChangeType": "Addition",
+          "Description": "Added the **creatorId** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "f4c13349-6d33-4651-ba53-65389abe5aa5",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificate",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificate** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "f4c13349-6d33-4651-ba53-65389abe5aa5",
+          "ApiChange": "Property",
+          "ChangedApiName": "encryptionCertificateId",
+          "ChangeType": "Addition",
+          "Description": "Added the **encryptionCertificateId** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "f4c13349-6d33-4651-ba53-65389abe5aa5",
+          "ApiChange": "Property",
+          "ChangedApiName": "includeResourceData",
+          "ChangeType": "Addition",
+          "Description": "Added the **includeResourceData** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "f4c13349-6d33-4651-ba53-65389abe5aa5",
+          "ApiChange": "Property",
+          "ChangedApiName": "latestSupportedTlsVersion",
+          "ChangeType": "Addition",
+          "Description": "Added the **latestSupportedTlsVersion** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        },
+        {
+          "Id": "f4c13349-6d33-4651-ba53-65389abe5aa5",
+          "ApiChange": "Property",
+          "ChangedApiName": "lifecycleNotificationUrl",
+          "ChangeType": "Addition",
+          "Description": "Added the **lifecycleNotificationUrl** property to [subscription](https://docs.microsoft.com/en-us/graph/api/resources/subscription?view=graph-rest-beta) resource",
+          "Target": "subscription"
+        }
+      ],
+      "Id": "f4c13349-6d33-4651-ba53-65389abe5aa5",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.126646Z",
+      "WorkloadArea": "Microsoft.SubscriptionServices",
+      "SubArea": "Subscription"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "a9501813-4f08-4ea2-a76f-8dc52fe76780",
+          "ApiChange": "Property",
+          "ChangedApiName": "uninstallOnDeviceRemoval",
+          "ChangeType": "Addition",
+          "Description": "Added the **uninstallOnDeviceRemoval** property to [macOsVppAppAssignmentSettings](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOsVppAppAssignmentSettings?view=graph-rest-beta) resource",
+          "Target": "macOsVppAppAssignmentSettings"
+        },
+        {
+          "Id": "a9501813-4f08-4ea2-a76f-8dc52fe76780",
+          "ApiChange": "Property",
+          "ChangedApiName": "installAsManaged",
+          "ChangeType": "Addition",
+          "Description": "Added the **installAsManaged** property to [macOSLobApp](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSLobApp?view=graph-rest-beta) resource",
+          "Target": "macOSLobApp"
+        },
+        {
+          "Id": "a9501813-4f08-4ea2-a76f-8dc52fe76780",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200902",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200902** resource type *@\u0026*",
+          "Target": "edm_50200902"
+        },
+        {
+          "Id": "a9501813-4f08-4ea2-a76f-8dc52fe76780",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200904",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200904](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200904"
+        }
+      ],
+      "Id": "a9501813-4f08-4ea2-a76f-8dc52fe76780",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265584Z",
+      "WorkloadArea": "Microsoft.Intune.Applications",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "12e1ac8c-696f-4374-90ad-ce2ddc35758a",
+          "ApiChange": "Property",
+          "ChangedApiName": "uninstallOnDeviceRemoval",
+          "ChangeType": "Addition",
+          "Description": "Added the **uninstallOnDeviceRemoval** property to [macOsVppAppAssignmentSettings](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOsVppAppAssignmentSettings?view=graph-rest-beta) resource",
+          "Target": "macOsVppAppAssignmentSettings"
+        },
+        {
+          "Id": "12e1ac8c-696f-4374-90ad-ce2ddc35758a",
+          "ApiChange": "Property",
+          "ChangedApiName": "installAsManaged",
+          "ChangeType": "Addition",
+          "Description": "Added the **installAsManaged** property to [macOSLobApp](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSLobApp?view=graph-rest-beta) resource",
+          "Target": "macOSLobApp"
+        },
+        {
+          "Id": "12e1ac8c-696f-4374-90ad-ce2ddc35758a",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200902",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200902** resource type *@\u0026*",
+          "Target": "edm_50200902"
+        },
+        {
+          "Id": "12e1ac8c-696f-4374-90ad-ce2ddc35758a",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200904",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200904](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200904"
+        }
+      ],
+      "Id": "12e1ac8c-696f-4374-90ad-ce2ddc35758a",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265619Z",
+      "WorkloadArea": "Microsoft.Intune.Applications",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "9394ee74-8d48-4e33-8c48-998caf95120e",
+          "ApiChange": "Property",
+          "ChangedApiName": "uninstallOnDeviceRemoval",
+          "ChangeType": "Addition",
+          "Description": "Added the **uninstallOnDeviceRemoval** property to [macOsVppAppAssignmentSettings](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOsVppAppAssignmentSettings?view=graph-rest-beta) resource",
+          "Target": "macOsVppAppAssignmentSettings"
+        },
+        {
+          "Id": "9394ee74-8d48-4e33-8c48-998caf95120e",
+          "ApiChange": "Property",
+          "ChangedApiName": "installAsManaged",
+          "ChangeType": "Addition",
+          "Description": "Added the **installAsManaged** property to [macOSLobApp](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOSLobApp?view=graph-rest-beta) resource",
+          "Target": "macOSLobApp"
+        },
+        {
+          "Id": "9394ee74-8d48-4e33-8c48-998caf95120e",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200902",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200902** resource type *@\u0026*",
+          "Target": "edm_50200902"
+        },
+        {
+          "Id": "9394ee74-8d48-4e33-8c48-998caf95120e",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200904",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200904](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200904"
+        }
+      ],
+      "Id": "9394ee74-8d48-4e33-8c48-998caf95120e",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265642Z",
+      "WorkloadArea": "Microsoft.Intune.Applications",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

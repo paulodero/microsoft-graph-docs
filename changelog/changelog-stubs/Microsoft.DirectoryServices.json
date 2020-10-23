@@ -1,0 +1,128 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "5bd6312c-1cf2-4b2e-941a-f8d27d803203",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "unifiedRbacResourceNamespace",
+          "ChangeType": "Addition",
+          "Description": "Added the [unifiedRbacResourceNamespace](https://docs.microsoft.com/en-us/graph/api/resources/unifiedRbacResourceNamespace?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "unifiedRbacResourceNamespace"
+        },
+        {
+          "Id": "5bd6312c-1cf2-4b2e-941a-f8d27d803203",
+          "ApiChange": "Action",
+          "ChangedApiName": "Edm.Boolean",
+          "ChangeType": "Deletion",
+          "Description": "Changed the return type for [grantResourceSpecificConsent](https://docs.microsoft.com/en-us/graph/api/-grantResourceSpecificConsent?view=graph-rest-beta) method",
+          "Target": "grantResourceSpecificConsent"
+        },
+        {
+          "Id": "5bd6312c-1cf2-4b2e-941a-f8d27d803203",
+          "ApiChange": "Action",
+          "ChangedApiName": "Edm.Boolean",
+          "ChangeType": "Deletion",
+          "Description": "Changed the return type for [revokeResourceSpecificConsent](https://docs.microsoft.com/en-us/graph/api/-revokeResourceSpecificConsent?view=graph-rest-beta) method",
+          "Target": "revokeResourceSpecificConsent"
+        }
+      ],
+      "Id": "5bd6312c-1cf2-4b2e-941a-f8d27d803203",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265418Z",
+      "WorkloadArea": "Microsoft.DirectoryServices",
+      "SubArea": "Directory management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "allowInvitesFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the [allowInvitesFrom](https://docs.microsoft.com/en-us/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "allowInvitesFrom"
+        },
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "Property",
+          "ChangedApiName": "permissionGrantPoliciesAssigned",
+          "ChangeType": "Addition",
+          "Description": "Added the **permissionGrantPoliciesAssigned** property to [defaultUserRolePermissions](https://docs.microsoft.com/en-us/graph/api/resources/defaultUserRolePermissions?view=graph-rest-1.0) resource",
+          "Target": "defaultUserRolePermissions"
+        },
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "instanceResourceAccess",
+          "ChangeType": "Addition",
+          "Description": "Added the [instanceResourceAccess](https://docs.microsoft.com/en-us/graph/api/resources/instanceResourceAccess?view=graph-rest-1.0) resource type",
+          "Target": "instanceResourceAccess"
+        },
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "resourcePermission",
+          "ChangeType": "Addition",
+          "Description": "Added the [resourcePermission](https://docs.microsoft.com/en-us/graph/api/resources/resourcePermission?view=graph-rest-1.0) resource type",
+          "Target": "resourcePermission"
+        },
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "Property",
+          "ChangedApiName": "allowInvitesFrom",
+          "ChangeType": "Addition",
+          "Description": "Added the **allowInvitesFrom** property to [authorizationPolicy](https://docs.microsoft.com/en-us/graph/api/resources/authorizationPolicy?view=graph-rest-1.0) resource",
+          "Target": "authorizationPolicy"
+        },
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "authorizationPolicy",
+          "ChangeType": "Addition",
+          "Description": "Added the **authorizationPolicy** relationship to [policyRoot](https://docs.microsoft.com/en-us/graph/api/resources/policyRoot?view=graph-rest-1.0) resource",
+          "Target": "policyRoot"
+        },
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "Action",
+          "ChangedApiName": "checkGrantedPermissionsForApp",
+          "ChangeType": "Addition",
+          "Description": "Added the [checkGrantedPermissionsForApp](https://docs.microsoft.com/en-us/graph/api/-checkGrantedPermissionsForApp?view=graph-rest-1.0) method to the [checkGrantedPermissionsForApp](https://docs.microsoft.com/en-us/graph/api/-checkGrantedPermissionsForApp?view=graph-rest-1.0) resource",
+          "Target": "checkGrantedPermissionsForApp"
+        },
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "Action",
+          "ChangedApiName": "grantResourceSpecificConsent",
+          "ChangeType": "Addition",
+          "Description": "Added the [grantResourceSpecificConsent](https://docs.microsoft.com/en-us/graph/api/-grantResourceSpecificConsent?view=graph-rest-1.0) method to the [grantResourceSpecificConsent](https://docs.microsoft.com/en-us/graph/api/-grantResourceSpecificConsent?view=graph-rest-1.0) resource",
+          "Target": "grantResourceSpecificConsent"
+        },
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "Action",
+          "ChangedApiName": "revokeResourceSpecificConsent",
+          "ChangeType": "Addition",
+          "Description": "Added the [revokeResourceSpecificConsent](https://docs.microsoft.com/en-us/graph/api/-revokeResourceSpecificConsent?view=graph-rest-1.0) method to the [revokeResourceSpecificConsent](https://docs.microsoft.com/en-us/graph/api/-revokeResourceSpecificConsent?view=graph-rest-1.0) resource",
+          "Target": "revokeResourceSpecificConsent"
+        },
+        {
+          "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+          "ApiChange": "EntitySet",
+          "ChangedApiName": "permissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the [permissionGrants](https://docs.microsoft.com/en-us/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "permissionGrants"
+        }
+      ],
+      "Id": "9879e3a0-ef28-4f82-b9bb-bdcbb4066212",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265433Z",
+      "WorkloadArea": "Microsoft.DirectoryServices",
+      "SubArea": "Directory management"
+    }
+  ]
+}

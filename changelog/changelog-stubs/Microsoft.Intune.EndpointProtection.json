@@ -1,0 +1,706 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "certificateDestinationStore",
+          "ChangeType": "Addition",
+          "Description": "Added the [certificateDestinationStore](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "certificateDestinationStore"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "certificateStore",
+          "ChangeType": "Addition",
+          "Description": "Added the [certificateStore](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "certificateStore"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "certificateValidityPeriodScale",
+          "ChangeType": "Addition",
+          "Description": "Added the [certificateValidityPeriodScale](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "certificateValidityPeriodScale"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "deviceAndAppManagementAssignmentFilterType",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceAndAppManagementAssignmentFilterType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceAndAppManagementAssignmentFilterType"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "deviceManagementResourceAccessProfileIntent",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementResourceAccessProfileIntent](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementResourceAccessProfileIntent"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "hashAlgorithms",
+          "ChangeType": "Addition",
+          "Description": "Added the [hashAlgorithms](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "hashAlgorithms"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "keySize",
+          "ChangeType": "Addition",
+          "Description": "Added the [keySize](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "keySize"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "keyStorageProviderOption",
+          "ChangeType": "Addition",
+          "Description": "Added the [keyStorageProviderOption](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "keyStorageProviderOption"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "keyUsages",
+          "ChangeType": "Addition",
+          "Description": "Added the [keyUsages](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "keyUsages"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "subjectAlternativeNameType",
+          "ChangeType": "Addition",
+          "Description": "Added the [subjectAlternativeNameType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "subjectAlternativeNameType"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "allDevicesAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [allDevicesAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-allDevicesAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "allDevicesAssignmentTarget"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "allLicensedUsersAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [allLicensedUsersAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-allLicensedUsersAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "allLicensedUsersAssignmentTarget"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "deviceAndAppManagementAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceAndAppManagementAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceAndAppManagementAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "deviceAndAppManagementAssignmentTarget"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "exclusionGroupAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [exclusionGroupAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-exclusionGroupAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "exclusionGroupAssignmentTarget"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "extendedKeyUsage",
+          "ChangeType": "Addition",
+          "Description": "Added the [extendedKeyUsage](https://docs.microsoft.com/en-us/graph/api/resources/intune-extendedKeyUsage?view=graph-rest-beta) resource type",
+          "Target": "extendedKeyUsage"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "groupAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [groupAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-groupAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "groupAssignmentTarget"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "windows10XCustomSubjectAlternativeName",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XCustomSubjectAlternativeName](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XCustomSubjectAlternativeName?view=graph-rest-beta) resource type",
+          "Target": "windows10XCustomSubjectAlternativeName"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceAccessProfiles",
+          "ChangeType": "Addition",
+          "Description": "Added the **resourceAccessProfiles** relationship to [deviceManagement](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagement?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagementResourceAccessProfileAssignment",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementResourceAccessProfileAssignment](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementResourceAccessProfileAssignment?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementResourceAccessProfileAssignment"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagementResourceAccessProfileBase",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementResourceAccessProfileBase](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementResourceAccessProfileBase?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementResourceAccessProfileBase"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XCertificateProfile",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XCertificateProfile](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XCertificateProfile?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XCertificateProfile"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XSCEPCertificateProfile",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XSCEPCertificateProfile](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XSCEPCertificateProfile?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XSCEPCertificateProfile"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XTrustedRootCertificate",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XTrustedRootCertificate](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XTrustedRootCertificate?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XTrustedRootCertificate"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XVpnConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XVpnConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XVpnConfiguration"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XWifiConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XWifiConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XWifiConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XWifiConfiguration"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "Action",
+          "ChangedApiName": "assign",
+          "ChangeType": "Addition",
+          "Description": "Added the [assign](https://docs.microsoft.com/en-us/graph/api/intune-assign?view=graph-rest-beta) method to the [assign](https://docs.microsoft.com/en-us/graph/api/intune-assign?view=graph-rest-beta) resource",
+          "Target": "assign"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50190220",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50190220** resource type *@\u0026*",
+          "Target": "edm_50190220"
+        },
+        {
+          "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200925",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200925](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200925"
+        }
+      ],
+      "Id": "e53561cf-0e56-4971-8bcb-93dd57fe9bb6",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1266097Z",
+      "WorkloadArea": "Microsoft.Intune.EndpointProtection",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "certificateDestinationStore",
+          "ChangeType": "Addition",
+          "Description": "Added the [certificateDestinationStore](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "certificateDestinationStore"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "certificateStore",
+          "ChangeType": "Addition",
+          "Description": "Added the [certificateStore](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "certificateStore"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "certificateValidityPeriodScale",
+          "ChangeType": "Addition",
+          "Description": "Added the [certificateValidityPeriodScale](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "certificateValidityPeriodScale"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "deviceAndAppManagementAssignmentFilterType",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceAndAppManagementAssignmentFilterType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceAndAppManagementAssignmentFilterType"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "deviceManagementResourceAccessProfileIntent",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementResourceAccessProfileIntent](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementResourceAccessProfileIntent"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "hashAlgorithms",
+          "ChangeType": "Addition",
+          "Description": "Added the [hashAlgorithms](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "hashAlgorithms"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "keySize",
+          "ChangeType": "Addition",
+          "Description": "Added the [keySize](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "keySize"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "keyStorageProviderOption",
+          "ChangeType": "Addition",
+          "Description": "Added the [keyStorageProviderOption](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "keyStorageProviderOption"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "keyUsages",
+          "ChangeType": "Addition",
+          "Description": "Added the [keyUsages](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "keyUsages"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "subjectAlternativeNameType",
+          "ChangeType": "Addition",
+          "Description": "Added the [subjectAlternativeNameType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "subjectAlternativeNameType"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "allDevicesAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [allDevicesAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-allDevicesAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "allDevicesAssignmentTarget"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "allLicensedUsersAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [allLicensedUsersAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-allLicensedUsersAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "allLicensedUsersAssignmentTarget"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "deviceAndAppManagementAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceAndAppManagementAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceAndAppManagementAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "deviceAndAppManagementAssignmentTarget"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "exclusionGroupAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [exclusionGroupAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-exclusionGroupAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "exclusionGroupAssignmentTarget"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "extendedKeyUsage",
+          "ChangeType": "Addition",
+          "Description": "Added the [extendedKeyUsage](https://docs.microsoft.com/en-us/graph/api/resources/intune-extendedKeyUsage?view=graph-rest-beta) resource type",
+          "Target": "extendedKeyUsage"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "groupAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [groupAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-groupAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "groupAssignmentTarget"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "windows10XCustomSubjectAlternativeName",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XCustomSubjectAlternativeName](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XCustomSubjectAlternativeName?view=graph-rest-beta) resource type",
+          "Target": "windows10XCustomSubjectAlternativeName"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceAccessProfiles",
+          "ChangeType": "Addition",
+          "Description": "Added the **resourceAccessProfiles** relationship to [deviceManagement](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagement?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagementResourceAccessProfileAssignment",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementResourceAccessProfileAssignment](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementResourceAccessProfileAssignment?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementResourceAccessProfileAssignment"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagementResourceAccessProfileBase",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementResourceAccessProfileBase](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementResourceAccessProfileBase?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementResourceAccessProfileBase"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XCertificateProfile",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XCertificateProfile](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XCertificateProfile?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XCertificateProfile"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XSCEPCertificateProfile",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XSCEPCertificateProfile](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XSCEPCertificateProfile?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XSCEPCertificateProfile"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XTrustedRootCertificate",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XTrustedRootCertificate](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XTrustedRootCertificate?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XTrustedRootCertificate"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XVpnConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XVpnConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XVpnConfiguration"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XWifiConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XWifiConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XWifiConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XWifiConfiguration"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "Action",
+          "ChangedApiName": "assign",
+          "ChangeType": "Addition",
+          "Description": "Added the [assign](https://docs.microsoft.com/en-us/graph/api/intune-assign?view=graph-rest-beta) method to the [assign](https://docs.microsoft.com/en-us/graph/api/intune-assign?view=graph-rest-beta) resource",
+          "Target": "assign"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50190220",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50190220** resource type *@\u0026*",
+          "Target": "edm_50190220"
+        },
+        {
+          "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200925",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200925](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200925"
+        }
+      ],
+      "Id": "3503b6f4-b979-47ec-995c-331655983dc8",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1266138Z",
+      "WorkloadArea": "Microsoft.Intune.EndpointProtection",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "certificateDestinationStore",
+          "ChangeType": "Addition",
+          "Description": "Added the [certificateDestinationStore](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "certificateDestinationStore"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "certificateStore",
+          "ChangeType": "Addition",
+          "Description": "Added the [certificateStore](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "certificateStore"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "certificateValidityPeriodScale",
+          "ChangeType": "Addition",
+          "Description": "Added the [certificateValidityPeriodScale](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "certificateValidityPeriodScale"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "deviceAndAppManagementAssignmentFilterType",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceAndAppManagementAssignmentFilterType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceAndAppManagementAssignmentFilterType"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "deviceManagementResourceAccessProfileIntent",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementResourceAccessProfileIntent](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementResourceAccessProfileIntent"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "hashAlgorithms",
+          "ChangeType": "Addition",
+          "Description": "Added the [hashAlgorithms](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "hashAlgorithms"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "keySize",
+          "ChangeType": "Addition",
+          "Description": "Added the [keySize](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "keySize"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "keyStorageProviderOption",
+          "ChangeType": "Addition",
+          "Description": "Added the [keyStorageProviderOption](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "keyStorageProviderOption"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "keyUsages",
+          "ChangeType": "Addition",
+          "Description": "Added the [keyUsages](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "keyUsages"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "subjectAlternativeNameType",
+          "ChangeType": "Addition",
+          "Description": "Added the [subjectAlternativeNameType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "subjectAlternativeNameType"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "allDevicesAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [allDevicesAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-allDevicesAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "allDevicesAssignmentTarget"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "allLicensedUsersAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [allLicensedUsersAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-allLicensedUsersAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "allLicensedUsersAssignmentTarget"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "deviceAndAppManagementAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceAndAppManagementAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceAndAppManagementAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "deviceAndAppManagementAssignmentTarget"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "exclusionGroupAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [exclusionGroupAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-exclusionGroupAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "exclusionGroupAssignmentTarget"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "extendedKeyUsage",
+          "ChangeType": "Addition",
+          "Description": "Added the [extendedKeyUsage](https://docs.microsoft.com/en-us/graph/api/resources/intune-extendedKeyUsage?view=graph-rest-beta) resource type",
+          "Target": "extendedKeyUsage"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "groupAssignmentTarget",
+          "ChangeType": "Addition",
+          "Description": "Added the [groupAssignmentTarget](https://docs.microsoft.com/en-us/graph/api/resources/intune-groupAssignmentTarget?view=graph-rest-beta) resource type",
+          "Target": "groupAssignmentTarget"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "windows10XCustomSubjectAlternativeName",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XCustomSubjectAlternativeName](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XCustomSubjectAlternativeName?view=graph-rest-beta) resource type",
+          "Target": "windows10XCustomSubjectAlternativeName"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "resourceAccessProfiles",
+          "ChangeType": "Addition",
+          "Description": "Added the **resourceAccessProfiles** relationship to [deviceManagement](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagement?view=graph-rest-beta) resource",
+          "Target": "deviceManagement"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagementResourceAccessProfileAssignment",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementResourceAccessProfileAssignment](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementResourceAccessProfileAssignment?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementResourceAccessProfileAssignment"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "deviceManagementResourceAccessProfileBase",
+          "ChangeType": "Addition",
+          "Description": "Added the [deviceManagementResourceAccessProfileBase](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementResourceAccessProfileBase?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "deviceManagementResourceAccessProfileBase"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XCertificateProfile",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XCertificateProfile](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XCertificateProfile?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XCertificateProfile"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XSCEPCertificateProfile",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XSCEPCertificateProfile](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XSCEPCertificateProfile?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XSCEPCertificateProfile"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XTrustedRootCertificate",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XTrustedRootCertificate](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XTrustedRootCertificate?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XTrustedRootCertificate"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XVpnConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XVpnConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XVpnConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XVpnConfiguration"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "windows10XWifiConfiguration",
+          "ChangeType": "Addition",
+          "Description": "Added the [windows10XWifiConfiguration](https://docs.microsoft.com/en-us/graph/api/resources/intune-windows10XWifiConfiguration?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "windows10XWifiConfiguration"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "Action",
+          "ChangedApiName": "assign",
+          "ChangeType": "Addition",
+          "Description": "Added the [assign](https://docs.microsoft.com/en-us/graph/api/intune-assign?view=graph-rest-beta) method to the [assign](https://docs.microsoft.com/en-us/graph/api/intune-assign?view=graph-rest-beta) resource",
+          "Target": "assign"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50190220",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50190220** resource type *@\u0026*",
+          "Target": "edm_50190220"
+        },
+        {
+          "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200925",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200925](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200925"
+        }
+      ],
+      "Id": "dc3af5e1-08a4-4683-99a0-6dd6469e9ab7",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1266182Z",
+      "WorkloadArea": "Microsoft.Intune.EndpointProtection",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

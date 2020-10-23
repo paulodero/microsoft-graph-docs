@@ -1,0 +1,22 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "46953a55-79f8-4768-8ba3-7eb38884f65f",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "todo",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **todo** relationship from [user]() resource",
+          "Target": "user"
+        }
+      ],
+      "Id": "46953a55-79f8-4768-8ba3-7eb38884f65f",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-23T15:33:35.1266519Z",
+      "WorkloadArea": "Users",
+      "SubArea": ""
+    }
+  ]
+}

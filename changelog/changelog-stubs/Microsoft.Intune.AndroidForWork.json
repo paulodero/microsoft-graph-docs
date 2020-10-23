@@ -1,0 +1,130 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "e1e1c310-34be-4beb-a2b0-00ff72b05ce1",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "androidDeviceOwnerEnrollmentTokenType",
+          "ChangeType": "Addition",
+          "Description": "Added the [androidDeviceOwnerEnrollmentTokenType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "androidDeviceOwnerEnrollmentTokenType"
+        },
+        {
+          "Id": "e1e1c310-34be-4beb-a2b0-00ff72b05ce1",
+          "ApiChange": "Property",
+          "ChangedApiName": "enrollmentTokenType",
+          "ChangeType": "Addition",
+          "Description": "Added the **enrollmentTokenType** property to [androidDeviceOwnerEnrollmentProfile](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidDeviceOwnerEnrollmentProfile?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerEnrollmentProfile"
+        },
+        {
+          "Id": "e1e1c310-34be-4beb-a2b0-00ff72b05ce1",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200619",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200619** resource type *@\u0026*",
+          "Target": "edm_50200619"
+        },
+        {
+          "Id": "e1e1c310-34be-4beb-a2b0-00ff72b05ce1",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200916",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200916](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200916"
+        }
+      ],
+      "Id": "e1e1c310-34be-4beb-a2b0-00ff72b05ce1",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265515Z",
+      "WorkloadArea": "Microsoft.Intune.AndroidForWork",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "9cdfe9a1-f094-4b3d-9500-ca5b928802b4",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "androidDeviceOwnerEnrollmentTokenType",
+          "ChangeType": "Addition",
+          "Description": "Added the [androidDeviceOwnerEnrollmentTokenType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "androidDeviceOwnerEnrollmentTokenType"
+        },
+        {
+          "Id": "9cdfe9a1-f094-4b3d-9500-ca5b928802b4",
+          "ApiChange": "Property",
+          "ChangedApiName": "enrollmentTokenType",
+          "ChangeType": "Addition",
+          "Description": "Added the **enrollmentTokenType** property to [androidDeviceOwnerEnrollmentProfile](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidDeviceOwnerEnrollmentProfile?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerEnrollmentProfile"
+        },
+        {
+          "Id": "9cdfe9a1-f094-4b3d-9500-ca5b928802b4",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200619",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200619** resource type *@\u0026*",
+          "Target": "edm_50200619"
+        },
+        {
+          "Id": "9cdfe9a1-f094-4b3d-9500-ca5b928802b4",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200916",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200916](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200916"
+        }
+      ],
+      "Id": "9cdfe9a1-f094-4b3d-9500-ca5b928802b4",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265542Z",
+      "WorkloadArea": "Microsoft.Intune.AndroidForWork",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "1680b337-7786-4dff-96cd-79853f5f798b",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "androidDeviceOwnerEnrollmentTokenType",
+          "ChangeType": "Addition",
+          "Description": "Added the [androidDeviceOwnerEnrollmentTokenType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "androidDeviceOwnerEnrollmentTokenType"
+        },
+        {
+          "Id": "1680b337-7786-4dff-96cd-79853f5f798b",
+          "ApiChange": "Property",
+          "ChangedApiName": "enrollmentTokenType",
+          "ChangeType": "Addition",
+          "Description": "Added the **enrollmentTokenType** property to [androidDeviceOwnerEnrollmentProfile](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidDeviceOwnerEnrollmentProfile?view=graph-rest-beta) resource",
+          "Target": "androidDeviceOwnerEnrollmentProfile"
+        },
+        {
+          "Id": "1680b337-7786-4dff-96cd-79853f5f798b",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200619",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200619** resource type *@\u0026*",
+          "Target": "edm_50200619"
+        },
+        {
+          "Id": "1680b337-7786-4dff-96cd-79853f5f798b",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200916",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50200916](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50200916"
+        }
+      ],
+      "Id": "1680b337-7786-4dff-96cd-79853f5f798b",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265562Z",
+      "WorkloadArea": "Microsoft.Intune.AndroidForWork",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "148b1017-265d-41ae-8e50-7ab8057648b1",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "permissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the **permissionGrants** relationship to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "148b1017-265d-41ae-8e50-7ab8057648b1",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265461Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    }
+  ]
+}

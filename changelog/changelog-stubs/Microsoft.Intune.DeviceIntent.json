@@ -1,0 +1,106 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "7621e8c8-59bb-4ee1-95c2-2a809cab71b4",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerSubtitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerSubtitle** property to [deviceManagementSettingDefinition](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementSettingDefinition?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "7621e8c8-59bb-4ee1-95c2-2a809cab71b4",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerTitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerTitle** property to [deviceManagementSettingDefinition](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementSettingDefinition?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "7621e8c8-59bb-4ee1-95c2-2a809cab71b4",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [securityBaselineState](https://docs.microsoft.com/en-us/graph/api/resources/intune-securityBaselineState?view=graph-rest-beta) resource",
+          "Target": "securityBaselineState"
+        }
+      ],
+      "Id": "7621e8c8-59bb-4ee1-95c2-2a809cab71b4",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265953Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceIntent",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "f1434f69-71f3-4fd6-97ce-fd41a30ecf76",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerSubtitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerSubtitle** property to [deviceManagementSettingDefinition](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementSettingDefinition?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "f1434f69-71f3-4fd6-97ce-fd41a30ecf76",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerTitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerTitle** property to [deviceManagementSettingDefinition](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementSettingDefinition?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "f1434f69-71f3-4fd6-97ce-fd41a30ecf76",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [securityBaselineState](https://docs.microsoft.com/en-us/graph/api/resources/intune-securityBaselineState?view=graph-rest-beta) resource",
+          "Target": "securityBaselineState"
+        }
+      ],
+      "Id": "f1434f69-71f3-4fd6-97ce-fd41a30ecf76",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265977Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceIntent",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "5d83c2b3-2aad-4741-8962-8487c3d2359c",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerSubtitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerSubtitle** property to [deviceManagementSettingDefinition](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementSettingDefinition?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "5d83c2b3-2aad-4741-8962-8487c3d2359c",
+          "ApiChange": "Property",
+          "ChangedApiName": "headerTitle",
+          "ChangeType": "Addition",
+          "Description": "Added the **headerTitle** property to [deviceManagementSettingDefinition](https://docs.microsoft.com/en-us/graph/api/resources/intune-deviceManagementSettingDefinition?view=graph-rest-beta) resource",
+          "Target": "deviceManagementSettingDefinition"
+        },
+        {
+          "Id": "5d83c2b3-2aad-4741-8962-8487c3d2359c",
+          "ApiChange": "Property",
+          "ChangedApiName": "state",
+          "ChangeType": "Addition",
+          "Description": "Added the **state** property to [securityBaselineState](https://docs.microsoft.com/en-us/graph/api/resources/intune-securityBaselineState?view=graph-rest-beta) resource",
+          "Target": "securityBaselineState"
+        }
+      ],
+      "Id": "5d83c2b3-2aad-4741-8962-8487c3d2359c",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.126599Z",
+      "WorkloadArea": "Microsoft.Intune.DeviceIntent",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "a7512c93-71a5-448b-88c6-93c4fc68b939",
+          "ApiChange": "Property",
+          "ChangedApiName": "uninstallOnDeviceRemoval",
+          "ChangeType": "Addition",
+          "Description": "Added the **uninstallOnDeviceRemoval** property to [macOsVppAppAssignmentSettings](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOsVppAppAssignmentSettings?view=graph-rest-beta) resource",
+          "Target": "macOsVppAppAssignmentSettings"
+        }
+      ],
+      "Id": "a7512c93-71a5-448b-88c6-93c4fc68b939",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265682Z",
+      "WorkloadArea": "Microsoft.Intune.Bundles",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "089ead7f-9670-4a0b-bfd4-a83d5ace66b8",
+          "ApiChange": "Property",
+          "ChangedApiName": "uninstallOnDeviceRemoval",
+          "ChangeType": "Addition",
+          "Description": "Added the **uninstallOnDeviceRemoval** property to [macOsVppAppAssignmentSettings](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOsVppAppAssignmentSettings?view=graph-rest-beta) resource",
+          "Target": "macOsVppAppAssignmentSettings"
+        }
+      ],
+      "Id": "089ead7f-9670-4a0b-bfd4-a83d5ace66b8",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265712Z",
+      "WorkloadArea": "Microsoft.Intune.Bundles",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "9ac8b5e6-848b-471e-8dd0-63c12419f396",
+          "ApiChange": "Property",
+          "ChangedApiName": "uninstallOnDeviceRemoval",
+          "ChangeType": "Addition",
+          "Description": "Added the **uninstallOnDeviceRemoval** property to [macOsVppAppAssignmentSettings](https://docs.microsoft.com/en-us/graph/api/resources/intune-macOsVppAppAssignmentSettings?view=graph-rest-beta) resource",
+          "Target": "macOsVppAppAssignmentSettings"
+        }
+      ],
+      "Id": "9ac8b5e6-848b-471e-8dd0-63c12419f396",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-23T15:33:35.1265735Z",
+      "WorkloadArea": "Microsoft.Intune.Bundles",
+      "SubArea": "Corporate management"
+    }
+  ]
+}
