@@ -1,0 +1,76 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "3e6f12ec-388c-40a3-a4a6-8b2b0b1dcd53",
+          "ApiChange": "Property",
+          "ChangedApiName": "backupReviewers",
+          "ChangeType": "Addition",
+          "Description": "Added the **backupReviewers** property to [accessReviewScheduleDefinition](https://docs.microsoft.com/en-us/graph/api/resources/accessReviewScheduleDefinition?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        }
+      ],
+      "Id": "3e6f12ec-388c-40a3-a4a6-8b2b0b1dcd53",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807133Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "67fc5568-8d93-413c-a273-884dd1178402",
+          "ApiChange": "Property",
+          "ChangedApiName": "backupReviewers",
+          "ChangeType": "Addition",
+          "Description": "Added the **backupReviewers** property to [accessReviewScheduleDefinition](https://docs.microsoft.com/en-us/graph/api/resources/accessReviewScheduleDefinition?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        }
+      ],
+      "Id": "67fc5568-8d93-413c-a273-884dd1178402",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807161Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "5fb4932b-21af-41bb-941c-cf8d3648e79b",
+          "ApiChange": "Property",
+          "ChangedApiName": "backupReviewers",
+          "ChangeType": "Addition",
+          "Description": "Added the **backupReviewers** property to [accessReviewScheduleDefinition](https://docs.microsoft.com/en-us/graph/api/resources/accessReviewScheduleDefinition?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        }
+      ],
+      "Id": "5fb4932b-21af-41bb-941c-cf8d3648e79b",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807174Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "f96e97a1-90c6-47c6-bfb9-a6432cac1911",
+          "ApiChange": "Property",
+          "ChangedApiName": "backupReviewers",
+          "ChangeType": "Addition",
+          "Description": "Added the **backupReviewers** property to [accessReviewScheduleDefinition](https://docs.microsoft.com/en-us/graph/api/resources/accessReviewScheduleDefinition?view=graph-rest-beta) resource",
+          "Target": "accessReviewScheduleDefinition"
+        }
+      ],
+      "Id": "f96e97a1-90c6-47c6-bfb9-a6432cac1911",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807185Z",
+      "WorkloadArea": "Microsoft.IdentityGovernance.AccessReviews",
+      "SubArea": "Identity governance"
+    }
+  ]
+}

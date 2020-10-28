@@ -1,0 +1,48 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "0c682f37-581c-4b5b-9e27-995570ea14ed",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tabs",
+          "ChangeType": "Addition",
+          "Description": "Added the **tabs** relationship to [chat](https://docs.microsoft.com/en-us/graph/api/resources/chat?view=graph-rest-beta) resource",
+          "Target": "chat"
+        },
+        {
+          "Id": "0c682f37-581c-4b5b-9e27-995570ea14ed",
+          "ApiChange": "Action",
+          "ChangedApiName": "sendActivityNotificationToRecipientsInternal",
+          "ChangeType": "Addition",
+          "Description": "Added the [sendActivityNotificationToRecipientsInternal](https://docs.microsoft.com/en-us/graph/api/-sendActivityNotificationToRecipientsInternal?view=graph-rest-beta) method to the [sendActivityNotificationToRecipientsInternal](https://docs.microsoft.com/en-us/graph/api/-sendActivityNotificationToRecipientsInternal?view=graph-rest-beta) resource",
+          "Target": "sendActivityNotificationToRecipientsInternal"
+        }
+      ],
+      "Id": "0c682f37-581c-4b5b-9e27-995570ea14ed",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5808107Z",
+      "WorkloadArea": "Microsoft.Teams.GraphSvc",
+      "SubArea": "Microsoft.Teams.Shifts"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "c7fb6ee9-8215-4e2c-b2ea-1137470ffbda",
+          "ApiChange": "Property",
+          "ChangedApiName": "isFavoriteByDefault",
+          "ChangeType": "Addition",
+          "Description": "Added the **isFavoriteByDefault** property to [channel](https://docs.microsoft.com/en-us/graph/api/resources/channel?view=graph-rest-1.0) resource",
+          "Target": "channel"
+        }
+      ],
+      "Id": "c7fb6ee9-8215-4e2c-b2ea-1137470ffbda",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-28T10:15:08.580812Z",
+      "WorkloadArea": "Microsoft.Teams.GraphSvc",
+      "SubArea": "Microsoft.Teams.Shifts"
+    }
+  ]
+}

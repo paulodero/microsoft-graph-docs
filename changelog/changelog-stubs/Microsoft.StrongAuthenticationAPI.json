@@ -1,0 +1,38 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "91c59129-da14-4b27-acd9-f6ed0e730650",
+          "ApiChange": "Property",
+          "ChangedApiName": "isUsable",
+          "ChangeType": "Addition",
+          "Description": "Added the **isUsable** property to [temporaryAccessPassAuthenticationMethod](https://docs.microsoft.com/en-us/graph/api/resources/temporaryAccessPassAuthenticationMethod?view=graph-rest-beta) resource",
+          "Target": "temporaryAccessPassAuthenticationMethod"
+        },
+        {
+          "Id": "91c59129-da14-4b27-acd9-f6ed0e730650",
+          "ApiChange": "Property",
+          "ChangedApiName": "isUsableOnce",
+          "ChangeType": "Addition",
+          "Description": "Added the **isUsableOnce** property to [temporaryAccessPassAuthenticationMethod](https://docs.microsoft.com/en-us/graph/api/resources/temporaryAccessPassAuthenticationMethod?view=graph-rest-beta) resource",
+          "Target": "temporaryAccessPassAuthenticationMethod"
+        },
+        {
+          "Id": "91c59129-da14-4b27-acd9-f6ed0e730650",
+          "ApiChange": "Property",
+          "ChangedApiName": "methodUsabilityReason",
+          "ChangeType": "Addition",
+          "Description": "Added the **methodUsabilityReason** property to [temporaryAccessPassAuthenticationMethod](https://docs.microsoft.com/en-us/graph/api/resources/temporaryAccessPassAuthenticationMethod?view=graph-rest-beta) resource",
+          "Target": "temporaryAccessPassAuthenticationMethod"
+        }
+      ],
+      "Id": "91c59129-da14-4b27-acd9-f6ed0e730650",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5808006Z",
+      "WorkloadArea": "Microsoft.StrongAuthenticationAPI",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}

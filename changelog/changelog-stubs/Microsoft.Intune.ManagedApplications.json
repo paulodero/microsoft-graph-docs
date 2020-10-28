@@ -1,0 +1,322 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "appActionIfDeviceLockNotSet",
+          "ChangeType": "Addition",
+          "Description": "Added the **appActionIfDeviceLockNotSet** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **blockAfterCompanyPortalUpdateDeferralInDays** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "deviceLockRequired",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceLockRequired** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **warnAfterCompanyPortalUpdateDeferralInDays** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **wipeAfterCompanyPortalUpdateDeferralInDays** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "appActionIfDeviceLockNotSet",
+          "ChangeType": "Addition",
+          "Description": "Added the **appActionIfDeviceLockNotSet** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **blockAfterCompanyPortalUpdateDeferralInDays** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "deviceLockRequired",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceLockRequired** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **warnAfterCompanyPortalUpdateDeferralInDays** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "Property",
+          "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **wipeAfterCompanyPortalUpdateDeferralInDays** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200821** resource type *@\u0026*",
+          "Target": "edm_50200821"
+        },
+        {
+          "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50201002",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50201002](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50201002"
+        }
+      ],
+      "Id": "8d333ae9-f6b3-4cc9-9193-0b903e3fdbf7",
+      "Cloud": "Fairfax",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807842Z",
+      "WorkloadArea": "Microsoft.Intune.ManagedApplications",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "appActionIfDeviceLockNotSet",
+          "ChangeType": "Addition",
+          "Description": "Added the **appActionIfDeviceLockNotSet** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **blockAfterCompanyPortalUpdateDeferralInDays** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "deviceLockRequired",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceLockRequired** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **warnAfterCompanyPortalUpdateDeferralInDays** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **wipeAfterCompanyPortalUpdateDeferralInDays** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "appActionIfDeviceLockNotSet",
+          "ChangeType": "Addition",
+          "Description": "Added the **appActionIfDeviceLockNotSet** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **blockAfterCompanyPortalUpdateDeferralInDays** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "deviceLockRequired",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceLockRequired** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **warnAfterCompanyPortalUpdateDeferralInDays** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "Property",
+          "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **wipeAfterCompanyPortalUpdateDeferralInDays** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200821** resource type *@\u0026*",
+          "Target": "edm_50200821"
+        },
+        {
+          "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50201002",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50201002](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50201002"
+        }
+      ],
+      "Id": "46a7dbee-9bc0-42f1-9f6b-0d8ef4a8ed01",
+      "Cloud": "Mooncake",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807866Z",
+      "WorkloadArea": "Microsoft.Intune.ManagedApplications",
+      "SubArea": "Corporate management"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "appActionIfDeviceLockNotSet",
+          "ChangeType": "Addition",
+          "Description": "Added the **appActionIfDeviceLockNotSet** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **blockAfterCompanyPortalUpdateDeferralInDays** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "deviceLockRequired",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceLockRequired** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **warnAfterCompanyPortalUpdateDeferralInDays** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **wipeAfterCompanyPortalUpdateDeferralInDays** property to [androidManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-androidManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "androidManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "appActionIfDeviceLockNotSet",
+          "ChangeType": "Addition",
+          "Description": "Added the **appActionIfDeviceLockNotSet** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "blockAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **blockAfterCompanyPortalUpdateDeferralInDays** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "deviceLockRequired",
+          "ChangeType": "Addition",
+          "Description": "Added the **deviceLockRequired** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "warnAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **warnAfterCompanyPortalUpdateDeferralInDays** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "Property",
+          "ChangedApiName": "wipeAfterCompanyPortalUpdateDeferralInDays",
+          "ChangeType": "Addition",
+          "Description": "Added the **wipeAfterCompanyPortalUpdateDeferralInDays** property to [defaultManagedAppProtection](https://docs.microsoft.com/en-us/graph/api/resources/intune-defaultManagedAppProtection?view=graph-rest-beta) resource",
+          "Target": "defaultManagedAppProtection"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50200821",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **edm_50200821** resource type *@\u0026*",
+          "Target": "edm_50200821"
+        },
+        {
+          "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+          "ApiChange": "EntityContainer",
+          "ChangedApiName": "edm_50201002",
+          "ChangeType": "Addition",
+          "Description": "Added the [edm_50201002](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "edm_50201002"
+        }
+      ],
+      "Id": "86ac7950-751a-4a4f-8bb8-04c269a4c788",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807887Z",
+      "WorkloadArea": "Microsoft.Intune.ManagedApplications",
+      "SubArea": "Corporate management"
+    }
+  ]
+}

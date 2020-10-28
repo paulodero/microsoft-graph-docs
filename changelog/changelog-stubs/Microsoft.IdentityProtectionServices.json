@@ -1,0 +1,56 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "93836803-fdc9-4825-a92b-248658326605",
+          "ApiChange": "Property",
+          "ChangedApiName": "applicationFilter",
+          "ChangeType": "Addition",
+          "Description": "Added the **applicationFilter** property to [conditionalAccessApplications](https://docs.microsoft.com/en-us/graph/api/resources/conditionalAccessApplications?view=graph-rest-beta) resource",
+          "Target": "conditionalAccessApplications"
+        }
+      ],
+      "Id": "93836803-fdc9-4825-a92b-248658326605",
+      "Cloud": "PPE",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807196Z",
+      "WorkloadArea": "Microsoft.IdentityProtectionServices",
+      "SubArea": "Identity and sign-in"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "f3f24191-470c-490f-b041-892d071dc1d9",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "conditionalAccessClientApplications",
+          "ChangeType": "Addition",
+          "Description": "Added the [conditionalAccessClientApplications](https://docs.microsoft.com/en-us/graph/api/resources/conditionalAccessClientApplications?view=graph-rest-beta) resource type",
+          "Target": "conditionalAccessClientApplications"
+        },
+        {
+          "Id": "f3f24191-470c-490f-b041-892d071dc1d9",
+          "ApiChange": "Property",
+          "ChangedApiName": "clientApplications",
+          "ChangeType": "Addition",
+          "Description": "Added the **clientApplications** property to [conditionalAccessConditionSet](https://docs.microsoft.com/en-us/graph/api/resources/conditionalAccessConditionSet?view=graph-rest-beta) resource",
+          "Target": "conditionalAccessConditionSet"
+        },
+        {
+          "Id": "f3f24191-470c-490f-b041-892d071dc1d9",
+          "ApiChange": "Property",
+          "ChangedApiName": "users",
+          "ChangeType": "Change",
+          "Description": "Changed the **users** property in the [conditionalAccessConditionSet](https://docs.microsoft.com/en-us/graph/api/resources/conditionalAccessConditionSet?view=graph-rest-beta) resource from required to optional",
+          "Target": "conditionalAccessConditionSet"
+        }
+      ],
+      "Id": "f3f24191-470c-490f-b041-892d071dc1d9",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807211Z",
+      "WorkloadArea": "Microsoft.IdentityProtectionServices",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}

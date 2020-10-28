@@ -1,0 +1,46 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "e561b03f-68d6-4056-ba84-9268ecfb2cec",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "lobbyBypassScope",
+          "ChangeType": "Addition",
+          "Description": "Added the [lobbyBypassScope](https://docs.microsoft.com/en-us/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "lobbyBypassScope"
+        },
+        {
+          "Id": "e561b03f-68d6-4056-ba84-9268ecfb2cec",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "onlineMeetingPresenters",
+          "ChangeType": "Addition",
+          "Description": "Added the [onlineMeetingPresenters](https://docs.microsoft.com/en-us/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "onlineMeetingPresenters"
+        },
+        {
+          "Id": "e561b03f-68d6-4056-ba84-9268ecfb2cec",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "onlineMeetingRole",
+          "ChangeType": "Addition",
+          "Description": "Added the [onlineMeetingRole](https://docs.microsoft.com/en-us/?view=graph-rest-1.0) resource *@\u0026*",
+          "Target": "onlineMeetingRole"
+        },
+        {
+          "Id": "e561b03f-68d6-4056-ba84-9268ecfb2cec",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "lobbyBypassSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the [lobbyBypassSettings](https://docs.microsoft.com/en-us/graph/api/resources/lobbyBypassSettings?view=graph-rest-1.0) resource type",
+          "Target": "lobbyBypassSettings"
+        }
+      ],
+      "Id": "e561b03f-68d6-4056-ba84-9268ecfb2cec",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807969Z",
+      "WorkloadArea": "Microsoft.Skype.Calling",
+      "SubArea": "Call"
+    }
+  ]
+}

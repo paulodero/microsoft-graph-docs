@@ -1,0 +1,94 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "Property",
+          "ChangedApiName": "activities",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **activities** property in the [educationalActivityDetail](https://docs.microsoft.com/en-us/graph/api/resources/educationalActivityDetail?view=graph-rest-beta) resource",
+          "Target": "educationalActivityDetail"
+        },
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "Property",
+          "ChangedApiName": "awards",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **awards** property in the [educationalActivityDetail](https://docs.microsoft.com/en-us/graph/api/resources/educationalActivityDetail?view=graph-rest-beta) resource",
+          "Target": "educationalActivityDetail"
+        },
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "Property",
+          "ChangedApiName": "fieldsOfStudy",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **fieldsOfStudy** property in the [educationalActivityDetail](https://docs.microsoft.com/en-us/graph/api/resources/educationalActivityDetail?view=graph-rest-beta) resource",
+          "Target": "educationalActivityDetail"
+        },
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "personDataSource",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **personDataSource** resource type",
+          "Target": "personDataSource"
+        },
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "personDataSources",
+          "ChangeType": "Addition",
+          "Description": "Added the [personDataSources](https://docs.microsoft.com/en-us/graph/api/resources/personDataSources?view=graph-rest-beta) resource type",
+          "Target": "personDataSources"
+        },
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "Property",
+          "ChangedApiName": "id",
+          "ChangeType": "Deletion",
+          "Description": "Changed the **id** property in the [extension](https://docs.microsoft.com/en-us/graph/api/resources/extension?view=graph-rest-beta) resource from optional to required",
+          "Target": "extension"
+        },
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "Property",
+          "ChangedApiName": "id",
+          "ChangeType": "Change",
+          "Description": "",
+          "Target": "extension"
+        },
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "Property",
+          "ChangedApiName": "source",
+          "ChangeType": "Change",
+          "Description": "Changed the type of the **source** property in the [itemFacet](https://docs.microsoft.com/en-us/graph/api/resources/itemFacet?view=graph-rest-beta) resource",
+          "Target": "itemFacet"
+        },
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "personExtension",
+          "ChangeType": "Addition",
+          "Description": "Added the [personExtension](https://docs.microsoft.com/en-us/graph/api/resources/personExtension?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "personExtension"
+        },
+        {
+          "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "extensions",
+          "ChangeType": "Change",
+          "Description": "Removed the **extensions** relationship from [profile](https://docs.microsoft.com/en-us/graph/api/resources/profile?view=graph-rest-beta) resource",
+          "Target": "profile"
+        }
+      ],
+      "Id": "f9431d98-37dd-4f1a-b92a-0e7a89396c49",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807915Z",
+      "WorkloadArea": "Microsoft.People",
+      "SubArea": "People"
+    }
+  ]
+}

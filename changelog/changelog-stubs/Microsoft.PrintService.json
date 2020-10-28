@@ -1,0 +1,46 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "73f3b20d-e9a0-46a1-b0a6-2390dc3c558d",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "allowedGroups",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **allowedGroups** relationship from [printer](https://docs.microsoft.com/en-us/graph/api/resources/intune-printer?view=graph-rest-beta) resource",
+          "Target": "printer"
+        },
+        {
+          "Id": "73f3b20d-e9a0-46a1-b0a6-2390dc3c558d",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "allowedUsers",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **allowedUsers** relationship from [printer](https://docs.microsoft.com/en-us/graph/api/resources/intune-printer?view=graph-rest-beta) resource",
+          "Target": "printer"
+        },
+        {
+          "Id": "73f3b20d-e9a0-46a1-b0a6-2390dc3c558d",
+          "ApiChange": "Action",
+          "ChangedApiName": "redirect",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **redirect** method from the [redirect](https://docs.microsoft.com/en-us/graph/api/intune-redirect?view=graph-rest-beta) resource",
+          "Target": "redirect"
+        },
+        {
+          "Id": "73f3b20d-e9a0-46a1-b0a6-2390dc3c558d",
+          "ApiChange": "Action",
+          "ChangedApiName": "redirect",
+          "ChangeType": "Addition",
+          "Description": "Added the [redirect](https://docs.microsoft.com/en-us/graph/api/intune-redirect?view=graph-rest-beta) method to the [redirect](https://docs.microsoft.com/en-us/graph/api/intune-redirect?view=graph-rest-beta) resource",
+          "Target": "redirect"
+        }
+      ],
+      "Id": "73f3b20d-e9a0-46a1-b0a6-2390dc3c558d",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.580794Z",
+      "WorkloadArea": "Microsoft.PrintService",
+      "SubArea": "Cloud printing"
+    }
+  ]
+}

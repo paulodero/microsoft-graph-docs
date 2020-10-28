@@ -1,0 +1,94 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "543e05dd-1f95-47b8-afd4-fd5ffa97c2d3",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "permissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the **permissionGrants** relationship to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "543e05dd-1f95-47b8-afd4-fd5ffa97c2d3",
+      "Cloud": "Blackforest",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-28T10:15:08.5806868Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "6a3cdd7c-0384-4305-bfc3-99abcbd43d41",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "permissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the **permissionGrants** relationship to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "6a3cdd7c-0384-4305-bfc3-99abcbd43d41",
+      "Cloud": "Fairfax",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-28T10:15:08.5806943Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "30275a5e-8bc4-4a86-8bd1-964521b7c9c8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "permissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the **permissionGrants** relationship to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "30275a5e-8bc4-4a86-8bd1-964521b7c9c8",
+      "Cloud": "Mooncake",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-28T10:15:08.5806994Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e22acc8f-ded6-46be-97ee-ab4a3f164998",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "permissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the **permissionGrants** relationship to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "e22acc8f-ded6-46be-97ee-ab4a3f164998",
+      "Cloud": "PPE",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807076Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "5df943c6-5ec3-4719-b79b-742091a56b22",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "permissionGrants",
+          "ChangeType": "Addition",
+          "Description": "Added the **permissionGrants** relationship to [group]() resource",
+          "Target": "group"
+        }
+      ],
+      "Id": "5df943c6-5ec3-4719-b79b-742091a56b22",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807109Z",
+      "WorkloadArea": "Groups",
+      "SubArea": ""
+    }
+  ]
+}

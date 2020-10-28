@@ -1,0 +1,46 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "40585a25-9057-46d9-a6de-07c58d19993d",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "lists",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **lists** relationship from [todo](https://docs.microsoft.com/en-us/graph/api/resources/todo?view=graph-rest-1.0) resource",
+          "Target": "todo"
+        },
+        {
+          "Id": "40585a25-9057-46d9-a6de-07c58d19993d",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "linkedResources",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **linkedResources** relationship from [todoTask](https://docs.microsoft.com/en-us/graph/api/resources/todoTask?view=graph-rest-1.0) resource",
+          "Target": "todoTask"
+        },
+        {
+          "Id": "40585a25-9057-46d9-a6de-07c58d19993d",
+          "ApiChange": "Property",
+          "ChangedApiName": "wellknownListName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **wellknownListName** property from [todoTaskList](https://docs.microsoft.com/en-us/graph/api/resources/todoTaskList?view=graph-rest-1.0) resource",
+          "Target": "todoTaskList"
+        },
+        {
+          "Id": "40585a25-9057-46d9-a6de-07c58d19993d",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "tasks",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **tasks** relationship from [todoTaskList](https://docs.microsoft.com/en-us/graph/api/resources/todoTaskList?view=graph-rest-1.0) resource",
+          "Target": "todoTaskList"
+        }
+      ],
+      "Id": "40585a25-9057-46d9-a6de-07c58d19993d",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-28T10:15:08.5808135Z",
+      "WorkloadArea": "Microsoft.Todo",
+      "SubArea": ""
+    }
+  ]
+}

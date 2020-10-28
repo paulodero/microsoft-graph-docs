@@ -1,0 +1,38 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "61a515b3-6523-4799-9a79-29b4760f8354",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "mlClassificationMatchTolerance",
+          "ChangeType": "Addition",
+          "Description": "Added the [mlClassificationMatchTolerance](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "mlClassificationMatchTolerance"
+        },
+        {
+          "Id": "61a515b3-6523-4799-9a79-29b4760f8354",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "machineLearningDetectedSensitiveContent",
+          "ChangeType": "Addition",
+          "Description": "Added the [machineLearningDetectedSensitiveContent](https://docs.microsoft.com/en-us/graph/api/resources/machineLearningDetectedSensitiveContent?view=graph-rest-beta) resource type",
+          "Target": "machineLearningDetectedSensitiveContent"
+        },
+        {
+          "Id": "61a515b3-6523-4799-9a79-29b4760f8354",
+          "ApiChange": "Property",
+          "ChangedApiName": "matchTolerancesToInclude",
+          "ChangeType": "Addition",
+          "Description": "Added the **matchTolerancesToInclude** property to [textClassificationRequest](https://docs.microsoft.com/en-us/graph/api/resources/textClassificationRequest?view=graph-rest-beta) resource",
+          "Target": "textClassificationRequest"
+        }
+      ],
+      "Id": "61a515b3-6523-4799-9a79-29b4760f8354",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5806801Z",
+      "WorkloadArea": "Microsoft.DataClassificationService",
+      "SubArea": "Information protection"
+    }
+  ]
+}

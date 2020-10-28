@@ -1,0 +1,64 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "4a379123-a5d3-49a7-9a55-d014c4b2a319",
+          "ApiChange": "Property",
+          "ChangedApiName": "platformId",
+          "ChangeType": "Addition",
+          "Description": "Added the **platformId** property to [participantInfo]() resource",
+          "Target": "participantInfo"
+        }
+      ],
+      "Id": "4a379123-a5d3-49a7-9a55-d014c4b2a319",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807954Z",
+      "WorkloadArea": "Cloud communications",
+      "SubArea": "Call"
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "ceb3f283-b1e3-4ded-bda9-2ef5bd690dbf",
+          "ApiChange": "Property",
+          "ChangedApiName": "role",
+          "ChangeType": "Addition",
+          "Description": "Added the **role** property to [meetingParticipantInfo]() resource",
+          "Target": "meetingParticipantInfo"
+        },
+        {
+          "Id": "ceb3f283-b1e3-4ded-bda9-2ef5bd690dbf",
+          "ApiChange": "Property",
+          "ChangedApiName": "allowedPresenters",
+          "ChangeType": "Addition",
+          "Description": "Added the **allowedPresenters** property to [onlineMeeting]() resource",
+          "Target": "onlineMeeting"
+        },
+        {
+          "Id": "ceb3f283-b1e3-4ded-bda9-2ef5bd690dbf",
+          "ApiChange": "Property",
+          "ChangedApiName": "isEntryExitAnnounced",
+          "ChangeType": "Addition",
+          "Description": "Added the **isEntryExitAnnounced** property to [onlineMeeting]() resource",
+          "Target": "onlineMeeting"
+        },
+        {
+          "Id": "ceb3f283-b1e3-4ded-bda9-2ef5bd690dbf",
+          "ApiChange": "Property",
+          "ChangedApiName": "lobbyBypassSettings",
+          "ChangeType": "Addition",
+          "Description": "Added the **lobbyBypassSettings** property to [onlineMeeting]() resource",
+          "Target": "onlineMeeting"
+        }
+      ],
+      "Id": "ceb3f283-b1e3-4ded-bda9-2ef5bd690dbf",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2020-10-28T10:15:08.5807986Z",
+      "WorkloadArea": "Cloud communications",
+      "SubArea": "Online meeting"
+    }
+  ]
+}

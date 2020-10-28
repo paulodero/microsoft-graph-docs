@@ -1,0 +1,126 @@
+{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "EnumType",
+          "ChangedApiName": "identityUserFlowAttributeInputType",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityUserFlowAttributeInputType](https://docs.microsoft.com/en-us/?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityUserFlowAttributeInputType"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "assignmentOrder",
+          "ChangeType": "Addition",
+          "Description": "Added the [assignmentOrder](https://docs.microsoft.com/en-us/graph/api/resources/assignmentOrder?view=graph-rest-beta) resource type",
+          "Target": "assignmentOrder"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "ComplexType",
+          "ChangedApiName": "userAttributeValuesItem",
+          "ChangeType": "Addition",
+          "Description": "Added the [userAttributeValuesItem](https://docs.microsoft.com/en-us/graph/api/resources/userAttributeValuesItem?view=graph-rest-beta) resource type",
+          "Target": "userAttributeValuesItem"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userAttributeAssignments",
+          "ChangeType": "Addition",
+          "Description": "Added the **userAttributeAssignments** relationship to [b2cIdentityUserFlow](https://docs.microsoft.com/en-us/graph/api/resources/b2cIdentityUserFlow?view=graph-rest-beta) resource",
+          "Target": "b2cIdentityUserFlow"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "languages",
+          "ChangeType": "Addition",
+          "Description": "Added the **languages** relationship to [b2xIdentityUserFlow](https://docs.microsoft.com/en-us/graph/api/resources/b2xIdentityUserFlow?view=graph-rest-beta) resource",
+          "Target": "b2xIdentityUserFlow"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userAttributeAssignments",
+          "ChangeType": "Addition",
+          "Description": "Added the **userAttributeAssignments** relationship to [b2xIdentityUserFlow](https://docs.microsoft.com/en-us/graph/api/resources/b2xIdentityUserFlow?view=graph-rest-beta) resource",
+          "Target": "b2xIdentityUserFlow"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "NavigationProperty",
+          "ChangedApiName": "userFlowAttributes",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **userFlowAttributes** relationship from [identityContainer](https://docs.microsoft.com/en-us/graph/api/resources/identityContainer?view=graph-rest-beta) resource",
+          "Target": "identityContainer"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "Property",
+          "ChangedApiName": "dataType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **dataType** property from [identityUserFlowAttribute](https://docs.microsoft.com/en-us/graph/api/resources/identityUserFlowAttribute?view=graph-rest-beta) resource",
+          "Target": "identityUserFlowAttribute"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "Property",
+          "ChangedApiName": "description",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **description** property from [identityUserFlowAttribute](https://docs.microsoft.com/en-us/graph/api/resources/identityUserFlowAttribute?view=graph-rest-beta) resource",
+          "Target": "identityUserFlowAttribute"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "Property",
+          "ChangedApiName": "displayName",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **displayName** property from [identityUserFlowAttribute](https://docs.microsoft.com/en-us/graph/api/resources/identityUserFlowAttribute?view=graph-rest-beta) resource",
+          "Target": "identityUserFlowAttribute"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "Property",
+          "ChangedApiName": "userFlowAttributeType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **userFlowAttributeType** property from [identityUserFlowAttribute](https://docs.microsoft.com/en-us/graph/api/resources/identityUserFlowAttribute?view=graph-rest-beta) resource",
+          "Target": "identityUserFlowAttribute"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "EntityType",
+          "ChangedApiName": "identityUserFlowAttributeAssignment",
+          "ChangeType": "Addition",
+          "Description": "Added the [identityUserFlowAttributeAssignment](https://docs.microsoft.com/en-us/graph/api/resources/identityUserFlowAttributeAssignment?view=graph-rest-beta) resource *@\u0026*",
+          "Target": "identityUserFlowAttributeAssignment"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "Function",
+          "ChangedApiName": "getOrder",
+          "ChangeType": "Addition",
+          "Description": "Added the [getOrder](https://docs.microsoft.com/en-us/graph/api/-getOrder?view=graph-rest-beta) method to the [getOrder](https://docs.microsoft.com/en-us/graph/api/-getOrder?view=graph-rest-beta) resource",
+          "Target": "getOrder"
+        },
+        {
+          "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+          "ApiChange": "Function",
+          "ChangedApiName": "setOrder",
+          "ChangeType": "Addition",
+          "Description": "Added the [setOrder](https://docs.microsoft.com/en-us/graph/api/-setOrder?view=graph-rest-beta) method to the [setOrder](https://docs.microsoft.com/en-us/graph/api/-setOrder?view=graph-rest-beta) resource",
+          "Target": "setOrder"
+        }
+      ],
+      "Id": "07dec257-a0b0-4f1d-b02c-5528f80070e8",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2020-10-28T10:15:08.5806765Z",
+      "WorkloadArea": "Microsoft.CPIM",
+      "SubArea": "Identity and sign-in"
+    }
+  ]
+}
